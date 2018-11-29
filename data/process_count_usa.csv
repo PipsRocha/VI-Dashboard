@@ -1,0 +1,249 @@
+year,state,value
+2015,Alabama,34294
+2014,Alabama,22018
+2017,Alabama,15058
+2013,Alabama,26726
+2016,Alabama,29943
+2015,Alaska,38714
+2014,Alaska,20546
+2017,Alaska,21923
+2013,Alaska,22066
+2016,Alaska,39075
+2015,Arizona,264197
+2014,Arizona,104816
+2017,Arizona,99514
+2013,Arizona,109280
+2016,Arizona,263359
+2015,Arkansas,31047
+2014,Arkansas,21749
+2017,Arkansas,9917
+2013,Arkansas,25045
+2016,Arkansas,20413
+2015,California,638429
+2014,California,435090
+2017,California,448719
+2013,California,438832
+2016,California,652647
+2015,Colorado,342226
+2014,Colorado,131443
+2017,Colorado,136895
+2013,Colorado,134786
+2016,Colorado,363480
+2015,Connecticut,35939
+2014,Connecticut,16138
+2017,Connecticut,16181
+2013,Connecticut,17332
+2016,Connecticut,35436
+2015,Delaware,164
+2014,Delaware,474
+2013,Delaware,166
+2015,Florida,434496
+2014,Florida,293337
+2017,Florida,325795
+2013,Florida,306105
+2016,Florida,443180
+2015,Georgia,548881
+2014,Georgia,162539
+2017,Georgia,165020
+2013,Georgia,169744
+2016,Georgia,554845
+2015,Hawaii,100248
+2014,Hawaii,52078
+2017,Hawaii,56017
+2013,Hawaii,57492
+2016,Hawaii,101137
+2015,Idaho,27522
+2014,Idaho,14289
+2017,Idaho,18194
+2013,Idaho,15211
+2016,Idaho,31733
+2015,Illinois,538617
+2014,Illinois,208586
+2017,Illinois,201020
+2013,Illinois,234433
+2016,Illinois,441189
+2015,Indiana,65575
+2014,Indiana,33913
+2017,Indiana,33755
+2013,Indiana,39161
+2016,Indiana,59631
+2015,Iowa,26746
+2014,Iowa,17446
+2017,Iowa,13504
+2013,Iowa,23712
+2016,Iowa,19343
+2015,Kansas,18279
+2014,Kansas,9626
+2017,Kansas,8817
+2013,Kansas,11382
+2016,Kansas,15345
+2015,Kentucky,54773
+2014,Kentucky,32454
+2017,Kentucky,27011
+2013,Kentucky,53006
+2016,Kentucky,41049
+2015,Louisiana,88919
+2014,Louisiana,44036
+2017,Louisiana,42733
+2013,Louisiana,46948
+2016,Louisiana,87374
+2015,Maine,10589
+2014,Maine,5152
+2017,Maine,6621
+2013,Maine,6641
+2016,Maine,12933
+2015,Maryland,151243
+2014,Maryland,55961
+2017,Maryland,61388
+2013,Maryland,63287
+2016,Maryland,154936
+2015,Massachusetts,196694
+2014,Massachusetts,76689
+2017,Massachusetts,84529
+2013,Massachusetts,76641
+2016,Massachusetts,203111
+2015,Michigan,214079
+2014,Michigan,87438
+2017,Michigan,95332
+2013,Michigan,113116
+2016,Michigan,215917
+2015,Minnesota,202104
+2014,Minnesota,71668
+2017,Minnesota,86509
+2013,Minnesota,88990
+2016,Minnesota,211217
+2015,Mississippi,17557
+2014,Mississippi,9708
+2017,Mississippi,6028
+2013,Mississippi,10735
+2016,Mississippi,12560
+2015,Missouri,125708
+2014,Missouri,75211
+2017,Missouri,74917
+2013,Missouri,84225
+2016,Missouri,130220
+2015,Montana,19813
+2014,Montana,16912
+2017,Montana,17031
+2013,Montana,16905
+2016,Montana,21075
+2015,Nebraska,36644
+2014,Nebraska,19199
+2017,Nebraska,18482
+2013,Nebraska,22193
+2016,Nebraska,35675
+2015,Nevada,241338
+2014,Nevada,89776
+2017,Nevada,98323
+2013,Nevada,91552
+2016,Nevada,249131
+2015,New Hampshire,12142
+2014,New Hampshire,5057
+2017,New Hampshire,4784
+2013,New Hampshire,8103
+2016,New Hampshire,11948
+2015,New Jersey,180063
+2014,New Jersey,67688
+2017,New Jersey,66632
+2013,New Jersey,73917
+2016,New Jersey,183869
+2015,New Mexico,17065
+2014,New Mexico,19512
+2017,New Mexico,14236
+2013,New Mexico,22401
+2016,New Mexico,13939
+2015,New York,290589
+2014,New York,164268
+2017,New York,158804
+2013,New York,190320
+2016,New York,278479
+2015,North Carolina,219373
+2014,North Carolina,113601
+2017,North Carolina,108569
+2013,North Carolina,140413
+2016,North Carolina,222211
+2015,North Dakota,23098
+2014,North Dakota,14594
+2017,North Dakota,9972
+2013,North Dakota,19113
+2016,North Dakota,15721
+2015,Ohio,100052
+2014,Ohio,58880
+2017,Ohio,55199
+2013,Ohio,69065
+2016,Ohio,87535
+2015,Oklahoma,43714
+2014,Oklahoma,28845
+2017,Oklahoma,21668
+2013,Oklahoma,31529
+2016,Oklahoma,38516
+2015,Oregon,86650
+2014,Oregon,36485
+2017,Oregon,44651
+2013,Oregon,37249
+2016,Oregon,97872
+2015,Pennsylvania,152157
+2014,Pennsylvania,79297
+2017,Pennsylvania,82680
+2013,Pennsylvania,94978
+2016,Pennsylvania,151332
+2015,Rhode Island,21598
+2014,Rhode Island,9137
+2017,Rhode Island,10990
+2013,Rhode Island,11781
+2016,Rhode Island,22690
+2015,South Carolina,37427
+2014,South Carolina,21536
+2017,South Carolina,24697
+2013,South Carolina,30020
+2016,South Carolina,40322
+2015,South Dakota,15771
+2014,South Dakota,11419
+2017,South Dakota,8323
+2013,South Dakota,12121
+2016,South Dakota,12201
+2015,Tennessee,110975
+2014,Tennessee,58911
+2017,Tennessee,57196
+2013,Tennessee,79829
+2016,Tennessee,108625
+2015,Texas,590629
+2014,Texas,333818
+2017,Texas,287047
+2013,Texas,347541
+2016,Texas,489212
+2015,Utah,165408
+2014,Utah,59157
+2017,Utah,61638
+2013,Utah,60095
+2016,Utah,169120
+2015,Vermont,6587
+2014,Vermont,3400
+2017,Vermont,3262
+2013,Vermont,4576
+2016,Vermont,7983
+2015,Virginia,186789
+2014,Virginia,112522
+2017,Virginia,106237
+2013,Virginia,131727
+2016,Virginia,183111
+2015,Washington,203750
+2014,Washington,74947
+2017,Washington,94574
+2013,Washington,73275
+2016,Washington,223699
+2015,West Virginia,4844
+2014,West Virginia,2568
+2017,West Virginia,1717
+2013,West Virginia,2891
+2016,West Virginia,4751
+2015,Wisconsin,82899
+2014,Wisconsin,50498
+2017,Wisconsin,46095
+2013,Wisconsin,58210
+2016,Wisconsin,77781
+2015,Wyoming,12063
+2014,Wyoming,9781
+2017,Wyoming,7292
+2013,Wyoming,9589
+2016,Wyoming,8355

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+
+    <link rel="stylesheet" href="index.css" type='text/css'>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 
+  </head>
+  
+  <body>
+
+    <div class="header">
+      <img src="data/plane.png" class="img" alt="plane" height="50" width="75">
+      <a  class="logo">U.S.A FLIGHT PATTERNS</a>
+      
+      <div class="header-right" id="change">
+        <a class="active" href="#Arrivals">Arrivals</a>
+        <a href="#Departures">Departures</a>
+        <a href="#Cancellations">Cancellations</a>
+        <a href="#Delays">Delays</a>
+      </div>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+      <script>
+          $("a").click(function(){
+            if ($("a").hasClass("active")){
+              $("a").removeClass("active");
+            }
+
+            $(this).addClass("active");
+          });
+      </script>
+    </div>
+
+    <div id="slider" style="margin-top: 40;">
+      <div class="dropdown">
+        <button class="dropbtn">Holidays</button>
+        
+        <div class="dropdown-content">
+          <a href="#4" id="1" onclick="holidayClicked()">4th of July</a>
+          <a href="#Thanksgiving" id="2" onclick="holidayClicked()">Thanksgiving</a>
+          <a href="#Christmas" id="3" onclick="holidayClicked()">Christmas</a>
+          <a href="#NewYearsEve"  id="4" onclick="holidayClicked()">New Year's Eve</a>
+        </div>
+
+        <div id="July"class="H4thOfJuly">
+          <p>Holiday: 4th of July</p>
+        </div>
+        <div id="Thanks"class="HThanksgiving">
+          <p>Holiday: Thanksgiving</p>
+        </div>
+        <div id="Xmas"class="HChristmas">
+          <p>Holiday: Christmas</p>
+        </div>
+        <div id="NY"class="HNewYearsEve">
+          <p>Holiday: New Year's Eve</p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function holidayClicked(){
+        var h1 = document.getElementById("1");
+        var July = document.getElementById("July");
+        var h2 = document.getElementById("2");
+        var Thanks = document.getElementById("Thanks");
+        var h3 = document.getElementById("3");
+        var Xmas = document.getElementById("Xmas");
+        var h4 = document.getElementById("4");
+        var NY = document.getElementById("NY");
+
+        if (h1.clicked == true) {
+          July.style.display = "block";
+          July.style.visibility = "visible";
+        } else if (h2.clicked == true) {
+          Thanks.style.display = "block";
+          Thanks.style.visibility = "visible";
+        } else if (h3.clicked == true) {
+          Xmas.style.display = "block";
+          Xmas.style.visibility = "visible";
+        } else if (h4.clicked == true) {
+          NY.style.display = "block";
+          NY.style.visibility = "visible";
+        }
+        else {
+          July.style.display = "none";
+          Thanks.style.display = "none";
+          Xmas.style.display = "none";
+          NY.style.display = "none";
+       }
+      }
+    </script>
+
+
+
+    <div id="vis"></div>
+    
+    <div class="heatmap"></div>
+    <div id="tooltip"></div>
+    <div id="chord_d"></div>
+
+  </body>
+
+    <script src="lib/d3v4.js"></script>
+    <script src="lib/d3.js"></script>
+    <script src="lib/linq/linq.js"></script>
+    <script src="lib/moment.js"></script>
+    <script src="lib/underscore.js"></script>
+    <script src="lib/underscore.aggregate.min.js"></script>
+    
+    <script src="http://d3js.org/queue.v1.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://d3js.org/topojson.v1.min.js"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/lodash.js/0.10.0/lodash.min.js"></script>
+    <script src="https://unpkg.com/datalib@1.8.0/datalib.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/alasql@0.4"></script>    
+
+    <script src="js/mapper.js"></script>
+    <script src="js/usamap.js"></script>
+  
+</html>
+

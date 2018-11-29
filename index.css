@@ -1,0 +1,246 @@
+body {
+    padding: 4px;
+    font-family: arial, helvetica, sans-serif;
+}
+
+.states {
+    stroke: #fff;
+    stroke-width:1px;
+}
+.states:hover{
+  opacity: .7;
+}
+
+.legend text {
+    font-size: 9px;
+}
+
+.axis line, .axis path {
+	fill: none;
+	stroke: black;
+	shape-rendering: crispEdges;
+}
+
+.d3-tip {
+  line-height: 1;
+  padding: 7px;
+  background: #A9A9A9;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 0px 0px 6px #7861A5;
+}
+/*INDEX*/
+
+  .axis text {
+    font-size: 9px;
+  }
+
+  #tooltip {
+        color: white;
+        opacity: 1;
+        background: #A9A9A9;
+        padding: 7px;
+        border-radius: 5px;
+        position: absolute;
+        z-index: 10;
+        visibility: hidden;
+        pointer-events: none;
+        box-shadow: 0px 0px 6px #7861A5;
+      }
+
+      #circle circle {
+        fill: none;
+        pointer-events: all;
+      }
+      .group path {
+        fill-opacity: .7;
+      }
+      .chord {
+        fill-opacity: .7;
+        stroke-width: .25px;
+      }
+      #circle:hover path.fade {
+        display: none;
+      }
+
+/* CHORD */
+
+.btn {
+  padding: 10px;
+  border: solid 1px black;
+  color: white;
+}
+
+#new {
+  background-color: white;
+}
+
+#old {
+  background-color: red;
+}
+
+
+#old {
+  background-color: red;
+}
+
+#new {
+  background-color: white;
+}
+
+/* NEW */
+
+    .ticks {
+      font-size: 10px;
+    }
+
+    .track,
+    .track-inset,
+    .track-overlay {
+      stroke-linecap: round;
+    }
+
+    .track {
+      stroke: #000;
+      stroke-opacity: 0.3;
+      stroke-width: 10px;
+    }
+
+    .track-inset {
+      stroke: #ddd;
+      stroke-width: 8px;
+    }
+
+    .track-overlay {
+      pointer-events: stroke;
+      stroke-width: 50px;
+      stroke: transparent;
+      cursor: crosshair;
+    }
+
+    .handle {
+      fill: #fff;
+      stroke: #000;
+      stroke-opacity: 0.5;
+      stroke-width: 1.25px;
+    }
+    .header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+    }
+
+    .header-right a {
+      float: left;
+      color: black;
+      text-align: center;
+      padding: 12px;
+      text-decoration: none;
+      font-size: 18px; 
+      line-height: 25px;
+      border-radius: 4px;
+    }
+
+    .header img{
+      float: left;
+   
+      margin-left: 20px;
+    }
+    .header a.logo {
+      font-size: 25px;
+      font-weight: bold;
+      float: left;
+      color: black;
+      text-align: center;
+      padding: 12px;
+      text-decoration: none;
+      font-size: 18px; 
+      line-height: 25px;
+      border-radius: 4px;
+      margin-right: 100px;
+    }
+
+    .header-right a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .header-right a.active {
+      background-color: dodgerblue;
+      color: white;
+    }
+    .header-right
+    {
+      float: none;
+    }
+
+
+.dropbtn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 12px;
+    font-size: 14px;
+    line-height: 25px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+ }
+
+
+.dropdown {
+    right: 35%;
+        top: 98px;
+        position: absolute;
+    float: right;
+   display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+      line-height: 25px;
+      border-radius: 4px;
+
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+    background-color: dodgerblue;
+}
+#July, #Thanks, #Xmas, #NY{
+  left: 120%;
+  top: 16px;
+  position: absolute;
+  float: right;
+  height: 30px;
+  width: 140px;
+  visibility: hidden;
+
+}
+#July, #Thanks, #Xmas, #NY p {
+  font-size: 16px;
+  color: white;
+  top: 20px;
+ 
+
+}
