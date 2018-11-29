@@ -98,7 +98,7 @@ function gen_vis() {
 	var counter = 0;
 
   var width = 500;
-  var height = 300;
+  var height = 550;
 
     var lowColor = '#4169E1' //#228B22
     var highColor = '#DCDCDC'//#87CEFA #32CD32
@@ -435,8 +435,8 @@ function gen_chord() {
       //  DRAW THE CHORD DIAGRAM
       //*******************************************************************
        function drawChords (matrix, mmap) {
-        var w = 600, h = 600, r1 = h / 2, r0 = r1 - 100;
-        margin = {top: 750, right: 20, bottom: 20, left: 500};
+        var w = 550, h = 550, r1 = h / 2, r0 = r1 - 100;
+        margin = {top: 10, right: 20, bottom: 10, left: 10};
         var fill = d3.scale.ordinal()
             .domain(d3.range(4))
             .range(["#DCDCDC", "#4775d1", "#4169E1", "#2e5cb8"]);
@@ -449,12 +449,12 @@ function gen_chord() {
             .outerRadius(r0 + 20);
         var svg = d3.select("#chord_d").append("svg:svg")
             //.attr("width", w)
-            .attr("width", w + margin.left)
+            .attr("width", w)
             .attr("height", h)
           .append("svg:g")
             .attr("id", "circle")
             //.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-            .attr("transform", "translate(" + w  + "," + 282  + ")");
+            .attr("transform", "translate(" + w/2 +"," + h/2+")");
             svg.append("circle")
                 .attr("r", r0 + 20);
         var rdr = chordRdr(matrix, mmap);
