@@ -16,7 +16,7 @@ gen_slider();
 gen_vis();
 gen_map();
 gen_chord();
-//gen_summ();
+gen_summ();
 
 function gen_slider() {
 //*******************************************************************
@@ -257,9 +257,9 @@ function gen_map() {
 //  CREATE HEATMAP
 //************************************************    
 
-    var itemSize = 20,
+    var itemSize = 11,
           cellSize = itemSize - 1,
-          margin = {top: 90, right: 90, bottom: 20, left: 50};
+          margin = {top: 30, right: 20, bottom: 20, left: 75};
           
       var width_1 = 1100 - margin.right - margin.left,
           height_1 = 660 - margin.top - margin.bottom;
@@ -268,15 +268,15 @@ function gen_map() {
 
         var data = response.map(function( item ) {
             var newItem = {};
-            newItem.year = item.x;
-            newItem.state = item.y;
+            newItem.year = item.x_year;
+            newItem.state = item.y_state;
             newItem.count = item.value;
 
             return newItem;
         })
 
-        var x_elements = d3.set(data.map(function( item ) { return item.state; } )).values(),
-            y_elements = d3.set(data.map(function( item ) { return item.year; } )).values();
+        var x_elements = d3.set(data.map(function( item ) { return item.year; } )).values(),
+            y_elements = d3.set(data.map(function( item ) { return item.state; } )).values();
 
         var xScale = d3.scale.ordinal()
             .domain(x_elements)
@@ -290,7 +290,7 @@ function gen_map() {
              
 
         var yScale = d3.scale.ordinal()
-            .domain(y_elements).domain([2013,2014,2015,2016,2017])
+            .domain(y_elements)
             .rangeBands([0, y_elements.length * itemSize]);
 
         var yAxis = d3.svg.axis()
@@ -306,8 +306,8 @@ function gen_map() {
 
         var svg = d3.select('.heatmap')
             .append("svg")
-            .attr("width", width_1 + margin.left + margin.right)
-            .attr("height", 200 + margin.top)
+            .attr("height", width_1 + margin.left + margin.right)
+            .attr("width", 200 + margin.top)
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
@@ -317,8 +317,8 @@ function gen_map() {
             .attr('class', 'cell')
             .attr('width', cellSize)
             .attr('height', cellSize)
-            .attr('y', function(d) { return yScale(d.year); })
-            .attr('x', function(d) { return xScale(d.state); })
+            .attr('y', function(d) { return yScale(d.state); })
+            .attr('x', function(d) { return xScale(d.year); })
             .attr("rx",3)
             .attr("rx",3)
             .attr('fill', function(d) { return colorScale(d.count); })
