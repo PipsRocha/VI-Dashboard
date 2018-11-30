@@ -64,11 +64,16 @@ slider.append("line")
     .attr("x", x)
     .attr("y", 10)
     .attr("text-anchor", "middle")
+    .style("fill","#f1f1f1")
+    .style("font-weight", "bold")
     .text(function(d) { return formatDateIntoYear(d); });
 
   var label = slider.append("text")  
     .attr("class", "label")
     .attr("text-anchor", "middle")
+    .style("fill","#f1f1f1")
+    .style("font-size", "12px")
+    .style("font-weight", "bold")
     .text(formatDate(startDate))
     .attr("transform", "translate(0," + (-13) + ")")
 
@@ -280,6 +285,7 @@ function gen_map() {
             .tickFormat(function (d) {
                 return d;
             }).orient("top");
+             
 
         var yScale = d3.scale.ordinal()
             .domain(y_elements).domain([2013,2014,2015,2016,2017])
@@ -290,6 +296,7 @@ function gen_map() {
             .tickFormat(function (d) {
                 return d;
             }).orient("left");
+         
 
         var colorScale = d3.scale.threshold()
             .domain([10000, 50000,100000, 250000, 500000])
@@ -435,7 +442,7 @@ function gen_chord() {
       //  DRAW THE CHORD DIAGRAM
       //*******************************************************************
        function drawChords (matrix, mmap) {
-        var w = 550, h = 550, r1 = h / 2, r0 = r1 - 100;
+        var w = 550, h = 500, r1 = h / 2, r0 = r1 - 100;
         margin = {top: 10, right: 20, bottom: 10, left: 10};
         var fill = d3.scale.ordinal()
             .domain(d3.range(4))
@@ -474,6 +481,8 @@ function gen_chord() {
             .attr("dy", ".35em")
             .style("font-family", "arial, helvetica, sans-serif")
             .style("font-size", "10px")
+            .style("fill","#f1f1f1")
+            .style("font-weight", "bold")
             .attr("text-anchor", function(d) { return d.angle > Math.PI ? "end" : null; })
             .attr("transform", function(d) {
               return "rotate(" + (d.angle * 180 / Math.PI - 90) + ")"
