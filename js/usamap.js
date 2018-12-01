@@ -101,8 +101,6 @@ function gen_vis() {
 //**************************************************
 //  CREATE CHOROPLETH
 //**************************************************
-	var counter = 0;
-
   var width = 500;
   var height = 500;
 
@@ -186,17 +184,22 @@ function gen_vis() {
                 return getColor(d);
             })
             .on('click', function(d,i) {
-              if (counter == 3) {
+              if (count == 3) {
                 return;
               } else {
                 d3.select(this).style("stroke","orange").style("stroke-width","3px");
-                counter++;
+                count++;
               }
             });
 
             console.log(states[0]);
 
         if (inter) {
+          if(count == 3) {
+                cheio=true;
+                ;
+          }
+
           for (var i = 0; i < statesGlobal.length; i++) {
             console.log(statesGlobal[i]);
             d3.select('#'+ statesGlobal[i]).style("stroke","orange").style("stroke-width","3px");
@@ -321,6 +324,9 @@ function gen_map() {
             .attr('x', function(d) { return xScale(d.year); })
             .attr("rx",3)
             .attr("rx",3)
+            .attr('id', function(d) {
+              return y_elements[yScale(d.state)/itemSize].trim();
+            })
             .attr('fill', function(d) { return colorScale(d.count); })
             .on("click", clickHM);
 
@@ -332,7 +338,7 @@ function gen_map() {
               }
 
               for (var i = 0; i < selectedStateHM.length; i++) {
-                if (selectedStateHM[i] == (x_elements[xScale(d.state)/20].trim() + y_elements[yScale(d.year)/20])) {
+                if (selectedStateHM[i] == (x_elements[xScale(d.year)/itemSize] + y_elements[yScale(d.state)/itemSize].trim())) {
                   d3.select(this).style("stroke","none");
                   delete selectedStateHM[i];
                   count--;
@@ -346,8 +352,8 @@ function gen_map() {
                 return;
               }
 
-              selectedStateHM[selectedStates]=x_elements[xScale(d.state)/20].trim() + y_elements[yScale(d.year)/20];
-              statesGlobal[selectedStates]=x_elements[xScale(d.state)/20].trim();
+              selectedStateHM[selectedStates]=x_elements[xScale(d.year)/itemSize] + y_elements[yScale(d.state)/itemSize].trim();
+              statesGlobal[selectedStates]=y_elements[yScale(d.state)/itemSize].trim();
               inter=true;
               d3.select(this).style("stroke","orange").style("stroke-width","3px");
               selectedStates++;
