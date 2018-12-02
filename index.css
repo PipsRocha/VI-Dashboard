@@ -36,6 +36,11 @@ body {
   border-radius: 5px;
   box-shadow: 0px 0px 6px #7861A5;
 }
+
+.heatmap text {
+  font-size: 9px;
+  font-color: white;
+}
 /*INDEX*/
 
   .axis text {
@@ -75,19 +80,6 @@ body {
 .btn {
   padding: 10px;
   border: solid 1px black;
-}
-
-#new {
-  background-color: white;
-}
-
-#old {
-  background-color: red;
-}
-
-
-#old {
-  background-color: red;
 }
 
 #new {
@@ -150,9 +142,9 @@ body {
 
     .header img{
       float: left;
-   
       margin-left: 20px;
     }
+
     .header a.logo {
       font-size: 25px;
       font-weight: bold;

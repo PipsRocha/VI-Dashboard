@@ -264,8 +264,8 @@ function gen_map() {
           cellSize = itemSize - 1,
           margin = {top: 30, right: 20, bottom: 20, left: 75};
           
-      var width_1 = 1100 - margin.right - margin.left,
-          height_1 = 660 - margin.top - margin.bottom;
+      var width_1 = 600 - margin.right - margin.left,
+          height_1 = 200 - margin.top - margin.bottom;
 
       d3.csv('data/process_count.csv', function ( response ) {
 
@@ -312,7 +312,7 @@ function gen_map() {
             .attr("height", width_1 + margin.left + margin.right)
             .attr("width", 200 + margin.top)
             .append("g")
-            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");          ;
 
         var cells = svg.selectAll('rect')
             .data(data)
@@ -364,7 +364,8 @@ function gen_map() {
         
         // tooltip
         tooltip=d3.select("body").append("div").style("background","#A9A9A9")
-        .style("opacity","1").style("position","absolute").style("visibility","hidden").style("box-shadow","0px 0px 6px #7861A5").style("padding","10px");
+        .style("opacity","1").style("position","absolute").style("border-radius","5px").style("visibility","hidden")
+        .style("box-shadow","0px 0px 6px #7861A5").style("padding","10px");
         
         toolval=tooltip.append("div");
         
@@ -408,7 +409,8 @@ function gen_map() {
             .attr("class", "y axis")
             .call(yAxis)
             .selectAll('text')
-            .attr('font-weight', 'normal');
+            .attr('font-weight', 'normal')
+            .attr('color','white');
 
         svg.append("g")
             .attr("class", "x axis")
@@ -546,23 +548,23 @@ function gen_chord() {
 
 function gen_summ() {
   // set the dimensions and margins of the graph
-  var width = 960,
+  var width = 500,
       height = 500;
 
   // parse the date / time
-  var parseTime = d3.timeParse("%d-%b-%y");
+  var parseTime = d3v4.timeParse("%d-%b-%y");
 
   // set the ranges
-  var x = d3.scaleTime().range([0, width]);
-  var y = d3.scaleLinear().range([height, 0]);
+  var x = d3v4.scaleTime().range([0, width]);
+  var y = d3v4.scaleLinear().range([height, 0]);
 
   // define the 1st line
-  var valueline = d3.line()
+  var valueline = d3v4.line()
       .x(function(d) { return x(d.date); })
       .y(function(d) { return y(d.close); });
 
   // define the 2nd line
-  var valueline2 = d3.line()
+  var valueline2 = d3v4.line()
       .x(function(d) { return x(d.date); })
       .y(function(d) { return y(d.open); });
 
@@ -574,7 +576,7 @@ function gen_summ() {
       .attr("width", width)
       .attr("height", height)
       .append("g")
-      .attr("transform","translate(20,-20)");
+      .attr("transform","translate(0,0)");
 
   // Get the data
   d3.csv("data/data2.csv", function(error, data) {
@@ -608,11 +610,11 @@ function gen_summ() {
     // Add the X Axis
     svg.append("g")
         .attr("transform", "translate(0," + height + ")")
-        .call(d3.axisBottom(x));
+        .call(d3v4.axisBottom(x));
 
     // Add the Y Axis
     svg.append("g")
-        .call(d3.axisLeft(y));
+        .call(d3v4.axisLeft(y));
 
   });
 
