@@ -250,6 +250,7 @@ function gen_vis() {
         key.append("g")
           .attr("class", "x axis")
           .attr("transform", "translate(0,0)")
+          .style("fill", "white)")
           .call(xAxis);
     }
 }
@@ -492,7 +493,6 @@ function gen_chord() {
             .style("font-family", "arial, helvetica, sans-serif")
             .style("font-size", "10px")
             .style("fill","#f1f1f1")
-            .style("font-weight", "bold")
             .attr("text-anchor", function(d) { return d.angle > Math.PI ? "end" : null; })
             .attr("transform", function(d) {
               return "rotate(" + (d.angle * 180 / Math.PI - 90) + ")"
