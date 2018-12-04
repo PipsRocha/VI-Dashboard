@@ -276,6 +276,9 @@ function gen_vis() {
 
         if(apaga) {
               d3.select('#'+ estado_apagar).style("stroke","none");
+              for (var i = 0; i < statesGlobal.length; i++) {
+               d3.select('#'+ statesGlobal[i]).style("stroke","orange").style("stroke-width","3px");
+              }
               return;
             }
     }
