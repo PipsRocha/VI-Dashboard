@@ -185,20 +185,35 @@ function gen_vis() {
             })
             .on('click', function(d,i) {
               if (count == 3) {
-                return;
-              } else {
-                d3.select(this).style("stroke","orange").style("stroke-width","3px");
-                count++;
-              }
-            });
-
-            console.log(states[0]);
-
-        if (inter) {
-          if(count == 3) {
                 cheio=true;
                 ;
-          }
+              } 
+
+              for(var i=0; i<statesGlobal.length; i++) {
+                if(statesGlobal[i]==d.properties.name){
+                  d3.select('#'+ statesGlobal[i]).style("stroke","none");
+                  delete statesGlobal[i];
+                  count--;
+                  cheio=false;
+                  return 0;
+                  // FIXME CHAMAR HM
+                }
+              } 
+
+              if(cheio == true) {
+                return;
+              }
+
+              statesGlobal[selectedStates]=d.properties.name;
+              inter=true;
+              d3.select(this).style("stroke","orange").style("stroke-width","3px");
+              selectedStates++
+              count++;
+              // FIXME call heatmap
+              
+            });
+
+        if (inter) {
 
           for (var i = 0; i < statesGlobal.length; i++) {
             console.log(statesGlobal[i]);
@@ -326,26 +341,35 @@ function gen_map() {
             .attr("rx",3)
             .attr("rx",3)
             .attr('id', function(d) {
-              return y_elements[yScale(d.state)/itemSize].trim();
+              return y_elements[yScale(d.state)/itemSize].trim() + x_elements[xScale(d.year)/itemSize];
             })
             .attr('fill', function(d) { return colorScale(d.count); })
             .on("click", clickHM);
 
             function clickHM(d) {
+            var auxiliar, auxiliar2;
 
              if(count == 3) {
                 cheio=true;
                 ;
               }
 
-              for (var i = 0; i < selectedStateHM.length; i++) {
-                if (selectedStateHM[i] == (x_elements[xScale(d.year)/itemSize] + y_elements[yScale(d.state)/itemSize].trim())) {
-                  d3.select(this).style("stroke","none");
-                  delete selectedStateHM[i];
+              for (var i = 0; i < statesGlobal.length; i++) {
+                if (statesGlobal[i] == y_elements[yScale(d.state)/itemSize].trim()) {
+                  auxiliar = d3.select(this)[0][0].id;
+                  auxiliar2 = auxiliar.substring(0, auxiliar.length-4);
+                  d3.select('#' + auxiliar2 + '2013').style("stroke","none");
+                  d3.select('#' + auxiliar2 + '2014').style("stroke","none");
+                  d3.select('#' + auxiliar2 + '2015').style("stroke","none");
+                  d3.select('#' + auxiliar2 + '2016').style("stroke","none");
+                  d3.select('#' + auxiliar2 + '2017').style("stroke","none");
+                  delete statesGlobal[i];
                   count--;
-                  console.log(selectedStateHM);
+                  console.log(statesGlobal);
                   cheio=false;
                   return 0;
+                  // FIXME CHAMAR CHORD
+
                 }
               }  
 
@@ -353,13 +377,19 @@ function gen_map() {
                 return;
               }
 
-              selectedStateHM[selectedStates]=x_elements[xScale(d.year)/itemSize] + y_elements[yScale(d.state)/itemSize].trim();
               statesGlobal[selectedStates]=y_elements[yScale(d.state)/itemSize].trim();
               inter=true;
-              d3.select(this).style("stroke","orange").style("stroke-width","3px");
+              auxiliar = d3.select(this)[0][0].id;
+              auxiliar2 = auxiliar.substring(0, auxiliar.length-4);
+
+              d3.select('#' + auxiliar2 + '2013').style("stroke","orange").style("stroke-width","1px");
+              d3.select('#' + auxiliar2 + '2014').style("stroke","orange").style("stroke-width","1px");
+              d3.select('#' + auxiliar2 + '2015').style("stroke","orange").style("stroke-width","1px");
+              d3.select('#' + auxiliar2 + '2016').style("stroke","orange").style("stroke-width","1px");
+              d3.select('#' + auxiliar2 + '2017').style("stroke","orange").style("stroke-width","1px");
               selectedStates++;
               count++;
-              console.log(selectedStateHM);
+              console.log(statesGlobal);
               gen_vis();
             };
         
