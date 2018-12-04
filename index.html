@@ -95,18 +95,17 @@
 });
     </script>
 
-    <div style="width:100%; display: table;">
-      <div style="display: table-row;">
-        <div class="vis" id="vis" style="display: table-cell;"> </div>
-        <div  style="display: table-cell;">
+    <div style="display: table; table-layout: fixed;">
+      <div style="display: table-row; vertical-align: top;">
+        <div  style="display: table-cell; vertical-align: top;">
+          <div class="vis" id="vis"> </div>
+          <div id="summ"> </div>
+        </div>
+       <div  style="display: table-cell;">
           <div id="tooltip"></div>
           <div id="chord_d"></div>
         </div>
-        <div class="heatmap" style="display: table-cell;"></div>
-      </div>
-
-      <div style="display: table-row;">
-        <div id="summ" style="display: table-cell; visibility: hidden;"> </div>
+        <div class="heatmap" style="display: table-cell;""></div>
       </div>
     </div>
 
@@ -131,4 +130,5 @@
     <script src="js/usamap.js"></script>
   
 </html>
+
 

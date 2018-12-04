@@ -483,8 +483,8 @@ function gen_chord() {
       //  DRAW THE CHORD DIAGRAM
       //*******************************************************************
        function drawChords (matrix, mmap) {
-        var w = 550, h = 500, r1 = h / 2, r0 = r1 - 100;
-        margin = {top: 10, right: 20, bottom: 10, left: 10};
+        var w = 500, h = 500, r1 = h / 2, r0 = r1 - 100;
+        //margin = {top: 10, right: 20, bottom: 10, left: 10};
         var fill = d3.scale.ordinal()
             .domain(d3.range(4))
             .range(["#DCDCDC", "#4775d1", "#4169E1", "#2e5cb8"]);
