@@ -390,22 +390,6 @@ function gen_map() {
 
         //LEGENDA
 
-        var legends=svg.append("g").attr("class","legends")
-        .attr("transform","translate("+((width_1 + margin.right)/2)+","+((height_1+margin.bottom)/5 )+ ")");
-
-        legends.append("g").attr("class","rect")
-        .attr("transform","translate(0,"+15+")")
-        .selectAll("rect").data(colorScale.range()).enter()
-        .append("rect").attr("width","70px").attr("height","15px").attr("fill",function(d){ return d})
-        .attr("x",function(d,i){ return i*(70) });
-
-        legends.append("g").attr("class","text")
-        .attr("transform","translate(0,45)")
-        .append("text")
-        .attr("x",200)
-        .style("text-anchor", "middle")
-        .text("\xa0\xa0\xa0\xa0\xa0" + "0-10K" + "\xa0\xa0\xa0\xa0\xa0\xa0" + "10-50K" + "\xa0\xa0\xa0\xa0" + "50-100K" + "\xa0\xa0\xa0\xa0" + "100-250K" + "\xa0\xa0" + "250-500K" + "\xa0\xa0\xa0" +">500K");
-
         svg.append("g")
             .attr("class", "y axis")
             .call(yAxis)
@@ -424,6 +408,22 @@ function gen_map() {
             .attr("transform", function (d) {
                 return "rotate(-65)";
             });
+
+        var legends=svg.append("g").attr("class","legends")
+        .attr("transform","translate(-75,550)");
+
+        legends.append("g").attr("class","rect")
+        .attr("transform","translate(0,"+15+")")
+        .selectAll("rect").data(colorScale.range()).enter()
+        .append("rect").attr("width","70px").attr("height","5px").attr("fill",function(d){ return d})
+        .attr("x",function(d,i){ return i*(70) });
+
+        legends.append("g").attr("class","text")
+        .attr("transform","translate(-75,10)")
+        .append("text")
+        .attr("x",200)
+        .style("text-anchor", "middle")
+        .text("\xa0\xa0\xa0\xa0\xa0" + "0-10K" + "\xa0\xa0\xa0\xa0\xa0\xa0" + "10-50K" + "\xa0\xa0\xa0\xa0" + "50-100K" + "\xa0\xa0\xa0\xa0" + "100-250K" + "\xa0\xa0" + "250-500K" + "\xa0\xa0\xa0" +">500K");
       });
 }
 
