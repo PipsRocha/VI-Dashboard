@@ -152,11 +152,11 @@ x_year,y_state,value
 2017,New Mexico    ,14236
 2013,New Mexico    ,22401
 2016,New Mexico    ,13939
-2015,New York      ,290589
-2014,New York      ,164268
-2017,New York      ,158804
-2013,New York      ,190320
-2016,New York      ,278479
+2015,NewYork      ,290589
+2014,NewYork      ,164268
+2017,NewYork      ,158804
+2013,NewYork      ,190320
+2016,NewYork      ,278479
 2015,North Carolina,219373
 2014,North Carolina,113601
 2017,North Carolina,108569
