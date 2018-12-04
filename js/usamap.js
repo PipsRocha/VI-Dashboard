@@ -5,6 +5,8 @@ var count=0;
 var cheio=false;
 var inter=false;
 var indice=0;
+var apaga=false;
+var estado_apagar;
 
 var time_range = "2013";
 function change_range(str) {
@@ -15,7 +17,7 @@ function change_range(str) {
 gen_slider();
 gen_vis();
 gen_map();
-gen_chord();
+//gen_chord();
 gen_summ();
 
 function gen_slider() {
@@ -195,8 +197,10 @@ function gen_vis() {
                   delete statesGlobal[i];
                   count--;
                   cheio=false;
-                  return 0;
-                  // FIXME CHAMAR HM
+                  apaga=true;
+                  estado_apagar=d.properties.name;
+                  gen_map();
+                  return;
                 }
               } 
 
@@ -207,19 +211,12 @@ function gen_vis() {
               statesGlobal[selectedStates]=d.properties.name;
               inter=true;
               d3.select(this).style("stroke","orange").style("stroke-width","3px");
+              gen_map();
               selectedStates++
-              count++;
-              // FIXME call heatmap
-              
+              count++;              
             });
 
-        if (inter) {
-
-          for (var i = 0; i < statesGlobal.length; i++) {
-            console.log(statesGlobal[i]);
-            d3.select('#'+ statesGlobal[i]).style("stroke","orange").style("stroke-width","3px");
-          }
-        }   
+         
 
          // add a legend
         var w = 400, h = 20;
@@ -267,6 +264,20 @@ function gen_vis() {
           .attr("transform", "translate(0,0)")
           .style("fill", "white)")
           .call(xAxis);
+
+        if (inter) {
+
+          for (var i = 0; i < statesGlobal.length; i++) {
+            d3.select('#'+ statesGlobal[i]).style("stroke","orange").style("stroke-width","3px");
+          }
+        inter=false;
+        return;
+        } 
+
+        if(apaga) {
+              d3.select('#'+ estado_apagar).style("stroke","none");
+              return;
+            }
     }
 }
 
@@ -275,7 +286,9 @@ function gen_map() {
 //************************************************
 //  CREATE HEATMAP
 //************************************************    
-
+    while (document.getElementById("heatmap").firstChild) {
+    document.getElementById("heatmap").removeChild(document.getElementById("heatmap").firstChild);
+}
     var itemSize = 11,
           cellSize = itemSize - 1,
           margin = {top: 30, right: 20, bottom: 20, left: 75};
@@ -367,9 +380,10 @@ function gen_map() {
                   count--;
                   console.log(statesGlobal);
                   cheio=false;
+                  apaga=true;
+                  estado_apagar=auxiliar2;
+                  gen_vis();
                   return 0;
-                  // FIXME CHAMAR CHORD
-
                 }
               }  
 
@@ -412,9 +426,9 @@ function gen_map() {
 
         cells.on("mousemove",function(d){
             tooltip.style("visibility","visible")
-            .style("top",(d3.event.pageY-30)+"px").style("left",(d3.event.pageX+20)+"px");
+            .style("top",(d3.event.pageY+20)+"px").style("left",(d3.event.pageX-120)+"px");
             
-            tooltip.select("div").html(d.year+" in "+d.state+ "- "+(+d.count) + " Flights").style("color", "white")
+            tooltip.select("div").html(d.year+" in "+d.state+ " - "+(+d.count) + " Flights").style("color", "white")
             
         });
 
@@ -454,6 +468,34 @@ function gen_map() {
         .attr("x",200)
         .style("text-anchor", "middle")
         .text("\xa0\xa0\xa0\xa0\xa0" + "0-10K" + "\xa0\xa0\xa0\xa0\xa0\xa0" + "10-50K" + "\xa0\xa0\xa0\xa0" + "50-100K" + "\xa0\xa0\xa0\xa0" + "100-250K" + "\xa0\xa0" + "250-500K" + "\xa0\xa0\xa0" +">500K");
+
+        if(apaga) {
+              d3.select('#' + estado_apagar + '2013').style("stroke","none");
+              d3.select('#' + estado_apagar + '2014').style("stroke","none");
+              d3.select('#' + estado_apagar + '2015').style("stroke","none");
+              d3.select('#' + estado_apagar + '2016').style("stroke","none");
+              d3.select('#' + estado_apagar + '2017').style("stroke","none");
+
+              for(var i=0; i<statesGlobal.length; i++) {
+                d3.select('#' + statesGlobal[i] + '2013').style("stroke","orange").style("stroke-width","1px");
+                d3.select('#' + statesGlobal[i] + '2014').style("stroke","orange").style("stroke-width","1px");
+                d3.select('#' + statesGlobal[i] + '2015').style("stroke","orange").style("stroke-width","1px");
+                d3.select('#' + statesGlobal[i] + '2016').style("stroke","orange").style("stroke-width","1px");
+                d3.select('#' + statesGlobal[i] + '2017').style("stroke","orange").style("stroke-width","1px");
+              }
+              return;
+        }
+
+        if (inter) {
+          for (var i = 0; i < statesGlobal.length; i++) {
+            d3.select('#' + statesGlobal[i] + '2013').style("stroke","orange").style("stroke-width","1px");
+            d3.select('#' + statesGlobal[i] + '2014').style("stroke","orange").style("stroke-width","1px");
+            d3.select('#' + statesGlobal[i] + '2015').style("stroke","orange").style("stroke-width","1px");
+            d3.select('#' + statesGlobal[i] + '2016').style("stroke","orange").style("stroke-width","1px");
+            d3.select('#' + statesGlobal[i] + '2017').style("stroke","orange").style("stroke-width","1px");
+          }
+        inter=false;
+        } 
       });
 }
 
