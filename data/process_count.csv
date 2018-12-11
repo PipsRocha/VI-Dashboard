@@ -137,36 +137,36 @@ x_year,y_state,value
 2017,Nevada,98323
 2013,Nevada,91552
 2016,Nevada,249131
-2015,NewHampshire,12142
-2014,NewHampshire,5057
-2017,NewHampshire,4784
-2013,NewHampshire,8103
-2016,NewHampshire,11948
-2015,NewJersey,180063
-2014,NewJersey,67688
-2017,NewJersey,66632
-2013,NewJersey,73917
-2016,NewJersey,183869
-2015,NewMexico,17065
-2014,NewMexico,19512
-2017,NewMexico,14236
-2013,NewMexico,22401
-2016,NewMexico,13939
-2015,NewYork,290589
-2014,NewYork,164268
-2017,NewYork,158804
-2013,NewYork,190320
-2016,NewYork,278479
-2015,NorthCarolina,219373
-2014,NorthCarolina,113601
-2017,NorthCarolina,108569
-2013,NorthCarolina,140413
-2016,NorthCarolina,222211
-2015,NorthDakota,23098
-2014,NorthDakota,14594
-2017,NorthDakota,9972
-2013,NorthDakota,19113
-2016,NorthDakota,15721
+2015,New Hampshire,12142
+2014,New Hampshire,5057
+2017,New Hampshire,4784
+2013,New Hampshire,8103
+2016,New Hampshire,11948
+2015,New Jersey,180063
+2014,New Jersey,67688
+2017,New Jersey,66632
+2013,New Jersey,73917
+2016,New Jersey,183869
+2015,New Mexico,17065
+2014,New Mexico,19512
+2017,New Mexico,14236
+2013,New Mexico,22401
+2016,New Mexico,13939
+2015,New York,290589
+2014,New York,164268
+2017,New York,158804
+2013,New York,190320
+2016,New York,278479
+2015,North Carolina,219373
+2014,North Carolina,113601
+2017,North Carolina,108569
+2013,North Carolina,140413
+2016,North Carolina,222211
+2015,North Dakota,23098
+2014,North Dakota,14594
+2017,North Dakota,9972
+2013,North Dakota,19113
+2016,North Dakota,15721
 2015,Ohio,100052
 2014,Ohio,58880
 2017,Ohio,55199
@@ -187,21 +187,21 @@ x_year,y_state,value
 2017,Pennsylvania,82680
 2013,Pennsylvania,94978
 2016,Pennsylvania,151332
-2015,RhodeIsland,21598
-2014,RhodeIsland,9137
-2017,RhodeIsland,10990
-2013,RhodeIsland,11781
-2016,RhodeIsland,22690
-2015,SouthCarolina,37427
-2014,SouthCarolina,21536
-2017,SouthCarolina,24697
-2013,SouthCarolina,30020
-2016,SouthCarolina,40322
-2015,SouthDakota,15771
-2014,SouthDakota,11419
-2017,SouthDakota,8323
-2013,SouthDakota,12121
-2016,SouthDakota,12201
+2015,Rhode Island,21598
+2014,Rhode Island,9137
+2017,Rhode Island,10990
+2013,Rhode Island,11781
+2016,Rhode Island,22690
+2015,South Carolina,37427
+2014,South Carolina,21536
+2017,South Carolina,24697
+2013,South Carolina,30020
+2016,South Carolina,40322
+2015,South Dakota,15771
+2014,South Dakota,11419
+2017,South Dakota,8323
+2013,South Dakota,12121
+2016,South Dakota,12201
 2015,Tennessee,110975
 2014,Tennessee,58911
 2017,Tennessee,57196
@@ -232,11 +232,11 @@ x_year,y_state,value
 2017,Washington,94574
 2013,Washington,73275
 2016,Washington,223699
-2015,WestVirginia,4844
-2014,WestVirginia,2568
-2017,WestVirginia,1717
-2013,WestVirginia,2891
-2016,WestVirginia,4751
+2015,West Virginia,4844
+2014,West Virginia,2568
+2017,West Virginia,1717
+2013,West Virginia,2891
+2016,West Virginia,4751
 2015,Wisconsin,82899
 2014,Wisconsin,50498
 2017,Wisconsin,46095
