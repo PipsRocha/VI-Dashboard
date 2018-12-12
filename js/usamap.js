@@ -140,7 +140,7 @@ function gen_vis() {
       // we use queue because we have 2 data files to load.
     queue()
         .defer(d3.json, "data/usa.json")
-        .defer(d3.csv, "data/process_count_usa.csv", joinStates)// process
+        .defer(d3.csv, "data/process_count_usa2.csv", joinStates)// process
         .await(loaded);
 
     var dataset = d3.map();
@@ -201,6 +201,7 @@ function gen_vis() {
                   apaga=true;
                   estado_apagar=d.properties.name.replace(/\s+/g, '');
                   gen_map();
+                  gen_summ();
                   return;
                 }
               } 
@@ -214,6 +215,7 @@ function gen_vis() {
               d3.select(this).style("stroke","orange").style("stroke-width","3px");
               console.log(d3.select(this));
               gen_map();
+              gen_summ();
               selectedStates++
               count++;              
             });
@@ -389,6 +391,7 @@ function gen_map() {
                   apaga=true;
                   estado_apagar=auxiliar2;
                   gen_vis();
+                  gen_summ();
                   return 0;
                 }
               }  
@@ -411,6 +414,7 @@ function gen_map() {
               count++;
               console.log(statesGlobal);
               gen_vis();
+              gen_summ();
             };
         
         // tooltip
@@ -625,17 +629,25 @@ function gen_chord() {
 }
 
 function gen_summ() {
+  if (statesGlobal.length == 0) {
+    document.getElementById("summ").style('visibility','hidden');
+  }
+  else{
+    while (document.getElementById("summ").firstChild) {
+      document.getElementById("summ").removeChild(document.getElementById("summ").firstChild);
+    }
+  }
 // Set the dimensions of the canvas / graph
-var margin = {top: 10, right: 20, bottom: 70, left: 40},
-    width = 600 - margin.left - margin.right,
+var margin = {top: 20, right: 20, bottom: 70, left: 60},
+    width = 500 - margin.left - margin.right,
     height = 300 - margin.top - margin.bottom;
 
 // Parse the date / time
-var parseDate = d3.time.format("%b %Y").parse;
+//var parseDate = d3.time.format("%b %Y").parse;
 
 // Set the ranges
-var x = d3.time.scale().range([0, width]);
-var y = d3.scale.linear().range([height, 0]);
+var x = d3.scale.linear().range([1, width]);
+var y = d3.scale.linear().range([height, 10]);//
 
 // Define the axes
 var xAxis = d3.svg.axis().scale(x)
@@ -646,8 +658,9 @@ var yAxis = d3.svg.axis().scale(y)
 
 // Define the line
 var priceline = d3.svg.line() 
-    .x(function(d) { return x(d.date); })
-    .y(function(d) { return y(d.price); });
+    .x(function(d) { return x(d.year); })
+    .y(function(d) { return y(d.value); })
+    .interpolate("linear");
     
 // Adds the svg canvas
 var svg = d3.select("#summ")
@@ -659,20 +672,26 @@ var svg = d3.select("#summ")
               "translate(" + margin.left + "," + margin.top + ")");
 
 // Get the data
-d3.csv("data/stocks.csv", function(error, data) {
+d3.csv("data/process_count_usa2.csv", function(error, data) {
     data.forEach(function(d) {
-    d.date = parseDate(d.date);
-    d.price = +d.price;
+      d3.ascending
     });
 
     // Scale the range of the data
-    x.domain(d3.extent(data, function(d) { return d.date; }));
-    y.domain([0, d3.max(data, function(d) { return d.price; })]);
+    x.domain([2013, 2017]);
+    y.domain([100, 700000]);//d3.max(data, function(d) { return d.value; })]); 
 
     // Nest the entries by symbol
     var dataNest = d3.nest()
-        .key(function(d) {return d.symbol;})
+        .key(function(d) {
+          for (var i = 0; i < statesGlobal.length; i++){
+            if(d.state == statesGlobal[i]) {return d.state;}}
+          })
+        //.rollup(function(d){return d3.ascending(d.values)})
+        .sortKeys(d3.ascending)
         .entries(data);
+
+        console.log(dataNest);
 
     var color = d3.scale.category10();   // set the colour scale
 
@@ -685,13 +704,13 @@ d3.csv("data/stocks.csv", function(error, data) {
             .attr("class", "line")
             .style("stroke", function() { // Add the colours dynamically
                 return d.color = color(d.key); })
-            .attr("id", 'tag'+d.key.replace(/\s+/g, '')) // assign ID
+            .attr("id", d.key.replace(/\s+/g, '')) // assign ID
             .attr("d", priceline(d.values))
             .attr("fill", "none");
 
         // Add the Legend
         svg.append("text")
-            .attr("x", (legendSpace/2)+i*legendSpace)  // space legend
+            .attr("x", legendSpace/2+i*legendSpace)  // space legend
             .attr("y", height + (margin.bottom/2)+ 5)
             .attr("class", "legend")    // style the legend
             .style("fill", function() { // Add the colours dynamically
@@ -701,7 +720,7 @@ d3.csv("data/stocks.csv", function(error, data) {
                 var active   = d.active ? false : true,
                 newOpacity = active ? 0 : 1; 
                 // Hide or show the elements based on the ID
-                d3.select("#tag"+d.key.replace(/\s+/g, ''))
+                d3.select("#"+d.key.replace(/\s+/g, ''))
                     .transition().duration(100) 
                     .style("opacity", newOpacity); 
                 // Update whether or not the elements are active
