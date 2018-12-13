@@ -9,6 +9,31 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script>
+        $(function() {
+    $( "#slider" ).slider({
+      range: true,
+      min: new Date('2013.01.01').getTime() / 1000,
+      max: new Date('2017.12.31').getTime() / 1000,
+      values: [ new Date('2013.01.01').getTime() / 1000, new Date('2017.12.31').getTime() / 1000 ],
+      slide: function( event, ui ) {
+        var aux1 = new Date(ui.values[ 0 ] *1000).toDateString();
+        var mes1 = aux1.substring(4, 7);
+        var year1 = aux1.substring(11,15);
+        var date1 = mes1+ " "+year1;
+        var aux2 = new Date(ui.values[ 1 ] *1000).toDateString() ;
+        var mes2 = aux2.substring(4, 7);
+        var year2 = aux2.substring(11,15);
+        var date2 = mes2+ " "+year2;
+        $( "#amount" ).val( date1  + " - " + date2);
+      }
+    });
+  })
+    </script>
+
  
   </head>
   
@@ -25,8 +50,6 @@
         <a href="#Delays">Delays</a>
       </div>
 
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
       <script>
           $("a").click(function(){
             if ($("a").hasClass("active")){
@@ -36,8 +59,16 @@
             $(this).addClass("active");
           });
       </script>
-      <div id="slider">
-      <div class="dropdown">
+      <div id="slider-container">
+        <div id="slider"></div>
+        <div id="date_range">
+        <p>
+          <label for="amount">Date range:</label>
+          <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold; background-color: #f1f1f1;">
+        </p>
+        </div>
+    </div>
+    <div class="dropdown">
         <button class="dropbtn">Holidays</button>
         
         <div class="dropdown-content">
@@ -53,7 +84,6 @@
         <p id="h3">Holiday: Christmas</p>
         <p id="h4">Holiday: New Year's Eve</p>
       </div>
-    </div>
     </div>
     <script>
       $(document).ready(function(){
