@@ -82,23 +82,47 @@ slider.append("line")
 
 var handle1 = slider.insert("circle", ".track-overlay")
     .attr("class", "handle")
-    .attr("cx", width)
     .attr("id", "handle1")
     .attr("r", 7);
 
 var handle2 = slider.insert("circle", ".track-overlay")
     .attr("class", "handle")
     .attr("id", "handle2")
+    .attr("cx", width)
     .attr("r", 7);
 
 
   function hue(h) {
+d3.selectAll("circle")
+  if(d3.select("#handle1")){
     handle1.attr("cx", x(h));
     label
       .attr("x", x(h))
       .text(formatDate(h));
-    svg.style("background-color", d3v4.color("#f1f1f1"));
+    svg.style("background-color", d3v4.color("#f1f1f1"));}
+  else if (d3.select("#handle2")){
+    handle1.attr("cx", x(h));
+    label
+      .attr("x", x(h))
+      .text(formatDate(h));
+    svg.style("background-color", d3v4.color("#f1f1f1"));}
+
   }
+
+  /*if(d3.select("#handle2")){
+    console.log("entreiiii");
+    handle2.attr("cx", x(h));
+    label
+      .attr("x", x(h))
+      .text(formatDate(h));
+    svg.style("background-color", d3v4.color("#f1f1f1"));}
+  else{
+    handle1.attr("cx", x(h));
+    label
+      .attr("x", x(h))
+      .text(formatDate(h));
+    svg.style("background-color", d3v4.color("#f1f1f1"));}*/
+  
 }
 
 

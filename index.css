@@ -134,7 +134,6 @@ text {
       display: block;
       margin-right: auto;
       margin-top: -6px;
-      width: 6%;
       margin-left: 10px;
 
     }
@@ -229,8 +228,8 @@ text {
 }
 #Holiday{
 
-  top: 14%;
-  left: 45%;
+  top: 500;
+  left: 500;
   position: absolute;
   height: 30px;
   width: 200px;
