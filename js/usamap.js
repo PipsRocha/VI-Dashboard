@@ -18,7 +18,6 @@ gen_slider();
 gen_vis();
 gen_map();
 gen_chord();
-gen_summ();
 
 function gen_slider() {
 //*******************************************************************
@@ -245,10 +244,10 @@ function gen_vis() {
               inter=true;
               d3.select(this).style("stroke","orange").style("stroke-width","3px");
               console.log(d3.select(this));
+              count++;
               gen_map();
               gen_summ();
-              selectedStates++
-              count++;              
+              selectedStates++              
             });
 
          
@@ -467,9 +466,9 @@ function gen_map() {
 
         cells.on("mousemove",function(d){
             tooltip.style("visibility","visible")
-            .style("top",(d3.event.pageY+20)+"px").style("left",(d3.event.pageX-120)+"px");
+            .style("top",(d3.event.pageY-30)+"px").style("left",(d3.event.pageX+20)+"px");
             
-            tooltip.select("div").html(d.year+" in "+d.state+ " - "+(+d.count) + " Flights").style("color", "white")
+            tooltip.select("div").html(d.year+" in "+d.state+ "<br>"+(+d.count) + " Flights").style("color", "white")
             
         });
 
@@ -660,8 +659,10 @@ function gen_chord() {
 }
 
 function gen_summ() {
-  if (statesGlobal.length == 0) {
-    document.getElementById("summ").style('visibility','hidden');
+  if (count <= 1) {
+    while (document.getElementById("summ").firstChild) {
+      document.getElementById("summ").removeChild(document.getElementById("summ").firstChild);
+    }  return;
   }
   else{
     while (document.getElementById("summ").firstChild) {
@@ -682,10 +683,10 @@ var y = d3.scale.linear().range([height, 10]);//
 
 // Define the axes
 var xAxis = d3.svg.axis().scale(x)
-    .orient("bottom").ticks(5);
+    .orient("bottom").ticks(5).tickFormat(d3.format("d"));
 
 var yAxis = d3.svg.axis().scale(y)
-    .orient("left").ticks(5);
+    .orient("left").ticks(7);
 
 // Define the line
 var priceline = d3.svg.line() 
@@ -710,17 +711,21 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
 
     // Scale the range of the data
     x.domain([2013, 2017]);
-    y.domain([100, 700000]);//d3.max(data, function(d) { return d.value; })]); 
+    y.domain([0, 700000]); // FIXME
 
     // Nest the entries by symbol
     var dataNest = d3.nest()
         .key(function(d) {
           for (var i = 0; i < statesGlobal.length; i++){
-            if(d.state == statesGlobal[i]) {return d.state;}}
-          })
+            if(d.state.replace(/\s+/g, '') == statesGlobal[i]) {
+              return d.state;
+            }
+          }
+        })
         //.rollup(function(d){return d3.ascending(d.values)})
         .sortKeys(d3.ascending)
-        .entries(data);
+        .entries(data)
+        .slice(0,count);
 
         console.log(dataNest);
 
