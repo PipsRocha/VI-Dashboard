@@ -30,7 +30,7 @@ var startDate = new Date("2013-01-01"),
     endDate = new Date("2018-01-01");
 
 var margin = {top:30, right:50, bottom:0, left:50},
-    width = 600 -margin.left,
+    width = 400 -margin.left,
     height = 60;
 var svg = d3v4.select("#slider")
     .append("svg")
@@ -66,30 +66,37 @@ slider.append("line")
     .attr("x", x)
     .attr("y", 10)
     .attr("text-anchor", "middle")
-    .style("fill","#f1f1f1")
+    .style("fill","#393939")
     .style("font-weight", "bold")
     .text(function(d) { return formatDateIntoYear(d); });
 
   var label = slider.append("text")  
     .attr("class", "label")
     .attr("text-anchor", "middle")
-    .style("fill","#f1f1f1")
+    .style("fill","#393939")
     .style("font-size", "12px")
     .style("font-weight", "bold")
     .text(formatDate(startDate))
     .attr("transform", "translate(0," + (-13) + ")")
 
-  var handle = slider.insert("circle", ".track-overlay")
+var handle1 = slider.insert("circle", ".track-overlay")
     .attr("class", "handle")
-    .attr("r", 9);
+    .attr("cx", width)
+    .attr("id", "handle1")
+    .attr("r", 7);
+
+var handle2 = slider.insert("circle", ".track-overlay")
+    .attr("class", "handle")
+    .attr("id", "handle2")
+    .attr("r", 7);
 
 
   function hue(h) {
-    handle.attr("cx", x(h));
+    handle1.attr("cx", x(h));
     label
       .attr("x", x(h))
       .text(formatDate(h));
-    svg.style("background-color", d3v4.color("#393939"));
+    svg.style("background-color", d3v4.color("#f1f1f1"));
   }
 }
 
