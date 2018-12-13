@@ -134,7 +134,7 @@ function gen_vis() {
 //  CREATE CHOROPLETH
 //**************************************************
   var width = 500;
-  var height = 500;
+  var height = 350;
 
     var lowColor = '#4169E1' //#228B22
     var highColor = '#DCDCDC'//#87CEFA #32CD32
@@ -328,7 +328,7 @@ function gen_map() {
 }
     var itemSize = 11,
           cellSize = itemSize - 1,
-          margin = {top: 30, right: 20, bottom: 20, left: 75};
+          margin = {top: 50, right: 20, bottom: 20, left: 130};
           
       var width_1 = 600 - margin.right - margin.left,
           height_1 = 200 - margin.top - margin.bottom;
@@ -679,7 +679,7 @@ var margin = {top: 20, right: 20, bottom: 70, left: 60},
 
 // Set the ranges
 var x = d3.scale.linear().range([1, width]);
-var y = d3.scale.linear().range([height, 10]);//
+var y = d3.scale.linear().range([height, 10]);
 
 // Define the axes
 var xAxis = d3.svg.axis().scale(x)
@@ -709,10 +709,6 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
       d3.ascending
     });
 
-    // Scale the range of the data
-    x.domain([2013, 2017]);
-    y.domain([0, 700000]); // FIXME
-
     // Nest the entries by symbol
     var dataNest = d3.nest()
         .key(function(d) {
@@ -727,7 +723,9 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
         .entries(data)
         .slice(0,count);
 
-        console.log(dataNest);
+        // Scale the range of the data
+    x.domain([2013, 2017]);
+    y.domain([0, 700000]); 
 
     var color = d3.scale.category10();   // set the colour scale
 
@@ -743,7 +741,7 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
             .attr("id", d.key.replace(/\s+/g, '')) // assign ID
             .attr("d", priceline(d.values))
             .attr("fill", "none");
-
+            
         // Add the Legend
         svg.append("text")
             .attr("x", legendSpace/2+i*legendSpace)  // space legend
