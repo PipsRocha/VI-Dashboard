@@ -442,9 +442,9 @@ function gen_map() {
 
         cells.on("mousemove",function(d){
             tooltip.style("visibility","visible")
-            .style("top",(d3.event.pageY+20)+"px").style("left",(d3.event.pageX-120)+"px");
+            .style("top",(d3.event.pageY-30)+"px").style("left",(d3.event.pageX+20)+"px");
             
-            tooltip.select("div").html(d.year+" in "+d.state+ " - "+(+d.count) + " Flights").style("color", "white")
+            tooltip.select("div").html(d.year+" in "+d.state+ "<br>"+(+d.count) + " Flights").style("color", "white")
             
         });
 
