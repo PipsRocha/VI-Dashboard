@@ -3,10 +3,7 @@ var selectedStateHM = [];
 var selectedStates = 0;
 var count=0;
 var cheio=false;
-var inter=false;
 var indice=0;
-var apaga=false;
-var estado_apagar;
 
 var time_range = "2013";
 function change_range(str) {
@@ -128,7 +125,7 @@ function gen_vis() {
 //  CREATE CHOROPLETH
 //**************************************************
   var width = 500;
-  var height = 500;
+  var height = 350;
 
     var lowColor = '#4169E1' //#228B22
     var highColor = '#DCDCDC'//#87CEFA #32CD32
@@ -218,13 +215,16 @@ function gen_vis() {
 
               for(var i=0; i<statesGlobal.length; i++) {
                 if(statesGlobal[i]==d.properties.name.replace(/\s+/g, '')){
-                  d3.select('#'+ statesGlobal[i]).style("stroke","none");
+                  d3.select('#'+ statesGlobal[i]).style("stroke","white").style("stroke-width","1px");;
+                  d3.select('#' + statesGlobal[i] + '2013').style("stroke","none");
+                  d3.select('#' + statesGlobal[i] + '2014').style("stroke","none");
+                  d3.select('#' + statesGlobal[i] + '2015').style("stroke","none");
+                  d3.select('#' + statesGlobal[i] + '2016').style("stroke","none");
+                  d3.select('#' + statesGlobal[i] + '2017').style("stroke","none");
+
                   delete statesGlobal[i];
                   count--;
                   cheio=false;
-                  apaga=true;
-                  estado_apagar=d.properties.name.replace(/\s+/g, '');
-                  gen_map();
                   gen_summ();
                   return;
                 }
@@ -235,12 +235,16 @@ function gen_vis() {
               }
 
               statesGlobal[selectedStates]=d.properties.name.replace(/\s+/g, '');
-              inter=true;
-              d3.select(this).style("stroke","orange").style("stroke-width","3px");
-              console.log(d3.select(this));
+              d3.select(this).style("stroke","red").style("stroke-width","3px");
+
+              d3.select('#' + d.properties.name.replace(/\s+/g, '') + '2013').style("stroke","red").style("stroke-width","1px");
+              d3.select('#' + d.properties.name.replace(/\s+/g, '') + '2014').style("stroke","red").style("stroke-width","1px");
+              d3.select('#' + d.properties.name.replace(/\s+/g, '') + '2015').style("stroke","red").style("stroke-width","1px");
+              d3.select('#' + d.properties.name.replace(/\s+/g, '') + '2016').style("stroke","red").style("stroke-width","1px");
+              d3.select('#' + d.properties.name.replace(/\s+/g, '') + '2017').style("stroke","red").style("stroke-width","1px");
+
               count++;
-              gen_map();
-              gen_summ();
+              gen_summ();              
               selectedStates++              
             });
 
@@ -292,23 +296,6 @@ function gen_vis() {
           .attr("transform", "translate(0,0)")
           .style("fill", "white)")
           .call(xAxis);
-
-        if (inter) {
-
-          for (var i = 0; i < statesGlobal.length; i++) {
-            d3.select('#'+ statesGlobal[i]).style("stroke","orange").style("stroke-width","3px");
-          }
-        inter=false;
-        return;
-        } 
-
-        if(apaga) {
-              d3.select('#'+ estado_apagar).style("stroke","none");
-              for (var i = 0; i < statesGlobal.length; i++) {
-               d3.select('#'+ statesGlobal[i]).style("stroke","orange").style("stroke-width","3px");
-              }
-              return;
-            }
     }
 }
 
@@ -322,7 +309,7 @@ function gen_map() {
 }
     var itemSize = 11,
           cellSize = itemSize - 1,
-          margin = {top: 30, right: 20, bottom: 20, left: 75};
+          margin = {top: 50, right: 20, bottom: 20, left: 130};
           
       var width_1 = 600 - margin.right - margin.left,
           height_1 = 200 - margin.top - margin.bottom;
@@ -408,13 +395,11 @@ function gen_map() {
                   d3.select('#' + auxiliar2 + '2015').style("stroke","none");
                   d3.select('#' + auxiliar2 + '2016').style("stroke","none");
                   d3.select('#' + auxiliar2 + '2017').style("stroke","none");
+                  d3.select('#' + auxiliar2).style("stroke","white").style("stroke-width","1px");
                   delete statesGlobal[i];
                   count--;
                   console.log(statesGlobal);
                   cheio=false;
-                  apaga=true;
-                  estado_apagar=auxiliar2;
-                  gen_vis();
                   gen_summ();
                   return 0;
                 }
@@ -425,19 +410,18 @@ function gen_map() {
               }
 
               statesGlobal[selectedStates]=y_elements[yScale(d.state)/itemSize].trim().replace(/\s+/g, '');
-              inter=true;
               auxiliar = d3.select(this)[0][0].id;
               auxiliar2 = auxiliar.substring(0, auxiliar.length-4);
 
-              d3.select('#' + auxiliar2 + '2013').style("stroke","orange").style("stroke-width","1px");
-              d3.select('#' + auxiliar2 + '2014').style("stroke","orange").style("stroke-width","1px");
-              d3.select('#' + auxiliar2 + '2015').style("stroke","orange").style("stroke-width","1px");
-              d3.select('#' + auxiliar2 + '2016').style("stroke","orange").style("stroke-width","1px");
-              d3.select('#' + auxiliar2 + '2017').style("stroke","orange").style("stroke-width","1px");
+              d3.select('#' + auxiliar2 + '2013').style("stroke","red").style("stroke-width","1px");
+              d3.select('#' + auxiliar2 + '2014').style("stroke","red").style("stroke-width","1px");
+              d3.select('#' + auxiliar2 + '2015').style("stroke","red").style("stroke-width","1px");
+              d3.select('#' + auxiliar2 + '2016').style("stroke","red").style("stroke-width","1px");
+              d3.select('#' + auxiliar2 + '2017').style("stroke","red").style("stroke-width","1px");
+              d3.select('#' + auxiliar2).style("stroke","red").style("stroke-width","1px");
               selectedStates++;
               count++;
               console.log(statesGlobal);
-              gen_vis();
               gen_summ();
             };
         
@@ -502,34 +486,6 @@ function gen_map() {
         .attr("x",200)
         .style("text-anchor", "middle")
         .text("\xa0\xa0\xa0\xa0\xa0" + "0-10K" + "\xa0\xa0\xa0\xa0\xa0\xa0" + "10-50K" + "\xa0\xa0\xa0\xa0" + "50-100K" + "\xa0\xa0\xa0\xa0" + "100-250K" + "\xa0\xa0" + "250-500K" + "\xa0\xa0\xa0" +">500K");
-
-        if(apaga) {
-              d3.select('#' + estado_apagar + '2013').style("stroke","none");
-              d3.select('#' + estado_apagar + '2014').style("stroke","none");
-              d3.select('#' + estado_apagar + '2015').style("stroke","none");
-              d3.select('#' + estado_apagar + '2016').style("stroke","none");
-              d3.select('#' + estado_apagar + '2017').style("stroke","none");
-
-              for(var i=0; i<statesGlobal.length; i++) {
-                d3.select('#' + statesGlobal[i] + '2013').style("stroke","orange").style("stroke-width","1px");
-                d3.select('#' + statesGlobal[i] + '2014').style("stroke","orange").style("stroke-width","1px");
-                d3.select('#' + statesGlobal[i] + '2015').style("stroke","orange").style("stroke-width","1px");
-                d3.select('#' + statesGlobal[i] + '2016').style("stroke","orange").style("stroke-width","1px");
-                d3.select('#' + statesGlobal[i] + '2017').style("stroke","orange").style("stroke-width","1px");
-              }
-              return;
-        }
-
-        if (inter) {
-          for (var i = 0; i < statesGlobal.length; i++) {
-            d3.select('#' + statesGlobal[i] + '2013').style("stroke","orange").style("stroke-width","1px");
-            d3.select('#' + statesGlobal[i] + '2014').style("stroke","orange").style("stroke-width","1px");
-            d3.select('#' + statesGlobal[i] + '2015').style("stroke","orange").style("stroke-width","1px");
-            d3.select('#' + statesGlobal[i] + '2016').style("stroke","orange").style("stroke-width","1px");
-            d3.select('#' + statesGlobal[i] + '2017').style("stroke","orange").style("stroke-width","1px");
-          }
-        inter=false;
-        } 
       });
 }
 
@@ -560,7 +516,6 @@ function gen_chord() {
       //*******************************************************************
        function drawChords (matrix, mmap) {
         var w = 500, h = 500, r1 = h / 2, r0 = r1 - 100;
-        //margin = {top: 10, right: 20, bottom: 10, left: 10};
         var fill = d3.scale.ordinal()
             .domain(d3.range(4))
             .range(["#DCDCDC", "#4775d1", "#4169E1", "#2e5cb8"]);
@@ -673,7 +628,7 @@ var margin = {top: 20, right: 20, bottom: 70, left: 60},
 
 // Set the ranges
 var x = d3.scale.linear().range([1, width]);
-var y = d3.scale.linear().range([height, 10]);//
+var y = d3.scale.linear().range([height, 10]);
 
 // Define the axes
 var xAxis = d3.svg.axis().scale(x)
@@ -703,10 +658,6 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
       d3.ascending
     });
 
-    // Scale the range of the data
-    x.domain([2013, 2017]);
-    y.domain([0, 700000]); // FIXME
-
     // Nest the entries by symbol
     var dataNest = d3.nest()
         .key(function(d) {
@@ -721,7 +672,9 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
         .entries(data)
         .slice(0,count);
 
-        console.log(dataNest);
+        // Scale the range of the data
+    x.domain([2013, 2017]);
+    y.domain([0, 700000]); 
 
     var color = d3.scale.category10();   // set the colour scale
 
@@ -737,7 +690,7 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
             .attr("id", d.key.replace(/\s+/g, '')) // assign ID
             .attr("d", priceline(d.values))
             .attr("fill", "none");
-
+            
         // Add the Legend
         svg.append("text")
             .attr("x", legendSpace/2+i*legendSpace)  // space legend
@@ -745,18 +698,19 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
             .attr("class", "legend")    // style the legend
             .style("fill", function() { // Add the colours dynamically
                 return d.color = color(d.key); })
-            .on("click", function(){
+            /*.on("click", function(){
                 // Determine if current line is visible 
                 var active   = d.active ? false : true,
                 newOpacity = active ? 0 : 1; 
                 // Hide or show the elements based on the ID
-                d3.select("#"+d.key.replace(/\s+/g, ''))
+                console.log(d.key);
+                d3.select("#"+d.key.replace(/\s+/g, '')+"2013")
                     .transition().duration(100) 
                     .style("opacity", newOpacity); 
                 // Update whether or not the elements are active
                 d.active = active;
-                })  
-            .text(d.key); 
+                })  */
+            .text(d.key);
 
     });
 
