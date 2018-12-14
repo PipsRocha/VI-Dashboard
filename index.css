@@ -10,12 +10,45 @@ svg {
 }
 
 
-#slider {
+#date_range p {
+  margin-top: 20px;
+  padding-left:16px; 
+  font-style: bold;
+   color:black; 
+   font-size:14px; 
+}
+
+#slider{
+  margin-top: 25px;
+  margin-left:25px; 
+  height: 10px;
+  width: 350px;
+}
+
+#slider .ui-slider-range { 
+  background: #393939;
+  width: 30px;
+}
+
+#slider .ui-slider-handle {
+      cursor: pointer;
+      border-width: 1px;
+      border-color: #808080;
+      width: 15px;
+      height: 15px;
+}
+
+ 
+
+#slider-container {
  margin-top: -15px; 
  margin-left: 680px;
  border: 1px;
  background-color: #f1f1f1;
  border-color: #f1f1f1;
+}
+#date_range{
+   margin-top: -12px; 
 }
 
 .states {
@@ -200,8 +233,8 @@ text {
     background-color: #f9f9f9;
     min-width: 160px;
     z-index: 1;
-      line-height: 25px;
-      border-radius: 4px;
+    line-height: 25px;
+    border-radius: 4px;
 
 }
 
@@ -228,8 +261,8 @@ text {
 }
 #Holiday{
 
-  top: 500;
-  left: 500;
+  top: 18%;
+  left: 47%;
   position: absolute;
   height: 30px;
   width: 200px;

@@ -11,7 +11,7 @@ function change_range(str) {
   gen_vis();
 }
 
-gen_slider();
+//gen_slider();
 gen_vis();
 gen_map();
 gen_chord();
@@ -23,13 +23,17 @@ function gen_slider() {
 var formatDateIntoYear = d3v4.timeFormat("%Y");
 var formatDate = d3v4.timeFormat("%b %Y");
 
+
 var startDate = new Date("2013-01-01"),
     endDate = new Date("2018-01-01");
 
 var margin = {top:30, right:50, bottom:0, left:50},
     width = 400 -margin.left,
     height = 60;
-var svg = d3v4.select("#slider")
+
+
+
+var svg = d3v4.select("#slider-container")
     .append("svg")
       .attr("width", width + margin.left + margin.right)
       .attr("height", height);
@@ -51,7 +55,7 @@ slider.append("line")
     .attr("class", "track-overlay")
   .call(d3v4.drag()
         .on("start.interrupt", function() { slider.interrupt(); })
-        .on("start drag", function() { hue(x.invert(d3v4.event.x)); change_range((x.invert(d3v4.event.x)).getFullYear())}));
+        .on("start drag", function() { console.log(d3.select(this));hue(x.invert(d3v4.event.x)); change_range((x.invert(d3v4.event.x)).getFullYear())}));
 
   slider.insert("g", ".track-overlay")
     .attr("class", "ticks")
@@ -81,45 +85,35 @@ var handle1 = slider.insert("circle", ".track-overlay")
     .attr("id", "handle1")
     .attr("r", 7);
 
+
 var handle2 = slider.insert("circle", ".track-overlay")
     .attr("class", "handle")
     .attr("id", "handle2")
     .attr("cx", width)
     .attr("r", 7);
-
+   
 
   function hue(h) {
-d3.selectAll("circle")
   if(d3.select("#handle1")){
     handle1.attr("cx", x(h));
+    d3.select("line")
     label
       .attr("x", x(h))
       .text(formatDate(h));
     svg.style("background-color", d3v4.color("#f1f1f1"));}
-  else if (d3.select("#handle2")){
-    handle1.attr("cx", x(h));
+  else {
+    handle2.attr("cx", x(h));
+    d3.select("line")
     label
       .attr("x", x(h))
       .text(formatDate(h));
-    svg.style("background-color", d3v4.color("#f1f1f1"));}
+    //svg.style("background-color", d3v4.color("#f1f1f1"));}
 
   }
-
-  /*if(d3.select("#handle2")){
-    console.log("entreiiii");
-    handle2.attr("cx", x(h));
-    label
-      .attr("x", x(h))
-      .text(formatDate(h));
-    svg.style("background-color", d3v4.color("#f1f1f1"));}
-  else{
-    handle1.attr("cx", x(h));
-    label
-      .attr("x", x(h))
-      .text(formatDate(h));
-    svg.style("background-color", d3v4.color("#f1f1f1"));}*/
-  
 }
+
+  
+} 
 
 
 
