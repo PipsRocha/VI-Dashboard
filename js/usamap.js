@@ -214,7 +214,7 @@ function gen_vis() {
                 return getColor(d);
             })
             .on('click', function(d,i) {
-              if (count == 3) {
+              if (count == 4) {
                 cheio=true;
                 ;
               } 
@@ -241,13 +241,13 @@ function gen_vis() {
               }
 
               statesGlobal[selectedStates]=d.properties.name.replace(/\s+/g, '');
-              d3.select(this).style("stroke","red").style("stroke-width","3px");
+              d3.select(this).style("stroke","yellow").style("stroke-width","3px");
 
-              d3.select('#' + d.properties.name.replace(/\s+/g, '') + '2013').style("stroke","red").style("stroke-width","1px");
-              d3.select('#' + d.properties.name.replace(/\s+/g, '') + '2014').style("stroke","red").style("stroke-width","1px");
-              d3.select('#' + d.properties.name.replace(/\s+/g, '') + '2015').style("stroke","red").style("stroke-width","1px");
-              d3.select('#' + d.properties.name.replace(/\s+/g, '') + '2016').style("stroke","red").style("stroke-width","1px");
-              d3.select('#' + d.properties.name.replace(/\s+/g, '') + '2017').style("stroke","red").style("stroke-width","1px");
+              d3.select('#' + d.properties.name.replace(/\s+/g, '') + '2013').style("stroke","yellow").style("stroke-width","1px");
+              d3.select('#' + d.properties.name.replace(/\s+/g, '') + '2014').style("stroke","yellow").style("stroke-width","1px");
+              d3.select('#' + d.properties.name.replace(/\s+/g, '') + '2015').style("stroke","yellow").style("stroke-width","1px");
+              d3.select('#' + d.properties.name.replace(/\s+/g, '') + '2016').style("stroke","yellow").style("stroke-width","1px");
+              d3.select('#' + d.properties.name.replace(/\s+/g, '') + '2017').style("stroke","yellow").style("stroke-width","1px");
 
               count++;
               gen_summ();              
@@ -387,7 +387,7 @@ function gen_map() {
             function clickHM(d) {
             var auxiliar, auxiliar2;
 
-             if(count == 3) {
+             if(count == 4) {
                 cheio=true;
                 ;
               }
@@ -419,12 +419,12 @@ function gen_map() {
               auxiliar = d3.select(this)[0][0].id;
               auxiliar2 = auxiliar.substring(0, auxiliar.length-4);
 
-              d3.select('#' + auxiliar2 + '2013').style("stroke","red").style("stroke-width","1px");
-              d3.select('#' + auxiliar2 + '2014').style("stroke","red").style("stroke-width","1px");
-              d3.select('#' + auxiliar2 + '2015').style("stroke","red").style("stroke-width","1px");
-              d3.select('#' + auxiliar2 + '2016').style("stroke","red").style("stroke-width","1px");
-              d3.select('#' + auxiliar2 + '2017').style("stroke","red").style("stroke-width","1px");
-              d3.select('#' + auxiliar2).style("stroke","red").style("stroke-width","1px");
+              d3.select('#' + auxiliar2 + '2013').style("stroke","yellow").style("stroke-width","1px");
+              d3.select('#' + auxiliar2 + '2014').style("stroke","yellow").style("stroke-width","1px");
+              d3.select('#' + auxiliar2 + '2015').style("stroke","yellow").style("stroke-width","1px");
+              d3.select('#' + auxiliar2 + '2016').style("stroke","yellow").style("stroke-width","1px");
+              d3.select('#' + auxiliar2 + '2017').style("stroke","yellow").style("stroke-width","1px");
+              d3.select('#' + auxiliar2).style("stroke","yellow").style("stroke-width","3px");
               selectedStates++;
               count++;
               console.log(statesGlobal);
@@ -474,7 +474,7 @@ function gen_map() {
             .attr("dx", ".8em")
             .attr("dy", ".5em")
             .attr("transform", function (d) {
-                return "rotate(-65)";
+                return "rotate(-50)";
             });
 
         var legends=svg.append("g").attr("class","legends")
