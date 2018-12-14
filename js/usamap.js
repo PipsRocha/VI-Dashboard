@@ -5,12 +5,30 @@ var count=0;
 var cheio=false;
 var indice=0;
 
+
 var time_range = "2013";
 function change_range(str) {
   time_range = "" + str + "";
   gen_vis();
 }
 
+///////////////////// UPDATE FUNCTIONS /////////////////////////////
+var updateChord = function(date1,date2) {
+
+var months = {"Jan":1, "Feb":2, "Mar":3, "Apr":4, "May":5, "Jun":6, "Jul":7, "Aug":8, "Sep":9, "Oct":10, "Nov":11, "Dec":12};
+
+
+var year_from =  date1.substring(3).trim();
+var year_to = date2.substring(3).trim();
+
+var month_from = months[date1.substring(0,3)];
+var month_to = months[date2.substring(0,3)];
+
+gen_chord(year_from,year_to,month_from,month_to);
+
+
+}
+////////////////////
 //gen_slider();
 gen_vis();
 gen_map();
@@ -489,17 +507,25 @@ function gen_map() {
       });
 }
 
-function gen_chord() {
+function gen_chord(year_from=2013, year_to=2017, month_from=1, month_to=12) {
 //***************************************
 //  CREATE CHORD
 //****************************************
 
         d3.csv('data/chord_diagram_data2013.csv', function (error, data) {
 
+        var data = data.map(
+          function(element){
+            element['ORIGIN_STATE_NM'] = element['ORIGIN_STATE_NM'].replace(" ", "");
+            element['DEST_STATE_NM'] = element['DEST_STATE_NM'].replace(" ", "");
+            return element
+          })
+        var data1 =  data.filter(element => (element['YEAR'] >=year_from && element['YEAR'] <= year_to) && (element['MONTH'] >=month_from && element['MONTH'] <= month_to) );
+
       //var data1 = alasql('SELECT ORIGIN_STATE_NM, DEST_STATE_NM, SUM(TOTAL_FLIGHTS) AS TOTAL_FLIGHTS FROM ? GROUP BY ORIGIN_STATE_NM,DEST_STATE_NM',[data]);
       
 
-      var mpr = chordMpr(data);
+      var mpr = chordMpr(data1);
         mpr
           .addValuesToMap('ORIGIN_STATE_NM')
           .setFilter(function (row, a, b) {
@@ -511,6 +537,7 @@ function gen_chord() {
           });
         drawChords(mpr.getMatrix(), mpr.getMap());
       });
+
       //*******************************************************************
       //  DRAW THE CHORD DIAGRAM
       //*******************************************************************
@@ -726,5 +753,7 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
         .call(yAxis);
 
 });
+
+
 
 }

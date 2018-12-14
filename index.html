@@ -28,9 +28,13 @@
         var mes2 = aux2.substring(4, 7);
         var year2 = aux2.substring(11,15);
         var date2 = mes2+ " "+year2;
+        updateChord(date1,date2);
         $( "#amount" ).val( date1  + " - " + date2);
+
       }
     });
+
+    $( "#amount" ).val("Jan 2013" + " - " +  "Dec 2017");
   })
     </script>
 
