@@ -24,7 +24,7 @@ var year_to = date2.substring(3).trim();
 var month_from = months[date1.substring(0,3)];
 var month_to = months[date2.substring(0,3)];
 
-gen_chord(year_from,year_to,month_from,month_to);
+//gen_chord(year_from,year_to,month_from,month_to);
 
 
 }
@@ -507,7 +507,8 @@ function gen_map() {
       });
 }
 
-function gen_chord(year_from=2013, year_to=2017, month_from=1, month_to=12) {
+//function gen_chord(year_from=2013, year_to=2017, month_from=1, month_to=12) {
+function gen_chord() {
 //***************************************
 //  CREATE CHORD
 //****************************************
@@ -520,12 +521,12 @@ function gen_chord(year_from=2013, year_to=2017, month_from=1, month_to=12) {
             element['DEST_STATE_NM'] = element['DEST_STATE_NM'].replace(" ", "");
             return element
           })
-        var data1 =  data.filter(element => (element['YEAR'] >=year_from && element['YEAR'] <= year_to) && (element['MONTH'] >=month_from && element['MONTH'] <= month_to) );
+        //var data1 =  data.filter(element => (element['YEAR'] >=year_from && element['YEAR'] <= year_to) && (element['MONTH'] >=month_from && element['MONTH'] <= month_to) );
 
       //var data1 = alasql('SELECT ORIGIN_STATE_NM, DEST_STATE_NM, SUM(TOTAL_FLIGHTS) AS TOTAL_FLIGHTS FROM ? GROUP BY ORIGIN_STATE_NM,DEST_STATE_NM',[data]);
       
 
-      var mpr = chordMpr(data1);
+      var mpr = chordMpr(data);
         mpr
           .addValuesToMap('ORIGIN_STATE_NM')
           .setFilter(function (row, a, b) {
