@@ -680,6 +680,11 @@ var svg = d3.select("#summ")
         .attr("transform", 
               "translate(" + margin.left + "," + margin.top + ")");
 
+// create tooltip
+const tooltip = d3.select('#tooltip_line');
+const tooltipLine = svg.append('line');
+let tipBox;
+
 // Get the data
 d3.csv("data/process_count_usa.csv", function(error, data) {
     data.forEach(function(d) {
@@ -711,6 +716,7 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
     // Loop through each symbol / key
     dataNest.forEach(function(d,i) { 
 
+      // add line
         svg.append("path")
             .attr("class", "line")
             .style("stroke", function() { // Add the colours dynamically
@@ -739,6 +745,34 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
                 d.active = active;
                 })  */
             .text(d.key);
+
+        tipBox = svg.append('rect')
+            .attr('width', width)
+            .attr('height', height)
+            .attr('opacity', 0)
+            .on('mousemove', function(){
+
+              tooltipLine.attr('stroke', 'black')
+                .attr('x1', 2013)
+                .attr('x2', 2013)
+                .attr('y1', 0)
+                .attr('y2', height);
+      
+              tooltip.html(d.year)
+                .style('display', 'block')
+                .style('left', d3.event.pageX + 20)
+                .style('top', d3.event.pageY - 20)
+                .selectAll()
+                .data(d.key).enter()
+                .append('div')
+                .style('color', d => d.color)
+                .html(d.value);
+
+            })
+            .on('mouseout', function() {
+              if (tooltip) tooltip.style('display', 'none');
+              if (tooltipLine) tooltipLine.attr('stroke', 'none');
+            });
 
     });
 
