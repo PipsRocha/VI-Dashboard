@@ -6,6 +6,9 @@ var cheio=false;
 var indice=0;
 
 
+var chordData= new Array();
+
+
 var time_range = "2013";
 function change_range(str) {
   time_range = "" + str + "";
@@ -15,16 +18,12 @@ function change_range(str) {
 ///////////////////// UPDATE FUNCTIONS /////////////////////////////
 var updateChord = function(date1,date2) {
 
-var months = {"Jan":1, "Feb":2, "Mar":3, "Apr":4, "May":5, "Jun":6, "Jul":7, "Aug":8, "Sep":9, "Oct":10, "Nov":11, "Dec":12};
-
 
 var year_from =  date1.substring(3).trim();
 var year_to = date2.substring(3).trim();
 
-var month_from = months[date1.substring(0,3)];
-var month_to = months[date2.substring(0,3)];
 
-//gen_chord(year_from,year_to,month_from,month_to);
+gen_chord(year_from,year_to);
 
 
 }
@@ -185,17 +184,17 @@ function gen_vis() {
     var dataset = d3.map();
 
     function joinStates(d) {
-    	if (d.year == time_range)
-    	{
-    		dataset.set(d.state, d.value);
-    	}
-    	
-    	return d;
+      if (d.year == time_range)
+      {
+        dataset.set(d.state, d.value);
+      }
+      
+      return d;
     }
 
       function getColor(d) {
 
-      	var dataRow = dataset.get(d.properties.name);          
+        var dataRow = dataset.get(d.properties.name);          
           if (dataRow) {
               return colorScale(dataRow);
           } else {
@@ -332,7 +331,7 @@ function gen_map() {
       var width_1 = 600 - margin.right - margin.left,
           height_1 = 200 - margin.top - margin.bottom;
 
-      d3.csv('data/process_count.csv', function ( response ) {
+      d3.csv('data/process_count1.csv', function ( response ) {
 
         var data = response.map(function( item ) {
             var newItem = {};
@@ -507,26 +506,32 @@ function gen_map() {
       });
 }
 
-//function gen_chord(year_from=2013, year_to=2017, month_from=1, month_to=12) {
-function gen_chord() {
+function gen_chord(year_from=2013, year_to=2017) {
+
+   while (document.getElementById("chord_d").firstChild) {
+    document.getElementById("chord_d").removeChild(document.getElementById("chord_d").firstChild);
+}
+
 //***************************************
 //  CREATE CHORD
 //****************************************
+    
 
-        d3.csv('data/chord_diagram_data2013.csv', function (error, data) {
+        d3.csv('data/chord_diagram_data.csv', function (error, data) {
 
-        var data = data.map(
-          function(element){
-            element['ORIGIN_STATE_NM'] = element['ORIGIN_STATE_NM'].replace(" ", "");
-            element['DEST_STATE_NM'] = element['DEST_STATE_NM'].replace(" ", "");
-            return element
-          })
-        //var data1 =  data.filter(element => (element['YEAR'] >=year_from && element['YEAR'] <= year_to) && (element['MONTH'] >=month_from && element['MONTH'] <= month_to) );
-
-      //var data1 = alasql('SELECT ORIGIN_STATE_NM, DEST_STATE_NM, SUM(TOTAL_FLIGHTS) AS TOTAL_FLIGHTS FROM ? GROUP BY ORIGIN_STATE_NM,DEST_STATE_NM',[data]);
+        chordData = data;
+        for(var i in chordData){
+            if(chordData[i].TOTAL_FLIGHTS != ""){
+                chordData[i].TOTAL_FLIGHTS = parseInt(chordData[i].TOTAL_FLIGHTS);
+        }
+      }
       
+               
+      var data1 =  chordData.filter(element => (element['YEAR'] >=year_from && element['YEAR'] <= year_to));
 
-      var mpr = chordMpr(data);
+      data1 = alasql('SELECT ORIGIN_STATE_NM, DEST_STATE_NM, SUM(TOTAL_FLIGHTS) as TOTAL_FLIGHTS FROM ? GROUP BY ORIGIN_STATE_NM,DEST_STATE_NM',[data1]);
+
+      var mpr = chordMpr(data1);
         mpr
           .addValuesToMap('ORIGIN_STATE_NM')
           .setFilter(function (row, a, b) {
@@ -537,7 +542,9 @@ function gen_chord() {
             return +recs[0].TOTAL_FLIGHTS;
           });
         drawChords(mpr.getMatrix(), mpr.getMap());
-      });
+      
+      })
+   
 
       //*******************************************************************
       //  DRAW THE CHORD DIAGRAM
@@ -546,7 +553,7 @@ function gen_chord() {
         var w = 500, h = 500, r1 = h / 2, r0 = r1 - 100;
         var fill = d3.scale.ordinal()
             .domain(d3.range(4))
-            .range(["#DCDCDC", "#4775d1", "#4169E1", "#2e5cb8"]);
+           .range(["#DCDCDC", "#4775d1", "#4169E1", "#2e5cb8"]);
         var chord = d3.layout.chord()
             .padding(.02)
             .sortSubgroups(d3.descending)
@@ -567,7 +574,7 @@ function gen_chord() {
         var rdr = chordRdr(matrix, mmap);
         chord.matrix(matrix);
         var g = svg.selectAll("g.group")
-            .data(chord.groups())
+          .data(chord.groups())
           .enter().append("svg:g")
             .attr("class", "group")
             .on("mouseover", mouseover)
@@ -614,7 +621,7 @@ function gen_chord() {
               + d.tname + " flies to " + d.sname))
           }
           function groupTip (d) {
-            var p = d3.format(".1%"), q = d3.format(",.3r")
+            var p = d3.format(".1%"), q = d3.format(".s")
             return "State Info:<br/>"
                 + d.gname + " : " + q(d.gvalue) + "<br/>"
                 + p(d.gvalue/d.mtotal) + " of Matrix Total (" + q(d.mtotal) + ")"
@@ -631,7 +638,9 @@ function gen_chord() {
             });
 
           }
+
       }
+
 
 }
 
@@ -752,6 +761,7 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
     svg.append("g")
         .attr("class", "y axis")
         .call(yAxis);
+
 
 });
 

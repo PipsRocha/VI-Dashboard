@@ -1,0 +1,4579 @@
+YEAR,ORIGIN_STATE_NM,DEST_STATE_NM,TOTAL_FLIGHTS
+2013,Alabama,Colorado,1162
+2013,Alabama,Florida,2979
+2013,Alabama,Georgia,16646
+2013,Alabama,Illinois,3817
+2013,Alabama,Louisiana,543
+2013,Alabama,Maryland,1934
+2013,Alabama,Michigan,3110
+2013,Alabama,Minnesota,3
+2013,Alabama,Missouri,716
+2013,Alabama,Nevada,728
+2013,Alabama,New York,298
+2013,Alabama,North Carolina,2836
+2013,Alabama,Texas,8691
+2013,Alaska,Alaska,7364
+2013,Alaska,Arizona,784
+2013,Alaska,California,1155
+2013,Alaska,Colorado,1352
+2013,Alaska,Georgia,134
+2013,Alaska,Hawaii,759
+2013,Alaska,Illinois,1296
+2013,Alaska,Minnesota,1779
+2013,Alaska,Nevada,12
+2013,Alaska,New Jersey,16
+2013,Alaska,Oregon,1978
+2013,Alaska,Texas,410
+2013,Alaska,Utah,663
+2013,Alaska,Washington,15519
+2013,Arizona,Alaska,784
+2013,Arizona,Arizona,7343
+2013,Arizona,Arkansas,728
+2013,Arizona,California,68089
+2013,Arizona,Colorado,20181
+2013,Arizona,Florida,4875
+2013,Arizona,Georgia,8632
+2013,Arizona,Hawaii,3519
+2013,Arizona,Idaho,2453
+2013,Arizona,Illinois,12012
+2013,Arizona,Indiana,2885
+2013,Arizona,Iowa,1474
+2013,Arizona,Kentucky,491
+2013,Arizona,Louisiana,732
+2013,Arizona,Maryland,3433
+2013,Arizona,Massachusetts,2883
+2013,Arizona,Michigan,5992
+2013,Arizona,Minnesota,8560
+2013,Arizona,Missouri,6585
+2013,Arizona,Nebraska,2980
+2013,Arizona,Nevada,17265
+2013,Arizona,New Jersey,5443
+2013,Arizona,New Mexico,4492
+2013,Arizona,New York,4598
+2013,Arizona,North Carolina,6391
+2013,Arizona,Ohio,1755
+2013,Arizona,Oklahoma,2077
+2013,Arizona,Oregon,7134
+2013,Arizona,Pennsylvania,6540
+2013,Arizona,Tennessee,1816
+2013,Arizona,Texas,26529
+2013,Arizona,Utah,13121
+2013,Arizona,Virginia,2501
+2013,Arizona,Washington,11565
+2013,Arizona,Wisconsin,3106
+2013,Arkansas,Arizona,728
+2013,Arkansas,Arkansas,1
+2013,Arkansas,Colorado,2423
+2013,Arkansas,Florida,116
+2013,Arkansas,Georgia,8072
+2013,Arkansas,Illinois,9364
+2013,Arkansas,Maryland,730
+2013,Arkansas,Michigan,927
+2013,Arkansas,Missouri,310
+2013,Arkansas,Nevada,730
+2013,Arkansas,North Carolina,985
+2013,Arkansas,Texas,14601
+2013,California,Alaska,1155
+2013,California,Arizona,68089
+2013,California,California,64258
+2013,California,Colorado,45898
+2013,California,Connecticut,254
+2013,California,Florida,10777
+2013,California,Georgia,17240
+2013,California,Hawaii,20841
+2013,California,Idaho,3698
+2013,California,Illinois,32530
+2013,California,Indiana,704
+2013,California,Kansas,486
+2013,California,Kentucky,1760
+2013,California,Louisiana,3170
+2013,California,Maryland,2952
+2013,California,Massachusetts,12746
+2013,California,Michigan,6069
+2013,California,Minnesota,9949
+2013,California,Missouri,4832
+2013,California,Montana,361
+2013,California,Nebraska,3
+2013,California,Nevada,59031
+2013,California,New Jersey,16899
+2013,California,New Mexico,3287
+2013,California,New York,34315
+2013,California,North Carolina,6939
+2013,California,Ohio,2859
+2013,California,Oklahoma,2916
+2013,California,Oregon,24303
+2013,California,Pennsylvania,9893
+2013,California,Tennessee,4358
+2013,California,Texas,48100
+2013,California,Utah,28674
+2013,California,Virginia,6836
+2013,California,Washington,41406
+2013,California,Wisconsin,1285
+2013,California,Wyoming,396
+2013,Colorado,Alabama,1162
+2013,Colorado,Alaska,1352
+2013,Colorado,Arizona,20181
+2013,Colorado,Arkansas,2423
+2013,Colorado,California,45898
+2013,Colorado,Colorado,8408
+2013,Colorado,Connecticut,730
+2013,Colorado,Delaware,208
+2013,Colorado,Florida,9911
+2013,Colorado,Georgia,10361
+2013,Colorado,Hawaii,1036
+2013,Colorado,Idaho,5752
+2013,Colorado,Illinois,17134
+2013,Colorado,Indiana,4366
+2013,Colorado,Iowa,4551
+2013,Colorado,Kansas,1790
+2013,Colorado,Kentucky,2204
+2013,Colorado,Louisiana,3853
+2013,Colorado,Maryland,3995
+2013,Colorado,Massachusetts,4947
+2013,Colorado,Michigan,5556
+2013,Colorado,Minnesota,11335
+2013,Colorado,Missouri,9295
+2013,Colorado,Montana,7169
+2013,Colorado,Nebraska,6648
+2013,Colorado,Nevada,14616
+2013,Colorado,New Hampshire,612
+2013,Colorado,New Jersey,5837
+2013,Colorado,New Mexico,2961
+2013,Colorado,New York,5225
+2013,Colorado,North Carolina,4387
+2013,Colorado,North Dakota,8372
+2013,Colorado,Ohio,3993
+2013,Colorado,Oklahoma,7497
+2013,Colorado,Oregon,10078
+2013,Colorado,Pennsylvania,5922
+2013,Colorado,Rhode Island,609
+2013,Colorado,South Dakota,4292
+2013,Colorado,Tennessee,6053
+2013,Colorado,Texas,30940
+2013,Colorado,Utah,17239
+2013,Colorado,Virginia,6631
+2013,Colorado,Washington,14818
+2013,Colorado,Wisconsin,6219
+2013,Colorado,Wyoming,6409
+2013,Connecticut,California,254
+2013,Connecticut,Colorado,730
+2013,Connecticut,Florida,6347
+2013,Connecticut,Georgia,4557
+2013,Connecticut,Illinois,6294
+2013,Connecticut,Kentucky,1491
+2013,Connecticut,Maryland,5200
+2013,Connecticut,Michigan,3043
+2013,Connecticut,Minnesota,1962
+2013,Connecticut,Nevada,524
+2013,Connecticut,New Jersey,880
+2013,Connecticut,North Carolina,3940
+2013,Connecticut,Ohio,123
+2013,Connecticut,Pennsylvania,714
+2013,Connecticut,Texas,2125
+2013,Connecticut,Virginia,1031
+2013,Delaware,Colorado,208
+2013,Delaware,Florida,187
+2013,Florida,Alabama,2979
+2013,Florida,Arizona,4875
+2013,Florida,Arkansas,116
+2013,Florida,California,10777
+2013,Florida,Colorado,9911
+2013,Florida,Connecticut,6347
+2013,Florida,Delaware,187
+2013,Florida,Florida,3606
+2013,Florida,Georgia,74004
+2013,Florida,Illinois,21664
+2013,Florida,Indiana,6016
+2013,Florida,Kentucky,4859
+2013,Florida,Louisiana,6856
+2013,Florida,Maryland,19013
+2013,Florida,Massachusetts,16929
+2013,Florida,Michigan,13005
+2013,Florida,Minnesota,6743
+2013,Florida,Mississippi,729
+2013,Florida,Missouri,6854
+2013,Florida,Nebraska,140
+2013,Florida,Nevada,4149
+2013,Florida,New Hampshire,2322
+2013,Florida,New Jersey,23863
+2013,Florida,New Mexico,178
+2013,Florida,New York,40043
+2013,Florida,North Carolina,26436
+2013,Florida,Ohio,6831
+2013,Florida,Oklahoma,116
+2013,Florida,Pennsylvania,21915
+2013,Florida,Rhode Island,6105
+2013,Florida,South Carolina,855
+2013,Florida,Tennessee,9187
+2013,Florida,Texas,29118
+2013,Florida,Utah,1386
+2013,Florida,Virginia,17999
+2013,Florida,Washington,1667
+2013,Florida,Wisconsin,4510
+2013,Georgia,Alabama,16646
+2013,Georgia,Alaska,134
+2013,Georgia,Arizona,8632
+2013,Georgia,Arkansas,8072
+2013,Georgia,California,17240
+2013,Georgia,Colorado,10361
+2013,Georgia,Connecticut,4557
+2013,Georgia,Florida,74004
+2013,Georgia,Georgia,10840
+2013,Georgia,Hawaii,730
+2013,Georgia,Illinois,24684
+2013,Georgia,Indiana,11630
+2013,Georgia,Iowa,3103
+2013,Georgia,Kansas,4127
+2013,Georgia,Kentucky,11149
+2013,Georgia,Louisiana,20768
+2013,Georgia,Maine,1464
+2013,Georgia,Maryland,13884
+2013,Georgia,Massachusetts,10925
+2013,Georgia,Michigan,12495
+2013,Georgia,Minnesota,11104
+2013,Georgia,Mississippi,8482
+2013,Georgia,Missouri,13793
+2013,Georgia,Montana,177
+2013,Georgia,Nebraska,3279
+2013,Georgia,Nevada,8470
+2013,Georgia,New Hampshire,1014
+2013,Georgia,New Jersey,11066
+2013,Georgia,New Mexico,921
+2013,Georgia,New York,25058
+2013,Georgia,North Carolina,34229
+2013,Georgia,North Dakota,4
+2013,Georgia,Ohio,14744
+2013,Georgia,Oklahoma,5443
+2013,Georgia,Oregon,2490
+2013,Georgia,Pennsylvania,20438
+2013,Georgia,Rhode Island,2082
+2013,Georgia,South Carolina,15293
+2013,Georgia,South Dakota,149
+2013,Georgia,Tennessee,20396
+2013,Georgia,Texas,36161
+2013,Georgia,Utah,5308
+2013,Georgia,Vermont,415
+2013,Georgia,Virginia,30768
+2013,Georgia,Washington,5547
+2013,Georgia,West Virginia,3016
+2013,Georgia,Wisconsin,9812
+2013,Georgia,Wyoming,108
+2013,Hawaii,Alaska,759
+2013,Hawaii,Arizona,3519
+2013,Hawaii,California,20841
+2013,Hawaii,Colorado,1036
+2013,Hawaii,Georgia,730
+2013,Hawaii,Hawaii,34013
+2013,Hawaii,Illinois,937
+2013,Hawaii,Nevada,1712
+2013,Hawaii,New Jersey,730
+2013,Hawaii,New York,684
+2013,Hawaii,Oregon,2248
+2013,Hawaii,Texas,2178
+2013,Hawaii,Utah,716
+2013,Hawaii,Washington,5595
+2013,Idaho,Arizona,2453
+2013,Idaho,California,3698
+2013,Idaho,Colorado,5752
+2013,Idaho,Idaho,1
+2013,Idaho,Illinois,366
+2013,Idaho,Minnesota,1304
+2013,Idaho,Nevada,1432
+2013,Idaho,Oregon,425
+2013,Idaho,Utah,9973
+2013,Illinois,Alabama,3817
+2013,Illinois,Alaska,1296
+2013,Illinois,Arizona,12012
+2013,Illinois,Arkansas,9364
+2013,Illinois,California,32530
+2013,Illinois,Colorado,17134
+2013,Illinois,Connecticut,6294
+2013,Illinois,Florida,21664
+2013,Illinois,Georgia,24684
+2013,Illinois,Hawaii,937
+2013,Illinois,Idaho,366
+2013,Illinois,Illinois,6693
+2013,Illinois,Indiana,8602
+2013,Illinois,Iowa,12597
+2013,Illinois,Kansas,6754
+2013,Illinois,Kentucky,13266
+2013,Illinois,Louisiana,3401
+2013,Illinois,Maine,1246
+2013,Illinois,Maryland,8143
+2013,Illinois,Massachusetts,15335
+2013,Illinois,Michigan,28202
+2013,Illinois,Minnesota,19449
+2013,Illinois,Mississippi,1056
+2013,Illinois,Missouri,15766
+2013,Illinois,Montana,283
+2013,Illinois,Nebraska,9676
+2013,Illinois,Nevada,9903
+2013,Illinois,New Hampshire,2371
+2013,Illinois,New Jersey,14348
+2013,Illinois,New Mexico,748
+2013,Illinois,New York,29559
+2013,Illinois,North Carolina,18230
+2013,Illinois,North Dakota,4642
+2013,Illinois,Ohio,21210
+2013,Illinois,Oklahoma,8120
+2013,Illinois,Oregon,5283
+2013,Illinois,Pennsylvania,21310
+2013,Illinois,Rhode Island,2292
+2013,Illinois,South Carolina,4392
+2013,Illinois,South Dakota,5643
+2013,Illinois,Tennessee,17916
+2013,Illinois,Texas,29743
+2013,Illinois,Utah,6643
+2013,Illinois,Vermont,934
+2013,Illinois,Virginia,20397
+2013,Illinois,Washington,10084
+2013,Illinois,West Virginia,1336
+2013,Illinois,Wisconsin,17303
+2013,Illinois,Wyoming,526
+2013,Indiana,Arizona,2885
+2013,Indiana,California,704
+2013,Indiana,Colorado,4366
+2013,Indiana,Florida,6016
+2013,Indiana,Georgia,11630
+2013,Indiana,Illinois,8602
+2013,Indiana,Maryland,2383
+2013,Indiana,Massachusetts,22
+2013,Indiana,Michigan,8956
+2013,Indiana,Minnesota,4993
+2013,Indiana,Nevada,1937
+2013,Indiana,New Jersey,2655
+2013,Indiana,New York,1499
+2013,Indiana,North Carolina,2289
+2013,Indiana,Ohio,930
+2013,Indiana,Pennsylvania,323
+2013,Indiana,Texas,7016
+2013,Indiana,Utah,730
+2013,Iowa,Arizona,1474
+2013,Iowa,Colorado,4551
+2013,Iowa,Georgia,3103
+2013,Iowa,Illinois,12597
+2013,Iowa,Michigan,4118
+2013,Iowa,Minnesota,5208
+2013,Iowa,Missouri,7
+2013,Iowa,Nevada,188
+2013,Iowa,New Jersey,819
+2013,Iowa,North Carolina,977
+2013,Iowa,Texas,6061
+2013,Kansas,California,486
+2013,Kansas,Colorado,1790
+2013,Kansas,Georgia,4127
+2013,Kansas,Illinois,6754
+2013,Kansas,Minnesota,2246
+2013,Kansas,Nevada,426
+2013,Kansas,Texas,6864
+2013,Kentucky,Arizona,491
+2013,Kentucky,California,1760
+2013,Kentucky,Colorado,2204
+2013,Kentucky,Connecticut,1491
+2013,Kentucky,Florida,4859
+2013,Kentucky,Georgia,11149
+2013,Kentucky,Illinois,13266
+2013,Kentucky,Louisiana,587
+2013,Kentucky,Maryland,2773
+2013,Kentucky,Massachusetts,2420
+2013,Kentucky,Michigan,6279
+2013,Kentucky,Minnesota,5683
+2013,Kentucky,Missouri,2888
+2013,Kentucky,Nebraska,2
+2013,Kentucky,Nevada,965
+2013,Kentucky,New Jersey,6256
+2013,Kentucky,New York,2013
+2013,Kentucky,North Carolina,4967
+2013,Kentucky,Ohio,667
+2013,Kentucky,Pennsylvania,3107
+2013,Kentucky,Tennessee,2252
+2013,Kentucky,Texas,10104
+2013,Kentucky,Utah,1381
+2013,Kentucky,Virginia,3411
+2013,Kentucky,Washington,431
+2013,Kentucky,Wisconsin,1930
+2013,Louisiana,Alabama,543
+2013,Louisiana,Arizona,732
+2013,Louisiana,California,3170
+2013,Louisiana,Colorado,3853
+2013,Louisiana,Florida,6856
+2013,Louisiana,Georgia,20768
+2013,Louisiana,Illinois,3401
+2013,Louisiana,Kentucky,587
+2013,Louisiana,Louisiana,1
+2013,Louisiana,Maryland,1963
+2013,Louisiana,Massachusetts,721
+2013,Louisiana,Michigan,1247
+2013,Louisiana,Minnesota,833
+2013,Louisiana,Missouri,1637
+2013,Louisiana,Nevada,1355
+2013,Louisiana,New Jersey,2373
+2013,Louisiana,New York,4278
+2013,Louisiana,North Carolina,3813
+2013,Louisiana,Ohio,142
+2013,Louisiana,Pennsylvania,1451
+2013,Louisiana,Tennessee,3228
+2013,Louisiana,Texas,25134
+2013,Louisiana,Utah,730
+2013,Louisiana,Virginia,753
+2013,Louisiana,Wisconsin,720
+2013,Maine,Georgia,1464
+2013,Maine,Illinois,1246
+2013,Maine,Maryland,1997
+2013,Maine,Michigan,2883
+2013,Maine,New Jersey,1540
+2013,Maine,New York,2884
+2013,Maine,North Carolina,730
+2013,Maine,Ohio,382
+2013,Maryland,Alabama,1934
+2013,Maryland,Arizona,3433
+2013,Maryland,Arkansas,730
+2013,Maryland,California,2952
+2013,Maryland,Colorado,3995
+2013,Maryland,Connecticut,5200
+2013,Maryland,Florida,19013
+2013,Maryland,Georgia,13884
+2013,Maryland,Illinois,8143
+2013,Maryland,Indiana,2383
+2013,Maryland,Kentucky,2773
+2013,Maryland,Louisiana,1963
+2013,Maryland,Maine,1997
+2013,Maryland,Massachusetts,11383
+2013,Maryland,Michigan,7784
+2013,Maryland,Minnesota,2556
+2013,Maryland,Mississippi,439
+2013,Maryland,Missouri,4232
+2013,Maryland,Nevada,2769
+2013,Maryland,New Hampshire,5450
+2013,Maryland,New Jersey,1303
+2013,Maryland,New Mexico,576
+2013,Maryland,New York,11226
+2013,Maryland,North Carolina,10516
+2013,Maryland,Ohio,6103
+2013,Maryland,Oklahoma,730
+2013,Maryland,Pennsylvania,2777
+2013,Maryland,Rhode Island,5974
+2013,Maryland,South Carolina,2727
+2013,Maryland,Tennessee,4290
+2013,Maryland,Texas,7785
+2013,Maryland,Utah,2044
+2013,Maryland,Washington,354
+2013,Maryland,Wisconsin,2056
+2013,Massachusetts,Arizona,2883
+2013,Massachusetts,California,12746
+2013,Massachusetts,Colorado,4947
+2013,Massachusetts,Florida,16929
+2013,Massachusetts,Georgia,10925
+2013,Massachusetts,Illinois,15335
+2013,Massachusetts,Indiana,22
+2013,Massachusetts,Kentucky,2420
+2013,Massachusetts,Louisiana,721
+2013,Massachusetts,Maryland,11383
+2013,Massachusetts,Massachusetts,113
+2013,Massachusetts,Michigan,4560
+2013,Massachusetts,Minnesota,3441
+2013,Massachusetts,Missouri,2045
+2013,Massachusetts,Nevada,1626
+2013,Massachusetts,New Jersey,10681
+2013,Massachusetts,New York,19413
+2013,Massachusetts,North Carolina,11035
+2013,Massachusetts,Ohio,1755
+2013,Massachusetts,Oregon,1172
+2013,Massachusetts,Pennsylvania,13337
+2013,Massachusetts,South Carolina,709
+2013,Massachusetts,Tennessee,1511
+2013,Massachusetts,Texas,10802
+2013,Massachusetts,Utah,1175
+2013,Massachusetts,Virginia,20452
+2013,Massachusetts,Washington,2726
+2013,Massachusetts,Wisconsin,1728
+2013,Michigan,Alabama,3110
+2013,Michigan,Arizona,5992
+2013,Michigan,Arkansas,927
+2013,Michigan,California,6069
+2013,Michigan,Colorado,5556
+2013,Michigan,Connecticut,3043
+2013,Michigan,Florida,13005
+2013,Michigan,Georgia,12495
+2013,Michigan,Illinois,28202
+2013,Michigan,Indiana,8956
+2013,Michigan,Iowa,4118
+2013,Michigan,Kentucky,6279
+2013,Michigan,Louisiana,1247
+2013,Michigan,Maine,2883
+2013,Michigan,Maryland,7784
+2013,Michigan,Massachusetts,4560
+2013,Michigan,Michigan,12423
+2013,Michigan,Minnesota,11645
+2013,Michigan,Missouri,5156
+2013,Michigan,Nebraska,2345
+2013,Michigan,Nevada,4620
+2013,Michigan,New Hampshire,2235
+2013,Michigan,New Jersey,7014
+2013,Michigan,New York,19608
+2013,Michigan,North Carolina,10036
+2013,Michigan,Ohio,4619
+2013,Michigan,Oklahoma,1880
+2013,Michigan,Oregon,596
+2013,Michigan,Pennsylvania,12309
+2013,Michigan,Rhode Island,3839
+2013,Michigan,South Carolina,2032
+2013,Michigan,South Dakota,209
+2013,Michigan,Tennessee,7805
+2013,Michigan,Texas,12777
+2013,Michigan,Utah,3083
+2013,Michigan,Vermont,2405
+2013,Michigan,Virginia,9470
+2013,Michigan,Washington,2601
+2013,Michigan,West Virginia,1018
+2013,Michigan,Wisconsin,10277
+2013,Minnesota,Alabama,3
+2013,Minnesota,Alaska,1779
+2013,Minnesota,Arizona,8560
+2013,Minnesota,California,9949
+2013,Minnesota,Colorado,11335
+2013,Minnesota,Connecticut,1962
+2013,Minnesota,Florida,6743
+2013,Minnesota,Georgia,11104
+2013,Minnesota,Idaho,1304
+2013,Minnesota,Illinois,19449
+2013,Minnesota,Indiana,4993
+2013,Minnesota,Iowa,5208
+2013,Minnesota,Kansas,2246
+2013,Minnesota,Kentucky,5683
+2013,Minnesota,Louisiana,833
+2013,Minnesota,Maryland,2556
+2013,Minnesota,Massachusetts,3441
+2013,Minnesota,Michigan,11645
+2013,Minnesota,Minnesota,5970
+2013,Minnesota,Missouri,6690
+2013,Minnesota,Montana,2707
+2013,Minnesota,Nebraska,4758
+2013,Minnesota,Nevada,4290
+2013,Minnesota,New Jersey,4571
+2013,Minnesota,New Mexico,428
+2013,Minnesota,New York,6647
+2013,Minnesota,North Carolina,4903
+2013,Minnesota,North Dakota,11392
+2013,Minnesota,Ohio,6732
+2013,Minnesota,Oklahoma,2620
+2013,Minnesota,Oregon,2783
+2013,Minnesota,Pennsylvania,6323
+2013,Minnesota,Rhode Island,216
+2013,Minnesota,South Dakota,6447
+2013,Minnesota,Tennessee,4900
+2013,Minnesota,Texas,9707
+2013,Minnesota,Utah,3804
+2013,Minnesota,Virginia,4555
+2013,Minnesota,Washington,6687
+2013,Minnesota,Wisconsin,13137
+2013,Minnesota,Wyoming,136
+2013,Mississippi,Florida,729
+2013,Mississippi,Georgia,8482
+2013,Mississippi,Illinois,1056
+2013,Mississippi,Maryland,439
+2013,Mississippi,North Carolina,24
+2013,Mississippi,Texas,9239
+2013,Missouri,Alabama,716
+2013,Missouri,Arizona,6585
+2013,Missouri,Arkansas,310
+2013,Missouri,California,4832
+2013,Missouri,Colorado,9295
+2013,Missouri,Florida,6854
+2013,Missouri,Georgia,13793
+2013,Missouri,Illinois,15766
+2013,Missouri,Iowa,7
+2013,Missouri,Kentucky,2888
+2013,Missouri,Louisiana,1637
+2013,Missouri,Maryland,4232
+2013,Missouri,Massachusetts,2045
+2013,Missouri,Michigan,5156
+2013,Missouri,Minnesota,6690
+2013,Missouri,Missouri,1557
+2013,Missouri,Nebraska,1999
+2013,Missouri,Nevada,3985
+2013,Missouri,New Jersey,6411
+2013,Missouri,New Mexico,5
+2013,Missouri,New York,2375
+2013,Missouri,North Carolina,5335
+2013,Missouri,Ohio,1782
+2013,Missouri,Oklahoma,2268
+2013,Missouri,Pennsylvania,1386
+2013,Missouri,Tennessee,2999
+2013,Missouri,Texas,17809
+2013,Missouri,Utah,2569
+2013,Missouri,Virginia,3563
+2013,Missouri,Washington,1850
+2013,Missouri,Wisconsin,1957
+2013,Montana,California,361
+2013,Montana,Colorado,7169
+2013,Montana,Georgia,177
+2013,Montana,Illinois,283
+2013,Montana,Minnesota,2707
+2013,Montana,New Jersey,72
+2013,Montana,Utah,10113
+2013,Nebraska,Arizona,2980
+2013,Nebraska,California,3
+2013,Nebraska,Colorado,6648
+2013,Nebraska,Florida,140
+2013,Nebraska,Georgia,3279
+2013,Nebraska,Illinois,9676
+2013,Nebraska,Kentucky,2
+2013,Nebraska,Michigan,2345
+2013,Nebraska,Minnesota,4758
+2013,Nebraska,Missouri,1999
+2013,Nebraska,Nevada,1859
+2013,Nebraska,New Jersey,1562
+2013,Nebraska,North Carolina,1447
+2013,Nebraska,Texas,6040
+2013,Nebraska,Utah,1359
+2013,Nebraska,Washington,110
+2013,Nevada,Alabama,728
+2013,Nevada,Alaska,12
+2013,Nevada,Arizona,17265
+2013,Nevada,Arkansas,730
+2013,Nevada,California,59031
+2013,Nevada,Colorado,14616
+2013,Nevada,Connecticut,524
+2013,Nevada,Florida,4149
+2013,Nevada,Georgia,8470
+2013,Nevada,Hawaii,1712
+2013,Nevada,Idaho,1432
+2013,Nevada,Illinois,9903
+2013,Nevada,Indiana,1937
+2013,Nevada,Iowa,188
+2013,Nevada,Kansas,426
+2013,Nevada,Kentucky,965
+2013,Nevada,Louisiana,1355
+2013,Nevada,Maryland,2769
+2013,Nevada,Massachusetts,1626
+2013,Nevada,Michigan,4620
+2013,Nevada,Minnesota,4290
+2013,Nevada,Missouri,3985
+2013,Nevada,Nebraska,1859
+2013,Nevada,Nevada,3540
+2013,Nevada,New Hampshire,140
+2013,Nevada,New Jersey,4038
+2013,Nevada,New Mexico,1837
+2013,Nevada,New York,9564
+2013,Nevada,North Carolina,3771
+2013,Nevada,Ohio,2678
+2013,Nevada,Oklahoma,1818
+2013,Nevada,Oregon,5936
+2013,Nevada,Pennsylvania,4768
+2013,Nevada,Rhode Island,10
+2013,Nevada,Tennessee,2405
+2013,Nevada,Texas,18386
+2013,Nevada,Utah,10642
+2013,Nevada,Virginia,1466
+2013,Nevada,Washington,10798
+2013,Nevada,Wisconsin,2237
+2013,New Hampshire,Colorado,612
+2013,New Hampshire,Florida,2322
+2013,New Hampshire,Georgia,1014
+2013,New Hampshire,Illinois,2371
+2013,New Hampshire,Maryland,5450
+2013,New Hampshire,Michigan,2235
+2013,New Hampshire,Nevada,140
+2013,New Hampshire,New Jersey,1735
+2013,New Hampshire,North Carolina,690
+2013,New Hampshire,Ohio,597
+2013,New Hampshire,Pennsylvania,670
+2013,New Jersey,Alaska,16
+2013,New Jersey,Arizona,5443
+2013,New Jersey,California,16899
+2013,New Jersey,Colorado,5837
+2013,New Jersey,Connecticut,880
+2013,New Jersey,Florida,23863
+2013,New Jersey,Georgia,11066
+2013,New Jersey,Hawaii,730
+2013,New Jersey,Illinois,14348
+2013,New Jersey,Indiana,2655
+2013,New Jersey,Iowa,819
+2013,New Jersey,Kentucky,6256
+2013,New Jersey,Louisiana,2373
+2013,New Jersey,Maine,1540
+2013,New Jersey,Maryland,1303
+2013,New Jersey,Massachusetts,10681
+2013,New Jersey,Michigan,7014
+2013,New Jersey,Minnesota,4571
+2013,New Jersey,Missouri,6411
+2013,New Jersey,Montana,72
+2013,New Jersey,Nebraska,1562
+2013,New Jersey,Nevada,4038
+2013,New Jersey,New Hampshire,1735
+2013,New Jersey,New York,3031
+2013,New Jersey,North Carolina,12912
+2013,New Jersey,Ohio,5327
+2013,New Jersey,Oklahoma,1006
+2013,New Jersey,Oregon,1141
+2013,New Jersey,Pennsylvania,658
+2013,New Jersey,Rhode Island,742
+2013,New Jersey,South Carolina,3748
+2013,New Jersey,Tennessee,5967
+2013,New Jersey,Texas,12489
+2013,New Jersey,Utah,709
+2013,New Jersey,Vermont,1856
+2013,New Jersey,Virginia,6924
+2013,New Jersey,Washington,3687
+2013,New Jersey,Wisconsin,2553
+2013,New Jersey,Wyoming,46
+2013,New York,Alabama,298
+2013,New York,Arizona,4598
+2013,New York,California,34315
+2013,New York,Colorado,5225
+2013,New York,Florida,40043
+2013,New York,Georgia,25058
+2013,New York,Hawaii,684
+2013,New York,Illinois,29559
+2013,New York,Indiana,1499
+2013,New York,Kentucky,2013
+2013,New York,Louisiana,4278
+2013,New York,Maine,2884
+2013,New York,Maryland,11226
+2013,New York,Massachusetts,19413
+2013,New York,Michigan,19608
+2013,New York,Minnesota,6647
+2013,New York,Missouri,2375
+2013,New York,Nevada,9564
+2013,New York,New Jersey,3031
+2013,New York,New Mexico,254
+2013,New York,New York,10270
+2013,New York,North Carolina,20051
+2013,New York,Ohio,5584
+2013,New York,Oregon,1566
+2013,New York,Pennsylvania,3804
+2013,New York,South Carolina,2272
+2013,New York,Tennessee,4725
+2013,New York,Texas,9134
+2013,New York,Utah,4223
+2013,New York,Vermont,3026
+2013,New York,Virginia,15691
+2013,New York,Washington,4184
+2013,New York,Wisconsin,1888
+2013,New York,Wyoming,4
+2013,North Carolina,Alabama,2836
+2013,North Carolina,Arizona,6391
+2013,North Carolina,Arkansas,985
+2013,North Carolina,California,6939
+2013,North Carolina,Colorado,4387
+2013,North Carolina,Connecticut,3940
+2013,North Carolina,Florida,26436
+2013,North Carolina,Georgia,34229
+2013,North Carolina,Illinois,18230
+2013,North Carolina,Indiana,2289
+2013,North Carolina,Iowa,977
+2013,North Carolina,Kentucky,4967
+2013,North Carolina,Louisiana,3813
+2013,North Carolina,Maine,730
+2013,North Carolina,Maryland,10516
+2013,North Carolina,Massachusetts,11035
+2013,North Carolina,Michigan,10036
+2013,North Carolina,Minnesota,4903
+2013,North Carolina,Mississippi,24
+2013,North Carolina,Missouri,5335
+2013,North Carolina,Nebraska,1447
+2013,North Carolina,Nevada,3771
+2013,North Carolina,New Hampshire,690
+2013,North Carolina,New Jersey,12912
+2013,North Carolina,New York,20051
+2013,North Carolina,North Carolina,7061
+2013,North Carolina,Ohio,5760
+2013,North Carolina,Oregon,459
+2013,North Carolina,Pennsylvania,13681
+2013,North Carolina,Rhode Island,3428
+2013,North Carolina,South Carolina,6629
+2013,North Carolina,Tennessee,7990
+2013,North Carolina,Texas,19540
+2013,North Carolina,Utah,1382
+2013,North Carolina,Virginia,15091
+2013,North Carolina,Washington,1835
+2013,North Carolina,Wisconsin,170
+2013,North Dakota,Colorado,8372
+2013,North Dakota,Georgia,4
+2013,North Dakota,Illinois,4642
+2013,North Dakota,Minnesota,11392
+2013,North Dakota,Texas,642
+2013,North Dakota,Utah,828
+2013,Ohio,Arizona,1755
+2013,Ohio,California,2859
+2013,Ohio,Colorado,3993
+2013,Ohio,Connecticut,123
+2013,Ohio,Florida,6831
+2013,Ohio,Georgia,14744
+2013,Ohio,Illinois,21210
+2013,Ohio,Indiana,930
+2013,Ohio,Kentucky,667
+2013,Ohio,Louisiana,142
+2013,Ohio,Maine,382
+2013,Ohio,Maryland,6103
+2013,Ohio,Massachusetts,1755
+2013,Ohio,Michigan,4619
+2013,Ohio,Minnesota,6732
+2013,Ohio,Missouri,1782
+2013,Ohio,Nevada,2678
+2013,Ohio,New Hampshire,597
+2013,Ohio,New Jersey,5327
+2013,Ohio,New York,5584
+2013,Ohio,North Carolina,5760
+2013,Ohio,Ohio,396
+2013,Ohio,Oklahoma,519
+2013,Ohio,Oregon,165
+2013,Ohio,Pennsylvania,534
+2013,Ohio,Rhode Island,132
+2013,Ohio,South Carolina,287
+2013,Ohio,Tennessee,3679
+2013,Ohio,Texas,8447
+2013,Ohio,Vermont,767
+2013,Ohio,Virginia,1959
+2013,Ohio,Washington,193
+2013,Ohio,Wisconsin,2849
+2013,Oklahoma,Arizona,2077
+2013,Oklahoma,California,2916
+2013,Oklahoma,Colorado,7497
+2013,Oklahoma,Florida,116
+2013,Oklahoma,Georgia,5443
+2013,Oklahoma,Illinois,8120
+2013,Oklahoma,Maryland,730
+2013,Oklahoma,Michigan,1880
+2013,Oklahoma,Minnesota,2620
+2013,Oklahoma,Missouri,2268
+2013,Oklahoma,Nevada,1818
+2013,Oklahoma,New Jersey,1006
+2013,Oklahoma,Ohio,519
+2013,Oklahoma,Tennessee,279
+2013,Oklahoma,Texas,15278
+2013,Oklahoma,Utah,2046
+2013,Oregon,Alaska,1978
+2013,Oregon,Arizona,7134
+2013,Oregon,California,24303
+2013,Oregon,Colorado,10078
+2013,Oregon,Georgia,2490
+2013,Oregon,Hawaii,2248
+2013,Oregon,Idaho,425
+2013,Oregon,Illinois,5283
+2013,Oregon,Massachusetts,1172
+2013,Oregon,Michigan,596
+2013,Oregon,Minnesota,2783
+2013,Oregon,Nevada,5936
+2013,Oregon,New Jersey,1141
+2013,Oregon,New Mexico,303
+2013,Oregon,New York,1566
+2013,Oregon,North Carolina,459
+2013,Oregon,Ohio,165
+2013,Oregon,Oregon,2500
+2013,Oregon,Pennsylvania,302
+2013,Oregon,Texas,4332
+2013,Oregon,Utah,6875
+2013,Oregon,Virginia,1095
+2013,Oregon,Washington,4899
+2013,Pennsylvania,Arizona,6540
+2013,Pennsylvania,California,9893
+2013,Pennsylvania,Colorado,5922
+2013,Pennsylvania,Connecticut,714
+2013,Pennsylvania,Florida,21915
+2013,Pennsylvania,Georgia,20438
+2013,Pennsylvania,Illinois,21310
+2013,Pennsylvania,Indiana,323
+2013,Pennsylvania,Kentucky,3107
+2013,Pennsylvania,Louisiana,1451
+2013,Pennsylvania,Maryland,2777
+2013,Pennsylvania,Massachusetts,13337
+2013,Pennsylvania,Michigan,12309
+2013,Pennsylvania,Minnesota,6323
+2013,Pennsylvania,Missouri,1386
+2013,Pennsylvania,Nevada,4768
+2013,Pennsylvania,New Hampshire,670
+2013,Pennsylvania,New Jersey,658
+2013,Pennsylvania,New York,3804
+2013,Pennsylvania,North Carolina,13681
+2013,Pennsylvania,Ohio,534
+2013,Pennsylvania,Oregon,302
+2013,Pennsylvania,Pennsylvania,1201
+2013,Pennsylvania,Rhode Island,653
+2013,Pennsylvania,Tennessee,2025
+2013,Pennsylvania,Texas,12950
+2013,Pennsylvania,Utah,1142
+2013,Pennsylvania,Vermont,47
+2013,Pennsylvania,Virginia,803
+2013,Pennsylvania,Washington,2418
+2013,Rhode Island,Colorado,609
+2013,Rhode Island,Florida,6105
+2013,Rhode Island,Georgia,2082
+2013,Rhode Island,Illinois,2292
+2013,Rhode Island,Maryland,5974
+2013,Rhode Island,Michigan,3839
+2013,Rhode Island,Minnesota,216
+2013,Rhode Island,Nevada,10
+2013,Rhode Island,New Jersey,742
+2013,Rhode Island,North Carolina,3428
+2013,Rhode Island,Ohio,132
+2013,Rhode Island,Pennsylvania,653
+2013,Rhode Island,Virginia,1089
+2013,South Carolina,Florida,855
+2013,South Carolina,Georgia,15293
+2013,South Carolina,Illinois,4392
+2013,South Carolina,Maryland,2727
+2013,South Carolina,Massachusetts,709
+2013,South Carolina,Michigan,2032
+2013,South Carolina,New Jersey,3748
+2013,South Carolina,New York,2272
+2013,South Carolina,North Carolina,6629
+2013,South Carolina,Ohio,287
+2013,South Carolina,Tennessee,1092
+2013,South Carolina,Texas,5186
+2013,South Dakota,Colorado,4292
+2013,South Dakota,Georgia,149
+2013,South Dakota,Illinois,5643
+2013,South Dakota,Michigan,209
+2013,South Dakota,Minnesota,6447
+2013,South Dakota,Texas,2233
+2013,Tennessee,Arizona,1816
+2013,Tennessee,California,4358
+2013,Tennessee,Colorado,6053
+2013,Tennessee,Florida,9187
+2013,Tennessee,Georgia,20396
+2013,Tennessee,Illinois,17916
+2013,Tennessee,Kentucky,2252
+2013,Tennessee,Louisiana,3228
+2013,Tennessee,Maryland,4290
+2013,Tennessee,Massachusetts,1511
+2013,Tennessee,Michigan,7805
+2013,Tennessee,Minnesota,4900
+2013,Tennessee,Missouri,2999
+2013,Tennessee,Nevada,2405
+2013,Tennessee,New Jersey,5967
+2013,Tennessee,New York,4725
+2013,Tennessee,North Carolina,7990
+2013,Tennessee,Ohio,3679
+2013,Tennessee,Oklahoma,279
+2013,Tennessee,Pennsylvania,2025
+2013,Tennessee,South Carolina,1092
+2013,Tennessee,Tennessee,475
+2013,Tennessee,Texas,14714
+2013,Tennessee,Utah,1685
+2013,Tennessee,Virginia,5307
+2013,Tennessee,Washington,294
+2013,Texas,Alabama,8691
+2013,Texas,Alaska,410
+2013,Texas,Arizona,26529
+2013,Texas,Arkansas,14601
+2013,Texas,California,48100
+2013,Texas,Colorado,30940
+2013,Texas,Connecticut,2125
+2013,Texas,Florida,29118
+2013,Texas,Georgia,36161
+2013,Texas,Hawaii,2178
+2013,Texas,Illinois,29743
+2013,Texas,Indiana,7016
+2013,Texas,Iowa,6061
+2013,Texas,Kansas,6864
+2013,Texas,Kentucky,10104
+2013,Texas,Louisiana,25134
+2013,Texas,Maryland,7785
+2013,Texas,Massachusetts,10802
+2013,Texas,Michigan,12777
+2013,Texas,Minnesota,9707
+2013,Texas,Mississippi,9239
+2013,Texas,Missouri,17809
+2013,Texas,Nebraska,6040
+2013,Texas,Nevada,18386
+2013,Texas,New Jersey,12489
+2013,Texas,New Mexico,4820
+2013,Texas,New York,9134
+2013,Texas,North Carolina,19540
+2013,Texas,North Dakota,642
+2013,Texas,Ohio,8447
+2013,Texas,Oklahoma,15278
+2013,Texas,Oregon,4332
+2013,Texas,Pennsylvania,12950
+2013,Texas,South Carolina,5186
+2013,Texas,South Dakota,2233
+2013,Texas,Tennessee,14714
+2013,Texas,Texas,52305
+2013,Texas,Utah,10329
+2013,Texas,Virginia,14826
+2013,Texas,Washington,10536
+2013,Texas,West Virginia,721
+2013,Texas,Wisconsin,5707
+2013,Texas,Wyoming,445
+2013,Utah,Alaska,663
+2013,Utah,Arizona,13121
+2013,Utah,California,28674
+2013,Utah,Colorado,17239
+2013,Utah,Florida,1386
+2013,Utah,Georgia,5308
+2013,Utah,Hawaii,716
+2013,Utah,Idaho,9973
+2013,Utah,Illinois,6643
+2013,Utah,Indiana,730
+2013,Utah,Kentucky,1381
+2013,Utah,Louisiana,730
+2013,Utah,Maryland,2044
+2013,Utah,Massachusetts,1175
+2013,Utah,Michigan,3083
+2013,Utah,Minnesota,3804
+2013,Utah,Missouri,2569
+2013,Utah,Montana,10113
+2013,Utah,Nebraska,1359
+2013,Utah,Nevada,10642
+2013,Utah,New Jersey,709
+2013,Utah,New Mexico,1045
+2013,Utah,New York,4223
+2013,Utah,North Carolina,1382
+2013,Utah,North Dakota,828
+2013,Utah,Oklahoma,2046
+2013,Utah,Oregon,6875
+2013,Utah,Pennsylvania,1142
+2013,Utah,Tennessee,1685
+2013,Utah,Texas,10329
+2013,Utah,Utah,2120
+2013,Utah,Virginia,1620
+2013,Utah,Washington,9922
+2013,Utah,Wisconsin,197
+2013,Utah,Wyoming,4546
+2013,Vermont,Georgia,415
+2013,Vermont,Illinois,934
+2013,Vermont,Michigan,2405
+2013,Vermont,New Jersey,1856
+2013,Vermont,New York,3026
+2013,Vermont,Ohio,767
+2013,Vermont,Pennsylvania,47
+2013,Virginia,Arizona,2501
+2013,Virginia,California,6836
+2013,Virginia,Colorado,6631
+2013,Virginia,Connecticut,1031
+2013,Virginia,Florida,17999
+2013,Virginia,Georgia,30768
+2013,Virginia,Illinois,20397
+2013,Virginia,Kentucky,3411
+2013,Virginia,Louisiana,753
+2013,Virginia,Massachusetts,20452
+2013,Virginia,Michigan,9470
+2013,Virginia,Minnesota,4555
+2013,Virginia,Missouri,3563
+2013,Virginia,Nevada,1466
+2013,Virginia,New Jersey,6924
+2013,Virginia,New York,15691
+2013,Virginia,North Carolina,15091
+2013,Virginia,Ohio,1959
+2013,Virginia,Oregon,1095
+2013,Virginia,Pennsylvania,803
+2013,Virginia,Rhode Island,1089
+2013,Virginia,Tennessee,5307
+2013,Virginia,Texas,14826
+2013,Virginia,Utah,1620
+2013,Virginia,Washington,2487
+2013,Virginia,Wisconsin,2834
+2013,Washington,Alaska,15519
+2013,Washington,Arizona,11565
+2013,Washington,California,41406
+2013,Washington,Colorado,14818
+2013,Washington,Florida,1667
+2013,Washington,Georgia,5547
+2013,Washington,Hawaii,5595
+2013,Washington,Illinois,10084
+2013,Washington,Kentucky,431
+2013,Washington,Maryland,354
+2013,Washington,Massachusetts,2726
+2013,Washington,Michigan,2601
+2013,Washington,Minnesota,6687
+2013,Washington,Missouri,1850
+2013,Washington,Nebraska,110
+2013,Washington,Nevada,10798
+2013,Washington,New Jersey,3687
+2013,Washington,New Mexico,546
+2013,Washington,New York,4184
+2013,Washington,North Carolina,1835
+2013,Washington,Ohio,193
+2013,Washington,Oregon,4899
+2013,Washington,Pennsylvania,2418
+2013,Washington,Tennessee,294
+2013,Washington,Texas,10536
+2013,Washington,Utah,9922
+2013,Washington,Virginia,2487
+2013,Washington,Washington,1094
+2013,Washington,Wisconsin,722
+2013,Washington,Wyoming,4
+2013,West Virginia,Georgia,3016
+2013,West Virginia,Illinois,1336
+2013,West Virginia,Michigan,1018
+2013,West Virginia,Texas,721
+2013,Wisconsin,Arizona,3106
+2013,Wisconsin,California,1285
+2013,Wisconsin,Colorado,6219
+2013,Wisconsin,Florida,4510
+2013,Wisconsin,Georgia,9812
+2013,Wisconsin,Illinois,17303
+2013,Wisconsin,Kentucky,1930
+2013,Wisconsin,Louisiana,720
+2013,Wisconsin,Maryland,2056
+2013,Wisconsin,Massachusetts,1728
+2013,Wisconsin,Michigan,10277
+2013,Wisconsin,Minnesota,13137
+2013,Wisconsin,Missouri,1957
+2013,Wisconsin,Nevada,2237
+2013,Wisconsin,New Jersey,2553
+2013,Wisconsin,New York,1888
+2013,Wisconsin,North Carolina,170
+2013,Wisconsin,Ohio,2849
+2013,Wisconsin,Texas,5707
+2013,Wisconsin,Utah,197
+2013,Wisconsin,Virginia,2834
+2013,Wisconsin,Washington,722
+2013,Wisconsin,Wisconsin,1
+2013,Wyoming,California,396
+2013,Wyoming,Colorado,6409
+2013,Wyoming,Georgia,108
+2013,Wyoming,Illinois,526
+2013,Wyoming,Minnesota,136
+2013,Wyoming,New Jersey,46
+2013,Wyoming,New York,4
+2013,Wyoming,Texas,445
+2013,Wyoming,Utah,4546
+2013,Wyoming,Washington,4
+2014,Alabama,California,3
+2014,Alabama,Colorado,1074
+2014,Alabama,Florida,2855
+2014,Alabama,Georgia,14708
+2014,Alabama,Illinois,4107
+2014,Alabama,Maryland,1657
+2014,Alabama,Michigan,1814
+2014,Alabama,Minnesota,361
+2014,Alabama,Missouri,12
+2014,Alabama,Nevada,730
+2014,Alabama,North Carolina,2
+2014,Alabama,Texas,8566
+2014,Alaska,Alaska,5667
+2014,Alaska,Arizona,866
+2014,Alaska,California,989
+2014,Alaska,Colorado,1054
+2014,Alaska,Georgia,138
+2014,Alaska,Hawaii,660
+2014,Alaska,Illinois,1431
+2014,Alaska,Minnesota,1598
+2014,Alaska,Nevada,312
+2014,Alaska,New Jersey,26
+2014,Alaska,Oregon,2092
+2014,Alaska,Texas,335
+2014,Alaska,Utah,359
+2014,Alaska,Washington,16140
+2014,Arizona,Alaska,866
+2014,Arizona,Arizona,4561
+2014,Arizona,Arkansas,730
+2014,Arizona,California,58885
+2014,Arizona,Colorado,19742
+2014,Arizona,Florida,5169
+2014,Arizona,Georgia,8642
+2014,Arizona,Hawaii,3637
+2014,Arizona,Idaho,2342
+2014,Arizona,Illinois,12444
+2014,Arizona,Indiana,2810
+2014,Arizona,Iowa,894
+2014,Arizona,Kentucky,540
+2014,Arizona,Louisiana,791
+2014,Arizona,Maryland,3412
+2014,Arizona,Massachusetts,3124
+2014,Arizona,Michigan,5917
+2014,Arizona,Minnesota,8663
+2014,Arizona,Missouri,6568
+2014,Arizona,Nebraska,2644
+2014,Arizona,Nevada,15537
+2014,Arizona,New Jersey,4953
+2014,Arizona,New Mexico,3532
+2014,Arizona,New York,5189
+2014,Arizona,North Carolina,6446
+2014,Arizona,Ohio,1891
+2014,Arizona,Oklahoma,2060
+2014,Arizona,Oregon,7514
+2014,Arizona,Pennsylvania,6471
+2014,Arizona,Tennessee,1562
+2014,Arizona,Texas,23077
+2014,Arizona,Utah,13097
+2014,Arizona,Virginia,2515
+2014,Arizona,Washington,11499
+2014,Arizona,Wisconsin,3006
+2014,Arkansas,Arizona,730
+2014,Arkansas,Arkansas,1
+2014,Arkansas,Colorado,2088
+2014,Arkansas,Florida,10
+2014,Arkansas,Georgia,7004
+2014,Arkansas,Illinois,8889
+2014,Arkansas,Maryland,720
+2014,Arkansas,Michigan,768
+2014,Arkansas,Nevada,748
+2014,Arkansas,Texas,13805
+2014,California,Alabama,3
+2014,California,Alaska,989
+2014,California,Arizona,58885
+2014,California,California,59344
+2014,California,Colorado,44690
+2014,California,Connecticut,459
+2014,California,Florida,11101
+2014,California,Georgia,18184
+2014,California,Hawaii,21781
+2014,California,Idaho,4653
+2014,California,Illinois,32654
+2014,California,Indiana,1720
+2014,California,Kansas,714
+2014,California,Kentucky,1636
+2014,California,Louisiana,4478
+2014,California,Maryland,3074
+2014,California,Massachusetts,14033
+2014,California,Michigan,5686
+2014,California,Minnesota,11235
+2014,California,Missouri,5169
+2014,California,Montana,504
+2014,California,Nebraska,179
+2014,California,Nevada,57493
+2014,California,New Jersey,17565
+2014,California,New Mexico,2768
+2014,California,New York,37718
+2014,California,North Carolina,7870
+2014,California,Ohio,2892
+2014,California,Oklahoma,1893
+2014,California,Oregon,24565
+2014,California,Pennsylvania,9182
+2014,California,Tennessee,4249
+2014,California,Texas,47289
+2014,California,Utah,29526
+2014,California,Virginia,6715
+2014,California,Washington,44726
+2014,California,Wisconsin,1241
+2014,California,Wyoming,585
+2014,Colorado,Alabama,1074
+2014,Colorado,Alaska,1054
+2014,Colorado,Arizona,19742
+2014,Colorado,Arkansas,2088
+2014,Colorado,California,44690
+2014,Colorado,Colorado,7748
+2014,Colorado,Connecticut,750
+2014,Colorado,Delaware,283
+2014,Colorado,Florida,10060
+2014,Colorado,Georgia,10581
+2014,Colorado,Hawaii,1079
+2014,Colorado,Idaho,5868
+2014,Colorado,Illinois,15490
+2014,Colorado,Indiana,4327
+2014,Colorado,Iowa,4306
+2014,Colorado,Kansas,2267
+2014,Colorado,Kentucky,2564
+2014,Colorado,Louisiana,3772
+2014,Colorado,Maryland,3771
+2014,Colorado,Massachusetts,5002
+2014,Colorado,Michigan,5279
+2014,Colorado,Minnesota,10638
+2014,Colorado,Missouri,8684
+2014,Colorado,Montana,7603
+2014,Colorado,Nebraska,6812
+2014,Colorado,Nevada,14162
+2014,Colorado,New Jersey,5690
+2014,Colorado,New Mexico,2234
+2014,Colorado,New York,5074
+2014,Colorado,North Carolina,4503
+2014,Colorado,North Dakota,8341
+2014,Colorado,Ohio,4827
+2014,Colorado,Oklahoma,6993
+2014,Colorado,Oregon,9685
+2014,Colorado,Pennsylvania,5936
+2014,Colorado,Rhode Island,18
+2014,Colorado,South Dakota,4720
+2014,Colorado,Tennessee,6502
+2014,Colorado,Texas,32620
+2014,Colorado,Utah,17177
+2014,Colorado,Virginia,6261
+2014,Colorado,Washington,14540
+2014,Colorado,Wisconsin,6328
+2014,Colorado,Wyoming,6757
+2014,Connecticut,California,459
+2014,Connecticut,Colorado,750
+2014,Connecticut,Florida,6817
+2014,Connecticut,Georgia,6905
+2014,Connecticut,Illinois,4274
+2014,Connecticut,Kentucky,33
+2014,Connecticut,Maryland,4906
+2014,Connecticut,Michigan,2693
+2014,Connecticut,Minnesota,1323
+2014,Connecticut,Nevada,478
+2014,Connecticut,New Jersey,647
+2014,Connecticut,North Carolina,3509
+2014,Connecticut,Ohio,286
+2014,Connecticut,Pennsylvania,531
+2014,Connecticut,Texas,2040
+2014,Connecticut,Utah,2
+2014,Connecticut,Virginia,1829
+2014,Delaware,Colorado,283
+2014,Delaware,Florida,506
+2014,Delaware,Georgia,154
+2014,Delaware,Michigan,126
+2014,Florida,Alabama,2855
+2014,Florida,Arizona,5169
+2014,Florida,Arkansas,10
+2014,Florida,California,11101
+2014,Florida,Colorado,10060
+2014,Florida,Connecticut,6817
+2014,Florida,Delaware,506
+2014,Florida,Florida,3401
+2014,Florida,Georgia,69062
+2014,Florida,Illinois,21164
+2014,Florida,Indiana,5482
+2014,Florida,Kentucky,3973
+2014,Florida,Louisiana,6166
+2014,Florida,Maine,10
+2014,Florida,Maryland,17554
+2014,Florida,Massachusetts,15947
+2014,Florida,Michigan,11854
+2014,Florida,Minnesota,6491
+2014,Florida,Mississippi,316
+2014,Florida,Missouri,6477
+2014,Florida,Nebraska,88
+2014,Florida,Nevada,4101
+2014,Florida,New Hampshire,2055
+2014,Florida,New Jersey,24566
+2014,Florida,New Mexico,63
+2014,Florida,New York,38513
+2014,Florida,North Carolina,23696
+2014,Florida,Ohio,6798
+2014,Florida,Pennsylvania,20831
+2014,Florida,Rhode Island,6073
+2014,Florida,Tennessee,9239
+2014,Florida,Texas,29779
+2014,Florida,Utah,1554
+2014,Florida,Virginia,17693
+2014,Florida,Washington,1858
+2014,Florida,Wisconsin,4028
+2014,Georgia,Alabama,14708
+2014,Georgia,Alaska,138
+2014,Georgia,Arizona,8642
+2014,Georgia,Arkansas,7004
+2014,Georgia,California,18184
+2014,Georgia,Colorado,10581
+2014,Georgia,Connecticut,6905
+2014,Georgia,Delaware,154
+2014,Georgia,Florida,69062
+2014,Georgia,Georgia,10218
+2014,Georgia,Hawaii,730
+2014,Georgia,Illinois,18843
+2014,Georgia,Indiana,10207
+2014,Georgia,Iowa,2865
+2014,Georgia,Kansas,2716
+2014,Georgia,Kentucky,9869
+2014,Georgia,Louisiana,19600
+2014,Georgia,Maine,1391
+2014,Georgia,Maryland,12746
+2014,Georgia,Massachusetts,11167
+2014,Georgia,Michigan,12438
+2014,Georgia,Minnesota,10817
+2014,Georgia,Mississippi,7466
+2014,Georgia,Missouri,13536
+2014,Georgia,Montana,337
+2014,Georgia,Nebraska,3528
+2014,Georgia,Nevada,8411
+2014,Georgia,New Hampshire,1015
+2014,Georgia,New Jersey,11667
+2014,Georgia,New Mexico,894
+2014,Georgia,New York,22033
+2014,Georgia,North Carolina,29352
+2014,Georgia,North Dakota,66
+2014,Georgia,Ohio,13124
+2014,Georgia,Oklahoma,6518
+2014,Georgia,Oregon,3117
+2014,Georgia,Pennsylvania,19517
+2014,Georgia,Rhode Island,2085
+2014,Georgia,South Carolina,13480
+2014,Georgia,South Dakota,744
+2014,Georgia,Tennessee,16072
+2014,Georgia,Texas,35476
+2014,Georgia,Utah,5418
+2014,Georgia,Vermont,727
+2014,Georgia,Virginia,28763
+2014,Georgia,Washington,5070
+2014,Georgia,West Virginia,2622
+2014,Georgia,Wisconsin,9162
+2014,Georgia,Wyoming,336
+2014,Hawaii,Alaska,660
+2014,Hawaii,Arizona,3637
+2014,Hawaii,California,21781
+2014,Hawaii,Colorado,1079
+2014,Hawaii,Georgia,730
+2014,Hawaii,Hawaii,27564
+2014,Hawaii,Illinois,801
+2014,Hawaii,Nevada,1780
+2014,Hawaii,New Jersey,730
+2014,Hawaii,New York,656
+2014,Hawaii,Oregon,2337
+2014,Hawaii,Texas,2294
+2014,Hawaii,Utah,712
+2014,Hawaii,Washington,5415
+2014,Idaho,Arizona,2342
+2014,Idaho,California,4653
+2014,Idaho,Colorado,5868
+2014,Idaho,Illinois,534
+2014,Idaho,Minnesota,1231
+2014,Idaho,Nevada,1427
+2014,Idaho,Oregon,195
+2014,Idaho,Utah,8474
+2014,Illinois,Alabama,4107
+2014,Illinois,Alaska,1431
+2014,Illinois,Arizona,12444
+2014,Illinois,Arkansas,8889
+2014,Illinois,California,32654
+2014,Illinois,Colorado,15490
+2014,Illinois,Connecticut,4274
+2014,Illinois,Florida,21164
+2014,Illinois,Georgia,18843
+2014,Illinois,Hawaii,801
+2014,Illinois,Idaho,534
+2014,Illinois,Illinois,7245
+2014,Illinois,Indiana,12308
+2014,Illinois,Iowa,11645
+2014,Illinois,Kansas,5110
+2014,Illinois,Kentucky,12273
+2014,Illinois,Louisiana,2560
+2014,Illinois,Maine,716
+2014,Illinois,Maryland,6047
+2014,Illinois,Massachusetts,15700
+2014,Illinois,Michigan,25037
+2014,Illinois,Minnesota,15408
+2014,Illinois,Mississippi,1177
+2014,Illinois,Missouri,12738
+2014,Illinois,Montana,520
+2014,Illinois,Nebraska,8110
+2014,Illinois,Nevada,9456
+2014,Illinois,New Hampshire,1777
+2014,Illinois,New Jersey,10371
+2014,Illinois,New Mexico,635
+2014,Illinois,New York,25139
+2014,Illinois,North Carolina,14841
+2014,Illinois,North Dakota,4661
+2014,Illinois,Ohio,21626
+2014,Illinois,Oklahoma,7602
+2014,Illinois,Oregon,5684
+2014,Illinois,Pennsylvania,15593
+2014,Illinois,Rhode Island,1845
+2014,Illinois,South Carolina,3658
+2014,Illinois,South Dakota,5270
+2014,Illinois,Tennessee,15957
+2014,Illinois,Texas,26188
+2014,Illinois,Utah,5676
+2014,Illinois,Vermont,1035
+2014,Illinois,Virginia,18816
+2014,Illinois,Washington,9995
+2014,Illinois,West Virginia,1367
+2014,Illinois,Wisconsin,22113
+2014,Illinois,Wyoming,575
+2014,Indiana,Arizona,2810
+2014,Indiana,California,1720
+2014,Indiana,Colorado,4327
+2014,Indiana,Florida,5482
+2014,Indiana,Georgia,10207
+2014,Indiana,Illinois,12308
+2014,Indiana,Indiana,1
+2014,Indiana,Maryland,2336
+2014,Indiana,Michigan,4073
+2014,Indiana,Minnesota,2156
+2014,Indiana,Nevada,1913
+2014,Indiana,New Jersey,3446
+2014,Indiana,New York,778
+2014,Indiana,North Carolina,1233
+2014,Indiana,Ohio,438
+2014,Indiana,Pennsylvania,371
+2014,Indiana,Texas,6544
+2014,Indiana,Utah,654
+2014,Indiana,Virginia,964
+2014,Iowa,Arizona,894
+2014,Iowa,Colorado,4306
+2014,Iowa,Georgia,2865
+2014,Iowa,Illinois,11645
+2014,Iowa,Michigan,510
+2014,Iowa,Minnesota,206
+2014,Iowa,Nevada,730
+2014,Iowa,New Jersey,539
+2014,Iowa,North Carolina,58
+2014,Iowa,Texas,5588
+2014,Iowa,Utah,20
+2014,Kansas,California,714
+2014,Kansas,Colorado,2267
+2014,Kansas,Georgia,2716
+2014,Kansas,Illinois,5110
+2014,Kansas,Minnesota,680
+2014,Kansas,Nevada,730
+2014,Kansas,Texas,6610
+2014,Kentucky,Arizona,540
+2014,Kentucky,California,1636
+2014,Kentucky,Colorado,2564
+2014,Kentucky,Connecticut,33
+2014,Kentucky,Florida,3973
+2014,Kentucky,Georgia,9869
+2014,Kentucky,Illinois,12273
+2014,Kentucky,Kentucky,1
+2014,Kentucky,Louisiana,12
+2014,Kentucky,Massachusetts,597
+2014,Kentucky,Michigan,1280
+2014,Kentucky,Minnesota,1107
+2014,Kentucky,Missouri,529
+2014,Kentucky,Nevada,919
+2014,Kentucky,New Jersey,4073
+2014,Kentucky,New York,760
+2014,Kentucky,North Carolina,40
+2014,Kentucky,Ohio,67
+2014,Kentucky,Pennsylvania,5
+2014,Kentucky,Tennessee,720
+2014,Kentucky,Texas,8112
+2014,Kentucky,Utah,1218
+2014,Kentucky,Virginia,330
+2014,Kentucky,Washington,316
+2014,Kentucky,Wisconsin,914
+2014,Louisiana,Arizona,791
+2014,Louisiana,California,4478
+2014,Louisiana,Colorado,3772
+2014,Louisiana,Florida,6166
+2014,Louisiana,Georgia,19600
+2014,Louisiana,Illinois,2560
+2014,Louisiana,Kentucky,12
+2014,Louisiana,Maryland,1806
+2014,Louisiana,Massachusetts,698
+2014,Louisiana,Michigan,1199
+2014,Louisiana,Minnesota,320
+2014,Louisiana,Missouri,1551
+2014,Louisiana,Nevada,1411
+2014,Louisiana,New Jersey,2544
+2014,Louisiana,New York,3355
+2014,Louisiana,North Carolina,3832
+2014,Louisiana,Ohio,63
+2014,Louisiana,Pennsylvania,829
+2014,Louisiana,Tennessee,2226
+2014,Louisiana,Texas,24807
+2014,Louisiana,Utah,709
+2014,Louisiana,Virginia,1043
+2014,Louisiana,Washington,406
+2014,Louisiana,Wisconsin,348
+2014,Maine,Florida,10
+2014,Maine,Georgia,1391
+2014,Maine,Illinois,716
+2014,Maine,Maryland,2142
+2014,Maine,Michigan,999
+2014,Maine,New Jersey,1004
+2014,Maine,New York,2734
+2014,Maine,North Carolina,736
+2014,Maine,Pennsylvania,190
+2014,Maryland,Alabama,1657
+2014,Maryland,Arizona,3412
+2014,Maryland,Arkansas,720
+2014,Maryland,California,3074
+2014,Maryland,Colorado,3771
+2014,Maryland,Connecticut,4906
+2014,Maryland,Florida,17554
+2014,Maryland,Georgia,12746
+2014,Maryland,Illinois,6047
+2014,Maryland,Indiana,2336
+2014,Maryland,Louisiana,1806
+2014,Maryland,Maine,2142
+2014,Maryland,Massachusetts,10053
+2014,Maryland,Michigan,6714
+2014,Maryland,Minnesota,2024
+2014,Maryland,Missouri,3660
+2014,Maryland,Nevada,2947
+2014,Maryland,New Hampshire,5024
+2014,Maryland,New Jersey,605
+2014,Maryland,New Mexico,558
+2014,Maryland,New York,9071
+2014,Maryland,North Carolina,9796
+2014,Maryland,Ohio,5186
+2014,Maryland,Oklahoma,720
+2014,Maryland,Oregon,172
+2014,Maryland,Pennsylvania,2337
+2014,Maryland,Rhode Island,5619
+2014,Maryland,South Carolina,2633
+2014,Maryland,Tennessee,4549
+2014,Maryland,Texas,7223
+2014,Maryland,Utah,2094
+2014,Maryland,Washington,642
+2014,Maryland,Wisconsin,2015
+2014,Massachusetts,Arizona,3124
+2014,Massachusetts,California,14033
+2014,Massachusetts,Colorado,5002
+2014,Massachusetts,Florida,15947
+2014,Massachusetts,Georgia,11167
+2014,Massachusetts,Illinois,15700
+2014,Massachusetts,Kentucky,597
+2014,Massachusetts,Louisiana,698
+2014,Massachusetts,Maryland,10053
+2014,Massachusetts,Massachusetts,115
+2014,Massachusetts,Michigan,6293
+2014,Massachusetts,Minnesota,3568
+2014,Massachusetts,Missouri,2149
+2014,Massachusetts,Nevada,1609
+2014,Massachusetts,New Jersey,10371
+2014,Massachusetts,New York,18427
+2014,Massachusetts,North Carolina,9504
+2014,Massachusetts,Ohio,2503
+2014,Massachusetts,Oregon,1008
+2014,Massachusetts,Pennsylvania,14554
+2014,Massachusetts,South Carolina,850
+2014,Massachusetts,Tennessee,1255
+2014,Massachusetts,Texas,10671
+2014,Massachusetts,Utah,1242
+2014,Massachusetts,Virginia,20937
+2014,Massachusetts,Washington,3214
+2014,Massachusetts,Wisconsin,1352
+2014,Michigan,Alabama,1814
+2014,Michigan,Arizona,5917
+2014,Michigan,Arkansas,768
+2014,Michigan,California,5686
+2014,Michigan,Colorado,5279
+2014,Michigan,Connecticut,2693
+2014,Michigan,Delaware,126
+2014,Michigan,Florida,11854
+2014,Michigan,Georgia,12438
+2014,Michigan,Illinois,25037
+2014,Michigan,Indiana,4073
+2014,Michigan,Iowa,510
+2014,Michigan,Kentucky,1280
+2014,Michigan,Louisiana,1199
+2014,Michigan,Maine,999
+2014,Michigan,Maryland,6714
+2014,Michigan,Massachusetts,6293
+2014,Michigan,Michigan,4128
+2014,Michigan,Minnesota,7657
+2014,Michigan,Missouri,4260
+2014,Michigan,Nebraska,1623
+2014,Michigan,Nevada,4550
+2014,Michigan,New Hampshire,897
+2014,Michigan,New Jersey,6513
+2014,Michigan,New York,8529
+2014,Michigan,North Carolina,8488
+2014,Michigan,Ohio,1679
+2014,Michigan,Oklahoma,1567
+2014,Michigan,Oregon,620
+2014,Michigan,Pennsylvania,7347
+2014,Michigan,Rhode Island,1541
+2014,Michigan,South Carolina,385
+2014,Michigan,Tennessee,4964
+2014,Michigan,Texas,10494
+2014,Michigan,Utah,2966
+2014,Michigan,Vermont,1505
+2014,Michigan,Virginia,6951
+2014,Michigan,Washington,3155
+2014,Michigan,West Virginia,433
+2014,Michigan,Wisconsin,6323
+2014,Minnesota,Alabama,361
+2014,Minnesota,Alaska,1598
+2014,Minnesota,Arizona,8663
+2014,Minnesota,California,11235
+2014,Minnesota,Colorado,10638
+2014,Minnesota,Connecticut,1323
+2014,Minnesota,Florida,6491
+2014,Minnesota,Georgia,10817
+2014,Minnesota,Idaho,1231
+2014,Minnesota,Illinois,15408
+2014,Minnesota,Indiana,2156
+2014,Minnesota,Iowa,206
+2014,Minnesota,Kansas,680
+2014,Minnesota,Kentucky,1107
+2014,Minnesota,Louisiana,320
+2014,Minnesota,Maryland,2024
+2014,Minnesota,Massachusetts,3568
+2014,Minnesota,Michigan,7657
+2014,Minnesota,Minnesota,3272
+2014,Minnesota,Missouri,6613
+2014,Minnesota,Montana,2747
+2014,Minnesota,Nebraska,2874
+2014,Minnesota,Nevada,4449
+2014,Minnesota,New Jersey,3766
+2014,Minnesota,New Mexico,338
+2014,Minnesota,New York,4479
+2014,Minnesota,North Carolina,4887
+2014,Minnesota,North Dakota,5406
+2014,Minnesota,Ohio,2110
+2014,Minnesota,Oklahoma,789
+2014,Minnesota,Oregon,2722
+2014,Minnesota,Pennsylvania,5329
+2014,Minnesota,Rhode Island,6
+2014,Minnesota,South Dakota,4430
+2014,Minnesota,Tennessee,3061
+2014,Minnesota,Texas,7732
+2014,Minnesota,Utah,3955
+2014,Minnesota,Virginia,5071
+2014,Minnesota,Washington,6525
+2014,Minnesota,Wisconsin,8294
+2014,Minnesota,Wyoming,202
+2014,Mississippi,Florida,316
+2014,Mississippi,Georgia,7466
+2014,Mississippi,Illinois,1177
+2014,Mississippi,Texas,8840
+2014,Missouri,Alabama,12
+2014,Missouri,Arizona,6568
+2014,Missouri,California,5169
+2014,Missouri,Colorado,8684
+2014,Missouri,Florida,6477
+2014,Missouri,Georgia,13536
+2014,Missouri,Illinois,12738
+2014,Missouri,Kentucky,529
+2014,Missouri,Louisiana,1551
+2014,Missouri,Maryland,3660
+2014,Missouri,Massachusetts,2149
+2014,Missouri,Michigan,4260
+2014,Missouri,Minnesota,6613
+2014,Missouri,Missouri,1318
+2014,Missouri,Nebraska,2026
+2014,Missouri,Nevada,3919
+2014,Missouri,New Jersey,5898
+2014,Missouri,North Carolina,3772
+2014,Missouri,Ohio,1350
+2014,Missouri,Oklahoma,1670
+2014,Missouri,Oregon,439
+2014,Missouri,Pennsylvania,1352
+2014,Missouri,Tennessee,2622
+2014,Missouri,Texas,17341
+2014,Missouri,Utah,1735
+2014,Missouri,Virginia,4351
+2014,Missouri,Washington,1367
+2014,Missouri,Wisconsin,1965
+2014,Montana,California,504
+2014,Montana,Colorado,7603
+2014,Montana,Georgia,337
+2014,Montana,Illinois,520
+2014,Montana,Minnesota,2747
+2014,Montana,Montana,1
+2014,Montana,New Jersey,116
+2014,Montana,Utah,9054
+2014,Montana,Washington,4
+2014,Nebraska,Arizona,2644
+2014,Nebraska,California,179
+2014,Nebraska,Colorado,6812
+2014,Nebraska,Florida,88
+2014,Nebraska,Georgia,3528
+2014,Nebraska,Illinois,8110
+2014,Nebraska,Michigan,1623
+2014,Nebraska,Minnesota,2874
+2014,Nebraska,Missouri,2026
+2014,Nebraska,Nevada,1832
+2014,Nebraska,New Jersey,1427
+2014,Nebraska,North Carolina,2
+2014,Nebraska,Texas,5857
+2014,Nebraska,Utah,1036
+2014,Nebraska,Washington,732
+2014,Nevada,Alabama,730
+2014,Nevada,Alaska,312
+2014,Nevada,Arizona,15537
+2014,Nevada,Arkansas,748
+2014,Nevada,California,57493
+2014,Nevada,Colorado,14162
+2014,Nevada,Connecticut,478
+2014,Nevada,Florida,4101
+2014,Nevada,Georgia,8411
+2014,Nevada,Hawaii,1780
+2014,Nevada,Idaho,1427
+2014,Nevada,Illinois,9456
+2014,Nevada,Indiana,1913
+2014,Nevada,Iowa,730
+2014,Nevada,Kansas,730
+2014,Nevada,Kentucky,919
+2014,Nevada,Louisiana,1411
+2014,Nevada,Maryland,2947
+2014,Nevada,Massachusetts,1609
+2014,Nevada,Michigan,4550
+2014,Nevada,Minnesota,4449
+2014,Nevada,Missouri,3919
+2014,Nevada,Nebraska,1832
+2014,Nevada,Nevada,3524
+2014,Nevada,New Hampshire,18
+2014,Nevada,New Jersey,3691
+2014,Nevada,New Mexico,1698
+2014,Nevada,New York,9614
+2014,Nevada,North Carolina,3855
+2014,Nevada,Ohio,2176
+2014,Nevada,Oklahoma,1820
+2014,Nevada,Oregon,5141
+2014,Nevada,Pennsylvania,4783
+2014,Nevada,Tennessee,2136
+2014,Nevada,Texas,18464
+2014,Nevada,Utah,10223
+2014,Nevada,Virginia,1520
+2014,Nevada,Washington,12798
+2014,Nevada,Wisconsin,2202
+2014,New Hampshire,Florida,2055
+2014,New Hampshire,Georgia,1015
+2014,New Hampshire,Illinois,1777
+2014,New Hampshire,Maryland,5024
+2014,New Hampshire,Michigan,897
+2014,New Hampshire,Nevada,18
+2014,New Hampshire,New Jersey,749
+2014,New Hampshire,North Carolina,2
+2014,New Hampshire,Ohio,61
+2014,New Hampshire,Pennsylvania,9
+2014,New Jersey,Alaska,26
+2014,New Jersey,Arizona,4953
+2014,New Jersey,California,17565
+2014,New Jersey,Colorado,5690
+2014,New Jersey,Connecticut,647
+2014,New Jersey,Florida,24566
+2014,New Jersey,Georgia,11667
+2014,New Jersey,Hawaii,730
+2014,New Jersey,Illinois,10371
+2014,New Jersey,Indiana,3446
+2014,New Jersey,Iowa,539
+2014,New Jersey,Kentucky,4073
+2014,New Jersey,Louisiana,2544
+2014,New Jersey,Maine,1004
+2014,New Jersey,Maryland,605
+2014,New Jersey,Massachusetts,10371
+2014,New Jersey,Michigan,6513
+2014,New Jersey,Minnesota,3766
+2014,New Jersey,Missouri,5898
+2014,New Jersey,Montana,116
+2014,New Jersey,Nebraska,1427
+2014,New Jersey,Nevada,3691
+2014,New Jersey,New Hampshire,749
+2014,New Jersey,New York,1950
+2014,New Jersey,North Carolina,12037
+2014,New Jersey,Ohio,4792
+2014,New Jersey,Oklahoma,912
+2014,New Jersey,Oregon,989
+2014,New Jersey,Pennsylvania,480
+2014,New Jersey,Rhode Island,402
+2014,New Jersey,South Carolina,3379
+2014,New Jersey,Tennessee,6014
+2014,New Jersey,Texas,11057
+2014,New Jersey,Utah,682
+2014,New Jersey,Vermont,810
+2014,New Jersey,Virginia,5967
+2014,New Jersey,Washington,3336
+2014,New Jersey,Wisconsin,2254
+2014,New Jersey,Wyoming,78
+2014,New York,Arizona,5189
+2014,New York,California,37718
+2014,New York,Colorado,5074
+2014,New York,Florida,38513
+2014,New York,Georgia,22033
+2014,New York,Hawaii,656
+2014,New York,Illinois,25139
+2014,New York,Indiana,778
+2014,New York,Kentucky,760
+2014,New York,Louisiana,3355
+2014,New York,Maine,2734
+2014,New York,Maryland,9071
+2014,New York,Massachusetts,18427
+2014,New York,Michigan,8529
+2014,New York,Minnesota,4479
+2014,New York,Nevada,9614
+2014,New York,New Jersey,1950
+2014,New York,New Mexico,342
+2014,New York,New York,8008
+2014,New York,North Carolina,16414
+2014,New York,Ohio,4559
+2014,New York,Oregon,1708
+2014,New York,Pennsylvania,1320
+2014,New York,South Carolina,2162
+2014,New York,Tennessee,4048
+2014,New York,Texas,8596
+2014,New York,Utah,4060
+2014,New York,Vermont,2806
+2014,New York,Virginia,11537
+2014,New York,Washington,4326
+2014,New York,Wyoming,10
+2014,North Carolina,Alabama,2
+2014,North Carolina,Arizona,6446
+2014,North Carolina,California,7870
+2014,North Carolina,Colorado,4503
+2014,North Carolina,Connecticut,3509
+2014,North Carolina,Florida,23696
+2014,North Carolina,Georgia,29352
+2014,North Carolina,Illinois,14841
+2014,North Carolina,Indiana,1233
+2014,North Carolina,Iowa,58
+2014,North Carolina,Kentucky,40
+2014,North Carolina,Louisiana,3832
+2014,North Carolina,Maine,736
+2014,North Carolina,Maryland,9796
+2014,North Carolina,Massachusetts,9504
+2014,North Carolina,Michigan,8488
+2014,North Carolina,Minnesota,4887
+2014,North Carolina,Missouri,3772
+2014,North Carolina,Nebraska,2
+2014,North Carolina,Nevada,3855
+2014,North Carolina,New Hampshire,2
+2014,North Carolina,New Jersey,12037
+2014,North Carolina,New York,16414
+2014,North Carolina,North Carolina,3468
+2014,North Carolina,Ohio,2759
+2014,North Carolina,Oregon,554
+2014,North Carolina,Pennsylvania,11200
+2014,North Carolina,Rhode Island,2510
+2014,North Carolina,South Carolina,718
+2014,North Carolina,Tennessee,4207
+2014,North Carolina,Texas,18313
+2014,North Carolina,Utah,1687
+2014,North Carolina,Virginia,9050
+2014,North Carolina,Washington,1892
+2014,North Dakota,Colorado,8341
+2014,North Dakota,Georgia,66
+2014,North Dakota,Illinois,4661
+2014,North Dakota,Minnesota,5406
+2014,North Dakota,North Dakota,1
+2014,North Dakota,Texas,845
+2014,North Dakota,Utah,481
+2014,Ohio,Arizona,1891
+2014,Ohio,California,2892
+2014,Ohio,Colorado,4827
+2014,Ohio,Connecticut,286
+2014,Ohio,Florida,6798
+2014,Ohio,Georgia,13124
+2014,Ohio,Illinois,21626
+2014,Ohio,Indiana,438
+2014,Ohio,Kentucky,67
+2014,Ohio,Louisiana,63
+2014,Ohio,Maryland,5186
+2014,Ohio,Massachusetts,2503
+2014,Ohio,Michigan,1679
+2014,Ohio,Minnesota,2110
+2014,Ohio,Missouri,1350
+2014,Ohio,Nevada,2176
+2014,Ohio,New Hampshire,61
+2014,Ohio,New Jersey,4792
+2014,Ohio,New York,4559
+2014,Ohio,North Carolina,2759
+2014,Ohio,Ohio,157
+2014,Ohio,Oklahoma,127
+2014,Ohio,Pennsylvania,196
+2014,Ohio,Rhode Island,61
+2014,Ohio,South Carolina,202
+2014,Ohio,Tennessee,2939
+2014,Ohio,Texas,8083
+2014,Ohio,Vermont,29
+2014,Ohio,Virginia,3064
+2014,Ohio,Washington,80
+2014,Ohio,Wisconsin,2016
+2014,Oklahoma,Arizona,2060
+2014,Oklahoma,California,1893
+2014,Oklahoma,Colorado,6993
+2014,Oklahoma,Georgia,6518
+2014,Oklahoma,Illinois,7602
+2014,Oklahoma,Maryland,720
+2014,Oklahoma,Michigan,1567
+2014,Oklahoma,Minnesota,789
+2014,Oklahoma,Missouri,1670
+2014,Oklahoma,Nevada,1820
+2014,Oklahoma,New Jersey,912
+2014,Oklahoma,Ohio,127
+2014,Oklahoma,Texas,14920
+2014,Oklahoma,Utah,1778
+2014,Oregon,Alaska,2092
+2014,Oregon,Arizona,7514
+2014,Oregon,California,24565
+2014,Oregon,Colorado,9685
+2014,Oregon,Georgia,3117
+2014,Oregon,Hawaii,2337
+2014,Oregon,Idaho,195
+2014,Oregon,Illinois,5684
+2014,Oregon,Maryland,172
+2014,Oregon,Massachusetts,1008
+2014,Oregon,Michigan,620
+2014,Oregon,Minnesota,2722
+2014,Oregon,Missouri,439
+2014,Oregon,Nevada,5141
+2014,Oregon,New Jersey,989
+2014,Oregon,New Mexico,299
+2014,Oregon,New York,1708
+2014,Oregon,North Carolina,554
+2014,Oregon,Oregon,1521
+2014,Oregon,Pennsylvania,360
+2014,Oregon,Texas,4892
+2014,Oregon,Utah,7003
+2014,Oregon,Virginia,1101
+2014,Oregon,Washington,4581
+2014,Pennsylvania,Arizona,6471
+2014,Pennsylvania,California,9182
+2014,Pennsylvania,Colorado,5936
+2014,Pennsylvania,Connecticut,531
+2014,Pennsylvania,Florida,20831
+2014,Pennsylvania,Georgia,19517
+2014,Pennsylvania,Illinois,15593
+2014,Pennsylvania,Indiana,371
+2014,Pennsylvania,Kentucky,5
+2014,Pennsylvania,Louisiana,829
+2014,Pennsylvania,Maine,190
+2014,Pennsylvania,Maryland,2337
+2014,Pennsylvania,Massachusetts,14554
+2014,Pennsylvania,Michigan,7347
+2014,Pennsylvania,Minnesota,5329
+2014,Pennsylvania,Missouri,1352
+2014,Pennsylvania,Nevada,4783
+2014,Pennsylvania,New Hampshire,9
+2014,Pennsylvania,New Jersey,480
+2014,Pennsylvania,New York,1320
+2014,Pennsylvania,North Carolina,11200
+2014,Pennsylvania,Ohio,196
+2014,Pennsylvania,Oregon,360
+2014,Pennsylvania,Pennsylvania,1049
+2014,Pennsylvania,Rhode Island,653
+2014,Pennsylvania,Tennessee,1726
+2014,Pennsylvania,Texas,12971
+2014,Pennsylvania,Utah,1411
+2014,Pennsylvania,Vermont,234
+2014,Pennsylvania,Virginia,727
+2014,Pennsylvania,Washington,2300
+2014,Rhode Island,Colorado,18
+2014,Rhode Island,Florida,6073
+2014,Rhode Island,Georgia,2085
+2014,Rhode Island,Illinois,1845
+2014,Rhode Island,Maryland,5619
+2014,Rhode Island,Michigan,1541
+2014,Rhode Island,Minnesota,6
+2014,Rhode Island,New Jersey,402
+2014,Rhode Island,North Carolina,2510
+2014,Rhode Island,Ohio,61
+2014,Rhode Island,Pennsylvania,653
+2014,Rhode Island,Virginia,476
+2014,South Carolina,Georgia,13480
+2014,South Carolina,Illinois,3658
+2014,South Carolina,Maryland,2633
+2014,South Carolina,Massachusetts,850
+2014,South Carolina,Michigan,385
+2014,South Carolina,New Jersey,3379
+2014,South Carolina,New York,2162
+2014,South Carolina,North Carolina,718
+2014,South Carolina,Ohio,202
+2014,South Carolina,Tennessee,892
+2014,South Carolina,Texas,4570
+2014,South Carolina,Utah,2
+2014,South Carolina,Virginia,1675
+2014,South Dakota,Colorado,4720
+2014,South Dakota,Georgia,744
+2014,South Dakota,Illinois,5270
+2014,South Dakota,Minnesota,4430
+2014,South Dakota,Texas,2710
+2014,Tennessee,Arizona,1562
+2014,Tennessee,California,4249
+2014,Tennessee,Colorado,6502
+2014,Tennessee,Florida,9239
+2014,Tennessee,Georgia,16072
+2014,Tennessee,Illinois,15957
+2014,Tennessee,Kentucky,720
+2014,Tennessee,Louisiana,2226
+2014,Tennessee,Maryland,4549
+2014,Tennessee,Massachusetts,1255
+2014,Tennessee,Michigan,4964
+2014,Tennessee,Minnesota,3061
+2014,Tennessee,Missouri,2622
+2014,Tennessee,Nevada,2136
+2014,Tennessee,New Jersey,6014
+2014,Tennessee,New York,4048
+2014,Tennessee,North Carolina,4207
+2014,Tennessee,Ohio,2939
+2014,Tennessee,Pennsylvania,1726
+2014,Tennessee,South Carolina,892
+2014,Tennessee,Tennessee,5
+2014,Tennessee,Texas,14878
+2014,Tennessee,Utah,1105
+2014,Tennessee,Virginia,3349
+2014,Tennessee,Washington,294
+2014,Texas,Alabama,8566
+2014,Texas,Alaska,335
+2014,Texas,Arizona,23077
+2014,Texas,Arkansas,13805
+2014,Texas,California,47289
+2014,Texas,Colorado,32620
+2014,Texas,Connecticut,2040
+2014,Texas,Florida,29779
+2014,Texas,Georgia,35476
+2014,Texas,Hawaii,2294
+2014,Texas,Illinois,26188
+2014,Texas,Indiana,6544
+2014,Texas,Iowa,5588
+2014,Texas,Kansas,6610
+2014,Texas,Kentucky,8112
+2014,Texas,Louisiana,24807
+2014,Texas,Maryland,7223
+2014,Texas,Massachusetts,10671
+2014,Texas,Michigan,10494
+2014,Texas,Minnesota,7732
+2014,Texas,Mississippi,8840
+2014,Texas,Missouri,17341
+2014,Texas,Nebraska,5857
+2014,Texas,Nevada,18464
+2014,Texas,New Jersey,11057
+2014,Texas,New Mexico,4510
+2014,Texas,New York,8596
+2014,Texas,North Carolina,18313
+2014,Texas,North Dakota,845
+2014,Texas,Ohio,8083
+2014,Texas,Oklahoma,14920
+2014,Texas,Oregon,4892
+2014,Texas,Pennsylvania,12971
+2014,Texas,South Carolina,4570
+2014,Texas,South Dakota,2710
+2014,Texas,Tennessee,14878
+2014,Texas,Texas,51597
+2014,Texas,Utah,9436
+2014,Texas,Virginia,14924
+2014,Texas,Washington,10743
+2014,Texas,West Virginia,1036
+2014,Texas,Wisconsin,5418
+2014,Texas,Wyoming,528
+2014,Utah,Alaska,359
+2014,Utah,Arizona,13097
+2014,Utah,California,29526
+2014,Utah,Colorado,17177
+2014,Utah,Connecticut,2
+2014,Utah,Florida,1554
+2014,Utah,Georgia,5418
+2014,Utah,Hawaii,712
+2014,Utah,Idaho,8474
+2014,Utah,Illinois,5676
+2014,Utah,Indiana,654
+2014,Utah,Iowa,20
+2014,Utah,Kentucky,1218
+2014,Utah,Louisiana,709
+2014,Utah,Maryland,2094
+2014,Utah,Massachusetts,1242
+2014,Utah,Michigan,2966
+2014,Utah,Minnesota,3955
+2014,Utah,Missouri,1735
+2014,Utah,Montana,9054
+2014,Utah,Nebraska,1036
+2014,Utah,Nevada,10223
+2014,Utah,New Jersey,682
+2014,Utah,New Mexico,1032
+2014,Utah,New York,4060
+2014,Utah,North Carolinaaro,1687
+2014,Utah,North Dakota,481
+2014,Utah,Oklahoma,1778
+2014,Utah,Oregon,7003
+2014,Utah,Pennsylvania,1411
+2014,Utah,South Carolina,2
+2014,Utah,Tennessee,1105
+2014,Utah,Texas,9436
+2014,Utah,Utah,3129
+2014,Utah,Virginia,1366
+2014,Utah,Washington,9550
+2014,Utah,Wyoming,4233
+2014,Vermont,Georgia,727
+2014,Vermont,Illinois,1035
+2014,Vermont,Michigan,1505
+2014,Vermont,New Jersey,810
+2014,Vermont,New York,2806
+2014,Vermont,Ohio,29
+2014,Vermont,Pennsylvania,234
+2014,Virginia,Arizona,2515
+2014,Virginia,California,6715
+2014,Virginia,Colorado,6261
+2014,Virginia,Connecticut,1829
+2014,Virginia,Florida,17693
+2014,Virginia,Georgia,28763
+2014,Virginia,Illinois,18816
+2014,Virginia,Indiana,964
+2014,Virginia,Kentucky,330
+2014,Virginia,Louisiana,1043
+2014,Virginia,Massachusetts,20937
+2014,Virginia,Michigan,6951
+2014,Virginia,Minnesota,5071
+2014,Virginia,Missouri,4351
+2014,Virginia,Nevada,1520
+2014,Virginia,New Jersey,5967
+2014,Virginia,New York,11537
+2014,Virginia,North Carolina,9050
+2014,Virginia,Ohio,3064
+2014,Virginia,Oregon,1101
+2014,Virginia,Pennsylvania,727
+2014,Virginia,Rhode Island,476
+2014,Virginia,South Carolina,1675
+2014,Virginia,Tennessee,3349
+2014,Virginia,Texas,14924
+2014,Virginia,Utah,1366
+2014,Virginia,Washington,2415
+2014,Virginia,Wisconsin,2688
+2014,Washington,Alaska,16140
+2014,Washington,Arizona,11499
+2014,Washington,California,44726
+2014,Washington,Colorado,14540
+2014,Washington,Florida,1858
+2014,Washington,Georgia,5070
+2014,Washington,Hawaii,5415
+2014,Washington,Illinois,9995
+2014,Washington,Kentucky,316
+2014,Washington,Louisiana,406
+2014,Washington,Maryland,642
+2014,Washington,Massachusetts,3214
+2014,Washington,Michigan,3155
+2014,Washington,Minnesota,6525
+2014,Washington,Missouri,1367
+2014,Washington,Montana,4
+2014,Washington,Nebraska,732
+2014,Washington,Nevada,12798
+2014,Washington,New Jersey,3336
+2014,Washington,New Mexico,609
+2014,Washington,New York,4326
+2014,Washington,North Carolina,1892
+2014,Washington,Ohio,80
+2014,Washington,Oregon,4581
+2014,Washington,Pennsylvania,2300
+2014,Washington,Tennessee,294
+2014,Washington,Texas,10743
+2014,Washington,Utah,9550
+2014,Washington,Virginia,2415
+2014,Washington,Washington,1865
+2014,Washington,Wisconsin,714
+2014,Washington,Wyoming,30
+2014,West Virginia,Georgia,2622
+2014,West Virginia,Illinois,1367
+2014,West Virginia,Michigan,433
+2014,West Virginia,Texas,1036
+2014,Wisconsin,Arizona,3006
+2014,Wisconsin,California,1241
+2014,Wisconsin,Colorado,6328
+2014,Wisconsin,Florida,4028
+2014,Wisconsin,Georgia,9162
+2014,Wisconsin,Illinois,22113
+2014,Wisconsin,Kentucky,914
+2014,Wisconsin,Louisiana,348
+2014,Wisconsin,Maryland,2015
+2014,Wisconsin,Massachusetts,1352
+2014,Wisconsin,Michigan,6323
+2014,Wisconsin,Minnesota,8294
+2014,Wisconsin,Missouri,1965
+2014,Wisconsin,Nevada,2202
+2014,Wisconsin,New Jersey,2254
+2014,Wisconsin,Ohio,2016
+2014,Wisconsin,Texas,5418
+2014,Wisconsin,Virginia,2688
+2014,Wisconsin,Washington,714
+2014,Wyoming,California,585
+2014,Wyoming,Colorado,6757
+2014,Wyoming,Georgia,336
+2014,Wyoming,Illinois,575
+2014,Wyoming,Minnesota,202
+2014,Wyoming,New Jersey,78
+2014,Wyoming,New York,10
+2014,Wyoming,Texas,528
+2014,Wyoming,Utah,4233
+2014,Wyoming,Washington,30
+2015,Alabama,Florida,2694
+2015,Alabama,Georgia,16003
+2015,Alabama,Nevada,730
+2015,Alabama,Texas,6838
+2015,Alaska,Alaska,5589
+2015,Alaska,Arizona,846
+2015,Alaska,Georgia,204
+2015,Alaska,Hawaii,705
+2015,Alaska,Nevada,168
+2015,Alaska,Oregon,1950
+2015,Alaska,Texas,330
+2015,Alaska,Utah,196
+2015,Arizona,Alaska,846
+2015,Arizona,Arizona,5121
+2015,Arizona,Florida,5202
+2015,Arizona,Georgia,8637
+2015,Arizona,Hawaii,3752
+2015,Arizona,Idaho,2372
+2015,Arizona,Indiana,2804
+2015,Arizona,Iowa,529
+2015,Arizona,Nevada,15023
+2015,Arizona,Ohio,2718
+2015,Arizona,Oregon,6980
+2015,Arizona,Texas,23041
+2015,Arizona,Utah,12985
+2015,Florida,Alabama,2694
+2015,Florida,Arizona,5202
+2015,Florida,Florida,4043
+2015,Florida,Georgia,72178
+2015,Florida,Indiana,4763
+2015,Florida,Maine,14
+2015,Florida,Nevada,5519
+2015,Florida,Ohio,7528
+2015,Florida,Texas,32453
+2015,Florida,Utah,2875
+2015,Georgia,Alabama,16003
+2015,Georgia,Alaska,204
+2015,Georgia,Arizona,8637
+2015,Georgia,Florida,72178
+2015,Georgia,Georgia,10169
+2015,Georgia,Hawaii,729
+2015,Georgia,Indiana,11794
+2015,Georgia,Iowa,2969
+2015,Georgia,Kansas,2121
+2015,Georgia,Maine,1396
+2015,Georgia,Montana,234
+2015,Georgia,Nevada,9056
+2015,Georgia,Ohio,13480
+2015,Georgia,Oregon,2348
+2015,Georgia,Texas,35918
+2015,Georgia,Utah,5579
+2015,Georgia,Vermont,665
+2015,Georgia,Wyoming,205
+2015,Hawaii,Alaska,705
+2015,Hawaii,Arizona,3752
+2015,Hawaii,Georgia,729
+2015,Hawaii,Hawaii,27576
+2015,Hawaii,Nevada,1772
+2015,Hawaii,Oregon,2473
+2015,Hawaii,Texas,2426
+2015,Hawaii,Utah,710
+2015,Idaho,Arizona,2372
+2015,Idaho,Nevada,1434
+2015,Idaho,Oregon,125
+2015,Idaho,Utah,7911
+2015,Indiana,Arizona,2804
+2015,Indiana,Florida,4763
+2015,Indiana,Georgia,11794
+2015,Indiana,Nevada,1881
+2015,Indiana,Texas,6435
+2015,Indiana,Utah,172
+2015,Iowa,Arizona,529
+2015,Iowa,Georgia,2969
+2015,Iowa,Nevada,730
+2015,Iowa,Texas,3393
+2015,Iowa,Utah,202
+2015,Kansas,Georgia,2121
+2015,Kansas,Nevada,730
+2015,Kansas,Texas,5347
+2015,Maine,Florida,14
+2015,Maine,Georgia,1396
+2015,Montana,Georgia,234
+2015,Montana,Oregon,294
+2015,Montana,Utah,8349
+2015,Nevada,Alabama,730
+2015,Nevada,Alaska,168
+2015,Nevada,Arizona,15023
+2015,Nevada,Florida,5519
+2015,Nevada,Georgia,9056
+2015,Nevada,Hawaii,1772
+2015,Nevada,Idaho,1434
+2015,Nevada,Indiana,1881
+2015,Nevada,Iowa,730
+2015,Nevada,Kansas,730
+2015,Nevada,Nevada,3505
+2015,Nevada,Ohio,3770
+2015,Nevada,Oregon,5638
+2015,Nevada,Texas,21051
+2015,Nevada,Utah,9794
+2015,Ohio,Arizona,2718
+2015,Ohio,Florida,7528
+2015,Ohio,Georgia,13480
+2015,Ohio,Nevada,3770
+2015,Ohio,Texas,7336
+2015,Oregon,Alaska,1950
+2015,Oregon,Arizona,6980
+2015,Oregon,Georgia,2348
+2015,Oregon,Hawaii,2473
+2015,Oregon,Idaho,125
+2015,Oregon,Montana,294
+2015,Oregon,Nevada,5638
+2015,Oregon,Texas,5249
+2015,Oregon,Utah,7204
+2015,Texas,Alabama,6838
+2015,Texas,Alaska,330
+2015,Texas,Arizona,23041
+2015,Texas,Florida,32453
+2015,Texas,Georgia,35918
+2015,Texas,Hawaii,2426
+2015,Texas,Indiana,6435
+2015,Texas,Iowa,3393
+2015,Texas,Kansas,5347
+2015,Texas,Nevada,21051
+2015,Texas,Ohio,7336
+2015,Texas,Oregon,5249
+2015,Texas,Texas,42280
+2015,Texas,Utah,10021
+2015,Texas,Wyoming,857
+2015,Utah,Alaska,196
+2015,Utah,Arizona,12985
+2015,Utah,Florida,2875
+2015,Utah,Georgia,5579
+2015,Utah,Hawaii,710
+2015,Utah,Idaho,7911
+2015,Utah,Indiana,172
+2015,Utah,Iowa,202
+2015,Utah,Montana,8349
+2015,Utah,Nevada,9794
+2015,Utah,Oregon,7204
+2015,Utah,Texas,10021
+2015,Utah,Utah,2370
+2015,Utah,Wyoming,3735
+2015,Vermont,Georgia,665
+2015,Wyoming,Georgia,205
+2015,Wyoming,Texas,857
+2015,Wyoming,Utah,3735
+2016,Alabama,Arizona,3
+2016,Alabama,Colorado,731
+2016,Alabama,Florida,2132
+2016,Alabama,Georgia,16226
+2016,Alabama,Illinois,3334
+2016,Alabama,Maryland,768
+2016,Alabama,Michigan,1698
+2016,Alabama,Nevada,787
+2016,Alabama,Texas,3724
+2016,Alaska,Alaska,5850
+2016,Alaska,Arizona,641
+2016,Alaska,California,1289
+2016,Alaska,Colorado,908
+2016,Alaska,Georgia,216
+2016,Alaska,Hawaii,777
+2016,Alaska,Illinois,1337
+2016,Alaska,Minnesota,1278
+2016,Alaska,Nevada,154
+2016,Alaska,New Jersey,20
+2016,Alaska,Oregon,2120
+2016,Alaska,Texas,320
+2016,Alaska,Utah,184
+2016,Alaska,Washington,18131
+2016,Arizona,Alabama,3
+2016,Arizona,Alaska,641
+2016,Arizona,Arizona,5337
+2016,Arizona,Arkansas,732
+2016,Arizona,California,54139
+2016,Arizona,Colorado,20566
+2016,Arizona,Florida,5065
+2016,Arizona,Georgia,8142
+2016,Arizona,Hawaii,3705
+2016,Arizona,Idaho,2249
+2016,Arizona,Illinois,13316
+2016,Arizona,Indiana,2858
+2016,Arizona,Iowa,1468
+2016,Arizona,Kansas,528
+2016,Arizona,Kentucky,657
+2016,Arizona,Louisiana,895
+2016,Arizona,Maryland,3630
+2016,Arizona,Massachusetts,3083
+2016,Arizona,Michigan,6197
+2016,Arizona,Minnesota,8764
+2016,Arizona,Missouri,6848
+2016,Arizona,Nebraska,2624
+2016,Arizona,Nevada,14544
+2016,Arizona,New Jersey,4733
+2016,Arizona,New Mexico,2440
+2016,Arizona,New York,6017
+2016,Arizona,North Carolina,6503
+2016,Arizona,Ohio,2398
+2016,Arizona,Oklahoma,2131
+2016,Arizona,Oregon,6788
+2016,Arizona,Pennsylvania,6346
+2016,Arizona,Tennessee,1703
+2016,Arizona,Texas,21689
+2016,Arizona,Utah,11896
+2016,Arizona,Virginia,2527
+2016,Arizona,Washington,13766
+2016,Arizona,Wisconsin,3094
+2016,Arkansas,Arizona,732
+2016,Arkansas,Colorado,2047
+2016,Arkansas,Georgia,7131
+2016,Arkansas,Illinois,2749
+2016,Arkansas,Maryland,10
+2016,Arkansas,Michigan,546
+2016,Arkansas,Missouri,1341
+2016,Arkansas,Nevada,732
+2016,Arkansas,Texas,4302
+2016,California,Alaska,1289
+2016,California,Arizona,54139
+2016,California,California,42776
+2016,California,Colorado,45493
+2016,California,Connecticut,403
+2016,California,Florida,13394
+2016,California,Georgia,21074
+2016,California,Hawaii,22703
+2016,California,Idaho,4121
+2016,California,Illinois,36138
+2016,California,Indiana,2586
+2016,California,Kentucky,1787
+2016,California,Louisiana,5840
+2016,California,Maryland,5685
+2016,California,Massachusetts,15501
+2016,California,Michigan,6805
+2016,California,Minnesota,14027
+2016,California,Missouri,7053
+2016,California,Montana,551
+2016,California,Nebraska,668
+2016,California,Nevada,56815
+2016,California,New Jersey,19428
+2016,California,New Mexico,1204
+2016,California,New York,37844
+2016,California,North Carolina,8265
+2016,California,Ohio,3218
+2016,California,Oklahoma,1017
+2016,California,Oregon,29721
+2016,California,Pennsylvania,8142
+2016,California,Tennessee,5572
+2016,California,Texas,45895
+2016,California,Utah,29232
+2016,California,Virginia,6804
+2016,California,Washington,52469
+2016,California,Wisconsin,1380
+2016,California,Wyoming,831
+2016,Colorado,Alabama,731
+2016,Colorado,Alaska,908
+2016,Colorado,Arizona,20566
+2016,Colorado,Arkansas,2047
+2016,Colorado,California,45493
+2016,Colorado,Colorado,7707
+2016,Colorado,Connecticut,1295
+2016,Colorado,Florida,12346
+2016,Colorado,Georgia,12720
+2016,Colorado,Hawaii,1073
+2016,Colorado,Idaho,5377
+2016,Colorado,Illinois,18222
+2016,Colorado,Indiana,4282
+2016,Colorado,Iowa,3562
+2016,Colorado,Kansas,2606
+2016,Colorado,Kentucky,2314
+2016,Colorado,Louisiana,3382
+2016,Colorado,Maryland,4781
+2016,Colorado,Massachusetts,5652
+2016,Colorado,Michigan,7021
+2016,Colorado,Minnesota,12055
+2016,Colorado,Missouri,8636
+2016,Colorado,Montana,5989
+2016,Colorado,Nebraska,5526
+2016,Colorado,Nevada,15424
+2016,Colorado,New Jersey,7056
+2016,Colorado,New Mexico,1920
+2016,Colorado,New York,6239
+2016,Colorado,North Carolina,7484
+2016,Colorado,North Dakota,5410
+2016,Colorado,Ohio,4347
+2016,Colorado,Oklahoma,6268
+2016,Colorado,Oregon,9798
+2016,Colorado,Pennsylvania,6725
+2016,Colorado,South Carolina,18
+2016,Colorado,South Dakota,3403
+2016,Colorado,Tennessee,5746
+2016,Colorado,Texas,31702
+2016,Colorado,Utah,16942
+2016,Colorado,Virginia,6876
+2016,Colorado,Washington,15752
+2016,Colorado,Wisconsin,5787
+2016,Colorado,Wyoming,4585
+2016,Connecticut,California,403
+2016,Connecticut,Colorado,1295
+2016,Connecticut,Florida,6735
+2016,Connecticut,Georgia,4674
+2016,Connecticut,Illinois,3632
+2016,Connecticut,Maryland,4997
+2016,Connecticut,Michigan,2889
+2016,Connecticut,Minnesota,1405
+2016,Connecticut,Nevada,604
+2016,Connecticut,New Jersey,393
+2016,Connecticut,North Carolina,3870
+2016,Connecticut,Ohio,244
+2016,Connecticut,Pennsylvania,523
+2016,Connecticut,Texas,1345
+2016,Connecticut,Virginia,1851
+2016,Florida,Alabama,2132
+2016,Florida,Arizona,5065
+2016,Florida,California,13394
+2016,Florida,Colorado,12346
+2016,Florida,Connecticut,6735
+2016,Florida,Florida,4304
+2016,Florida,Georgia,72680
+2016,Florida,Illinois,25848
+2016,Florida,Indiana,5125
+2016,Florida,Iowa,54
+2016,Florida,Kentucky,3516
+2016,Florida,Louisiana,5745
+2016,Florida,Maine,10
+2016,Florida,Maryland,20699
+2016,Florida,Massachusetts,18240
+2016,Florida,Michigan,15809
+2016,Florida,Minnesota,7333
+2016,Florida,Missouri,7689
+2016,Florida,Nebraska,298
+2016,Florida,Nevada,6074
+2016,Florida,New Hampshire,2036
+2016,Florida,New Jersey,29236
+2016,Florida,New Mexico,71
+2016,Florida,New York,40476
+2016,Florida,North Carolina,22559
+2016,Florida,Ohio,6262
+2016,Florida,Pennsylvania,23047
+2016,Florida,Rhode Island,5989
+2016,Florida,Tennessee,8899
+2016,Florida,Texas,29743
+2016,Florida,Utah,2969
+2016,Florida,Virginia,22008
+2016,Florida,Washington,2692
+2016,Florida,Wisconsin,4497
+2016,Georgia,Alabama,16226
+2016,Georgia,Alaska,216
+2016,Georgia,Arizona,8142
+2016,Georgia,Arkansas,7131
+2016,Georgia,California,21074
+2016,Georgia,Colorado,12720
+2016,Georgia,Connecticut,4674
+2016,Georgia,Florida,72680
+2016,Georgia,Georgia,10574
+2016,Georgia,Hawaii,734
+2016,Georgia,Illinois,23471
+2016,Georgia,Indiana,12073
+2016,Georgia,Iowa,2821
+2016,Georgia,Kansas,2138
+2016,Georgia,Kentucky,10626
+2016,Georgia,Louisiana,21441
+2016,Georgia,Maine,1415
+2016,Georgia,Maryland,12845
+2016,Georgia,Massachusetts,11005
+2016,Georgia,Michigan,13862
+2016,Georgia,Minnesota,10663
+2016,Georgia,Mississippi,7280
+2016,Georgia,Missouri,13275
+2016,Georgia,Montana,188
+2016,Georgia,Nebraska,3734
+2016,Georgia,Nevada,9682
+2016,Georgia,New Hampshire,731
+2016,Georgia,New Jersey,12576
+2016,Georgia,New Mexico,881
+2016,Georgia,New York,22220
+2016,Georgia,North Carolina,29749
+2016,Georgia,North Dakota,37
+2016,Georgia,Ohio,13694
+2016,Georgia,Oklahoma,6204
+2016,Georgia,Oregon,2570
+2016,Georgia,Pennsylvania,20010
+2016,Georgia,Rhode Island,2088
+2016,Georgia,South Carolina,15177
+2016,Georgia,South Dakota,610
+2016,Georgia,Tennessee,18742
+2016,Georgia,Texas,33775
+2016,Georgia,Utah,5784
+2016,Georgia,Vermont,655
+2016,Georgia,Virginia,26774
+2016,Georgia,Washington,6389
+2016,Georgia,West Virginia,3258
+2016,Georgia,Wisconsin,9198
+2016,Georgia,Wyoming,203
+2016,Hawaii,Alaska,777
+2016,Hawaii,Arizona,3705
+2016,Hawaii,California,22703
+2016,Hawaii,Colorado,1073
+2016,Hawaii,Georgia,734
+2016,Hawaii,Hawaii,27550
+2016,Hawaii,Illinois,795
+2016,Hawaii,Minnesota,262
+2016,Hawaii,Nevada,1778
+2016,Hawaii,New Jersey,729
+2016,Hawaii,New York,750
+2016,Hawaii,Oregon,2452
+2016,Hawaii,Texas,2406
+2016,Hawaii,Utah,712
+2016,Hawaii,Washington,6505
+2016,Idaho,Arizona,2249
+2016,Idaho,California,4121
+2016,Idaho,Colorado,5377
+2016,Idaho,Idaho,1
+2016,Idaho,Illinois,1337
+2016,Idaho,Minnesota,1535
+2016,Idaho,Nevada,1434
+2016,Idaho,Oregon,794
+2016,Idaho,Texas,777
+2016,Idaho,Utah,9135
+2016,Idaho,Washington,4972
+2016,Illinois,Alabama,3334
+2016,Illinois,Alaska,1337
+2016,Illinois,Arizona,13316
+2016,Illinois,Arkansas,2749
+2016,Illinois,California,36138
+2016,Illinois,Colorado,18222
+2016,Illinois,Connecticut,3632
+2016,Illinois,Florida,25848
+2016,Illinois,Georgia,23471
+2016,Illinois,Hawaii,795
+2016,Illinois,Idaho,1337
+2016,Illinois,Illinois,2645
+2016,Illinois,Indiana,6483
+2016,Illinois,Iowa,4096
+2016,Illinois,Kansas,4894
+2016,Illinois,Kentucky,5657
+2016,Illinois,Louisiana,3598
+2016,Illinois,Maine,1084
+2016,Illinois,Maryland,6142
+2016,Illinois,Massachusetts,15733
+2016,Illinois,Michigan,19267
+2016,Illinois,Minnesota,20556
+2016,Illinois,Mississippi,997
+2016,Illinois,Missouri,10422
+2016,Illinois,Montana,858
+2016,Illinois,Nebraska,5433
+2016,Illinois,Nevada,12955
+2016,Illinois,New Hampshire,2127
+2016,Illinois,New Jersey,11007
+2016,Illinois,New Mexico,160
+2016,Illinois,New York,20438
+2016,Illinois,North Carolina,13343
+2016,Illinois,North Dakota,2397
+2016,Illinois,Ohio,11349
+2016,Illinois,Oklahoma,3406
+2016,Illinois,Oregon,5949
+2016,Illinois,Pennsylvania,16372
+2016,Illinois,Rhode Island,2311
+2016,Illinois,South Carolina,4497
+2016,Illinois,South Dakota,2974
+2016,Illinois,Tennessee,8711
+2016,Illinois,Texas,23663
+2016,Illinois,Utah,6860
+2016,Illinois,Vermont,1818
+2016,Illinois,Virginia,20295
+2016,Illinois,Washington,10623
+2016,Illinois,West Virginia,1140
+2016,Illinois,Wisconsin,15818
+2016,Illinois,Wyoming,1101
+2016,Indiana,Arizona,2858
+2016,Indiana,California,2586
+2016,Indiana,Colorado,4282
+2016,Indiana,Florida,5125
+2016,Indiana,Georgia,12073
+2016,Indiana,Illinois,6483
+2016,Indiana,Maryland,1985
+2016,Indiana,Massachusetts,1320
+2016,Indiana,Michigan,5170
+2016,Indiana,Minnesota,3037
+2016,Indiana,Nevada,1907
+2016,Indiana,New Jersey,2554
+2016,Indiana,North Carolina,1836
+2016,Indiana,Pennsylvania,544
+2016,Indiana,Texas,4870
+2016,Indiana,Utah,165
+2016,Indiana,Virginia,1435
+2016,Iowa,Arizona,1468
+2016,Iowa,Colorado,3562
+2016,Iowa,Florida,54
+2016,Iowa,Georgia,2821
+2016,Iowa,Illinois,4096
+2016,Iowa,Michigan,1247
+2016,Iowa,Minnesota,1535
+2016,Iowa,Missouri,984
+2016,Iowa,Nevada,732
+2016,Iowa,New Jersey,478
+2016,Iowa,Texas,1735
+2016,Iowa,Utah,630
+2016,Kansas,Arizona,528
+2016,Kansas,Colorado,2606
+2016,Kansas,Georgia,2138
+2016,Kansas,Illinois,4894
+2016,Kansas,Minnesota,907
+2016,Kansas,Missouri,983
+2016,Kansas,Nevada,732
+2016,Kansas,Texas,2557
+2016,Kentucky,Arizona,657
+2016,Kentucky,California,1787
+2016,Kentucky,Colorado,2314
+2016,Kentucky,Florida,3516
+2016,Kentucky,Georgia,10626
+2016,Kentucky,Illinois,5657
+2016,Kentucky,Maryland,1241
+2016,Kentucky,Massachusetts,654
+2016,Kentucky,Michigan,1720
+2016,Kentucky,Minnesota,1520
+2016,Kentucky,Missouri,307
+2016,Kentucky,Nevada,1630
+2016,Kentucky,New Jersey,2890
+2016,Kentucky,New York,113
+2016,Kentucky,North Carolina,1058
+2016,Kentucky,Pennsylvania,314
+2016,Kentucky,Tennessee,1127
+2016,Kentucky,Texas,1631
+2016,Kentucky,Utah,1126
+2016,Kentucky,Virginia,20
+2016,Kentucky,Washington,153
+2016,Kentucky,Wisconsin,742
+2016,Louisiana,Arizona,895
+2016,Louisiana,California,5840
+2016,Louisiana,Colorado,3382
+2016,Louisiana,Florida,5745
+2016,Louisiana,Georgia,21441
+2016,Louisiana,Illinois,3598
+2016,Louisiana,Maryland,1974
+2016,Louisiana,Massachusetts,1031
+2016,Louisiana,Michigan,2334
+2016,Louisiana,Minnesota,903
+2016,Louisiana,Missouri,1573
+2016,Louisiana,Nevada,2186
+2016,Louisiana,New Jersey,1776
+2016,Louisiana,New York,3053
+2016,Louisiana,North Carolina,3228
+2016,Louisiana,Pennsylvania,1412
+2016,Louisiana,Tennessee,2255
+2016,Louisiana,Texas,21590
+2016,Louisiana,Utah,699
+2016,Louisiana,Virginia,1705
+2016,Louisiana,Washington,752
+2016,Louisiana,Wisconsin,2
+2016,Maine,Florida,10
+2016,Maine,Georgia,1415
+2016,Maine,Illinois,1084
+2016,Maine,Maryland,2339
+2016,Maine,Michigan,1366
+2016,Maine,New Jersey,3120
+2016,Maine,New York,2592
+2016,Maine,North Carolina,986
+2016,Maine,Virginia,21
+2016,Maryland,Alabama,768
+2016,Maryland,Arizona,3630
+2016,Maryland,Arkansas,10
+2016,Maryland,California,5685
+2016,Maryland,Colorado,4781
+2016,Maryland,Connecticut,4997
+2016,Maryland,Florida,20699
+2016,Maryland,Georgia,12845
+2016,Maryland,Illinois,6142
+2016,Maryland,Indiana,1985
+2016,Maryland,Kentucky,1241
+2016,Maryland,Louisiana,1974
+2016,Maryland,Maine,2339
+2016,Maryland,Massachusetts,11214
+2016,Maryland,Michigan,6571
+2016,Maryland,Minnesota,3848
+2016,Maryland,Missouri,3562
+2016,Maryland,Nevada,4035
+2016,Maryland,New Hampshire,5088
+2016,Maryland,New Jersey,390
+2016,Maryland,New Mexico,582
+2016,Maryland,New York,8661
+2016,Maryland,North Carolina,8959
+2016,Maryland,Ohio,3871
+2016,Maryland,Oklahoma,722
+2016,Maryland,Oregon,126
+2016,Maryland,Pennsylvania,1073
+2016,Maryland,Rhode Island,5590
+2016,Maryland,South Carolina,2719
+2016,Maryland,Tennessee,4496
+2016,Maryland,Texas,8396
+2016,Maryland,Utah,2088
+2016,Maryland,Washington,1680
+2016,Maryland,Wisconsin,1889
+2016,Massachusetts,Arizona,3083
+2016,Massachusetts,California,15501
+2016,Massachusetts,Colorado,5652
+2016,Massachusetts,Florida,18240
+2016,Massachusetts,Georgia,11005
+2016,Massachusetts,Illinois,15733
+2016,Massachusetts,Indiana,1320
+2016,Massachusetts,Kentucky,654
+2016,Massachusetts,Louisiana,1031
+2016,Massachusetts,Maryland,11214
+2016,Massachusetts,Massachusetts,282
+2016,Massachusetts,Michigan,7630
+2016,Massachusetts,Minnesota,4279
+2016,Massachusetts,Missouri,2148
+2016,Massachusetts,Nevada,2415
+2016,Massachusetts,New Jersey,9545
+2016,Massachusetts,New York,21051
+2016,Massachusetts,North Carolina,9443
+2016,Massachusetts,Ohio,4777
+2016,Massachusetts,Oregon,1128
+2016,Massachusetts,Pennsylvania,12169
+2016,Massachusetts,South Carolina,1423
+2016,Massachusetts,Tennessee,2800
+2016,Massachusetts,Texas,10423
+2016,Massachusetts,Utah,1985
+2016,Massachusetts,Virginia,21439
+2016,Massachusetts,Washington,3783
+2016,Massachusetts,Wisconsin,1313
+2016,Michigan,Alabama,1698
+2016,Michigan,Arizona,6197
+2016,Michigan,Arkansas,546
+2016,Michigan,California,6805
+2016,Michigan,Colorado,7021
+2016,Michigan,Connecticut,2889
+2016,Michigan,Florida,15809
+2016,Michigan,Georgia,13862
+2016,Michigan,Illinois,19267
+2016,Michigan,Indiana,5170
+2016,Michigan,Iowa,1247
+2016,Michigan,Kentucky,1720
+2016,Michigan,Louisiana,2334
+2016,Michigan,Maine,1366
+2016,Michigan,Maryland,6571
+2016,Michigan,Massachusetts,7630
+2016,Michigan,Michigan,8246
+2016,Michigan,Minnesota,9487
+2016,Michigan,Missouri,5018
+2016,Michigan,Nebraska,1804
+2016,Michigan,Nevada,6614
+2016,Michigan,New Hampshire,741
+2016,Michigan,New Jersey,4582
+2016,Michigan,New York,11206
+2016,Michigan,North Carolina,7611
+2016,Michigan,Ohio,3597
+2016,Michigan,Oklahoma,1051
+2016,Michigan,Oregon,466
+2016,Michigan,Pennsylvania,7700
+2016,Michigan,Rhode Island,1604
+2016,Michigan,South Carolina,1727
+2016,Michigan,Tennessee,6063
+2016,Michigan,Texas,8643
+2016,Michigan,Utah,3037
+2016,Michigan,Vermont,405
+2016,Michigan,Virginia,6475
+2016,Michigan,Washington,4392
+2016,Michigan,Wisconsin,7032
+2016,Minnesota,Alaska,1278
+2016,Minnesota,Arizona,8764
+2016,Minnesota,California,14027
+2016,Minnesota,Colorado,12055
+2016,Minnesota,Connecticut,1405
+2016,Minnesota,Florida,7333
+2016,Minnesota,Georgia,10663
+2016,Minnesota,Hawaii,262
+2016,Minnesota,Idaho,1535
+2016,Minnesota,Illinois,20556
+2016,Minnesota,Indiana,3037
+2016,Minnesota,Iowa,1535
+2016,Minnesota,Kansas,907
+2016,Minnesota,Kentucky,1520
+2016,Minnesota,Louisiana,903
+2016,Minnesota,Maryland,3848
+2016,Minnesota,Massachusetts,4279
+2016,Minnesota,Michigan,9487
+2016,Minnesota,Minnesota,4383
+2016,Minnesota,Missouri,7364
+2016,Minnesota,Montana,3928
+2016,Minnesota,Nebraska,3994
+2016,Minnesota,Nevada,5640
+2016,Minnesota,New Jersey,1998
+2016,Minnesota,New Mexico,218
+2016,Minnesota,New York,5441
+2016,Minnesota,North Carolina,5268
+2016,Minnesota,North Dakota,7874
+2016,Minnesota,Ohio,3229
+2016,Minnesota,Oklahoma,1044
+2016,Minnesota,Oregon,3543
+2016,Minnesota,Pennsylvania,5583
+2016,Minnesota,South Dakota,4706
+2016,Minnesota,Tennessee,3147
+2016,Minnesota,Texas,8985
+2016,Minnesota,Utah,4015
+2016,Minnesota,Virginia,4657
+2016,Minnesota,Washington,7363
+2016,Minnesota,Wisconsin,10217
+2016,Minnesota,Wyoming,225
+2016,Mississippi,Georgia,7280
+2016,Mississippi,Illinois,997
+2016,Mississippi,New Mexico,1
+2016,Mississippi,Texas,4282
+2016,Missouri,Arizona,6848
+2016,Missouri,Arkansas,1341
+2016,Missouri,California,7053
+2016,Missouri,Colorado,8636
+2016,Missouri,Florida,7689
+2016,Missouri,Georgia,13275
+2016,Missouri,Illinois,10422
+2016,Missouri,Iowa,984
+2016,Missouri,Kansas,983
+2016,Missouri,Kentucky,307
+2016,Missouri,Louisiana,1573
+2016,Missouri,Maryland,3562
+2016,Missouri,Massachusetts,2148
+2016,Missouri,Michigan,5018
+2016,Missouri,Minnesota,7364
+2016,Missouri,Missouri,1320
+2016,Missouri,Nebraska,1934
+2016,Missouri,Nevada,5131
+2016,Missouri,New Jersey,4204
+2016,Missouri,North Carolina,4503
+2016,Missouri,Ohio,1447
+2016,Missouri,Oklahoma,1928
+2016,Missouri,Oregon,1831
+2016,Missouri,Pennsylvania,2221
+2016,Missouri,Tennessee,2607
+2016,Missouri,Texas,13613
+2016,Missouri,Utah,2085
+2016,Missouri,Virginia,3043
+2016,Missouri,Washington,2472
+2016,Missouri,Wisconsin,1546
+2016,Montana,California,551
+2016,Montana,Colorado,5989
+2016,Montana,Georgia,188
+2016,Montana,Illinois,858
+2016,Montana,Minnesota,3928
+2016,Montana,New Jersey,124
+2016,Montana,Oregon,308
+2016,Montana,Utah,8454
+2016,Montana,Washington,644
+2016,Nebraska,Arizona,2624
+2016,Nebraska,California,668
+2016,Nebraska,Colorado,5526
+2016,Nebraska,Florida,298
+2016,Nebraska,Georgia,3734
+2016,Nebraska,Illinois,5433
+2016,Nebraska,Michigan,1804
+2016,Nebraska,Minnesota,3994
+2016,Nebraska,Missouri,1934
+2016,Nebraska,Nevada,1885
+2016,Nebraska,New Jersey,1175
+2016,Nebraska,Oregon,635
+2016,Nebraska,Texas,3482
+2016,Nebraska,Utah,894
+2016,Nebraska,Virginia,594
+2016,Nebraska,Washington,736
+2016,Nevada,Alabama,787
+2016,Nevada,Alaska,154
+2016,Nevada,Arizona,14544
+2016,Nevada,Arkansas,732
+2016,Nevada,California,56815
+2016,Nevada,Colorado,15424
+2016,Nevada,Connecticut,604
+2016,Nevada,Florida,6074
+2016,Nevada,Georgia,9682
+2016,Nevada,Hawaii,1778
+2016,Nevada,Idaho,1434
+2016,Nevada,Illinois,12955
+2016,Nevada,Indiana,1907
+2016,Nevada,Iowa,732
+2016,Nevada,Kansas,732
+2016,Nevada,Kentucky,1630
+2016,Nevada,Louisiana,2186
+2016,Nevada,Maryland,4035
+2016,Nevada,Massachusetts,2415
+2016,Nevada,Michigan,6614
+2016,Nevada,Minnesota,5640
+2016,Nevada,Missouri,5131
+2016,Nevada,Nebraska,1885
+2016,Nevada,Nevada,3318
+2016,Nevada,New Jersey,4508
+2016,Nevada,New Mexico,1422
+2016,Nevada,New York,10106
+2016,Nevada,North Carolina,3871
+2016,Nevada,Ohio,3526
+2016,Nevada,Oklahoma,1822
+2016,Nevada,Oregon,5888
+2016,Nevada,Pennsylvania,5239
+2016,Nevada,Tennessee,2307
+2016,Nevada,Texas,21675
+2016,Nevada,Utah,9989
+2016,Nevada,Virginia,1672
+2016,Nevada,Washington,13628
+2016,Nevada,Wisconsin,2952
+2016,New Hampshire,Florida,2036
+2016,New Hampshire,Georgia,731
+2016,New Hampshire,Illinois,2127
+2016,New Hampshire,Maryland,5088
+2016,New Hampshire,Michigan,741
+2016,New Hampshire,New Jersey,1215
+2016,New Jersey,Alaska,20
+2016,New Jersey,Arizona,4733
+2016,New Jersey,California,19428
+2016,New Jersey,Colorado,7056
+2016,New Jersey,Connecticut,393
+2016,New Jersey,Florida,29236
+2016,New Jersey,Georgia,12576
+2016,New Jersey,Hawaii,729
+2016,New Jersey,Illinois,11007
+2016,New Jersey,Indiana,2554
+2016,New Jersey,Iowa,478
+2016,New Jersey,Kentucky,2890
+2016,New Jersey,Louisiana,1776
+2016,New Jersey,Maine,3120
+2016,New Jersey,Maryland,390
+2016,New Jersey,Massachusetts,9545
+2016,New Jersey,Michigan,4582
+2016,New Jersey,Minnesota,1998
+2016,New Jersey,Missouri,4204
+2016,New Jersey,Montana,124
+2016,New Jersey,Nebraska,1175
+2016,New Jersey,Nevada,4508
+2016,New Jersey,New Hampshire,1215
+2016,New Jersey,New York,4415
+2016,New Jersey,North Carolina,9213
+2016,New Jersey,Ohio,5654
+2016,New Jersey,Oklahoma,41
+2016,New Jersey,Oregon,841
+2016,New Jersey,Rhode Island,1315
+2016,New Jersey,South Carolina,4317
+2016,New Jersey,Tennessee,4139
+2016,New Jersey,Texas,10685
+2016,New Jersey,Utah,776
+2016,New Jersey,Vermont,2649
+2016,New Jersey,Virginia,7184
+2016,New Jersey,Washington,3310
+2016,New Jersey,Wisconsin,2765
+2016,New Jersey,Wyoming,156
+2016,New York,Arizona,6017
+2016,New York,California,37844
+2016,New York,Colorado,6239
+2016,New York,Florida,40476
+2016,New York,Georgia,22220
+2016,New York,Hawaii,750
+2016,New York,Illinois,20438
+2016,New York,Kentucky,113
+2016,New York,Louisiana,3053
+2016,New York,Maine,2592
+2016,New York,Maryland,8661
+2016,New York,Massachusetts,21051
+2016,New York,Michigan,11206
+2016,New York,Minnesota,5441
+2016,New York,Nevada,10106
+2016,New York,New Jersey,4415
+2016,New York,New Mexico,326
+2016,New York,New York,7702
+2016,New York,North Carolina,15754
+2016,New York,Ohio,2541
+2016,New York,Oregon,1900
+2016,New York,Pennsylvania,955
+2016,New York,South Carolina,3647
+2016,New York,Texas,7901
+2016,New York,Utah,3998
+2016,New York,Vermont,2454
+2016,New York,Virginia,6749
+2016,New York,Washington,5360
+2016,New York,Wyoming,20
+2016,North Carolina,Arizona,6503
+2016,North Carolina,California,8265
+2016,North Carolina,Colorado,7484
+2016,North Carolina,Connecticut,3870
+2016,North Carolina,Florida,22559
+2016,North Carolina,Georgia,29749
+2016,North Carolina,Illinois,13343
+2016,North Carolina,Indiana,1836
+2016,North Carolina,Kentucky,1058
+2016,North Carolina,Louisiana,3228
+2016,North Carolina,Maine,986
+2016,North Carolina,Maryland,8959
+2016,North Carolina,Massachusetts,9443
+2016,North Carolina,Michigan,7611
+2016,North Carolina,Minnesota,5268
+2016,North Carolina,Missouri,4503
+2016,North Carolina,Nevada,3871
+2016,North Carolina,New Jersey,9213
+2016,North Carolina,New York,15754
+2016,North Carolina,North Carolina,3529
+2016,North Carolina,Ohio,2476
+2016,North Carolina,Oregon,633
+2016,North Carolina,Pennsylvania,10805
+2016,North Carolina,Rhode Island,2572
+2016,North Carolina,South Carolina,1058
+2016,North Carolina,Tennessee,5505
+2016,North Carolina,Texas,15196
+2016,North Carolina,Utah,1694
+2016,North Carolina,Virginia,8221
+2016,North Carolina,Washington,2198
+2016,North Dakota,Colorado,5410
+2016,North Dakota,Georgia,37
+2016,North Dakota,Illinois,2397
+2016,North Dakota,Minnesota,7874
+2016,North Dakota,North Dakota,1
+2016,Ohio,Arizona,2398
+2016,Ohio,California,3218
+2016,Ohio,Colorado,4347
+2016,Ohio,Connecticut,244
+2016,Ohio,Florida,6262
+2016,Ohio,Georgia,13694
+2016,Ohio,Illinois,11349
+2016,Ohio,Maryland,3871
+2016,Ohio,Massachusetts,4777
+2016,Ohio,Michigan,3597
+2016,Ohio,Minnesota,3229
+2016,Ohio,Missouri,1447
+2016,Ohio,Nevada,3526
+2016,Ohio,New Jersey,5654
+2016,Ohio,New York,2541
+2016,Ohio,North Carolina,2476
+2016,Ohio,Oregon,110
+2016,Ohio,Pennsylvania,382
+2016,Ohio,South Carolina,212
+2016,Ohio,Tennessee,2462
+2016,Ohio,Texas,6675
+2016,Ohio,Virginia,3759
+2016,Ohio,Washington,145
+2016,Ohio,Wisconsin,1110
+2016,Oklahoma,Arizona,2131
+2016,Oklahoma,California,1017
+2016,Oklahoma,Colorado,6268
+2016,Oklahoma,Georgia,6204
+2016,Oklahoma,Illinois,3406
+2016,Oklahoma,Maryland,722
+2016,Oklahoma,Michigan,1051
+2016,Oklahoma,Minnesota,1044
+2016,Oklahoma,Missouri,1928
+2016,Oklahoma,Nevada,1822
+2016,Oklahoma,New Jersey,41
+2016,Oklahoma,Texas,10587
+2016,Oklahoma,Utah,1561
+2016,Oklahoma,Washington,732
+2016,Oregon,Alaska,2120
+2016,Oregon,Arizona,6788
+2016,Oregon,California,29721
+2016,Oregon,Colorado,9798
+2016,Oregon,Georgia,2570
+2016,Oregon,Hawaii,2452
+2016,Oregon,Idaho,794
+2016,Oregon,Illinois,5949
+2016,Oregon,Maryland,126
+2016,Oregon,Massachusetts,1128
+2016,Oregon,Michigan,466
+2016,Oregon,Minnesota,3543
+2016,Oregon,Missouri,1831
+2016,Oregon,Montana,308
+2016,Oregon,Nebraska,635
+2016,Oregon,Nevada,5888
+2016,Oregon,New Jersey,841
+2016,Oregon,New Mexico,242
+2016,Oregon,New York,1900
+2016,Oregon,North Carolina,633
+2016,Oregon,Ohio,110
+2016,Oregon,Pennsylvania,165
+2016,Oregon,Texas,6435
+2016,Oregon,Utah,7895
+2016,Oregon,Virginia,1041
+2016,Oregon,Washington,4493
+2016,Pennsylvania,Arizona,6346
+2016,Pennsylvania,California,8142
+2016,Pennsylvania,Colorado,6725
+2016,Pennsylvania,Connecticut,523
+2016,Pennsylvania,Florida,23047
+2016,Pennsylvania,Georgia,20010
+2016,Pennsylvania,Illinois,16372
+2016,Pennsylvania,Indiana,544
+2016,Pennsylvania,Kentucky,314
+2016,Pennsylvania,Louisiana,1412
+2016,Pennsylvania,Maryland,1073
+2016,Pennsylvania,Massachusetts,12169
+2016,Pennsylvania,Michigan,7700
+2016,Pennsylvania,Minnesota,5583
+2016,Pennsylvania,Missouri,2221
+2016,Pennsylvania,Nevada,5239
+2016,Pennsylvania,New York,955
+2016,Pennsylvania,North Carolina,10805
+2016,Pennsylvania,Ohio,382
+2016,Pennsylvania,Oregon,165
+2016,Pennsylvania,Pennsylvania,842
+2016,Pennsylvania,Rhode Island,998
+2016,Pennsylvania,South Carolina,403
+2016,Pennsylvania,Tennessee,1983
+2016,Pennsylvania,Texas,10912
+2016,Pennsylvania,Utah,1073
+2016,Pennsylvania,Virginia,553
+2016,Pennsylvania,Washington,2030
+2016,Pennsylvania,Wisconsin,128
+2016,Rhode Island,Florida,5989
+2016,Rhode Island,Georgia,2088
+2016,Rhode Island,Illinois,2311
+2016,Rhode Island,Maryland,5590
+2016,Rhode Island,Michigan,1604
+2016,Rhode Island,New Jersey,1315
+2016,Rhode Island,North Carolina,2572
+2016,Rhode Island,Pennsylvania,998
+2016,Rhode Island,Virginia,223
+2016,South Carolina,Colorado,18
+2016,South Carolina,Georgia,15177
+2016,South Carolina,Illinois,4497
+2016,South Carolina,Maryland,2719
+2016,South Carolina,Massachusetts,1423
+2016,South Carolina,Michigan,1727
+2016,South Carolina,New Jersey,4317
+2016,South Carolina,New York,3647
+2016,South Carolina,North Carolina,1058
+2016,South Carolina,Ohio,212
+2016,South Carolina,Pennsylvania,403
+2016,South Carolina,Tennessee,778
+2016,South Carolina,Texas,1767
+2016,South Carolina,Virginia,1754
+2016,South Carolina,Washington,418
+2016,South Dakota,Colorado,3403
+2016,South Dakota,Georgia,610
+2016,South Dakota,Illinois,2974
+2016,South Dakota,Minnesota,4706
+2016,Tennessee,Arizona,1703
+2016,Tennessee,California,5572
+2016,Tennessee,Colorado,5746
+2016,Tennessee,Florida,8899
+2016,Tennessee,Georgia,18742
+2016,Tennessee,Illinois,8711
+2016,Tennessee,Kentucky,1127
+2016,Tennessee,Louisiana,2255
+2016,Tennessee,Maryland,4496
+2016,Tennessee,Massachusetts,2800
+2016,Tennessee,Michigan,6063
+2016,Tennessee,Minnesota,3147
+2016,Tennessee,Missouri,2607
+2016,Tennessee,Nevada,2307
+2016,Tennessee,New Jersey,4139
+2016,Tennessee,North Carolina,5505
+2016,Tennessee,Ohio,2462
+2016,Tennessee,Pennsylvania,1983
+2016,Tennessee,South Carolina,778
+2016,Tennessee,Texas,14153
+2016,Tennessee,Utah,744
+2016,Tennessee,Virginia,2137
+2016,Tennessee,Washington,1207
+2016,Texas,Alabama,3724
+2016,Texas,Alaska,320
+2016,Texas,Arizona,21689
+2016,Texas,Arkansas,4302
+2016,Texas,California,45895
+2016,Texas,Colorado,31702
+2016,Texas,Connecticut,1345
+2016,Texas,Florida,29743
+2016,Texas,Georgia,33775
+2016,Texas,Hawaii,2406
+2016,Texas,Idaho,777
+2016,Texas,Illinois,23663
+2016,Texas,Indiana,4870
+2016,Texas,Iowa,1735
+2016,Texas,Kansas,2557
+2016,Texas,Kentucky,1631
+2016,Texas,Louisiana,21590
+2016,Texas,Maryland,8396
+2016,Texas,Massachusetts,10423
+2016,Texas,Michigan,8643
+2016,Texas,Minnesota,8985
+2016,Texas,Mississippi,4282
+2016,Texas,Missouri,13613
+2016,Texas,Nebraska,3482
+2016,Texas,Nevada,21675
+2016,Texas,New Jersey,10685
+2016,Texas,New Mexico,3060
+2016,Texas,New York,7901
+2016,Texas,North Carolina,15196
+2016,Texas,Ohio,6675
+2016,Texas,Oklahoma,10587
+2016,Texas,Oregon,6435
+2016,Texas,Pennsylvania,10912
+2016,Texas,South Carolina,1767
+2016,Texas,Tennessee,14153
+2016,Texas,Texas,23747
+2016,Texas,Utah,10437
+2016,Texas,Virginia,15019
+2016,Texas,Washington,12161
+2016,Texas,Wisconsin,3444
+2016,Texas,Wyoming,1036
+2016,Utah,Alaska,184
+2016,Utah,Arizona,11896
+2016,Utah,California,29232
+2016,Utah,Colorado,16942
+2016,Utah,Florida,2969
+2016,Utah,Georgia,5784
+2016,Utah,Hawaii,712
+2016,Utah,Idaho,9135
+2016,Utah,Illinois,6860
+2016,Utah,Indiana,165
+2016,Utah,Iowa,630
+2016,Utah,Kentucky,1126
+2016,Utah,Louisiana,699
+2016,Utah,Maryland,2088
+2016,Utah,Massachusetts,1985
+2016,Utah,Michigan,3037
+2016,Utah,Minnesota,4015
+2016,Utah,Missouri,2085
+2016,Utah,Montana,8454
+2016,Utah,Nebraska,894
+2016,Utah,Nevada,9989
+2016,Utah,New Jersey,776
+2016,Utah,New Mexico,1037
+2016,Utah,New York,3998
+2016,Utah,North Carolina,1694
+2016,Utah,Oklahoma,1561
+2016,Utah,Oregon,7895
+2016,Utah,Pennsylvania,1073
+2016,Utah,Tennessee,744
+2016,Utah,Texas,10437
+2016,Utah,Utah,1972
+2016,Utah,Virginia,1382
+2016,Utah,Washington,10849
+2016,Utah,Wyoming,4061
+2016,Vermont,Georgia,655
+2016,Vermont,Illinois,1818
+2016,Vermont,Michigan,405
+2016,Vermont,New Jersey,2649
+2016,Vermont,New York,2454
+2016,Vermont,Virginia,2
+2016,Virginia,Arizona,2527
+2016,Virginia,California,6804
+2016,Virginia,Colorado,6876
+2016,Virginia,Connecticut,1851
+2016,Virginia,Florida,22008
+2016,Virginia,Georgia,26774
+2016,Virginia,Illinois,20295
+2016,Virginia,Indiana,1435
+2016,Virginia,Kentucky,20
+2016,Virginia,Louisiana,1705
+2016,Virginia,Maine,21
+2016,Virginia,Massachusetts,21439
+2016,Virginia,Michigan,6475
+2016,Virginia,Minnesota,4657
+2016,Virginia,Missouri,3043
+2016,Virginia,Nebraska,594
+2016,Virginia,Nevada,1672
+2016,Virginia,New Jersey,7184
+2016,Virginia,New York,6749
+2016,Virginia,North Carolina,8221
+2016,Virginia,Ohio,3759
+2016,Virginia,Oregon,1041
+2016,Virginia,Pennsylvania,553
+2016,Virginia,Rhode Island,223
+2016,Virginia,South Carolina,1754
+2016,Virginia,Tennessee,2137
+2016,Virginia,Texas,15019
+2016,Virginia,Utah,1382
+2016,Virginia,Vermont,2
+2016,Virginia,Washington,2791
+2016,Virginia,Wisconsin,1940
+2016,Washington,Alaska,18131
+2016,Washington,Arizona,13766
+2016,Washington,California,52469
+2016,Washington,Colorado,15752
+2016,Washington,Florida,2692
+2016,Washington,Georgia,6389
+2016,Washington,Hawaii,6505
+2016,Washington,Idaho,4972
+2016,Washington,Illinois,10623
+2016,Washington,Kentucky,153
+2016,Washington,Louisiana,752
+2016,Washington,Maryland,1680
+2016,Washington,Massachusetts,3783
+2016,Washington,Michigan,4392
+2016,Washington,Minnesota,7363
+2016,Washington,Missouri,2472
+2016,Washington,Montana,644
+2016,Washington,Nebraska,736
+2016,Washington,Nevada,13628
+2016,Washington,New Jersey,3310
+2016,Washington,New Mexico,375
+2016,Washington,New York,5360
+2016,Washington,North Carolina,2198
+2016,Washington,Ohio,145
+2016,Washington,Oklahoma,732
+2016,Washington,Oregon,4493
+2016,Washington,Pennsylvania,2030
+2016,Washington,South Carolina,418
+2016,Washington,Tennessee,1207
+2016,Washington,Texas,12161
+2016,Washington,Utah,10849
+2016,Washington,Virginia,2791
+2016,Washington,Washington,4553
+2016,Washington,Wisconsin,1562
+2016,Washington,Wyoming,60
+2016,West Virginia,Georgia,3258
+2016,West Virginia,Illinois,1140
+2016,Wisconsin,Arizona,3094
+2016,Wisconsin,California,1380
+2016,Wisconsin,Colorado,5787
+2016,Wisconsin,Florida,4497
+2016,Wisconsin,Georgia,9198
+2016,Wisconsin,Illinois,15818
+2016,Wisconsin,Kentucky,742
+2016,Wisconsin,Louisiana,2
+2016,Wisconsin,Maryland,1889
+2016,Wisconsin,Massachusetts,1313
+2016,Wisconsin,Michigan,7032
+2016,Wisconsin,Minnesota,10217
+2016,Wisconsin,Missouri,1546
+2016,Wisconsin,Nevada,2952
+2016,Wisconsin,New Jersey,2765
+2016,Wisconsin,Ohio,1110
+2016,Wisconsin,Pennsylvania,128
+2016,Wisconsin,Texas,3444
+2016,Wisconsin,Virginia,1940
+2016,Wisconsin,Washington,1562
+2016,Wyoming,California,831
+2016,Wyoming,Colorado,4585
+2016,Wyoming,Georgia,203
+2016,Wyoming,Illinois,1101
+2016,Wyoming,Minnesota,225
+2016,Wyoming,New Jersey,156
+2016,Wyoming,New York,20
+2016,Wyoming,Texas,1036
+2016,Wyoming,Utah,4061
+2016,Wyoming,Washington,60
+2017,Alabama,Colorado,834
+2017,Alabama,Florida,2158
+2017,Alabama,Georgia,13592
+2017,Alabama,Illinois,3888
+2017,Alabama,Maryland,770
+2017,Alabama,Michigan,629
+2017,Alabama,Nevada,748
+2017,Alabama,Texas,3586
+2017,Alaska,Alaska,6330
+2017,Alaska,Arizona,342
+2017,Alaska,California,1141
+2017,Alaska,Colorado,879
+2017,Alaska,Georgia,226
+2017,Alaska,Hawaii,781
+2017,Alaska,Illinois,1318
+2017,Alaska,Minnesota,1233
+2017,Alaska,Nevada,157
+2017,Alaska,New Jersey,26
+2017,Alaska,Oregon,1972
+2017,Alaska,Texas,318
+2017,Alaska,Utah,62
+2017,Alaska,Washington,18055
+2017,Arizona,Alaska,342
+2017,Arizona,Arizona,3552
+2017,Arizona,Arkansas,729
+2017,Arizona,California,50305
+2017,Arizona,Colorado,19182
+2017,Arizona,Florida,5622
+2017,Arizona,Georgia,7859
+2017,Arizona,Hawaii,3385
+2017,Arizona,Idaho,2226
+2017,Arizona,Illinois,14313
+2017,Arizona,Indiana,2672
+2017,Arizona,Iowa,1609
+2017,Arizona,Kansas,730
+2017,Arizona,Kentucky,1000
+2017,Arizona,Louisiana,752
+2017,Arizona,Maryland,3556
+2017,Arizona,Massachusetts,3206
+2017,Arizona,Michigan,5877
+2017,Arizona,Minnesota,8451
+2017,Arizona,Missouri,6115
+2017,Arizona,Nebraska,2998
+2017,Arizona,Nevada,13736
+2017,Arizona,New Jersey,4775
+2017,Arizona,New Mexico,3254
+2017,Arizona,New York,6077
+2017,Arizona,North Carolina,6516
+2017,Arizona,Ohio,2557
+2017,Arizona,Oklahoma,2080
+2017,Arizona,Oregon,7418
+2017,Arizona,Pennsylvania,6263
+2017,Arizona,Tennessee,2344
+2017,Arizona,Texas,22199
+2017,Arizona,Utah,11145
+2017,Arizona,Virginia,2524
+2017,Arizona,Washington,11649
+2017,Arizona,Wisconsin,3290
+2017,Arizona,Wyoming,162
+2017,Arkansas,Arizona,729
+2017,Arkansas,Colorado,1663
+2017,Arkansas,Georgia,6548
+2017,Arkansas,Illinois,2346
+2017,Arkansas,Michigan,458
+2017,Arkansas,Missouri,1351
+2017,Arkansas,Nevada,730
+2017,Arkansas,Texas,3003
+2017,California,Alaska,1141
+2017,California,Arizona,50305
+2017,California,California,41499
+2017,California,Colorado,48751
+2017,California,Connecticut,751
+2017,California,Florida,14557
+2017,California,Georgia,21799
+2017,California,Hawaii,22981
+2017,California,Idaho,4797
+2017,California,Illinois,35050
+2017,California,Indiana,2923
+2017,California,Kentucky,2309
+2017,California,Louisiana,5949
+2017,California,Maryland,7269
+2017,California,Massachusetts,16224
+2017,California,Michigan,7584
+2017,California,Minnesota,14357
+2017,California,Missouri,7034
+2017,California,Montana,652
+2017,California,Nebraska,824
+2017,California,Nevada,58051
+2017,California,New Jersey,20018
+2017,California,New Mexico,1097
+2017,California,New York,38439
+2017,California,North Carolina,8577
+2017,California,Ohio,3118
+2017,California,Oklahoma,1051
+2017,California,Oregon,31417
+2017,California,Pennsylvania,8813
+2017,California,Tennessee,6108
+2017,California,Texas,44059
+2017,California,Utah,32945
+2017,California,Virginia,7047
+2017,California,Washington,52037
+2017,California,Wisconsin,1205
+2017,California,Wyoming,779
+2017,Colorado,Alabama,834
+2017,Colorado,Alaska,879
+2017,Colorado,Arizona,19182
+2017,Colorado,Arkansas,1663
+2017,Colorado,California,48751
+2017,Colorado,Colorado,6370
+2017,Colorado,Connecticut,1526
+2017,Colorado,Florida,12935
+2017,Colorado,Georgia,12145
+2017,Colorado,Hawaii,1182
+2017,Colorado,Idaho,5412
+2017,Colorado,Illinois,18999
+2017,Colorado,Indiana,4076
+2017,Colorado,Iowa,3655
+2017,Colorado,Kansas,2654
+2017,Colorado,Kentucky,2999
+2017,Colorado,Louisiana,3599
+2017,Colorado,Maryland,4910
+2017,Colorado,Massachusetts,5711
+2017,Colorado,Michigan,7143
+2017,Colorado,Minnesota,11811
+2017,Colorado,Missouri,9070
+2017,Colorado,Montana,5963
+2017,Colorado,Nebraska,6012
+2017,Colorado,Nevada,16230
+2017,Colorado,New Jersey,7066
+2017,Colorado,New Mexico,2009
+2017,Colorado,New York,6922
+2017,Colorado,North Carolina,7253
+2017,Colorado,North Dakota,3563
+2017,Colorado,Ohio,3860
+2017,Colorado,Oklahoma,5663
+2017,Colorado,Oregon,9348
+2017,Colorado,Pennsylvania,6803
+2017,Colorado,Rhode Island,249
+2017,Colorado,South Carolina,192
+2017,Colorado,South Dakota,3025
+2017,Colorado,Tennessee,5766
+2017,Colorado,Texas,29379
+2017,Colorado,Utah,17518
+2017,Colorado,Virginia,6938
+2017,Colorado,Washington,15549
+2017,Colorado,Wisconsin,5372
+2017,Colorado,Wyoming,3504
+2017,Connecticut,California,751
+2017,Connecticut,Colorado,1526
+2017,Connecticut,Florida,7945
+2017,Connecticut,Georgia,4530
+2017,Connecticut,Illinois,4243
+2017,Connecticut,Maryland,4971
+2017,Connecticut,Michigan,2755
+2017,Connecticut,Minnesota,1706
+2017,Connecticut,Nevada,501
+2017,Connecticut,New Jersey,554
+2017,Connecticut,North Carolina,4026
+2017,Connecticut,Ohio,188
+2017,Connecticut,Pennsylvania,785
+2017,Connecticut,Texas,1358
+2017,Connecticut,Virginia,1808
+2017,Florida,Alabama,2158
+2017,Florida,Arizona,5622
+2017,Florida,California,14557
+2017,Florida,Colorado,12935
+2017,Florida,Connecticut,7945
+2017,Florida,Florida,4748
+2017,Florida,Georgia,70036
+2017,Florida,Illinois,26830
+2017,Florida,Indiana,5376
+2017,Florida,Iowa,155
+2017,Florida,Kentucky,4113
+2017,Florida,Louisiana,7211
+2017,Florida,Maine,14
+2017,Florida,Maryland,22096
+2017,Florida,Massachusetts,21429
+2017,Florida,Michigan,16069
+2017,Florida,Minnesota,7878
+2017,Florida,Missouri,8349
+2017,Florida,Nebraska,413
+2017,Florida,Nevada,5754
+2017,Florida,New Hampshire,1987
+2017,Florida,New Jersey,33869
+2017,Florida,New Mexico,78
+2017,Florida,New York,39432
+2017,Florida,North Carolina,22108
+2017,Florida,Ohio,6761
+2017,Florida,Oklahoma,102
+2017,Florida,Oregon,582
+2017,Florida,Pennsylvania,22444
+2017,Florida,Rhode Island,6285
+2017,Florida,Tennessee,9727
+2017,Florida,Texas,27853
+2017,Florida,Utah,3089
+2017,Florida,Virginia,22194
+2017,Florida,Washington,3084
+2017,Florida,Wisconsin,4524
+2017,Georgia,Alabama,13592
+2017,Georgia,Alaska,226
+2017,Georgia,Arizona,7859
+2017,Georgia,Arkansas,6548
+2017,Georgia,California,21799
+2017,Georgia,Colorado,12145
+2017,Georgia,Connecticut,4530
+2017,Georgia,Florida,70036
+2017,Georgia,Georgia,8431
+2017,Georgia,Hawaii,730
+2017,Georgia,Illinois,22374
+2017,Georgia,Indiana,11493
+2017,Georgia,Iowa,2719
+2017,Georgia,Kansas,2096
+2017,Georgia,Kentucky,10398
+2017,Georgia,Louisiana,18485
+2017,Georgia,Maine,1376
+2017,Georgia,Maryland,13109
+2017,Georgia,Massachusetts,13596
+2017,Georgia,Michigan,14039
+2017,Georgia,Minnesota,10655
+2017,Georgia,Mississippi,6962
+2017,Georgia,Missouri,13502
+2017,Georgia,Montana,195
+2017,Georgia,Nebraska,3768
+2017,Georgia,Nevada,9380
+2017,Georgia,New Hampshire,728
+2017,Georgia,New Jersey,13040
+2017,Georgia,New Mexico,865
+2017,Georgia,New York,22568
+2017,Georgia,North Carolina,25299
+2017,Georgia,North Dakota,21
+2017,Georgia,Ohio,13543
+2017,Georgia,Oklahoma,5312
+2017,Georgia,Oregon,2662
+2017,Georgia,Pennsylvania,19192
+2017,Georgia,Rhode Island,2080
+2017,Georgia,South Carolina,14686
+2017,Georgia,South Dakota,597
+2017,Georgia,Tennessee,16372
+2017,Georgia,Texas,32868
+2017,Georgia,Utah,5944
+2017,Georgia,Vermont,793
+2017,Georgia,Virginia,24684
+2017,Georgia,Washington,6254
+2017,Georgia,West Virginia,2464
+2017,Georgia,Wisconsin,8928
+2017,Georgia,Wyoming,185
+2017,Hawaii,Alaska,781
+2017,Hawaii,Arizona,3385
+2017,Hawaii,California,22981
+2017,Hawaii,Colorado,1182
+2017,Hawaii,Georgia,730
+2017,Hawaii,Hawaii,28946
+2017,Hawaii,Illinois,790
+2017,Hawaii,Minnesota,497
+2017,Hawaii,Nevada,1862
+2017,Hawaii,New Jersey,728
+2017,Hawaii,New York,849
+2017,Hawaii,Oregon,2416
+2017,Hawaii,Texas,2443
+2017,Hawaii,Utah,733
+2017,Hawaii,Washington,6423
+2017,Idaho,Arizona,2226
+2017,Idaho,California,4797
+2017,Idaho,Colorado,5412
+2017,Idaho,Idaho,3
+2017,Idaho,Illinois,1654
+2017,Idaho,Minnesota,1531
+2017,Idaho,Nevada,1454
+2017,Idaho,Oregon,1285
+2017,Idaho,Texas,782
+2017,Idaho,Utah,9041
+2017,Idaho,Washington,5902
+2017,Illinois,Alabama,3888
+2017,Illinois,Alaska,1318
+2017,Illinois,Arizona,14313
+2017,Illinois,Arkansas,2346
+2017,Illinois,California,35050
+2017,Illinois,Colorado,18999
+2017,Illinois,Connecticut,4243
+2017,Illinois,Florida,26830
+2017,Illinois,Georgia,22374
+2017,Illinois,Hawaii,790
+2017,Illinois,Idaho,1654
+2017,Illinois,Illinois,4794
+2017,Illinois,Indiana,8279
+2017,Illinois,Iowa,4961
+2017,Illinois,Kansas,4913
+2017,Illinois,Kentucky,6655
+2017,Illinois,Louisiana,4860
+2017,Illinois,Maine,1621
+2017,Illinois,Maryland,6576
+2017,Illinois,Massachusetts,15105
+2017,Illinois,Michigan,25105
+2017,Illinois,Minnesota,22270
+2017,Illinois,Mississippi,963
+2017,Illinois,Missouri,10989
+2017,Illinois,Montana,1633
+2017,Illinois,Nebraska,6232
+2017,Illinois,Nevada,13036
+2017,Illinois,New Hampshire,2143
+2017,Illinois,New Jersey,11819
+2017,Illinois,New Mexico,318
+2017,Illinois,New York,21092
+2017,Illinois,North Carolina,12514
+2017,Illinois,North Dakota,1903
+2017,Illinois,Ohio,12812
+2017,Illinois,Oklahoma,2541
+2017,Illinois,Oregon,5826
+2017,Illinois,Pennsylvania,17033
+2017,Illinois,Rhode Island,1706
+2017,Illinois,South Carolina,4180
+2017,Illinois,South Dakota,3320
+2017,Illinois,Tennessee,10724
+2017,Illinois,Texas,23784
+2017,Illinois,Utah,7806
+2017,Illinois,Vermont,1481
+2017,Illinois,Virginia,21766
+2017,Illinois,Washington,11307
+2017,Illinois,West Virginia,908
+2017,Illinois,Wisconsin,16057
+2017,Illinois,Wyoming,1041
+2017,Indiana,Arizona,2672
+2017,Indiana,California,2923
+2017,Indiana,Colorado,4076
+2017,Indiana,Florida,5376
+2017,Indiana,Georgia,11493
+2017,Indiana,Illinois,8279
+2017,Indiana,Louisiana,44
+2017,Indiana,Maryland,1952
+2017,Indiana,Massachusetts,1218
+2017,Indiana,Michigan,4852
+2017,Indiana,Minnesota,3213
+2017,Indiana,Nevada,2035
+2017,Indiana,New Jersey,2981
+2017,Indiana,North Carolina,1832
+2017,Indiana,Texas,4894
+2017,Indiana,Utah,328
+2017,Indiana,Virginia,1144
+2017,Indiana,Washington,470
+2017,Iowa,Arizona,1609
+2017,Iowa,Colorado,3655
+2017,Iowa,Florida,155
+2017,Iowa,Georgia,2719
+2017,Iowa,Illinois,4961
+2017,Iowa,Michigan,1380
+2017,Iowa,Minnesota,1754
+2017,Iowa,Missouri,1354
+2017,Iowa,Nevada,812
+2017,Iowa,New Jersey,273
+2017,Iowa,Oklahoma,2
+2017,Iowa,Texas,2375
+2017,Iowa,Utah,628
+2017,Kansas,Arizona,730
+2017,Kansas,Colorado,2654
+2017,Kansas,Georgia,2096
+2017,Kansas,Illinois,4913
+2017,Kansas,Kansas,1
+2017,Kansas,Minnesota,1505
+2017,Kansas,Missouri,1354
+2017,Kansas,Nevada,732
+2017,Kansas,Texas,2662
+2017,Kansas,Washington,316
+2017,Kentucky,Arizona,1000
+2017,Kentucky,California,2309
+2017,Kentucky,Colorado,2999
+2017,Kentucky,Florida,4113
+2017,Kentucky,Georgia,10398
+2017,Kentucky,Illinois,6655
+2017,Kentucky,Maryland,2677
+2017,Kentucky,Massachusetts,1164
+2017,Kentucky,Michigan,2342
+2017,Kentucky,Minnesota,1940
+2017,Kentucky,Missouri,414
+2017,Kentucky,Nevada,1826
+2017,Kentucky,New Jersey,960
+2017,Kentucky,New York,587
+2017,Kentucky,North Carolina,551
+2017,Kentucky,Pennsylvania,137
+2017,Kentucky,Tennessee,776
+2017,Kentucky,Texas,2461
+2017,Kentucky,Utah,1069
+2017,Kentucky,Virginia,310
+2017,Kentucky,Washington,191
+2017,Kentucky,Wisconsin,592
+2017,Louisiana,Arizona,752
+2017,Louisiana,California,5949
+2017,Louisiana,Colorado,3599
+2017,Louisiana,Florida,7211
+2017,Louisiana,Georgia,18485
+2017,Louisiana,Illinois,4860
+2017,Louisiana,Indiana,44
+2017,Louisiana,Maryland,2547
+2017,Louisiana,Massachusetts,1344
+2017,Louisiana,Michigan,2496
+2017,Louisiana,Minnesota,853
+2017,Louisiana,Missouri,1687
+2017,Louisiana,Nevada,2166
+2017,Louisiana,New Jersey,1900
+2017,Louisiana,New York,3334
+2017,Louisiana,North Carolina,4497
+2017,Louisiana,Ohio,381
+2017,Louisiana,Pennsylvania,2078
+2017,Louisiana,Rhode Island,76
+2017,Louisiana,Tennessee,2351
+2017,Louisiana,Texas,19151
+2017,Louisiana,Utah,710
+2017,Louisiana,Virginia,2408
+2017,Louisiana,Washington,730
+2017,Maine,Florida,14
+2017,Maine,Georgia,1376
+2017,Maine,Illinois,1621
+2017,Maine,Maryland,2444
+2017,Maine,Michigan,454
+2017,Maine,New Jersey,2550
+2017,Maine,New York,2658
+2017,Maine,North Carolina,1450
+2017,Maine,Virginia,60
+2017,Maryland,Alabama,770
+2017,Maryland,Arizona,3556
+2017,Maryland,California,7269
+2017,Maryland,Colorado,4910
+2017,Maryland,Connecticut,4971
+2017,Maryland,Florida,22096
+2017,Maryland,Georgia,13109
+2017,Maryland,Illinois,6576
+2017,Maryland,Indiana,1952
+2017,Maryland,Kentucky,2677
+2017,Maryland,Louisiana,2547
+2017,Maryland,Maine,2444
+2017,Maryland,Massachusetts,11808
+2017,Maryland,Michigan,6964
+2017,Maryland,Minnesota,3968
+2017,Maryland,Missouri,3639
+2017,Maryland,Nevada,4166
+2017,Maryland,New Hampshire,4844
+2017,Maryland,New Jersey,1054
+2017,Maryland,New Mexico,545
+2017,Maryland,New York,8432
+2017,Maryland,North Carolina,9115
+2017,Maryland,Ohio,3592
+2017,Maryland,Oklahoma,762
+2017,Maryland,Oregon,348
+2017,Maryland,Rhode Island,5460
+2017,Maryland,South Carolina,2638
+2017,Maryland,Tennessee,4654
+2017,Maryland,Texas,8399
+2017,Maryland,Utah,1863
+2017,Maryland,Washington,1915
+2017,Maryland,Wisconsin,1853
+2017,Massachusetts,Arizona,3206
+2017,Massachusetts,California,16224
+2017,Massachusetts,Colorado,5711
+2017,Massachusetts,Florida,21429
+2017,Massachusetts,Georgia,13596
+2017,Massachusetts,Illinois,15105
+2017,Massachusetts,Indiana,1218
+2017,Massachusetts,Kentucky,1164
+2017,Massachusetts,Louisiana,1344
+2017,Massachusetts,Maryland,11808
+2017,Massachusetts,Massachusetts,254
+2017,Massachusetts,Michigan,7495
+2017,Massachusetts,Minnesota,4215
+2017,Massachusetts,Missouri,2597
+2017,Massachusetts,Nevada,2631
+2017,Massachusetts,New Jersey,9828
+2017,Massachusetts,New York,19239
+2017,Massachusetts,North Carolina,9375
+2017,Massachusetts,Ohio,4930
+2017,Massachusetts,Oregon,1240
+2017,Massachusetts,Pennsylvania,12112
+2017,Massachusetts,South Carolina,1548
+2017,Massachusetts,Tennessee,3311
+2017,Massachusetts,Texas,10073
+2017,Massachusetts,Utah,2321
+2017,Massachusetts,Virginia,21156
+2017,Massachusetts,Washington,4151
+2017,Massachusetts,Wisconsin,1211
+2017,Michigan,Alabama,629
+2017,Michigan,Arizona,5877
+2017,Michigan,Arkansas,458
+2017,Michigan,California,7584
+2017,Michigan,Colorado,7143
+2017,Michigan,Connecticut,2755
+2017,Michigan,Florida,16069
+2017,Michigan,Georgia,14039
+2017,Michigan,Illinois,25105
+2017,Michigan,Indiana,4852
+2017,Michigan,Iowa,1380
+2017,Michigan,Kentucky,2342
+2017,Michigan,Louisiana,2496
+2017,Michigan,Maine,454
+2017,Michigan,Maryland,6964
+2017,Michigan,Massachusetts,7495
+2017,Michigan,Michigan,9299
+2017,Michigan,Minnesota,9327
+2017,Michigan,Missouri,4238
+2017,Michigan,Nebraska,1343
+2017,Michigan,Nevada,6460
+2017,Michigan,New Hampshire,497
+2017,Michigan,New Jersey,3208
+2017,Michigan,New York,11384
+2017,Michigan,North Carolina,6702
+2017,Michigan,Ohio,4282
+2017,Michigan,Oklahoma,1114
+2017,Michigan,Oregon,813
+2017,Michigan,Pennsylvania,9400
+2017,Michigan,Rhode Island,1598
+2017,Michigan,South Carolina,1109
+2017,Michigan,Tennessee,5787
+2017,Michigan,Texas,9189
+2017,Michigan,Utah,2928
+2017,Michigan,Vermont,26
+2017,Michigan,Virginia,6491
+2017,Michigan,Washington,4625
+2017,Michigan,Wisconsin,7157
+2017,Minnesota,Alaska,1233
+2017,Minnesota,Arizona,8451
+2017,Minnesota,California,14357
+2017,Minnesota,Colorado,11811
+2017,Minnesota,Connecticut,1706
+2017,Minnesota,Florida,7878
+2017,Minnesota,Georgia,10655
+2017,Minnesota,Hawaii,497
+2017,Minnesota,Idaho,1531
+2017,Minnesota,Illinois,22270
+2017,Minnesota,Indiana,3213
+2017,Minnesota,Iowa,1754
+2017,Minnesota,Kansas,1505
+2017,Minnesota,Kentucky,1940
+2017,Minnesota,Louisiana,853
+2017,Minnesota,Maryland,3968
+2017,Minnesota,Massachusetts,4215
+2017,Minnesota,Michigan,9327
+2017,Minnesota,Minnesota,4960
+2017,Minnesota,Missouri,7319
+2017,Minnesota,Montana,4011
+2017,Minnesota,Nebraska,4413
+2017,Minnesota,Nevada,5688
+2017,Minnesota,New Jersey,2741
+2017,Minnesota,New Mexico,211
+2017,Minnesota,New York,6252
+2017,Minnesota,North Carolina,5921
+2017,Minnesota,North Dakota,7479
+2017,Minnesota,Ohio,3652
+2017,Minnesota,Oklahoma,1701
+2017,Minnesota,Oregon,3468
+2017,Minnesota,Pennsylvania,6033
+2017,Minnesota,South Dakota,5128
+2017,Minnesota,Tennessee,3518
+2017,Minnesota,Texas,9791
+2017,Minnesota,Utah,3913
+2017,Minnesota,Virginia,5072
+2017,Minnesota,Washington,7257
+2017,Minnesota,Wisconsin,9737
+2017,Minnesota,Wyoming,212
+2017,Mississippi,Georgia,6962
+2017,Mississippi,Illinois,963
+2017,Mississippi,Texas,2621
+2017,Missouri,Arizona,6115
+2017,Missouri,Arkansas,1351
+2017,Missouri,California,7034
+2017,Missouri,Colorado,9070
+2017,Missouri,Florida,8349
+2017,Missouri,Georgia,13502
+2017,Missouri,Illinois,10989
+2017,Missouri,Iowa,1354
+2017,Missouri,Kansas,1354
+2017,Missouri,Kentucky,414
+2017,Missouri,Louisiana,1687
+2017,Missouri,Maryland,3639
+2017,Missouri,Massachusetts,2597
+2017,Missouri,Michigan,4238
+2017,Missouri,Minnesota,7319
+2017,Missouri,Missouri,1286
+2017,Missouri,Nebraska,1897
+2017,Missouri,Nevada,5060
+2017,Missouri,New Jersey,3632
+2017,Missouri,North Carolina,4541
+2017,Missouri,Ohio,1733
+2017,Missouri,Oklahoma,1972
+2017,Missouri,Oregon,1744
+2017,Missouri,Pennsylvania,2131
+2017,Missouri,South Carolina,170
+2017,Missouri,Tennessee,2872
+2017,Missouri,Texas,12975
+2017,Missouri,Utah,2068
+2017,Missouri,Virginia,2861
+2017,Missouri,Washington,2672
+2017,Missouri,Wisconsin,1469
+2017,Montana,California,652
+2017,Montana,Colorado,5963
+2017,Montana,Georgia,195
+2017,Montana,Illinois,1633
+2017,Montana,Minnesota,4011
+2017,Montana,New Jersey,124
+2017,Montana,Oregon,404
+2017,Montana,Texas,250
+2017,Montana,Utah,8312
+2017,Montana,Washington,473
+2017,Nebraska,Arizona,2998
+2017,Nebraska,California,824
+2017,Nebraska,Colorado,6012
+2017,Nebraska,Florida,413
+2017,Nebraska,Georgia,3768
+2017,Nebraska,Illinois,6232
+2017,Nebraska,Michigan,1343
+2017,Nebraska,Minnesota,4413
+2017,Nebraska,Missouri,1897
+2017,Nebraska,Nevada,1868
+2017,Nebraska,New Jersey,542
+2017,Nebraska,North Carolina,2
+2017,Nebraska,Oregon,616
+2017,Nebraska,Texas,4243
+2017,Nebraska,Utah,1177
+2017,Nebraska,Virginia,730
+2017,Nebraska,Washington,729
+2017,Nevada,Alabama,748
+2017,Nevada,Alaska,157
+2017,Nevada,Arizona,13736
+2017,Nevada,Arkansas,730
+2017,Nevada,California,58051
+2017,Nevada,Colorado,16230
+2017,Nevada,Connecticut,501
+2017,Nevada,Florida,5754
+2017,Nevada,Georgia,9380
+2017,Nevada,Hawaii,1862
+2017,Nevada,Idaho,1454
+2017,Nevada,Illinois,13036
+2017,Nevada,Indiana,2035
+2017,Nevada,Iowa,812
+2017,Nevada,Kansas,732
+2017,Nevada,Kentucky,1826
+2017,Nevada,Louisiana,2166
+2017,Nevada,Maryland,4166
+2017,Nevada,Massachusetts,2631
+2017,Nevada,Michigan,6460
+2017,Nevada,Minnesota,5688
+2017,Nevada,Missouri,5060
+2017,Nevada,Nebraska,1868
+2017,Nevada,Nevada,3170
+2017,Nevada,New Jersey,4294
+2017,Nevada,New Mexico,1353
+2017,Nevada,New York,9870
+2017,Nevada,North Carolina,3946
+2017,Nevada,Ohio,3698
+2017,Nevada,Oklahoma,1800
+2017,Nevada,Oregon,5656
+2017,Nevada,Pennsylvania,5221
+2017,Nevada,South Dakota,210
+2017,Nevada,Tennessee,2644
+2017,Nevada,Texas,21294
+2017,Nevada,Utah,10176
+2017,Nevada,Virginia,1553
+2017,Nevada,Washington,13861
+2017,Nevada,Wisconsin,2978
+2017,New Hampshire,Florida,1987
+2017,New Hampshire,Georgia,728
+2017,New Hampshire,Illinois,2143
+2017,New Hampshire,Maryland,4844
+2017,New Hampshire,Michigan,497
+2017,New Hampshire,New Jersey,682
+2017,New Hampshire,North Carolina,80
+2017,New Jersey,Alaska,26
+2017,New Jersey,Arizona,4775
+2017,New Jersey,California,20018
+2017,New Jersey,Colorado,7066
+2017,New Jersey,Connecticut,554
+2017,New Jersey,Florida,33869
+2017,New Jersey,Georgia,13040
+2017,New Jersey,Hawaii,728
+2017,New Jersey,Illinois,11819
+2017,New Jersey,Indiana,2981
+2017,New Jersey,Iowa,273
+2017,New Jersey,Kentucky,960
+2017,New Jersey,Louisiana,1900
+2017,New Jersey,Maine,2550
+2017,New Jersey,Maryland,1054
+2017,New Jersey,Massachusetts,9828
+2017,New Jersey,Michigan,3208
+2017,New Jersey,Minnesota,2741
+2017,New Jersey,Missouri,3632
+2017,New Jersey,Montana,124
+2017,New Jersey,Nebraska,542
+2017,New Jersey,Nevada,4294
+2017,New Jersey,New Hampshire,682
+2017,New Jersey,New York,2925
+2017,New Jersey,North Carolina,8417
+2017,New Jersey,Ohio,5179
+2017,New Jersey,Oregon,1799
+2017,New Jersey,Rhode Island,943
+2017,New Jersey,South Carolina,2902
+2017,New Jersey,Tennessee,4136
+2017,New Jersey,Texas,10801
+2017,New Jersey,Utah,1349
+2017,New Jersey,Vermont,1890
+2017,New Jersey,Virginia,7258
+2017,New Jersey,Washington,3849
+2017,New Jersey,Wisconsin,2289
+2017,New Jersey,Wyoming,166
+2017,New York,Arizona,6077
+2017,New York,California,38439
+2017,New York,Colorado,6922
+2017,New York,Florida,39432
+2017,New York,Georgia,22568
+2017,New York,Hawaii,849
+2017,New York,Illinois,21092
+2017,New York,Kentucky,587
+2017,New York,Louisiana,3334
+2017,New York,Maine,2658
+2017,New York,Maryland,8432
+2017,New York,Massachusetts,19239
+2017,New York,Michigan,11384
+2017,New York,Minnesota,6252
+2017,New York,Nevada,9870
+2017,New York,New Jersey,2925
+2017,New York,New Mexico,313
+2017,New York,New York,7055
+2017,New York,North Carolina,15282
+2017,New York,Oregon,1975
+2017,New York,Pennsylvania,859
+2017,New York,South Carolina,2942
+2017,New York,Texas,7823
+2017,New York,Utah,3970
+2017,New York,Vermont,2344
+2017,New York,Virginia,3124
+2017,New York,Washington,5276
+2017,New York,Wyoming,30
+2017,North Carolina,Arizona,6516
+2017,North Carolina,California,8577
+2017,North Carolina,Colorado,7253
+2017,North Carolina,Connecticut,4026
+2017,North Carolina,Florida,22108
+2017,North Carolina,Georgia,25299
+2017,North Carolina,Illinois,12514
+2017,North Carolina,Indiana,1832
+2017,North Carolina,Kentucky,551
+2017,North Carolina,Louisiana,4497
+2017,North Carolina,Maine,1450
+2017,North Carolina,Maryland,9115
+2017,North Carolina,Massachusetts,9375
+2017,North Carolina,Michigan,6702
+2017,North Carolina,Minnesota,5921
+2017,North Carolina,Missouri,4541
+2017,North Carolina,Nebraska,2
+2017,North Carolina,Nevada,3946
+2017,North Carolina,New Hampshire,80
+2017,North Carolina,New Jersey,8417
+2017,North Carolina,New York,15282
+2017,North Carolina,North Carolina,3767
+2017,North Carolina,Ohio,2493
+2017,North Carolina,Oklahoma,170
+2017,North Carolina,Oregon,989
+2017,North Carolina,Pennsylvania,11598
+2017,North Carolina,Rhode Island,2848
+2017,North Carolina,South Carolina,1635
+2017,North Carolina,Tennessee,6835
+2017,North Carolina,Texas,15373
+2017,North Carolina,Utah,1889
+2017,North Carolina,Virginia,8649
+2017,North Carolina,Washington,2529
+2017,North Carolina,Wisconsin,2
+2017,North Dakota,Colorado,3563
+2017,North Dakota,Georgia,21
+2017,North Dakota,Illinois,1903
+2017,North Dakota,Minnesota,7479
+2017,North Dakota,North Dakota,1
+2017,Ohio,Arizona,2557
+2017,Ohio,California,3118
+2017,Ohio,Colorado,3860
+2017,Ohio,Connecticut,188
+2017,Ohio,Florida,6761
+2017,Ohio,Georgia,13543
+2017,Ohio,Illinois,12812
+2017,Ohio,Louisiana,381
+2017,Ohio,Maryland,3592
+2017,Ohio,Massachusetts,4930
+2017,Ohio,Michigan,4282
+2017,Ohio,Minnesota,3652
+2017,Ohio,Missouri,1733
+2017,Ohio,Nevada,3698
+2017,Ohio,New Jersey,5179
+2017,Ohio,North Carolina,2493
+2017,Ohio,Ohio,1
+2017,Ohio,Oregon,142
+2017,Ohio,Pennsylvania,431
+2017,Ohio,South Carolina,219
+2017,Ohio,Tennessee,2464
+2017,Ohio,Texas,6265
+2017,Ohio,Virginia,3850
+2017,Ohio,Washington,193
+2017,Ohio,Wisconsin,1332
+2017,Oklahoma,Arizona,2080
+2017,Oklahoma,California,1051
+2017,Oklahoma,Colorado,5663
+2017,Oklahoma,Florida,102
+2017,Oklahoma,Georgia,5312
+2017,Oklahoma,Illinois,2541
+2017,Oklahoma,Iowa,2
+2017,Oklahoma,Maryland,762
+2017,Oklahoma,Michigan,1114
+2017,Oklahoma,Minnesota,1701
+2017,Oklahoma,Missouri,1972
+2017,Oklahoma,Nevada,1800
+2017,Oklahoma,North Carolina,170
+2017,Oklahoma,Texas,10028
+2017,Oklahoma,Utah,1678
+2017,Oklahoma,Washington,510
+2017,Oregon,Alaska,1972
+2017,Oregon,Arizona,7418
+2017,Oregon,California,31417
+2017,Oregon,Colorado,9348
+2017,Oregon,Florida,582
+2017,Oregon,Georgia,2662
+2017,Oregon,Hawaii,2416
+2017,Oregon,Idaho,1285
+2017,Oregon,Illinois,5826
+2017,Oregon,Maryland,348
+2017,Oregon,Massachusetts,1240
+2017,Oregon,Michigan,813
+2017,Oregon,Minnesota,3468
+2017,Oregon,Missouri,1744
+2017,Oregon,Montana,404
+2017,Oregon,Nebraska,616
+2017,Oregon,Nevada,5656
+2017,Oregon,New Jersey,1799
+2017,Oregon,New Mexico,110
+2017,Oregon,New York,1975
+2017,Oregon,North Carolina,989
+2017,Oregon,Ohio,142
+2017,Oregon,Oregon,1
+2017,Oregon,Pennsylvania,354
+2017,Oregon,Texas,6062
+2017,Oregon,Utah,7527
+2017,Oregon,Virginia,1031
+2017,Oregon,Washington,9946
+2017,Oregon,Wisconsin,164
+2017,Pennsylvania,Arizona,6263
+2017,Pennsylvania,California,8813
+2017,Pennsylvania,Colorado,6803
+2017,Pennsylvania,Connecticut,785
+2017,Pennsylvania,Florida,22444
+2017,Pennsylvania,Georgia,19192
+2017,Pennsylvania,Illinois,17033
+2017,Pennsylvania,Kentucky,137
+2017,Pennsylvania,Louisiana,2078
+2017,Pennsylvania,Massachusetts,12112
+2017,Pennsylvania,Michigan,9400
+2017,Pennsylvania,Minnesota,6033
+2017,Pennsylvania,Missouri,2131
+2017,Pennsylvania,Nevada,5221
+2017,Pennsylvania,New York,859
+2017,Pennsylvania,North Carolina,11598
+2017,Pennsylvania,Ohio,431
+2017,Pennsylvania,Oregon,354
+2017,Pennsylvania,Pennsylvania,1207
+2017,Pennsylvania,Rhode Island,2040
+2017,Pennsylvania,South Carolina,219
+2017,Pennsylvania,Tennessee,2057
+2017,Pennsylvania,Texas,10965
+2017,Pennsylvania,Utah,1107
+2017,Pennsylvania,Virginia,709
+2017,Pennsylvania,Washington,2033
+2017,Pennsylvania,Wisconsin,98
+2017,Rhode Island,Colorado,249
+2017,Rhode Island,Florida,6285
+2017,Rhode Island,Georgia,2080
+2017,Rhode Island,Illinois,1706
+2017,Rhode Island,Louisiana,76
+2017,Rhode Island,Maryland,5460
+2017,Rhode Island,Michigan,1598
+2017,Rhode Island,New Jersey,943
+2017,Rhode Island,North Carolina,2848
+2017,Rhode Island,Pennsylvania,2040
+2017,Rhode Island,Virginia,1458
+2017,South Carolina,Colorado,192
+2017,South Carolina,Georgia,14686
+2017,South Carolina,Illinois,4180
+2017,South Carolina,Maryland,2638
+2017,South Carolina,Massachusetts,1548
+2017,South Carolina,Michigan,1109
+2017,South Carolina,Missouri,170
+2017,South Carolina,New Jersey,2902
+2017,South Carolina,New York,2942
+2017,South Carolina,North Carolina,1635
+2017,South Carolina,Ohio,219
+2017,South Carolina,Pennsylvania,219
+2017,South Carolina,Tennessee,806
+2017,South Carolina,Texas,2486
+2017,South Carolina,Virginia,1792
+2017,South Carolina,Washington,418
+2017,South Dakota,Colorado,3025
+2017,South Dakota,Georgia,597
+2017,South Dakota,Illinois,3320
+2017,South Dakota,Minnesota,5128
+2017,South Dakota,Nevada,210
+2017,Tennessee,Arizona,2344
+2017,Tennessee,California,6108
+2017,Tennessee,Colorado,5766
+2017,Tennessee,Florida,9727
+2017,Tennessee,Georgia,16372
+2017,Tennessee,Illinois,10724
+2017,Tennessee,Kentucky,776
+2017,Tennessee,Louisiana,2351
+2017,Tennessee,Maryland,4654
+2017,Tennessee,Massachusetts,3311
+2017,Tennessee,Michigan,5787
+2017,Tennessee,Minnesota,3518
+2017,Tennessee,Missouri,2872
+2017,Tennessee,Nevada,2644
+2017,Tennessee,New Jersey,4136
+2017,Tennessee,North Carolina,6835
+2017,Tennessee,Ohio,2464
+2017,Tennessee,Pennsylvania,2057
+2017,Tennessee,South Carolina,806
+2017,Tennessee,Texas,13214
+2017,Tennessee,Utah,725
+2017,Tennessee,Virginia,2171
+2017,Tennessee,Washington,1355
+2017,Tennessee,Wisconsin,227
+2017,Texas,Alabama,3586
+2017,Texas,Alaska,318
+2017,Texas,Arizona,22199
+2017,Texas,Arkansas,3003
+2017,Texas,California,44059
+2017,Texas,Colorado,29379
+2017,Texas,Connecticut,1358
+2017,Texas,Florida,27853
+2017,Texas,Georgia,32868
+2017,Texas,Hawaii,2443
+2017,Texas,Idaho,782
+2017,Texas,Illinois,23784
+2017,Texas,Indiana,4894
+2017,Texas,Iowa,2375
+2017,Texas,Kansas,2662
+2017,Texas,Kentucky,2461
+2017,Texas,Louisiana,19151
+2017,Texas,Maryland,8399
+2017,Texas,Massachusetts,10073
+2017,Texas,Michigan,9189
+2017,Texas,Minnesota,9791
+2017,Texas,Mississippiipp,2621
+2017,Texas,Missouri,12975
+2017,Texas,Montana,250
+2017,Texas,Nebraska,4243
+2017,Texas,Nevada,21294
+2017,Texas,New Jersey,10801
+2017,Texas,New Mexico,2856
+2017,Texas,New York,7823
+2017,Texas,North Carolina,15373
+2017,Texas,Ohio,6265
+2017,Texas,Oklahoma,10028
+2017,Texas,Oregon,6062
+2017,Texas,Pennsylvania,10965
+2017,Texas,South Carolina,2486
+2017,Texas,Tennessee,13214
+2017,Texas,Texas,18718
+2017,Texas,Utah,10507
+2017,Texas,Virginia,14369
+2017,Texas,Washington,12769
+2017,Texas,Wisconsin,3512
+2017,Texas,Wyoming,843
+2017,Utah,Alaska,62
+2017,Utah,Arizona,11145
+2017,Utah,California,32945
+2017,Utah,Colorado,17518
+2017,Utah,Florida,3089
+2017,Utah,Georgia,5944
+2017,Utah,Hawaii,733
+2017,Utah,Idaho,9041
+2017,Utah,Illinois,7806
+2017,Utah,Indiana,328
+2017,Utah,Iowa,628
+2017,Utah,Kentucky,1069
+2017,Utah,Louisiana,710
+2017,Utah,Maryland,1863
+2017,Utah,Massachusetts,2321
+2017,Utah,Michigan,2928
+2017,Utah,Minnesota,3913
+2017,Utah,Missouri,2068
+2017,Utah,Montana,8312
+2017,Utah,Nebraska,1177
+2017,Utah,Nevada,10176
+2017,Utah,New Jersey,1349
+2017,Utah,New Mexico,862
+2017,Utah,New York,3970
+2017,Utah,North Carolina,1889
+2017,Utah,Oklahoma,1678
+2017,Utah,Oregon,7527
+2017,Utah,Pennsylvania,1107
+2017,Utah,Tennessee,725
+2017,Utah,Texas,10507
+2017,Utah,Utah,1993
+2017,Utah,Virginia,1118
+2017,Utah,Washington,10446
+2017,Utah,Wisconsin,325
+2017,Utah,Wyoming,3804
+2017,Vermont,Georgia,793
+2017,Vermont,Illinois,1481
+2017,Vermont,Michigan,26
+2017,Vermont,New Jersey,1890
+2017,Vermont,New York,2344
+2017,Virginia,Arizona,2524
+2017,Virginia,California,7047
+2017,Virginia,Colorado,6938
+2017,Virginia,Connecticut,1808
+2017,Virginia,Florida,22194
+2017,Virginia,Georgia,24684
+2017,Virginia,Illinois,21766
+2017,Virginia,Indiana,1144
+2017,Virginia,Kentucky,310
+2017,Virginia,Louisiana,2408
+2017,Virginia,Maine,60
+2017,Virginia,Massachusetts,21156
+2017,Virginia,Michigan,6491
+2017,Virginia,Minnesota,5072
+2017,Virginia,Missouri,2861
+2017,Virginia,Nebraska,730
+2017,Virginia,Nevada,1553
+2017,Virginia,New Jersey,7258
+2017,Virginia,New York,3124
+2017,Virginia,North Carolina,8649
+2017,Virginia,Ohio,3850
+2017,Virginia,Oregon,1031
+2017,Virginia,Pennsylvania,709
+2017,Virginia,Rhode Island,1458
+2017,Virginia,South Carolina,1792
+2017,Virginia,Tennessee,2171
+2017,Virginia,Texas,14369
+2017,Virginia,Utah,1118
+2017,Virginia,Washington,2785
+2017,Virginia,Wisconsin,1372
+2017,Washington,Alaska,18055
+2017,Washington,Arizona,11649
+2017,Washington,California,52037
+2017,Washington,Colorado,15549
+2017,Washington,Florida,3084
+2017,Washington,Georgia,6254
+2017,Washington,Hawaii,6423
+2017,Washington,Idaho,5902
+2017,Washington,Illinois,11307
+2017,Washington,Indiana,470
+2017,Washington,Kansas,316
+2017,Washington,Kentucky,191
+2017,Washington,Louisiana,730
+2017,Washington,Maryland,1915
+2017,Washington,Massachusetts,4151
+2017,Washington,Michigan,4625
+2017,Washington,Minnesota,7257
+2017,Washington,Missouri,2672
+2017,Washington,Montana,473
+2017,Washington,Nebraska,729
+2017,Washington,Nevada,13861
+2017,Washington,New Jersey,3849
+2017,Washington,New Mexico,365
+2017,Washington,New York,5276
+2017,Washington,North Carolina,2529
+2017,Washington,Ohio,193
+2017,Washington,Oklahoma,510
+2017,Washington,Oregon,9946
+2017,Washington,Pennsylvania,2033
+2017,Washington,South Carolina,418
+2017,Washington,Tennessee,1355
+2017,Washington,Texas,12769
+2017,Washington,Utah,10446
+2017,Washington,Virginia,2785
+2017,Washington,Washington,5053
+2017,Washington,Wisconsin,1446
+2017,Washington,Wyoming,74
+2017,West Virginia,Georgia,2464
+2017,West Virginia,Illinois,908
+2017,Wisconsin,Arizona,3290
+2017,Wisconsin,California,1205
+2017,Wisconsin,Colorado,5372
+2017,Wisconsin,Florida,4524
+2017,Wisconsin,Georgia,8928
+2017,Wisconsin,Illinois,16057
+2017,Wisconsin,Kentucky,592
+2017,Wisconsin,Maryland,1853
+2017,Wisconsin,Massachusetts,1211
+2017,Wisconsin,Michigan,7157
+2017,Wisconsin,Minnesota,9737
+2017,Wisconsin,Missouri,1469
+2017,Wisconsin,Nevada,2978
+2017,Wisconsin,New Jersey,2289
+2017,Wisconsin,North Carolina,2
+2017,Wisconsin,Ohio,1332
+2017,Wisconsin,Oregon,164
+2017,Wisconsin,Pennsylvania,98
+2017,Wisconsin,Tennessee,227
+2017,Wisconsin,Texas,3512
+2017,Wisconsin,Utah,325
+2017,Wisconsin,Virginia,1372
+2017,Wisconsin,Washington,1446
+2017,Wyoming,Arizona,162
+2017,Wyoming,California,779
+2017,Wyoming,Colorado,3504
+2017,Wyoming,Georgia,185
+2017,Wyoming,Illinois,1041
+2017,Wyoming,Minnesota,212
+2017,Wyoming,New Jersey,166
+2017,Wyoming,New York,30
+2017,Wyoming,Texas,843
+2017,Wyoming,Utah,3804
+2017,Wyoming,Washington,74
