@@ -141,7 +141,7 @@ function gen_vis() {
 //**************************************************
 //  CREATE CHOROPLETH
 //**************************************************
-  var width = 500;
+  var width = 530;
   var height = 350;
 
     var lowColor = '#4169E1' //#228B22
@@ -268,22 +268,22 @@ function gen_vis() {
          
 
          // add a legend
-        var w = 400, h = 20;
+        var w = 300, h = 20;
 
         var key = svg
           .append("svg")
-          .attr("width", w+30)
-          .attr("height", h)
+          .attr("width", h)
+          .attr("height", w)
           .attr("class", "legend")
-          .attr("transform", "translate(20,400)");
+          .attr("transform", "translate(0,0)");;
 
         var legend = key.append("defs")
           .append("svg:linearGradient")
           .attr("id", "gradient")
-          .attr("y1", "100%")
-          .attr("x1", "0%")
-          .attr("y2", "100%")
-          .attr("x2", "50%")
+          .attr("x1", "100%")
+          .attr("y1", "0%")
+          .attr("x2", "100%")
+          .attr("y2", "50%")
           .attr("spreadMethod", "pad");
 
         legend.append("stop")
@@ -297,22 +297,22 @@ function gen_vis() {
           .attr("stop-opacity", 1);
 
         key.append("rect")
-          .attr("width", w)
-          .attr("height", h)
+          .attr("width", h)
+          .attr("height", w)
           .style("fill", "url(#gradient)")
-          .attr("transform", "translate(0,0)");
+          .attr("transform", "translate(5,5)");
 
-        var x = d3.scale.linear()
-          .range([0, w])
+        var y = d3.scale.linear()
+          .range([5, w])
           .domain([0, 500000]);
 
-        var xAxis = d3.svg.axis().scale(x);
+        var yAxis = d3.svg.axis().scale(y).ticks(6);
 
         key.append("g")
-          .attr("class", "x axis")
-          .attr("transform", "translate(0,0)")
+          .attr("class", "y axis")
+          .attr("transform", "translate(19,0)rotate(90)")
           .style("fill", "white)")
-          .call(xAxis);
+          .call(yAxis);
     }
 }
 
@@ -802,3 +802,5 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
 
 
 }
+
+//scaleLog
