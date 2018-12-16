@@ -11,7 +11,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     <script>
         $(function() {
     $( "#slider" ).slider({
@@ -82,14 +82,13 @@
           
       </script>
       <div id="slider-container">
-        <div id="slider"></div>
-        <div id="date_range">
+        <div id="slider" style="width:250px></div>
+        <div id="date_range" style="width:100px">
         <p>
           <label for="amount">Date range:</label>
           <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold; font-size:12px; background-color: #f1f1f1;">
         </p>
         </div>
-    </div>
     <div class="dropdown">
         <button class="dropbtn">Holidays</button>
         
@@ -107,6 +106,8 @@
         <p id="h4">Holiday: New Year's Eve</p>
       </div>
     </div>
+    </div>
+    
     <script>
       $(document).ready(function(){
         $("#1").click(function(){

@@ -7,14 +7,16 @@ body {
 
 svg {
   font-size: 9px;
-}ῶ
+}
 
 #date_range p {
   margin-top: 20px;
   padding-left:16px; 
   font-style: bold;
-   color:black; 
-   font-size:14px; 
+  color:black; 
+  font-size:14px;
+  width: 250px;
+  white-space: nowrap;
 }
 
 #slider{
