@@ -5,11 +5,10 @@ var count=0;
 var cheio=false;
 var indice=0;
 
-
 var chordData= new Array();
 
-
 var time_range = "2013";
+
 function change_range(str) {
   time_range = "" + str + "";
   gen_vis();
@@ -18,20 +17,15 @@ function change_range(str) {
 ///////////////////// UPDATE FUNCTIONS /////////////////////////////
 var updateChord = function(date1,date2) {
 
+  var year_from =  date1.substring(3).trim();
+  var year_to = date2.substring(3).trim();
 
-var year_from =  date1.substring(3).trim();
-var year_to = date2.substring(3).trim();
-
-
-gen_chord(year_from,year_to);
-
-
+  gen_chord(year_from,year_to);
 }
-////////////////////
-//gen_slider();
+
 gen_vis();
-gen_map();
 gen_chord();
+gen_map();
 
 function gen_slider() {
 //*******************************************************************
@@ -47,8 +41,6 @@ var startDate = new Date("2013-01-01"),
 var margin = {top:30, right:50, bottom:0, left:50},
     width = 400 -margin.left,
     height = 60;
-
-
 
 var svg = d3v4.select("#slider-container")
     .append("svg")
@@ -111,25 +103,21 @@ var handle2 = slider.insert("circle", ".track-overlay")
    
 
   function hue(h) {
-  if(d3.select("#handle1")){
-    handle1.attr("cx", x(h));
-    d3.select("line")
-    label
-      .attr("x", x(h))
-      .text(formatDate(h));
-    svg.style("background-color", d3v4.color("#f1f1f1"));}
-  else {
-    handle2.attr("cx", x(h));
-    d3.select("line")
-    label
-      .attr("x", x(h))
-      .text(formatDate(h));
-    //svg.style("background-color", d3v4.color("#f1f1f1"));}
-
+    if(d3.select("#handle1")){
+      handle1.attr("cx", x(h));
+      d3.select("line")
+      label
+        .attr("x", x(h))
+        .text(formatDate(h));
+      svg.style("background-color", d3v4.color("#f1f1f1"));}
+    else {
+      handle2.attr("cx", x(h));
+      d3.select("line")
+      label
+        .attr("x", x(h))
+        .text(formatDate(h));
+    }
   }
-}
-
-  
 } 
 
 
@@ -142,7 +130,7 @@ function gen_vis() {
 //  CREATE CHOROPLETH
 //**************************************************
   var width = 530;
-  var height = 350;
+  var height = 365;
 
     var lowColor = '#4169E1' //#228B22
     var highColor = '#DCDCDC'//#87CEFA #32CD32
@@ -167,7 +155,7 @@ function gen_vis() {
     svg.call(tip);
 
     var projection = d3.geo.albersUsa()
-      .translate([width/2, height/2]) // translate to center of screen
+      .translate([width/2+10, height/2]) // translate to center of screen
       .scale([580]); // scale things down so see entire US
 
     var path = d3.geo.path()
@@ -268,21 +256,20 @@ function gen_vis() {
          
 
          // add a legend
-        var w = 300, h = 20;
+        var w = 360, h = 200;
 
         var key = svg
           .append("svg")
           .attr("width", h)
           .attr("height", w)
-          .attr("class", "legend")
-          .attr("transform", "translate(0,0)");;
+          .attr("class", "legend");
 
         var legend = key.append("defs")
           .append("svg:linearGradient")
           .attr("id", "gradient")
-          .attr("x1", "100%")
+          .attr("x1", "90%")
           .attr("y1", "0%")
-          .attr("x2", "100%")
+          .attr("x2", "90%")
           .attr("y2", "50%")
           .attr("spreadMethod", "pad");
 
@@ -297,20 +284,20 @@ function gen_vis() {
           .attr("stop-opacity", 1);
 
         key.append("rect")
-          .attr("width", h)
-          .attr("height", w)
+          .attr("width", 20)
+          .attr("height", w-25)
           .style("fill", "url(#gradient)")
           .attr("transform", "translate(5,5)");
 
         var y = d3.scale.linear()
-          .range([5, w])
+          .range([5, w-20])
           .domain([0, 500000]);
 
         var yAxis = d3.svg.axis().scale(y).ticks(6);
 
         key.append("g")
           .attr("class", "y axis")
-          .attr("transform", "translate(19,0)rotate(90)")
+          .attr("transform", "translate(25,0)rotate(90)")
           .style("fill", "white)")
           .call(yAxis);
     }
@@ -326,10 +313,13 @@ function gen_map() {
 }
     var itemSize = 11,
           cellSize = itemSize - 1,
-          margin = {top: 50, right: 20, bottom: 20, left: 130};
+          margin = {top: 50, right: 20, bottom: 20, left: 90};
           
       var width_1 = 600 - margin.right - margin.left,
           height_1 = 200 - margin.top - margin.bottom;
+
+      var lowColor = '#4169E1'
+      var highColor = '#DCDCDC'
 
       d3.csv('data/process_count1.csv', function ( response ) {
 
@@ -469,6 +459,51 @@ function gen_map() {
 
         //LEGENDA
 
+        var w = 360, h = 20;
+
+        var key = svg
+          .append("svg")
+          .attr("width", height_1)
+          .attr("height", width_1)
+          .attr("class", "legend");
+
+        var legend = key.append("defs")
+          .append("svg:linearGradient")
+          .attr("id", "gradient")
+          .attr("x1", "90%")
+          .attr("y1", "0%")
+          .attr("x2", "90%")
+          .attr("y2", "50%")
+          .attr("spreadMethod", "pad");
+
+        legend.append("stop")
+          .attr("offset", "0%")
+          .attr("stop-color", highColor)
+          .attr("stop-opacity", 1);
+            
+        legend.append("stop")
+          .attr("offset", "100%")
+          .attr("stop-color", lowColor)
+          .attr("stop-opacity", 1);
+
+        key.append("rect")
+          .attr("width", h)
+          .attr("height", w-25)
+          .style("fill", "url(#gradient)")
+          .attr("transform", "translate(70,100)");
+
+        var w = d3.scale.linear()
+          .range([5, w-20])
+          .domain([0, 500000]);
+
+        var wAxis = d3.svg.axis().scale(w).ticks(6);
+
+        key.append("g")
+          .attr("class", "y axis")
+          .attr("transform", "translate(90,95)rotate(90)")
+          .style("fill", "white)")
+          .call(wAxis);
+
         svg.append("g")
             .attr("class", "y axis")
             .call(yAxis)
@@ -488,21 +523,6 @@ function gen_map() {
                 return "rotate(-50)";
             });
 
-        var legends=svg.append("g").attr("class","legends")
-        .attr("transform","translate(-75,550)");
-
-        legends.append("g").attr("class","rect")
-        .attr("transform","translate(0,"+15+")")
-        .selectAll("rect").data(colorScale.range()).enter()
-        .append("rect").attr("width","70px").attr("height","5px").attr("fill",function(d){ return d})
-        .attr("x",function(d,i){ return i*(70) });
-
-        legends.append("g").attr("class","text")
-        .attr("transform","translate(-75,10)")
-        .append("text")
-        .attr("x",200)
-        .style("text-anchor", "middle")
-        .text("\xa0\xa0\xa0\xa0\xa0" + "0-10K" + "\xa0\xa0\xa0\xa0\xa0\xa0" + "10-50K" + "\xa0\xa0\xa0\xa0" + "50-100K" + "\xa0\xa0\xa0\xa0" + "100-250K" + "\xa0\xa0" + "250-500K" + "\xa0\xa0\xa0" +">500K");
       });
 }
 
@@ -526,7 +546,6 @@ function gen_chord(year_from=2013, year_to=2017) {
         }
       }
       
-               
       var data1 =  chordData.filter(element => (element['YEAR'] >=year_from && element['YEAR'] <= year_to));
 
       data1 = alasql('SELECT ORIGIN_STATE_NM, DEST_STATE_NM, SUM(TOTAL_FLIGHTS) as TOTAL_FLIGHTS FROM ? GROUP BY ORIGIN_STATE_NM,DEST_STATE_NM',[data1]);
@@ -562,12 +581,10 @@ function gen_chord(year_from=2013, year_to=2017) {
             .innerRadius(r0)
             .outerRadius(r0 + 20);
         var svg = d3.select("#chord_d").append("svg:svg")
-            //.attr("width", w)
             .attr("width", w)
             .attr("height", h)
           .append("svg:g")
             .attr("id", "circle")
-            //.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
             .attr("transform", "translate(" + w/2 +"," + h/2+")");
             svg.append("circle")
                 .attr("r", r0 + 20);
@@ -636,12 +653,8 @@ function gen_chord(year_from=2013, year_to=2017) {
               return p.source.index != i
                   && p.target.index != i;
             });
-
           }
-
       }
-
-
 }
 
 function gen_summ() {
@@ -660,12 +673,10 @@ var margin = {top: 20, right: 20, bottom: 70, left: 60},
     width = 500 - margin.left - margin.right,
     height = 300 - margin.top - margin.bottom;
 
-// Parse the date / time
-//var parseDate = d3.time.format("%b %Y").parse;
-
 // Set the ranges
 var x = d3.scale.linear().range([1, width]);
 var y = d3.scale.linear().range([height, 10]);
+const line = d3v4.line().x(d => x(d.year)).y(d => y(d.value));
 
 // Define the axes
 var xAxis = d3.svg.axis().scale(x)
@@ -709,7 +720,6 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
             }
           }
         })
-        //.rollup(function(d){return d3.ascending(d.values)})
         .sortKeys(d3.ascending)
         .entries(data)
         .slice(0,count);
@@ -741,18 +751,6 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
             .attr("class", "legend")    // style the legend
             .style("fill", function() { // Add the colours dynamically
                 return d.color = color(d.key); })
-            /*.on("click", function(){
-                // Determine if current line is visible 
-                var active   = d.active ? false : true,
-                newOpacity = active ? 0 : 1; 
-                // Hide or show the elements based on the ID
-                console.log(d.key);
-                d3.select("#"+d.key.replace(/\s+/g, '')+"2013")
-                    .transition().duration(100) 
-                    .style("opacity", newOpacity); 
-                // Update whether or not the elements are active
-                d.active = active;
-                })  */
             .text(d.key);
 
         tipBox = svg.append('rect')
@@ -774,7 +772,8 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
                 .selectAll()
                 .data(d.key).enter()
                 .append('div')
-                .style('color', d => d.color)
+                .style('color',function() { // Add the colours dynamically
+                  return d.color = color(d.key); })
                 .html(d.value);
 
             })
@@ -782,7 +781,6 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
               if (tooltip) tooltip.style('display', 'none');
               if (tooltipLine) tooltipLine.attr('stroke', 'none');
             });
-
     });
 
     // Add the X Axis
@@ -795,12 +793,5 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
     svg.append("g")
         .attr("class", "y axis")
         .call(yAxis);
-
-
-});
-
-
-
+  });
 }
-
-//scaleLog
