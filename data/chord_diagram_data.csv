@@ -718,6 +718,21 @@ YEAR,ORIGIN_STATE_NM,DEST_STATE_NM,TOTAL_FLIGHTS
 2013,New Jersey,Washington,3687
 2013,New Jersey,Wisconsin,2553
 2013,New Jersey,Wyoming,46
+2013,New Mexico,Arizona,4492
+2013,New Mexico,California,3287
+2013,New Mexico,Colorado,2961
+2013,New Mexico,Florida,178
+2013,New Mexico,Georgia,921
+2013,New Mexico,Illinois,748
+2013,New Mexico,Maryland,576
+2013,New Mexico,Minnesota,428
+2013,New Mexico,Missouri,5
+2013,New Mexico,Nevada,1837
+2013,New Mexico,New York,254
+2013,New Mexico,Oregon,303
+2013,New Mexico,Texas,4820
+2013,New Mexico,Utah,1045
+2013,New Mexico,Washington,546
 2013,New York,Alabama,298
 2013,New York,Arizona,4598
 2013,New York,California,34315
@@ -1842,6 +1857,21 @@ YEAR,ORIGIN_STATE_NM,DEST_STATE_NM,TOTAL_FLIGHTS
 2014,New Jersey,Washington,3336
 2014,New Jersey,Wisconsin,2254
 2014,New Jersey,Wyoming,78
+2014,New Mexico,Arizona,3532
+2014,New Mexico,California,2768
+2014,New Mexico,Colorado,2234
+2014,New Mexico,Florida,63
+2014,New Mexico,Georgia,894
+2014,New Mexico,Illinois,635
+2014,New Mexico,Maryland,558
+2014,New Mexico,Minnesota,338
+2014,New Mexico,Missouri,5
+2014,New Mexico,Nevada,1698
+2014,New Mexico,New York,342
+2014,New Mexico,Oregon,299
+2014,New Mexico,Texas,4510
+2014,New Mexico,Utah,1032
+2014,New Mexico,Washington,609
 2014,New York,Arizona,5189
 2014,New York,California,37718
 2014,New York,Colorado,5074
@@ -2270,10 +2300,13 @@ YEAR,ORIGIN_STATE_NM,DEST_STATE_NM,TOTAL_FLIGHTS
 2015,Arizona,Indiana,2804
 2015,Arizona,Iowa,529
 2015,Arizona,Nevada,15023
+2015,Arizona,New Mexico,3532
 2015,Arizona,Ohio,2718
 2015,Arizona,Oregon,6980
 2015,Arizona,Texas,23041
 2015,Arizona,Utah,12985
+2015,California,New Mexico,2768
+2015,Colorado,New Mexico,2234
 2015,Florida,Alabama,2694
 2015,Florida,Arizona,5202
 2015,Florida,Florida,4043
@@ -2281,6 +2314,7 @@ YEAR,ORIGIN_STATE_NM,DEST_STATE_NM,TOTAL_FLIGHTS
 2015,Florida,Indiana,4763
 2015,Florida,Maine,14
 2015,Florida,Nevada,5519
+2015,Florida,New Mexico,63
 2015,Florida,Ohio,7528
 2015,Florida,Texas,32453
 2015,Florida,Utah,2875
@@ -2296,6 +2330,7 @@ YEAR,ORIGIN_STATE_NM,DEST_STATE_NM,TOTAL_FLIGHTS
 2015,Georgia,Maine,1396
 2015,Georgia,Montana,234
 2015,Georgia,Nevada,9056
+2015,Georgia,New Mexico,894
 2015,Georgia,Ohio,13480
 2015,Georgia,Oregon,2348
 2015,Georgia,Texas,35918
@@ -2314,6 +2349,7 @@ YEAR,ORIGIN_STATE_NM,DEST_STATE_NM,TOTAL_FLIGHTS
 2015,Idaho,Nevada,1434
 2015,Idaho,Oregon,125
 2015,Idaho,Utah,7911
+2015,Illinois,New Mexico,635
 2015,Indiana,Arizona,2804
 2015,Indiana,Florida,4763
 2015,Indiana,Georgia,11794
@@ -2330,6 +2366,9 @@ YEAR,ORIGIN_STATE_NM,DEST_STATE_NM,TOTAL_FLIGHTS
 2015,Kansas,Texas,5347
 2015,Maine,Florida,14
 2015,Maine,Georgia,1396
+2015,Maryland,New Mexico,558
+2015,Minnesota,New Mexico,338
+2015,Missouri,New Mexico,5
 2015,Montana,Georgia,234
 2015,Montana,Oregon,294
 2015,Montana,Utah,8349
@@ -2344,10 +2383,27 @@ YEAR,ORIGIN_STATE_NM,DEST_STATE_NM,TOTAL_FLIGHTS
 2015,Nevada,Iowa,730
 2015,Nevada,Kansas,730
 2015,Nevada,Nevada,3505
+2015,Nevada,New Mexico,1698
 2015,Nevada,Ohio,3770
 2015,Nevada,Oregon,5638
 2015,Nevada,Texas,21051
 2015,Nevada,Utah,9794
+2015,New Mexico,Arizona,3532
+2015,New Mexico,California,2768
+2015,New Mexico,Colorado,2234
+2015,New Mexico,Florida,63
+2015,New Mexico,Georgia,894
+2015,New Mexico,Illinois,635
+2015,New Mexico,Maryland,558
+2015,New Mexico,Minnesota,338
+2015,New Mexico,Missouri,5
+2015,New Mexico,Nevada,1698
+2015,New Mexico,New York,342
+2015,New Mexico,Oregon,299
+2015,New Mexico,Texas,2510
+2015,New Mexico,Utah,1032
+2015,New Mexico,Washington,157
+2015,New York,New Mexico,342
 2015,Ohio,Arizona,2718
 2015,Ohio,Florida,7528
 2015,Ohio,Georgia,13480
@@ -2360,6 +2416,7 @@ YEAR,ORIGIN_STATE_NM,DEST_STATE_NM,TOTAL_FLIGHTS
 2015,Oregon,Idaho,125
 2015,Oregon,Montana,294
 2015,Oregon,Nevada,5638
+2015,Oregon,New Mexico,299
 2015,Oregon,Texas,5249
 2015,Oregon,Utah,7204
 2015,Texas,Alabama,6838
@@ -2372,6 +2429,7 @@ YEAR,ORIGIN_STATE_NM,DEST_STATE_NM,TOTAL_FLIGHTS
 2015,Texas,Iowa,3393
 2015,Texas,Kansas,5347
 2015,Texas,Nevada,21051
+2015,Texas,New Mexico,2510
 2015,Texas,Ohio,7336
 2015,Texas,Oregon,5249
 2015,Texas,Texas,42280
@@ -2387,11 +2445,13 @@ YEAR,ORIGIN_STATE_NM,DEST_STATE_NM,TOTAL_FLIGHTS
 2015,Utah,Iowa,202
 2015,Utah,Montana,8349
 2015,Utah,Nevada,9794
+2015,Utah,New Mexico,1032
 2015,Utah,Oregon,7204
 2015,Utah,Texas,10021
 2015,Utah,Utah,2370
 2015,Utah,Wyoming,3735
 2015,Vermont,Georgia,665
+2015,Washington,New Mexico,157
 2015,Wyoming,Georgia,205
 2015,Wyoming,Texas,857
 2015,Wyoming,Utah,3735
@@ -3086,6 +3146,21 @@ YEAR,ORIGIN_STATE_NM,DEST_STATE_NM,TOTAL_FLIGHTS
 2016,New Jersey,Washington,3310
 2016,New Jersey,Wisconsin,2765
 2016,New Jersey,Wyoming,156
+2016,New Mexico,Arizona,2440
+2016,New Mexico,California,1204
+2016,New Mexico,Colorado,1920
+2016,New Mexico,Florida,71
+2016,New Mexico,Georgia,881
+2016,New Mexico,Illinois,160
+2016,New Mexico,Maryland,582
+2016,New Mexico,Minnesota,218
+2016,New Mexico,Mississippi,1
+2016,New Mexico,Nevada,1422
+2016,New Mexico,New York,326
+2016,New Mexico,Oregon,242
+2016,New Mexico,Texas,3060
+2016,New Mexico,Utah,1037
+2016,New Mexico,Washington,375
 2016,New York,Arizona,6017
 2016,New York,California,37844
 2016,New York,Colorado,6239
@@ -4172,6 +4247,20 @@ YEAR,ORIGIN_STATE_NM,DEST_STATE_NM,TOTAL_FLIGHTS
 2017,New Jersey,Washington,3849
 2017,New Jersey,Wisconsin,2289
 2017,New Jersey,Wyoming,166
+2017,New Mexico,Arizona,3254
+2017,New Mexico,California,1097
+2017,New Mexico,Colorado,2009
+2017,New Mexico,Florida,78
+2017,New Mexico,Georgia,865
+2017,New Mexico,Illinois,318
+2017,New Mexico,Maryland,545
+2017,New Mexico,Minnesota,211
+2017,New Mexico,Nevada,1353
+2017,New Mexico,New York,313
+2017,New Mexico,Oregon,110
+2017,New Mexico,Texas,2856
+2017,New Mexico,Utah,862
+2017,New Mexico,Washington,365
 2017,New York,Arizona,6077
 2017,New York,California,38439
 2017,New York,Colorado,6922

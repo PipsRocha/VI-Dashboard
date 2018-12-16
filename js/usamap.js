@@ -5,22 +5,57 @@ var count=0;
 var cheio=false;
 var indice=0;
 
+first_ite=true;
+var arrivals=true;
+var departures=false;
+var cancellations=false;
+var delays=false;
+
+
 var chordData= new Array();
+var usaData= new Array();
+var year_from = "2013"
+var year_to = "2017"
+var month_from =1;
+var month_to =12;
 
-var time_range = "2013";
 
-function change_range(str) {
-  time_range = "" + str + "";
-  gen_vis();
-}
+
+//var time_range = "2013";
+//function change_range(str) {
+//  time_range = "" + str + "";
+//  gen_vis();
+//}
+
 
 ///////////////////// UPDATE FUNCTIONS /////////////////////////////
-var updateChord = function(date1,date2) {
+var updateGraphsSlider = function(date1,date2) {
 
-  var year_from =  date1.substring(3).trim();
-  var year_to = date2.substring(3).trim();
+var months = {"Jan":1, "Feb":2, "Mar":3, "Apr":4, "May":5, "Jun":6, "Jul":7, "Aug":8, "Sep":9, "Oct":10, "Nov":11, "Dec":12}  
 
-  gen_chord(year_from,year_to);
+
+year_from =  date1.substring(3).trim();
+year_to = date2.substring(3).trim();
+
+month_from = months[date1.substring(0,3)];
+month_to =  months[date2.substring(0,3)];
+
+
+
+gen_chord(year_from,year_to);
+gen_vis();
+
+
+}
+var updateGraphFilters = function(arrivals,departures,cancellations,delays){
+
+  arrivals = arrivals;
+  departures = departures;
+  cancellations = cancellations;
+  delays = delays;  
+  gen_chord();
+  gen_vis();
+
 }
 
 gen_vis();
@@ -161,24 +196,53 @@ function gen_vis() {
     var path = d3.geo.path()
         .projection(projection);
 
+
     var colorScale = d3.scale.linear().range([lowColor, highColor]).interpolate(d3.interpolateLab);
 
-      // we use queue because we have 2 data files to load.
+      // we use queue because we have 2 data files to load.  
+
     queue()
         .defer(d3.json, "data/usa.json")
-        .defer(d3.csv, "data/process_count_usa.csv", joinStates)// process
+        .defer(d3.csv, "data/arrivals_usaMap.csv", joinStates)// process
+        .defer(d3.csv, "data/departures_usaMap.csv", joinStates)
         .await(loaded);
 
     var dataset = d3.map();
-
     function joinStates(d) {
-      if (d.year == time_range)
-      {
-        dataset.set(d.state, d.value);
-      }
+      console.log("arrivals: "+ arrivals)
+      console.log("departures: "+ departures)
+    if(arrivals){
+          console.log("entreeeiiii arrivals")
+          if ((d.YEAR>= year_from && d.YEAR<= year_to) && (d.MONTH>= month_from && d.MONTH<= month_to))
+          {
+
+            dataset.set(d.STATE, d.TOTAL_FLIGHTS);
+          }
       
-      return d;
-    }
+          return {
+            YEAR : d.YEAR,
+            MONTH : +d.MONTH,
+            STATE : d.STATE,
+            TOTAL_FLIGHTS : +d.TOTAL_FLIGHTS
+          };
+        }
+    
+    else if(departures){
+        console.log("entreiiii departures")
+        if ((d.YEAR>= year_from && d.YEAR<= year_to) && (d.MONTH>= month_from && d.MONTH<= month_to))
+        {
+          
+          dataset.set(d.STATE, d.TOTAL_FLIGHTS);
+        }
+      
+        return {
+          YEAR : d.YEAR,
+          MONTH : +d.MONTH,
+          STATE : d.STATE,
+          TOTAL_FLIGHTS : +d.TOTAL_FLIGHTS
+        };
+      }
+    }  
 
       function getColor(d) {
 
@@ -191,9 +255,11 @@ function gen_vis() {
           }
       }
 
+
     function loaded(error, usa, flights) {
 
-        colorScale.domain(d3.extent(flights, function(d) {return d.value;}));
+        colorScale.domain(d3.extent(flights, function(d) {return d.TOTAL_FLIGHTS;}));
+      
 
         var states = topojson.feature(usa, usa.objects.units).features;
 
