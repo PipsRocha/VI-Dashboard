@@ -226,6 +226,7 @@ text {
 .dropdown {
     margin-right: 30px;
     float: right;
+    vertical-align: top;
 }
 
 

@@ -16,8 +16,8 @@ var chordData= new Array();
 var usaData= new Array();
 var year_from = "2013"
 var year_to = "2017"
-var month_from ="1";
-var month_to ="12";
+var month_from =1;
+var month_to =12;
 
 
 
@@ -31,7 +31,7 @@ var month_to ="12";
 ///////////////////// UPDATE FUNCTIONS /////////////////////////////
 var updateGraphsSlider = function(date1,date2) {
 
-var months = {"Jan":"1", "Feb":"2", "Mar":"3", "Apr":"4", "May":"5", "Jun":"6", "Jul":"7", "Aug":"8", "Sep":"9", "Oct":"10", "Nov":"11", "Dec":"12"}  
+var months = {"Jan":1, "Feb":2, "Mar":3, "Apr":4, "May":5, "Jun":6, "Jul":7, "Aug":8, "Sep":9, "Oct":10, "Nov":11, "Dec":12}  
 
 
 year_from =  date1.substring(3).trim();
@@ -178,7 +178,6 @@ function gen_vis() {
              if (dataRow) {
                  return d.properties.name + ": " + dataRow;
              } else {
-                //console.log("no dataRow", d);
                 return d.properties.name + ": No data.";
              }
         })
@@ -208,7 +207,6 @@ function gen_vis() {
 
     var dataset = d3.map();
 
-
         d3.csv("data/arrivals_usaMap.csv", function(error, data) {
       data.forEach(function (d){
         usaData.push(d);})});
@@ -225,7 +223,6 @@ function gen_vis() {
         return d
       } **/
     
-      
 
       function getColor(d) {
 
@@ -233,7 +230,6 @@ function gen_vis() {
           if (dataRow) {
               return colorScale(dataRow);
           } else {
-              //console.log("no dataRow", d);
               return "#ccc";
           }
       }
@@ -242,11 +238,14 @@ function gen_vis() {
     function loaded(error, usa, flights) {
 
        for(var i in flights){
-            if(flights[i].TOTAL_FLIGHTS != ""){
-                flights[i].TOTAL_FLIGHTS = parseInt(flights[i].TOTAL_FLIGHTS);
+            if(flights[i].TOTAL_FLIGHTS != "" && flights[i].MONTH != ""){
+                flights[i].TOTAL_FLIGHTS = parseInt(flights[i].TOTAL_FLIGHTS)
+                flights[i].MONTH  = parseInt(flights[i].MONTH);
         }
       }
-      var data = flights.filter(element => (element['YEAR'] >=year_from && element['YEAR'] <= year_to) && (element['MONTH'] >=month_from && element['MONTH'] <= month_to));
+      console.log(flights);
+      var data = flights.filter(element => (element['YEAR'] >=year_from && element['YEAR'] <= year_to && element['MONTH'] >=month_from && element['MONTH'] <= month_to));
+      console.log(data);
       data = alasql('SELECT STATE,SUM(TOTAL_FLIGHTS) as TOTAL_FLIGHTS FROM ? GROUP BY STATE',[data]);
 
       for (i in data)
@@ -379,8 +378,8 @@ function gen_map() {
       var width_1 = 600 - margin.right - margin.left,
           height_1 = 200 - margin.top - margin.bottom;
 
-      var lowColor = '#4169E1'
-      var highColor = '#DCDCDC'
+      var lowColor = "#24478f";
+      var highColor = '#DCDCDC';
 
       d3.csv('data/process_count1.csv', function ( response ) {
 
@@ -419,8 +418,8 @@ function gen_map() {
          
 
         var colorScale = d3.scale.threshold()
-            .domain([10000, 50000,100000, 250000, 500000])
-            .range(["#DCDCDC","#99b3e6", "#4775d1","#2e5cb8", "#24478f", "#4169E1"]);
+            .domain([10000, 50000, 100000, 250000, 500000])
+            .range([highColor, "#99b3e6", "#4775d1","#2e5cb8",  "#4169E1", lowColor]);
 
         var svg = d3.select('.heatmap')
             .append("svg")
@@ -466,7 +465,6 @@ function gen_map() {
                   d3.select('#' + auxiliar2).style("stroke","white").style("stroke-width","1px");
                   delete statesGlobal[i];
                   count--;
-                  console.log(statesGlobal);
                   cheio=false;
                   gen_summ();
                   return 0;
@@ -489,7 +487,6 @@ function gen_map() {
               d3.select('#' + auxiliar2).style("stroke","orange").style("stroke-width","3px");
               selectedStates++;
               count++;
-              console.log(statesGlobal);
               gen_summ();
             };
         
@@ -531,10 +528,10 @@ function gen_map() {
         var legend = key.append("defs")
           .append("svg:linearGradient")
           .attr("id", "gradient")
-          .attr("x1", "90%")
+          .attr("x1", "100%")
           .attr("y1", "0%")
-          .attr("x2", "90%")
-          .attr("y2", "50%")
+          .attr("x2", "100%")
+          .attr("y2", "100%")
           .attr("spreadMethod", "pad");
 
         legend.append("stop")
@@ -736,7 +733,8 @@ var margin = {top: 20, right: 20, bottom: 70, left: 60},
 
 // Set the ranges
 var x = d3.scale.linear().range([1, width]);
-var y = d3.scale.linear().range([height, 10]).nice();
+var y = d3.scale.log().range([height, 10]);
+//var y = d3.scale.linear().range([height, 10]).nice();
 
 // Define the axes
 var xAxis = d3.svg.axis().scale(x)
@@ -781,7 +779,7 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
 
         // Scale the range of the data
     x.domain([2013, 2017]);
-    y.domain([0, 700000]); 
+    y.domain([100, 700000]); 
 
     var color = d3.scale.category10();   // set the colour scale
 
@@ -827,7 +825,7 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
      // this is the black vertical line that follows the mouse
     mouseG.append("path")
       .attr("class", "mouse-line")
-      .style("stroke", "black")
+      .style("stroke", "white")
       .style("stroke-width", "1px")
       .style("opacity", "0");
       
