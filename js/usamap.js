@@ -18,143 +18,42 @@ var year_to = "2017"
 var month_from =1;
 var month_to =12;
 
-
-
-
-//var time_range = "2013";
-//function change_range(str) {
-//  time_range = "" + str + "";
-//  gen_vis();
-//}
-
+var summ_data = "data/ARRIVALS_GROUPBY.CSV";
 
 ///////////////////// UPDATE FUNCTIONS /////////////////////////////
 var updateGraphsSlider = function(date1,date2) {
 
-var months = {"Jan":1, "Feb":2, "Mar":3, "Apr":4, "May":5, "Jun":6, "Jul":7, "Aug":8, "Sep":9, "Oct":10, "Nov":11, "Dec":12}  
+  var months = {"Jan":1, "Feb":2, "Mar":3, "Apr":4, "May":5, "Jun":6, "Jul":7, "Aug":8, "Sep":9, "Oct":10, "Nov":11, "Dec":12}  
 
+  year_from =  date1.substring(3).trim();
+  year_to = date2.substring(3).trim();
 
-year_from =  date1.substring(3).trim();
-year_to = date2.substring(3).trim();
+  month_from = months[date1.substring(0,3)];
+  month_to =  months[date2.substring(0,3)];
 
-month_from = months[date1.substring(0,3)];
-month_to =  months[date2.substring(0,3)];
-
-
-
-gen_chord(year_from,year_to);
-gen_vis();
-
-
+  gen_chord(year_from,year_to);
+  gen_vis();
 }
+
 var updateGraphFilters = function(arrivals,departures,cancellations,delays){
 
   arrivals = arrivals;
   departures = departures;
   cancellations = cancellations;
-  delays = delays;  
+  delays = delays;
+
+  if (arrivals) {
+    summ_data = "data/ARRIVALS_GROUPBY.CSV";
+  } else if (departures) {
+    summ_data = "data/departures_GROUPBY.CSV";
+  }
   gen_chord();
   gen_vis();
-
 }
 
 gen_vis();
 gen_chord();
 gen_map();
-
-/**function gen_slider() {
-//*******************************************************************
-//  CREATE SLIDER
-//*******************************************************************
-var formatDateIntoYear = d3v4.timeFormat("%Y");
-var formatDate = d3v4.timeFormat("%b %Y");
-
-
-var startDate = new Date("2013-01-01"),
-    endDate = new Date("2018-01-01");
-
-var margin = {top:30, right:50, bottom:0, left:50},
-    width = 400 -margin.left,
-    height = 60;
-
-var svg = d3v4.select("#slider-container")
-    .append("svg")
-      .attr("width", width + margin.left + margin.right)
-      .attr("height", height);
-var x = d3v4.scaleTime()
-    .domain([startDate, endDate])
-    .range([0, width])
-    .clamp(true);
-var slider = svg.append("g")
-    .attr("class", "slider")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-slider.append("line")
-    .attr("class", "track")
-    .attr("x1", x.range()[0])
-    .attr("x2", x.range()[1])
-  .select(function() { return this.parentNode.appendChild(this.cloneNode(true)); })
-    .attr("class", "track-inset")
-  .select(function() { return this.parentNode.appendChild(this.cloneNode(true)); })
-    .attr("class", "track-overlay")
-  .call(d3v4.drag()
-        .on("start.interrupt", function() { slider.interrupt(); })
-        .on("start drag", function() { console.log(d3.select(this));hue(x.invert(d3v4.event.x)); change_range((x.invert(d3v4.event.x)).getFullYear())}));
-
-  slider.insert("g", ".track-overlay")
-    .attr("class", "ticks")
-    .attr("transform", "translate(0," + 14 + ")")
-  .selectAll("text")
-    .data(x.ticks(10))
-    .enter()
-    .append("text")
-    .attr("x", x)
-    .attr("y", 10)
-    .attr("text-anchor", "middle")
-    .style("fill","#393939")
-    .style("font-weight", "bold")
-    .text(function(d) { return formatDateIntoYear(d); });
-
-  var label = slider.append("text")  
-    .attr("class", "label")
-    .attr("text-anchor", "middle")
-    .style("fill","#393939")
-    .style("font-size", "12px")
-    .style("font-weight", "bold")
-    .text(formatDate(startDate))
-    .attr("transform", "translate(0," + (-13) + ")")
-
-var handle1 = slider.insert("circle", ".track-overlay")
-    .attr("class", "handle")
-    .attr("id", "handle1")
-    .attr("r", 7);
-
-
-var handle2 = slider.insert("circle", ".track-overlay")
-    .attr("class", "handle")
-    .attr("id", "handle2")
-    .attr("cx", width)
-    .attr("r", 7);
-   
-
-  function hue(h) {
-    if(d3.select("#handle1")){
-      handle1.attr("cx", x(h));
-      d3.select("line")
-      label
-        .attr("x", x(h))
-        .text(formatDate(h));
-      svg.style("background-color", d3v4.color("#f1f1f1"));}
-    else {
-      handle2.attr("cx", x(h));
-      d3.select("line")
-      label
-        .attr("x", x(h))
-        .text(formatDate(h));
-    }
-  }
-} **/
-
 
 
 function gen_vis() {
@@ -196,7 +95,7 @@ function gen_vis() {
         .projection(projection);
 
 
-    var colorScale = d3.scale.linear().range([lowColor, highColor]).interpolate(d3.interpolateLab);
+    var colorScale = d3.scale.linear().range([highColor, lowColor]).interpolate(d3.interpolateLab);
 
       // we use queue because we have 2 data files to load.  
     queue()
@@ -217,19 +116,6 @@ function gen_vis() {
 
       })});
 
-
-
-  /**  function joinStates(d) {
-
-
-      if ((d.YEAR>= year_from && d.YEAR<= year_to) && (d.MONTH>= month_from && d.MONTH<= month_to))
-        {
-          dataset.set(d.STATE, d.TOTAL_FLIGHTS);
-        }
-    
-        return d
-      } **/
-    
 
       function getColor(d) {
 
@@ -334,10 +220,10 @@ function gen_vis() {
         var legend = key.append("defs")
           .append("svg:linearGradient")
           .attr("id", "gradient")
-          .attr("x1", "90%")
+          .attr("x1", "100%")
           .attr("y1", "0%")
-          .attr("x2", "90%")
-          .attr("y2", "50%")
+          .attr("x2", "100%")
+          .attr("y2", "65%")
           .attr("spreadMethod", "pad");
 
         legend.append("stop")
@@ -358,7 +244,7 @@ function gen_vis() {
 
         var y = d3.scale.linear()
           .range([5, w-20])
-          .domain([0, 500000]);
+          .domain([0, 2000000]);
 
         var yAxis = d3.svg.axis().scale(y).ticks(6);
 
@@ -524,51 +410,6 @@ function gen_map() {
 
         //LEGENDA
 
-        var w = 360, h = 20;
-
-        var key = svg
-          .append("svg")
-          .attr("width", height_1)
-          .attr("height", width_1)
-          .attr("class", "legend");
-
-        var legend = key.append("defs")
-          .append("svg:linearGradient")
-          .attr("id", "gradient")
-          .attr("x1", "100%")
-          .attr("y1", "0%")
-          .attr("x2", "100%")
-          .attr("y2", "100%")
-          .attr("spreadMethod", "pad");
-
-        legend.append("stop")
-          .attr("offset", "0%")
-          .attr("stop-color", highColor)
-          .attr("stop-opacity", 1);
-            
-        legend.append("stop")
-          .attr("offset", "100%")
-          .attr("stop-color", lowColor)
-          .attr("stop-opacity", 1);
-
-        key.append("rect")
-          .attr("width", h)
-          .attr("height", w-25)
-          .style("fill", "url(#gradient)")
-          .attr("transform", "translate(70,100)");
-
-        var w = d3.scale.linear()
-          .range([5, w-20])
-          .domain([0, 500000]);
-
-        var wAxis = d3.svg.axis().scale(w).ticks(6);
-
-        key.append("g")
-          .attr("class", "y axis")
-          .attr("transform", "translate(90,95)rotate(90)")
-          .style("fill", "white)")
-          .call(wAxis);
-
         svg.append("g")
             .attr("class", "y axis")
             .call(yAxis)
@@ -723,7 +564,7 @@ function gen_chord(year_from=2013, year_to=2017) {
 }
 
 function gen_summ() {
-  if (count <= 1) {
+if (count <= 1) {
     while (document.getElementById("summ").firstChild) {
       document.getElementById("summ").removeChild(document.getElementById("summ").firstChild);
     }  
@@ -822,8 +663,8 @@ var yAxis = d3.svg.axis().scale(y)
 
 // Define the line
 var priceline = d3.svg.line() 
-    .x(function(d) { return x(d.key); })
-    .y(function(d) { return y(d.value); })
+    .x(function(d) { return x(d.YEAR); })
+    .y(function(d) { return y(d.TOTAL_FLIGHTS); })
     .interpolate("linear");
     
 // Adds the svg canvas
@@ -836,7 +677,7 @@ var svg = d3.select("#summ")
               "translate(" + margin.left + "," + margin.top + ")");
 
 // Get the data
-d3.csv("data/arrivals_usaMap.csv", function(error, data) {
+d3.csv(summ_data, function(error, data) {
     data.forEach(function(d) {
       d3.ascending
     });
@@ -850,24 +691,11 @@ d3.csv("data/arrivals_usaMap.csv", function(error, data) {
             }
           }
         })
-        .key(function(d) { return d.YEAR; }) 
-        .rollup(function(v) { return d3.sum(v, function(d) { return d.TOTAL_FLIGHTS; }); })
         .sortKeys(d3.ascending)
         .entries(data)
-        .slice(1,count+1);
+        .slice(0,count);
 
-
-    /** var data = alasql('SELECT YEAR , STATE , SUM(TOTAL_FLIGHTS) AS TOTAL_FLIGHTS FROM ? GROUP BY YEAR,STATE' ,[usaData]);
-     var dataNest= new Array();
-        for (j in data){
-          for (var i = 0; i < statesGlobal.length; i++){
-            if(data[j].STATE.replace(/\s+/g, '') == statesGlobal[i]) {
-              dataNest.push(data[j]);
-            }
-           } 
-          }**/
-
-     console.log(dataNest);
+      console.log(dataNest);
 
         // Scale the range of the data
     x.domain([2013, 2017]);
@@ -878,18 +706,20 @@ d3.csv("data/arrivals_usaMap.csv", function(error, data) {
     legendSpace = width/dataNest.length; // spacing for the legend
 
     // Loop through each symbol / key
-    dataNest.forEach(function(d,e) { 
+    dataNest.forEach(function(d,i) { 
+
       // add line
         svg.append("path")
             .attr("class", "line")
             .style("stroke", function() { // Add the colours dynamically
                 return d.color = color(d.key); })
             .attr("id", d.key.replace(/\s+/g, '')) // assign ID
-            .attr("d", priceline(d.values[e].values))
+            .attr("d", priceline(d.values))
             .attr("fill", "none");
+            
         // Add the Legend
         svg.append("text")
-            .attr("x", legendSpace/2+e*legendSpace)  // space legend
+            .attr("x", legendSpace/2+i*legendSpace)  // space legend
             .attr("y", height + (margin.bottom/2)+ 5)
             .attr("class", "legend")    // style the legend
             .style("fill", function() { // Add the colours dynamically
@@ -907,7 +737,7 @@ d3.csv("data/arrivals_usaMap.csv", function(error, data) {
     svg.append("g")
         .attr("class", "y axis")
         .call(yAxis);
-
+        
     // Multi-line tooltip on mouse over
     var mouseG = svg.append("g")
       .attr("class", "mouse-over-effects");
@@ -970,10 +800,11 @@ d3.csv("data/arrivals_usaMap.csv", function(error, data) {
 
         d3.selectAll(".mouse-per-line")
           .attr("transform", function(d, i) {
-            var xDate = x.invert(mouse[0]),
-                bisect = d3.bisector(function(d) { return d.YEAR; }).right;
-                idx = bisect(d.value, xDate);
-            
+
+            var xDate = parseInt(x.invert(mouse[0])),
+
+                idx = xDate-2013;
+
             var beginning = 0,
                 end = lines[i].getTotalLength(),
                 target = null;
@@ -990,7 +821,7 @@ d3.csv("data/arrivals_usaMap.csv", function(error, data) {
             }
             
             d3.select(this).select('text')
-              .text("TO BE FIXED");
+              .text(dataNest[i].values[idx].TOTAL_FLIGHTS);
 
             return "translate(" + mouse[0] + "," + pos.y +")";
           });
