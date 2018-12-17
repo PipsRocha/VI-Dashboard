@@ -21,6 +21,7 @@ var month_to =12;
 
 
 
+
 //var time_range = "2013";
 //function change_range(str) {
 //  time_range = "" + str + "";
@@ -209,7 +210,14 @@ function gen_vis() {
 
         d3.csv("data/arrivals_usaMap.csv", function(error, data) {
       data.forEach(function (d){
-        usaData.push(d);})});
+          if(d.TOTAL_FLIGHTS != "" && d.MONTH != ""){
+              d.TOTAL_FLIGHTS = parseInt(d.TOTAL_FLIGHTS)
+              d.MONTH  = parseInt(d.MONTH);
+              usaData.push(d);
+             } 
+
+      })});
+
 
 
   /**  function joinStates(d) {
@@ -671,7 +679,7 @@ function gen_chord(year_from=2013, year_to=2017) {
 }
 
 function gen_summ() {
-  if (count <= 1) {
+if (count <= 1) {
     while (document.getElementById("summ").firstChild) {
       document.getElementById("summ").removeChild(document.getElementById("summ").firstChild);
     }  return;
@@ -682,7 +690,7 @@ function gen_summ() {
     }
   }
 // Set the dimensions of the canvas / graph
-var margin = {top: 20, right: 50, bottom: 70, left: 60},
+var margin = {top: 20, right: 20, bottom: 70, left: 60},
     width = 500 - margin.left - margin.right,
     height = 300 - margin.top - margin.bottom;
 
@@ -734,7 +742,7 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
 
         // Scale the range of the data
     x.domain([2013, 2017]);
-    y.domain([100, 800000]); 
+    y.domain([100, 700000]); 
 
     var color = d3.scale.category10();   // set the colour scale
 
@@ -772,7 +780,7 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
     svg.append("g")
         .attr("class", "y axis")
         .call(yAxis);
-
+        
     // Multi-line tooltip on mouse over
     var mouseG = svg.append("g")
       .attr("class", "mouse-over-effects");
@@ -835,15 +843,11 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
 
         d3.selectAll(".mouse-per-line")
           .attr("transform", function(d, i) {
-            var xDate = parseInt(x.invert(mouse[0])),
-                //bisect = d3.bisector(function(d) { return d.year; }).right;
-                //idx = bisect(d.value, xDate);
-                idx = xDate-2013,
-                ston = parseInt(mouse[1]);
 
-            console.log(ston);
-            console.log(dataNest);
-            
+            var xDate = parseInt(x.invert(mouse[0])),
+
+                idx = xDate-2013;
+
             var beginning = 0,
                 end = lines[i].getTotalLength(),
                 target = null;
