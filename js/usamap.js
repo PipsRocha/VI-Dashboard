@@ -682,7 +682,7 @@ function gen_summ() {
     }
   }
 // Set the dimensions of the canvas / graph
-var margin = {top: 20, right: 20, bottom: 70, left: 60},
+var margin = {top: 20, right: 50, bottom: 70, left: 60},
     width = 500 - margin.left - margin.right,
     height = 300 - margin.top - margin.bottom;
 
@@ -835,9 +835,14 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
 
         d3.selectAll(".mouse-per-line")
           .attr("transform", function(d, i) {
-            var xDate = x.invert(mouse[0]),
-                bisect = d3.bisector(function(d) { return d.year; }).right;
-                idx = bisect(d.value, xDate);
+            var xDate = parseInt(x.invert(mouse[0])),
+                //bisect = d3.bisector(function(d) { return d.year; }).right;
+                //idx = bisect(d.value, xDate);
+                idx = xDate-2013,
+                ston = parseInt(mouse[1]);
+
+            console.log(ston);
+            console.log(dataNest);
             
             var beginning = 0,
                 end = lines[i].getTotalLength(),
@@ -855,7 +860,7 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
             }
             
             d3.select(this).select('text')
-              .text("TO BE FIXED");
+              .text(dataNest[i].values[idx].value);
 
             return "translate(" + mouse[0] + "," + pos.y +")";
           });
