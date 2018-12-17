@@ -16,8 +16,8 @@ var chordData= new Array();
 var usaData= new Array();
 var year_from = "2013"
 var year_to = "2017"
-var month_from ="1";
-var month_to ="12";
+var month_from =1;
+var month_to =12;
 
 
 
@@ -31,7 +31,7 @@ var month_to ="12";
 ///////////////////// UPDATE FUNCTIONS /////////////////////////////
 var updateGraphsSlider = function(date1,date2) {
 
-var months = {"Jan":"1", "Feb":"2", "Mar":"3", "Apr":"4", "May":"5", "Jun":"6", "Jul":"7", "Aug":"8", "Sep":"9", "Oct":"10", "Nov":"11", "Dec":"12"}  
+var months = {"Jan":1, "Feb":2, "Mar":3, "Apr":4, "May":5, "Jun":6, "Jul":7, "Aug":8, "Sep":9, "Oct":10, "Nov":11, "Dec":12}  
 
 
 year_from =  date1.substring(3).trim();
@@ -238,11 +238,14 @@ function gen_vis() {
     function loaded(error, usa, flights) {
 
        for(var i in flights){
-            if(flights[i].TOTAL_FLIGHTS != ""){
-                flights[i].TOTAL_FLIGHTS = parseInt(flights[i].TOTAL_FLIGHTS);
+            if(flights[i].TOTAL_FLIGHTS != "" && flights[i].MONTH != ""){
+                flights[i].TOTAL_FLIGHTS = parseInt(flights[i].TOTAL_FLIGHTS)
+                flights[i].MONTH  = parseInt(flights[i].MONTH);
         }
       }
-      var data = flights.filter(element => (element['YEAR'] >=year_from && element['YEAR'] <= year_to) && (element['MONTH'] >=month_from && element['MONTH'] <= month_to));
+      console.log(flights);
+      var data = flights.filter(element => (element['YEAR'] >=year_from && element['YEAR'] <= year_to && element['MONTH'] >=month_from && element['MONTH'] <= month_to));
+      console.log(data);
       data = alasql('SELECT STATE,SUM(TOTAL_FLIGHTS) as TOTAL_FLIGHTS FROM ? GROUP BY STATE',[data]);
 
       for (i in data)
@@ -297,13 +300,13 @@ function gen_vis() {
               }
 
               statesGlobal[selectedStates]=d.properties.name.replace(/\s+/g, '');
-              d3.select(this).style("stroke","yellow").style("stroke-width","3px");
+              d3.select(this).style("stroke","orange").style("stroke-width","3px");
 
-              d3.select('#' + d.properties.name.replace(/\s+/g, '') + '2013').style("stroke","yellow").style("stroke-width","1px");
-              d3.select('#' + d.properties.name.replace(/\s+/g, '') + '2014').style("stroke","yellow").style("stroke-width","1px");
-              d3.select('#' + d.properties.name.replace(/\s+/g, '') + '2015').style("stroke","yellow").style("stroke-width","1px");
-              d3.select('#' + d.properties.name.replace(/\s+/g, '') + '2016').style("stroke","yellow").style("stroke-width","1px");
-              d3.select('#' + d.properties.name.replace(/\s+/g, '') + '2017').style("stroke","yellow").style("stroke-width","1px");
+              d3.select('#' + d.properties.name.replace(/\s+/g, '') + '2013').style("stroke","orange").style("stroke-width","1px");
+              d3.select('#' + d.properties.name.replace(/\s+/g, '') + '2014').style("stroke","orange").style("stroke-width","1px");
+              d3.select('#' + d.properties.name.replace(/\s+/g, '') + '2015').style("stroke","orange").style("stroke-width","1px");
+              d3.select('#' + d.properties.name.replace(/\s+/g, '') + '2016').style("stroke","orange").style("stroke-width","1px");
+              d3.select('#' + d.properties.name.replace(/\s+/g, '') + '2017').style("stroke","orange").style("stroke-width","1px");
 
               count++;
               gen_summ();              
@@ -476,12 +479,12 @@ function gen_map() {
               auxiliar = d3.select(this)[0][0].id;
               auxiliar2 = auxiliar.substring(0, auxiliar.length-4);
 
-              d3.select('#' + auxiliar2 + '2013').style("stroke","yellow").style("stroke-width","1px");
-              d3.select('#' + auxiliar2 + '2014').style("stroke","yellow").style("stroke-width","1px");
-              d3.select('#' + auxiliar2 + '2015').style("stroke","yellow").style("stroke-width","1px");
-              d3.select('#' + auxiliar2 + '2016').style("stroke","yellow").style("stroke-width","1px");
-              d3.select('#' + auxiliar2 + '2017').style("stroke","yellow").style("stroke-width","1px");
-              d3.select('#' + auxiliar2).style("stroke","yellow").style("stroke-width","3px");
+              d3.select('#' + auxiliar2 + '2013').style("stroke","orange").style("stroke-width","1px");
+              d3.select('#' + auxiliar2 + '2014').style("stroke","orange").style("stroke-width","1px");
+              d3.select('#' + auxiliar2 + '2015').style("stroke","orange").style("stroke-width","1px");
+              d3.select('#' + auxiliar2 + '2016').style("stroke","orange").style("stroke-width","1px");
+              d3.select('#' + auxiliar2 + '2017').style("stroke","orange").style("stroke-width","1px");
+              d3.select('#' + auxiliar2).style("stroke","orange").style("stroke-width","3px");
               selectedStates++;
               count++;
               gen_summ();
