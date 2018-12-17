@@ -776,7 +776,7 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
 
         // Scale the range of the data
     x.domain([2013, 2017]);
-    y.domain([100, 700000]).nice(); 
+    y.domain([100, 700000]); 
 
     var color = d3.scale.category10();   // set the colour scale
 
