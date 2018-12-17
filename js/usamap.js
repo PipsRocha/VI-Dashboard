@@ -196,7 +196,7 @@ function gen_vis() {
         .projection(projection);
 
 
-    var colorScale = d3.scale.linear().range([lowColor, highColor]).interpolate(d3.interpolateLab);
+    var colorScale = d3.scale.linear().range([highColor, lowColor]).interpolate(d3.interpolateLab);
 
       // we use queue because we have 2 data files to load.  
     queue()
@@ -324,10 +324,10 @@ function gen_vis() {
         var legend = key.append("defs")
           .append("svg:linearGradient")
           .attr("id", "gradient")
-          .attr("x1", "90%")
+          .attr("x1", "100%")
           .attr("y1", "0%")
-          .attr("x2", "90%")
-          .attr("y2", "50%")
+          .attr("x2", "100%")
+          .attr("y2", "65%")
           .attr("spreadMethod", "pad");
 
         legend.append("stop")
@@ -348,7 +348,7 @@ function gen_vis() {
 
         var y = d3.scale.linear()
           .range([5, w-20])
-          .domain([0, 500000]);
+          .domain([0, 2000000]);
 
         var yAxis = d3.svg.axis().scale(y).ticks(6);
 
@@ -513,51 +513,6 @@ function gen_map() {
         });
 
         //LEGENDA
-
-        var w = 360, h = 20;
-
-        var key = svg
-          .append("svg")
-          .attr("width", height_1)
-          .attr("height", width_1)
-          .attr("class", "legend");
-
-        var legend = key.append("defs")
-          .append("svg:linearGradient")
-          .attr("id", "gradient")
-          .attr("x1", "100%")
-          .attr("y1", "0%")
-          .attr("x2", "100%")
-          .attr("y2", "100%")
-          .attr("spreadMethod", "pad");
-
-        legend.append("stop")
-          .attr("offset", "0%")
-          .attr("stop-color", highColor)
-          .attr("stop-opacity", 1);
-            
-        legend.append("stop")
-          .attr("offset", "100%")
-          .attr("stop-color", lowColor)
-          .attr("stop-opacity", 1);
-
-        key.append("rect")
-          .attr("width", h)
-          .attr("height", w-25)
-          .style("fill", "url(#gradient)")
-          .attr("transform", "translate(70,100)");
-
-        var w = d3.scale.linear()
-          .range([5, w-20])
-          .domain([0, 500000]);
-
-        var wAxis = d3.svg.axis().scale(w).ticks(6);
-
-        key.append("g")
-          .attr("class", "y axis")
-          .attr("transform", "translate(90,95)rotate(90)")
-          .style("fill", "white)")
-          .call(wAxis);
 
         svg.append("g")
             .attr("class", "y axis")
@@ -776,7 +731,7 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
 
         // Scale the range of the data
     x.domain([2013, 2017]);
-    y.domain([100, 700000]); 
+    y.domain([100, 800000]); 
 
     var color = d3.scale.category10();   // set the colour scale
 
