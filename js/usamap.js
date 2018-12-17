@@ -736,8 +736,7 @@ var margin = {top: 20, right: 20, bottom: 70, left: 60},
 
 // Set the ranges
 var x = d3.scale.linear().range([1, width]);
-var y = d3.scale.linear().range([height, 10]);
-const line = d3v4.line().x(d => x(d.year)).y(d => y(d.value));
+var y = d3.scale.linear().range([height, 10]).nice();
 
 // Define the axes
 var xAxis = d3.svg.axis().scale(x)
@@ -760,11 +759,6 @@ var svg = d3.select("#summ")
     .append("g")
         .attr("transform", 
               "translate(" + margin.left + "," + margin.top + ")");
-
-// create tooltip
-const tooltip = d3.select('#tooltip_line');
-const tooltipLine = svg.append('line');
-let tipBox;
 
 // Get the data
 d3.csv("data/process_count_usa.csv", function(error, data) {
@@ -813,35 +807,6 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
             .style("fill", function() { // Add the colours dynamically
                 return d.color = color(d.key); })
             .text(d.key);
-
-        tipBox = svg.append('rect')
-            .attr('width', width)
-            .attr('height', height)
-            .attr('opacity', 0)
-            .on('mousemove', function(){
-
-              tooltipLine.attr('stroke', 'black')
-                .attr('x1', 2013)
-                .attr('x2', 2013)
-                .attr('y1', 0)
-                .attr('y2', height);
-      
-              tooltip.html(d.year)
-                .style('display', 'block')
-                .style('left', d3.event.pageX + 20)
-                .style('top', d3.event.pageY - 20)
-                .selectAll()
-                .data(d.key).enter()
-                .append('div')
-                .style('color',function() { // Add the colours dynamically
-                  return d.color = color(d.key); })
-                .html(d.value);
-
-            })
-            .on('mouseout', function() {
-              if (tooltip) tooltip.style('display', 'none');
-              if (tooltipLine) tooltipLine.attr('stroke', 'none');
-            });
     });
 
     // Add the X Axis
@@ -854,5 +819,93 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
     svg.append("g")
         .attr("class", "y axis")
         .call(yAxis);
+
+    // Multi-line tooltip on mouse over
+    var mouseG = svg.append("g")
+      .attr("class", "mouse-over-effects");
+
+     // this is the black vertical line that follows the mouse
+    mouseG.append("path")
+      .attr("class", "mouse-line")
+      .style("stroke", "black")
+      .style("stroke-width", "1px")
+      .style("opacity", "0");
+      
+    var lines = document.getElementsByClassName('line');
+
+    var mousePerLine = mouseG.selectAll('.mouse-per-line')
+      .data(data) //dataNest
+      .enter()
+      .append("g")
+      .attr("class", "mouse-per-line");
+
+    mousePerLine.append("circle")
+      .attr("r", 2)
+      .style("stroke", "white")
+      .style('fill', 'white')
+      .style("stroke-width", "0.5px")
+      .style("opacity", "0");
+
+    mousePerLine.append("text")
+      .attr("transform", "translate(10,3)");
+
+     // append a rect to catch mouse movements on canvas
+    mouseG.append('svg:rect')
+      .attr('width', width) // can't catch mouse events on a g element
+      .attr('height', height)
+      .attr('fill', 'none')
+      .attr('pointer-events', 'all')
+      .on('mouseout', function() { // on mouse out hide line, circles and text
+        d3.select(".mouse-line")
+          .style("opacity", "0");
+        d3.selectAll(".mouse-per-line circle")
+          .style("opacity", "0");
+        d3.selectAll(".mouse-per-line text")
+          .style("opacity", "0");
+      })
+      .on('mouseover', function() { // on mouse in show line, circles and text
+        d3.select(".mouse-line")
+          .style("opacity", "1");
+        d3.selectAll(".mouse-per-line circle")
+          .style("opacity", "1");
+        d3.selectAll(".mouse-per-line text")
+          .style("opacity", "1");
+      })
+      .on('mousemove', function() { // mouse moving over canvas
+        var mouse = d3.mouse(this);
+        d3.select(".mouse-line")
+          .attr("d", function() {
+            var d = "M" + mouse[0] + "," + height;
+            d += " " + mouse[0] + "," + 0;
+            return d;
+          });
+
+        d3.selectAll(".mouse-per-line")
+          .attr("transform", function(d, i) {
+            var xDate = x.invert(mouse[0]),
+                bisect = d3.bisector(function(d) { return d.year; }).right;
+                idx = bisect(d.value, xDate);
+            
+            var beginning = 0,
+                end = lines[i].getTotalLength(),
+                target = null;
+
+            while (true){
+              target = Math.floor((beginning + end) / 2);
+              pos = lines[i].getPointAtLength(target);
+              if ((target === end || target === beginning) && pos.x !== mouse[0]) {
+                  break;
+              }
+              if (pos.x > mouse[0])      end = target;
+              else if (pos.x < mouse[0]) beginning = target;
+              else break; //position found
+            }
+            
+            d3.select(this).select('text')
+              .text("TO BE FIXED");
+
+            return "translate(" + mouse[0] + "," + pos.y +")";
+          });
+      });
   });
 }
