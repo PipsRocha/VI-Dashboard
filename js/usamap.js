@@ -16,8 +16,8 @@ var chordData= new Array();
 var usaData= new Array();
 var year_from = "2013"
 var year_to = "2017"
-var month_from =1;
-var month_to =12;
+var month_from ="1";
+var month_to ="12";
 
 
 
@@ -31,7 +31,7 @@ var month_to =12;
 ///////////////////// UPDATE FUNCTIONS /////////////////////////////
 var updateGraphsSlider = function(date1,date2) {
 
-var months = {"Jan":1, "Feb":2, "Mar":3, "Apr":4, "May":5, "Jun":6, "Jul":7, "Aug":8, "Sep":9, "Oct":10, "Nov":11, "Dec":12}  
+var months = {"Jan":"1", "Feb":"2", "Mar":"3", "Apr":"4", "May":"5", "Jun":"6", "Jul":"7", "Aug":"8", "Sep":"9", "Oct":"10", "Nov":"11", "Dec":"12"}  
 
 
 year_from =  date1.substring(3).trim();
@@ -62,7 +62,7 @@ gen_vis();
 gen_chord();
 gen_map();
 
-function gen_slider() {
+/**function gen_slider() {
 //*******************************************************************
 //  CREATE SLIDER
 //*******************************************************************
@@ -153,7 +153,7 @@ var handle2 = slider.insert("circle", ".track-overlay")
         .text(formatDate(h));
     }
   }
-} 
+} **/
 
 
 
@@ -199,28 +199,31 @@ function gen_vis() {
     var colorScale = d3.scale.linear().range([lowColor, highColor]).interpolate(d3.interpolateLab);
 
       // we use queue because we have 2 data files to load.  
-
     queue()
         .defer(d3.json, "data/usa.json")
-        .defer(d3.csv, "data/arrivals_usaMap.csv", joinStates)// process
-        .defer(d3.csv, "data/departures_usaMap.csv", joinStates)
+        .defer(d3.csv, "data/arrivals_usaMap.csv")     // process
+        //.defer(d3.csv, "data/departures_usaMap.csv", joinStates)      
         .await(loaded);
 
     var dataset = d3.map();
-    function joinStates(d) {
-          if ((d.YEAR>= year_from && d.YEAR<= year_to) && (d.MONTH>= month_from && d.MONTH<= month_to))
-          {
 
-            dataset.set(d.STATE, d.TOTAL_FLIGHTS);
-          }
-      
-          return {
-            YEAR : d.YEAR,
-            MONTH : +d.MONTH,
-            STATE : d.STATE,
-            TOTAL_FLIGHTS : +d.TOTAL_FLIGHTS
-          };
-    }
+        d3.csv("data/arrivals_usaMap.csv", function(error, data) {
+      data.forEach(function (d){
+        usaData.push(d);})});
+
+
+  /**  function joinStates(d) {
+
+
+      if ((d.YEAR>= year_from && d.YEAR<= year_to) && (d.MONTH>= month_from && d.MONTH<= month_to))
+        {
+          dataset.set(d.STATE, d.TOTAL_FLIGHTS);
+        }
+    
+        return d
+      } **/
+    
+
       function getColor(d) {
 
         var dataRow = dataset.get(d.properties.name);          
@@ -234,8 +237,20 @@ function gen_vis() {
 
     function loaded(error, usa, flights) {
 
-        colorScale.domain(d3.extent(flights, function(d) {return d.TOTAL_FLIGHTS;}));
-      
+       for(var i in flights){
+            if(flights[i].TOTAL_FLIGHTS != ""){
+                flights[i].TOTAL_FLIGHTS = parseInt(flights[i].TOTAL_FLIGHTS);
+        }
+      }
+      var data = flights.filter(element => (element['YEAR'] >=year_from && element['YEAR'] <= year_to) && (element['MONTH'] >=month_from && element['MONTH'] <= month_to));
+      data = alasql('SELECT STATE,SUM(TOTAL_FLIGHTS) as TOTAL_FLIGHTS FROM ? GROUP BY STATE',[data]);
+
+      for (i in data)
+        dataset.set(data[i].STATE, data[i].TOTAL_FLIGHTS);  
+   
+
+      colorScale.domain(d3.extent(data, function(d) {return +d.TOTAL_FLIGHTS;}));
+        
 
         var states = topojson.feature(usa, usa.objects.units).features;
 
@@ -295,7 +310,7 @@ function gen_vis() {
               selectedStates++              
             });
 
-         
+
 
          // add a legend
         var w = 360, h = 200;
@@ -728,7 +743,7 @@ var yAxis = d3.svg.axis().scale(y)
 // Define the line
 var priceline = d3.svg.line() 
     .x(function(d) { return x(d.year); })
-    .y(function(d) { return y(d.value+1); })
+    .y(function(d) { return y(d.value); })
     .interpolate("linear");
     
 // Adds the svg canvas
@@ -761,7 +776,7 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
 
         // Scale the range of the data
     x.domain([2013, 2017]);
-    y.domain([100, 70000]).nice(); 
+    y.domain([100, 700000]).nice(); 
 
     var color = d3.scale.category10();   // set the colour scale
 
