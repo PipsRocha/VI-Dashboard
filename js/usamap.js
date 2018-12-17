@@ -18,143 +18,42 @@ var year_to = "2017"
 var month_from =1;
 var month_to =12;
 
-
-
-
-//var time_range = "2013";
-//function change_range(str) {
-//  time_range = "" + str + "";
-//  gen_vis();
-//}
-
+var summ_data = "data/ARRIVALS_GROUPBY.CSV";
 
 ///////////////////// UPDATE FUNCTIONS /////////////////////////////
 var updateGraphsSlider = function(date1,date2) {
 
-var months = {"Jan":1, "Feb":2, "Mar":3, "Apr":4, "May":5, "Jun":6, "Jul":7, "Aug":8, "Sep":9, "Oct":10, "Nov":11, "Dec":12}  
+  var months = {"Jan":1, "Feb":2, "Mar":3, "Apr":4, "May":5, "Jun":6, "Jul":7, "Aug":8, "Sep":9, "Oct":10, "Nov":11, "Dec":12}  
 
+  year_from =  date1.substring(3).trim();
+  year_to = date2.substring(3).trim();
 
-year_from =  date1.substring(3).trim();
-year_to = date2.substring(3).trim();
+  month_from = months[date1.substring(0,3)];
+  month_to =  months[date2.substring(0,3)];
 
-month_from = months[date1.substring(0,3)];
-month_to =  months[date2.substring(0,3)];
-
-
-
-gen_chord(year_from,year_to);
-gen_vis();
-
-
+  gen_chord(year_from,year_to);
+  gen_vis();
 }
+
 var updateGraphFilters = function(arrivals,departures,cancellations,delays){
 
   arrivals = arrivals;
   departures = departures;
   cancellations = cancellations;
-  delays = delays;  
+  delays = delays;
+
+  if (arrivals) {
+    summ_data = "data/ARRIVALS_GROUPBY.CSV";
+  } else if (departures) {
+    summ_data = "data/departures_GROUPBY.CSV";
+  }
   gen_chord();
   gen_vis();
-
 }
 
 gen_vis();
 gen_chord();
 gen_map();
-
-/**function gen_slider() {
-//*******************************************************************
-//  CREATE SLIDER
-//*******************************************************************
-var formatDateIntoYear = d3v4.timeFormat("%Y");
-var formatDate = d3v4.timeFormat("%b %Y");
-
-
-var startDate = new Date("2013-01-01"),
-    endDate = new Date("2018-01-01");
-
-var margin = {top:30, right:50, bottom:0, left:50},
-    width = 400 -margin.left,
-    height = 60;
-
-var svg = d3v4.select("#slider-container")
-    .append("svg")
-      .attr("width", width + margin.left + margin.right)
-      .attr("height", height);
-var x = d3v4.scaleTime()
-    .domain([startDate, endDate])
-    .range([0, width])
-    .clamp(true);
-var slider = svg.append("g")
-    .attr("class", "slider")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-slider.append("line")
-    .attr("class", "track")
-    .attr("x1", x.range()[0])
-    .attr("x2", x.range()[1])
-  .select(function() { return this.parentNode.appendChild(this.cloneNode(true)); })
-    .attr("class", "track-inset")
-  .select(function() { return this.parentNode.appendChild(this.cloneNode(true)); })
-    .attr("class", "track-overlay")
-  .call(d3v4.drag()
-        .on("start.interrupt", function() { slider.interrupt(); })
-        .on("start drag", function() { console.log(d3.select(this));hue(x.invert(d3v4.event.x)); change_range((x.invert(d3v4.event.x)).getFullYear())}));
-
-  slider.insert("g", ".track-overlay")
-    .attr("class", "ticks")
-    .attr("transform", "translate(0," + 14 + ")")
-  .selectAll("text")
-    .data(x.ticks(10))
-    .enter()
-    .append("text")
-    .attr("x", x)
-    .attr("y", 10)
-    .attr("text-anchor", "middle")
-    .style("fill","#393939")
-    .style("font-weight", "bold")
-    .text(function(d) { return formatDateIntoYear(d); });
-
-  var label = slider.append("text")  
-    .attr("class", "label")
-    .attr("text-anchor", "middle")
-    .style("fill","#393939")
-    .style("font-size", "12px")
-    .style("font-weight", "bold")
-    .text(formatDate(startDate))
-    .attr("transform", "translate(0," + (-13) + ")")
-
-var handle1 = slider.insert("circle", ".track-overlay")
-    .attr("class", "handle")
-    .attr("id", "handle1")
-    .attr("r", 7);
-
-
-var handle2 = slider.insert("circle", ".track-overlay")
-    .attr("class", "handle")
-    .attr("id", "handle2")
-    .attr("cx", width)
-    .attr("r", 7);
-   
-
-  function hue(h) {
-    if(d3.select("#handle1")){
-      handle1.attr("cx", x(h));
-      d3.select("line")
-      label
-        .attr("x", x(h))
-        .text(formatDate(h));
-      svg.style("background-color", d3v4.color("#f1f1f1"));}
-    else {
-      handle2.attr("cx", x(h));
-      d3.select("line")
-      label
-        .attr("x", x(h))
-        .text(formatDate(h));
-    }
-  }
-} **/
-
 
 
 function gen_vis() {
@@ -217,19 +116,6 @@ function gen_vis() {
 
       })});
 
-
-
-  /**  function joinStates(d) {
-
-
-      if ((d.YEAR>= year_from && d.YEAR<= year_to) && (d.MONTH>= month_from && d.MONTH<= month_to))
-        {
-          dataset.set(d.STATE, d.TOTAL_FLIGHTS);
-        }
-    
-        return d
-      } **/
-    
 
       function getColor(d) {
 
@@ -729,8 +615,8 @@ var yAxis = d3.svg.axis().scale(y)
 
 // Define the line
 var priceline = d3.svg.line() 
-    .x(function(d) { return x(d.year); })
-    .y(function(d) { return y(d.value); })
+    .x(function(d) { return x(d.YEAR); })
+    .y(function(d) { return y(d.TOTAL_FLIGHTS); })
     .interpolate("linear");
     
 // Adds the svg canvas
@@ -743,7 +629,7 @@ var svg = d3.select("#summ")
               "translate(" + margin.left + "," + margin.top + ")");
 
 // Get the data
-d3.csv("data/process_count_usa.csv", function(error, data) {
+d3.csv(summ_data, function(error, data) {
     data.forEach(function(d) {
       d3.ascending
     });
@@ -752,14 +638,16 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
     var dataNest = d3.nest()
         .key(function(d) {
           for (var i = 0; i < statesGlobal.length; i++){
-            if(d.state.replace(/\s+/g, '') == statesGlobal[i]) {
-              return d.state;
+            if(d.STATE.replace(/\s+/g, '') == statesGlobal[i]) {
+              return d.STATE;
             }
           }
         })
         .sortKeys(d3.ascending)
         .entries(data)
         .slice(0,count);
+
+      console.log(dataNest);
 
         // Scale the range of the data
     x.domain([2013, 2017]);
@@ -885,7 +773,7 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
             }
             
             d3.select(this).select('text')
-              .text(dataNest[i].values[idx].value);
+              .text(dataNest[i].values[idx].TOTAL_FLIGHTS);
 
             return "translate(" + mouse[0] + "," + pos.y +")";
           });
