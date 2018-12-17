@@ -21,6 +21,7 @@ var month_to =12;
 
 
 
+
 //var time_range = "2013";
 //function change_range(str) {
 //  time_range = "" + str + "";
@@ -209,7 +210,14 @@ function gen_vis() {
 
         d3.csv("data/arrivals_usaMap.csv", function(error, data) {
       data.forEach(function (d){
-        usaData.push(d);})});
+          if(d.TOTAL_FLIGHTS != "" && d.MONTH != ""){
+              d.TOTAL_FLIGHTS = parseInt(d.TOTAL_FLIGHTS)
+              d.MONTH  = parseInt(d.MONTH);
+              usaData.push(d);
+             } 
+
+      })});
+
 
 
   /**  function joinStates(d) {
@@ -745,7 +753,7 @@ var yAxis = d3.svg.axis().scale(y)
 
 // Define the line
 var priceline = d3.svg.line() 
-    .x(function(d) { return x(d.year); })
+    .x(function(d) { return x(d.key); })
     .y(function(d) { return y(d.value); })
     .interpolate("linear");
     
@@ -759,7 +767,7 @@ var svg = d3.select("#summ")
               "translate(" + margin.left + "," + margin.top + ")");
 
 // Get the data
-d3.csv("data/process_count_usa.csv", function(error, data) {
+d3.csv("data/arrivals_usaMap.csv", function(error, data) {
     data.forEach(function(d) {
       d3.ascending
     });
@@ -768,14 +776,29 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
     var dataNest = d3.nest()
         .key(function(d) {
           for (var i = 0; i < statesGlobal.length; i++){
-            if(d.state.replace(/\s+/g, '') == statesGlobal[i]) {
-              return d.state;
+            if(d.STATE.replace(/\s+/g, '') == statesGlobal[i]) {
+              return d.STATE;
             }
           }
         })
+        .key(function(d) { return d.YEAR; }) 
+        .rollup(function(v) { return d3.sum(v, function(d) { return d.TOTAL_FLIGHTS; }); })
         .sortKeys(d3.ascending)
         .entries(data)
-        .slice(0,count);
+        .slice(1,count+1);
+
+
+    /** var data = alasql('SELECT YEAR , STATE , SUM(TOTAL_FLIGHTS) AS TOTAL_FLIGHTS FROM ? GROUP BY YEAR,STATE' ,[usaData]);
+     var dataNest= new Array();
+        for (j in data){
+          for (var i = 0; i < statesGlobal.length; i++){
+            if(data[j].STATE.replace(/\s+/g, '') == statesGlobal[i]) {
+              dataNest.push(data[j]);
+            }
+           } 
+          }**/
+
+     console.log(dataNest);
 
         // Scale the range of the data
     x.domain([2013, 2017]);
@@ -786,20 +809,18 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
     legendSpace = width/dataNest.length; // spacing for the legend
 
     // Loop through each symbol / key
-    dataNest.forEach(function(d,i) { 
-
+    dataNest.forEach(function(d,e) { 
       // add line
         svg.append("path")
             .attr("class", "line")
             .style("stroke", function() { // Add the colours dynamically
                 return d.color = color(d.key); })
             .attr("id", d.key.replace(/\s+/g, '')) // assign ID
-            .attr("d", priceline(d.values))
+            .attr("d", priceline(d.values[e].values))
             .attr("fill", "none");
-            
         // Add the Legend
         svg.append("text")
-            .attr("x", legendSpace/2+i*legendSpace)  // space legend
+            .attr("x", legendSpace/2+e*legendSpace)  // space legend
             .attr("y", height + (margin.bottom/2)+ 5)
             .attr("class", "legend")    // style the legend
             .style("fill", function() { // Add the colours dynamically
@@ -881,7 +902,7 @@ d3.csv("data/process_count_usa.csv", function(error, data) {
         d3.selectAll(".mouse-per-line")
           .attr("transform", function(d, i) {
             var xDate = x.invert(mouse[0]),
-                bisect = d3.bisector(function(d) { return d.year; }).right;
+                bisect = d3.bisector(function(d) { return d.YEAR; }).right;
                 idx = bisect(d.value, xDate);
             
             var beginning = 0,
