@@ -1,5 +1,4 @@
 var statesGlobal = [];
-var selectedStateHM = [];
 var selectedStates = 0;
 var count=0;
 var cheio=false;
@@ -719,13 +718,35 @@ function gen_summ() {
   if (count <= 1) {
     while (document.getElementById("summ").firstChild) {
       document.getElementById("summ").removeChild(document.getElementById("summ").firstChild);
-    }  return;
+    }  
+    
+    if (count == 1) {
+    	document.getElementById("flight_sum").style.visibility='visible';
+    	var estado = statesGlobal.filter(function (el) { return el != null; });
+
+		document.getElementById("#state_seleccionado").innerHTML = estado;
+		document.getElementById("#total_flights").innerHTML = "" + " Flights";
+		document.getElementById("#top_route").innerHTML = "";
+		document.getElementById("#top_airline").innerHTML = "";
+		document.getElementById("#top_delay").innerHTML = "";
+		document.getElementById("#top_cancellation").innerHTML = "";
+	}
+
+    if (count == 0) {
+    	document.getElementById("flight_sum").style.visibility='hidden';
+    }
+
+    return;
   }
+
   else{
     while (document.getElementById("summ").firstChild) {
       document.getElementById("summ").removeChild(document.getElementById("summ").firstChild);
     }
+    document.getElementById("flight_sum").style.visibility='hidden';
   }
+
+
 // Set the dimensions of the canvas / graph
 var margin = {top: 20, right: 20, bottom: 70, left: 60},
     width = 500 - margin.left - margin.right,

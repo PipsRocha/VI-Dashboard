@@ -82,7 +82,7 @@
           
       </script>
       <div id="slider-container">
-        <div id="slider" style="width:250px></div>
+        <div id="slider" style="width:350px"></div>
         <div id="date_range" style="width:100px">
         <p>
           <label for="amount">Date range:</label>
@@ -150,18 +150,19 @@
       <div style="display: table-row; vertical-align: top;">
         <div  style="display: table-cell; vertical-align: top;">
           <div class="vis" id="vis"> </div>
-          <div id="summ"> 
+          <div id="summ"></div>
+          <div id = "flight_sum" style="visibility: hidden;">
             <h2><center>Flight Summary</center></h2>
-             <center><a ref="#state_seleccionado"><b> New York </b></a></center>
-              <center><a ref="#total_flights"> 123456789 Flights</a></center>
+             <h3><center><a id="#state_seleccionado"><b></b></a></center></h3>
+              <center><a id="#total_flights"></a></center>
 
-            <table style="margin:5px;" align="center">
+            <table align="center" style="margin-left:170px">
               <tr>
                   <td>
                       <img src="data/Routes.png" class="img" height="35" width="60"> 
                   </td>
                   <td>
-                      <a ref="#top_route"> A <-> B </a>
+                      <a id="#top_route"></a>
                   </td>
               </tr>
               <tr>
@@ -169,7 +170,7 @@
                       <img src="data/airline.png" class="img" height="35" width="35">
                   </td>
                   <td>
-                      <a ref="#top_airline"> TAP</a>
+                      <a id="#top_airline"></a>
                   </td>
               </tr>
               <tr>
@@ -177,14 +178,14 @@
                       <img src="data/delay.png" class="img" height="35" width="35">
                   </td>
                   <td>
-                      <a ref="#top_delay"> Porque sim</a>
+                      <a id="#top_delay"></a>
                   </td>
               <tr>
                   <td>
                       <img src="data/cancel.png" class="img" height="35" width="35">
                   </td>
                   <td>
-                      <a ref="#top_cancellation"> O Piloto esta doente </a>
+                      <a id="#top_cancellation"></a>
                   </td>
               </tr>
                  
