@@ -727,16 +727,64 @@ function gen_summ() {
     while (document.getElementById("summ").firstChild) {
       document.getElementById("summ").removeChild(document.getElementById("summ").firstChild);
     }  
-    
+
     if (count == 1) {
     	document.getElementById("flight_sum").style.visibility='visible';
     	var estado = statesGlobal.filter(function (el) { return el != null; });
 
+		/// SELECTED STATE
 		document.getElementById("#state_seleccionado").innerHTML = estado;
-		document.getElementById("#total_flights").innerHTML = "" + " Flights";
-		document.getElementById("#top_route").innerHTML = "";
+		
+		/// NUM FLIGHTS
+		var total_flights_now = 0;
+		d3.csv('data/process_count1.csv', function ( response ) {
+
+	        var data = response.map(function( item ) {
+	            var newItem = {};
+	            newItem.year = item.x_year;
+	            newItem.state = item.y_state.replace(/\s+/g, '');
+	            newItem.count = parseInt(item.value);
+
+	            return newItem;
+	        })
+
+		    for (var i = 0; i < data.length; i++) {
+		    	if (data[i].state == estado) {
+		    		total_flights_now = total_flights_now + data[i].count;
+		   		}
+			}
+
+			document.getElementById("#total_flights").innerHTML = total_flights_now + " Flights";
+    	})
+
+
+		
+		/// TOP ROUTE
+	    d3.csv('data/file_top_routes.csv', function ( response ) {
+
+	        var data_routes = response.map(function( item ) {
+	            var newItem = {};
+	            newItem.origin = item.ORIGIN_STATE_NM;
+	            newItem.dest = item.DEST_STATE_NM;
+	            return newItem;
+	     	})
+	    
+		    for (var i = 0; i < data_routes.length; i++) {
+		    	if (data_routes[i].origin == estado) {
+		    		var top_route_now = data_routes[i].dest;
+		    	}
+		    }
+
+			document.getElementById("#top_route").innerHTML = top_route_now;
+		})
+
+		/// TOP AIRLINE
 		document.getElementById("#top_airline").innerHTML = "";
+
+		/// TOP DELAY
 		document.getElementById("#top_delay").innerHTML = "";
+
+		/// TOP CANCELLATION
 		document.getElementById("#top_cancellation").innerHTML = "";
 	}
 
