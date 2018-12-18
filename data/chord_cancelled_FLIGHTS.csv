@@ -1,0 +1,4141 @@
+YEAR,ORIGIN_STATE_NM,DEST_STATE_NM,TOTAL_FLIGHTS
+2013,Alabama,Colorado, 20
+2014,Alabama,Colorado, 22
+2016,Alabama,Colorado, 16
+2013,Alabama,Florida, 11
+2014,Alabama,Florida, 33
+2015,Alabama,Florida, 16
+2016,Alabama,Florida, 12
+2017,Alabama,Florida, 23
+2013,Alabama,Georgia, 154
+2014,Alabama,Georgia, 173
+2015,Alabama,Georgia, 139
+2016,Alabama,Georgia, 142
+2017,Alabama,Georgia, 167
+2013,Alabama,Illinois, 115
+2014,Alabama,Illinois, 169
+2016,Alabama,Illinois, 115
+2017,Alabama,Illinois, 101
+2013,Alabama,Maryland, 8
+2014,Alabama,Maryland, 18
+2016,Alabama,Maryland, 12
+2017,Alabama,Maryland, 13
+2013,Alabama,Michigan, 64
+2014,Alabama,Michigan, 38
+2016,Alabama,Michigan, 36
+2017,Alabama,Michigan, 38
+2014,Alabama,Minnesota, 18
+2013,Alabama,Missouri, 2
+2014,Alabama,Missouri, 2
+2014,Alabama,Nevada, 5
+2016,Alabama,Nevada, 4
+2017,Alabama,Nevada, 6
+2013,Alabama,North Carolina, 43
+2013,Alabama,Texas, 148
+2014,Alabama,Texas, 206
+2015,Alabama,Texas, 158
+2016,Alabama,Texas, 134
+2017,Alabama,Texas, 173
+2013,Alaska,Alaska, 84
+2014,Alaska,Alaska, 73
+2015,Alaska,Alaska, 76
+2016,Alaska,Alaska, 74
+2017,Alaska,Alaska, 112
+2013,Alaska,Arizona, 7
+2014,Alaska,Arizona, 5
+2015,Alaska,Arizona, 5
+2016,Alaska,Arizona, 4
+2013,Alaska,California, 7
+2014,Alaska,California, 7
+2016,Alaska,California, 2
+2017,Alaska,California, 4
+2013,Alaska,Colorado, 5
+2014,Alaska,Colorado, 3
+2016,Alaska,Colorado, 8
+2013,Alaska,Illinois, 2
+2014,Alaska,Illinois, 12
+2016,Alaska,Illinois, 2
+2017,Alaska,Illinois, 3
+2013,Alaska,Minnesota, 3
+2014,Alaska,Minnesota, 2
+2014,Alaska,Oregon, 2
+2015,Alaska,Oregon, 3
+2016,Alaska,Oregon, 3
+2017,Alaska,Oregon, 6
+2013,Alaska,Texas, 3
+2015,Alaska,Texas, 6
+2016,Alaska,Texas, 2
+2017,Alaska,Texas, 2
+2013,Alaska,Washington, 72
+2014,Alaska,Washington, 50
+2016,Alaska,Washington, 47
+2017,Alaska,Washington, 57
+2015,Arizona,Alaska, 7
+2013,Arizona,Arizona, 129
+2014,Arizona,Arizona, 102
+2015,Arizona,Arizona, 78
+2016,Arizona,Arizona, 31
+2017,Arizona,Arizona, 28
+2013,Arizona,Arkansas, 3
+2013,Arizona,California, 449
+2014,Arizona,California, 451
+2016,Arizona,California, 402
+2017,Arizona,California, 362
+2013,Arizona,Colorado, 154
+2014,Arizona,Colorado, 146
+2016,Arizona,Colorado, 217
+2017,Arizona,Colorado, 123
+2013,Arizona,Florida, 5
+2014,Arizona,Florida, 7
+2015,Arizona,Florida, 5
+2016,Arizona,Florida, 19
+2017,Arizona,Florida, 48
+2013,Arizona,Georgia, 21
+2014,Arizona,Georgia, 54
+2015,Arizona,Georgia, 24
+2016,Arizona,Georgia, 22
+2017,Arizona,Georgia, 44
+2013,Arizona,Hawaii, 30
+2014,Arizona,Hawaii, 30
+2015,Arizona,Hawaii, 37
+2016,Arizona,Hawaii, 24
+2017,Arizona,Hawaii, 33
+2013,Arizona,Idaho, 9
+2015,Arizona,Idaho, 7
+2016,Arizona,Idaho, 8
+2013,Arizona,Illinois, 100
+2014,Arizona,Illinois, 173
+2016,Arizona,Illinois, 126
+2017,Arizona,Illinois, 87
+2013,Arizona,Indiana, 16
+2014,Arizona,Indiana, 25
+2015,Arizona,Indiana, 13
+2016,Arizona,Indiana, 13
+2017,Arizona,Indiana, 11
+2013,Arizona,Iowa, 12
+2016,Arizona,Iowa, 10
+2017,Arizona,Iowa, 10
+2014,Arizona,Kentucky, 2
+2016,Arizona,Kentucky, 6
+2017,Arizona,Kentucky, 2
+2014,Arizona,Louisiana, 4
+2017,Arizona,Louisiana, 4
+2014,Arizona,Maryland, 8
+2016,Arizona,Maryland, 27
+2017,Arizona,Maryland, 14
+2014,Arizona,Massachusetts, 34
+2017,Arizona,Massachusetts, 42
+2013,Arizona,Massachusetts, 31
+2016,Arizona,Massachusetts, 24
+2013,Arizona,Michigan, 12
+2014,Arizona,Michigan, 16
+2016,Arizona,Michigan, 14
+2017,Arizona,Michigan, 10
+2013,Arizona,Minnesota, 9
+2014,Arizona,Minnesota, 17
+2016,Arizona,Minnesota, 22
+2017,Arizona,Minnesota, 17
+2013,Arizona,Missouri, 35
+2014,Arizona,Missouri, 26
+2016,Arizona,Missouri, 43
+2017,Arizona,Missouri, 27
+2013,Arizona,Nebraska, 14
+2014,Arizona,Nebraska, 16
+2016,Arizona,Nebraska, 18
+2017,Arizona,Nebraska, 16
+2013,Arizona,Nevada, 160
+2014,Arizona,Nevada, 160
+2015,Arizona,Nevada, 140
+2016,Arizona,Nevada, 162
+2017,Arizona,Nevada, 146
+2013,Arizona,New Jersey, 59
+2014,Arizona,New Jersey, 69
+2016,Arizona,New Jersey, 58
+2017,Arizona,New Jersey, 60
+2013,Arizona,New Mexico, 29
+2014,Arizona,New Mexico, 25
+2016,Arizona,New Mexico, 8
+2017,Arizona,New Mexico, 12
+2013,Arizona,New York, 19
+2014,Arizona,New York, 46
+2016,Arizona,New York, 36
+2017,Arizona,New York, 43
+2014,Arizona,North Carolina, 48
+2017,Arizona,North Carolina, 40
+2013,Arizona,North Carolina, 23
+2016,Arizona,North Carolina, 33
+2013,Arizona,Ohio, 5
+2014,Arizona,Ohio, 5
+2015,Arizona,Ohio, 3
+2016,Arizona,Ohio, 9
+2013,Arizona,Oklahoma, 7
+2014,Arizona,Oklahoma, 6
+2016,Arizona,Oklahoma, 11
+2017,Arizona,Oklahoma, 5
+2013,Arizona,Oregon, 24
+2014,Arizona,Oregon, 26
+2015,Arizona,Oregon, 23
+2016,Arizona,Oregon, 39
+2017,Arizona,Oregon, 43
+2014,Arizona,Pennsylvania, 75
+2017,Arizona,Pennsylvania, 53
+2013,Arizona,Pennsylvania, 31
+2016,Arizona,Pennsylvania, 32
+2014,Arizona,Tennessee, 7
+2016,Arizona,Tennessee, 12
+2017,Arizona,Tennessee, 6
+2013,Arizona,Texas, 263
+2014,Arizona,Texas, 240
+2015,Arizona,Texas, 248
+2016,Arizona,Texas, 205
+2017,Arizona,Texas, 276
+2013,Arizona,Utah, 94
+2014,Arizona,Utah, 71
+2015,Arizona,Utah, 82
+2016,Arizona,Utah, 67
+2017,Arizona,Utah, 71
+2013,Arizona,Virginia, 17
+2014,Arizona,Virginia, 21
+2016,Arizona,Virginia, 25
+2017,Arizona,Virginia, 18
+2013,Arizona,Washington, 25
+2014,Arizona,Washington, 26
+2016,Arizona,Washington, 38
+2017,Arizona,Washington, 30
+2013,Arizona,Wisconsin, 6
+2014,Arizona,Wisconsin, 9
+2016,Arizona,Wisconsin, 10
+2017,Arizona,Wisconsin, 5
+2013,Arkansas,Arizona, 3
+2015,Arkansas,Arizona, 4
+2016,Arkansas,Arizona, 4
+2013,Arkansas,Colorado, 49
+2014,Arkansas,Colorado, 45
+2016,Arkansas,Colorado, 39
+2017,Arkansas,Colorado, 32
+2013,Arkansas,Georgia, 75
+2014,Arkansas,Georgia, 92
+2015,Arkansas,Georgia, 70
+2016,Arkansas,Georgia, 69
+2017,Arkansas,Georgia, 87
+2013,Arkansas,Illinois, 419
+2014,Arkansas,Illinois, 469
+2016,Arkansas,Illinois, 294
+2017,Arkansas,Illinois, 280
+2013,Arkansas,Maryland, 4
+2014,Arkansas,Maryland, 5
+2013,Arkansas,Michigan, 23
+2014,Arkansas,Michigan, 22
+2016,Arkansas,Michigan, 16
+2017,Arkansas,Michigan, 15
+2013,Arkansas,Missouri, 3
+2016,Arkansas,Missouri, 6
+2013,Arkansas,North Carolina, 25
+2013,Arkansas,Texas, 383
+2014,Arkansas,Texas, 432
+2015,Arkansas,Texas, 364
+2016,Arkansas,Texas, 278
+2017,Arkansas,Texas, 282
+2013,California,Alaska, 7
+2016,California,Alaska, 9
+2017,California,Alaska, 11
+2013,California,Arizona, 449
+2014,California,Arizona, 451
+2016,California,Arizona, 433
+2017,California,Arizona, 411
+2013,California,California, 1318
+2014,California,California, 1125
+2016,California,California, 830
+2017,California,California, 935
+2013,California,Colorado, 422
+2014,California,Colorado, 446
+2016,California,Colorado, 394
+2017,California,Colorado, 375
+2014,California,Connecticut, 10
+2017,California,Connecticut, 11
+2013,California,Florida, 31
+2014,California,Florida, 28
+2016,California,Florida, 68
+2017,California,Florida, 136
+2013,California,Georgia, 17
+2014,California,Georgia, 39
+2016,California,Georgia, 23
+2017,California,Georgia, 62
+2013,California,Hawaii, 85
+2014,California,Hawaii, 104
+2016,California,Hawaii, 83
+2017,California,Hawaii, 70
+2013,California,Idaho, 46
+2014,California,Idaho, 50
+2016,California,Idaho, 43
+2017,California,Idaho, 44
+2013,California,Illinois, 279
+2014,California,Illinois, 329
+2016,California,Illinois, 278
+2017,California,Illinois, 239
+2014,California,Indiana, 15
+2016,California,Indiana, 15
+2017,California,Indiana, 12
+2013,California,Kansas, 3
+2014,California,Kansas, 8
+2016,California,Kentucky, 5
+2017,California,Kentucky, 3
+2013,California,Louisiana, 12
+2014,California,Louisiana, 15
+2016,California,Louisiana, 12
+2017,California,Louisiana, 19
+2013,California,Maryland, 9
+2014,California,Maryland, 11
+2016,California,Maryland, 23
+2017,California,Maryland, 28
+2014,California,Massachusetts, 104
+2017,California,Massachusetts, 123
+2013,California,Massachusetts, 80
+2016,California,Massachusetts, 77
+2013,California,Michigan, 8
+2014,California,Michigan, 7
+2016,California,Michigan, 13
+2017,California,Michigan, 33
+2014,California,Minnesota, 9
+2016,California,Minnesota, 28
+2017,California,Minnesota, 19
+2013,California,Missouri, 36
+2014,California,Missouri, 27
+2016,California,Missouri, 33
+2017,California,Missouri, 26
+2014,California,Montana, 4
+2014,California,Nebraska, 2
+2016,California,Nebraska, 4
+2013,California,Nevada, 488
+2014,California,Nevada, 468
+2016,California,Nevada, 470
+2017,California,Nevada, 427
+2013,California,New Jersey, 123
+2014,California,New Jersey, 151
+2016,California,New Jersey, 143
+2017,California,New Jersey, 126
+2013,California,New Mexico, 32
+2014,California,New Mexico, 34
+2016,California,New Mexico, 3
+2017,California,New Mexico, 3
+2013,California,New York, 234
+2014,California,New York, 303
+2016,California,New York, 243
+2017,California,New York, 280
+2014,California,North Carolina, 62
+2017,California,North Carolina, 50
+2013,California,North Carolina, 27
+2016,California,North Carolina, 49
+2013,California,Ohio, 11
+2014,California,Ohio, 20
+2016,California,Ohio, 16
+2017,California,Ohio, 18
+2013,California,Oklahoma, 67
+2014,California,Oklahoma, 61
+2013,California,Oregon, 132
+2014,California,Oregon, 159
+2016,California,Oregon, 139
+2017,California,Oregon, 158
+2014,California,Pennsylvania, 92
+2017,California,Pennsylvania, 103
+2013,California,Pennsylvania, 100
+2016,California,Pennsylvania, 88
+2013,California,Tennessee, 6
+2014,California,Tennessee, 4
+2016,California,Tennessee, 15
+2017,California,Tennessee, 9
+2013,California,Texas, 656
+2014,California,Texas, 649
+2016,California,Texas, 572
+2017,California,Texas, 642
+2013,California,Utah, 198
+2014,California,Utah, 190
+2016,California,Utah, 169
+2017,California,Utah, 166
+2013,California,Virginia, 49
+2014,California,Virginia, 64
+2016,California,Virginia, 72
+2017,California,Virginia, 34
+2013,California,Washington, 138
+2014,California,Washington, 134
+2016,California,Washington, 154
+2017,California,Washington, 185
+2013,California,Wisconsin, 4
+2014,California,Wisconsin, 7
+2016,California,Wisconsin, 5
+2017,California,Wisconsin, 4
+2014,California,Wyoming, 4
+2017,California,Wyoming, 10
+2013,Colorado,Alabama, 20
+2014,Colorado,Alabama, 16
+2015,Colorado,Alabama, 9
+2016,Colorado,Alabama, 12
+2013,Colorado,Alaska, 5
+2016,Colorado,Alaska, 5
+2013,Colorado,Arizona, 154
+2014,Colorado,Arizona, 112
+2015,Colorado,Arizona, 140
+2016,Colorado,Arizona, 200
+2017,Colorado,Arizona, 90
+2013,Colorado,Arkansas, 49
+2014,Colorado,Arkansas, 47
+2016,Colorado,Arkansas, 38
+2017,Colorado,Arkansas, 27
+2013,Colorado,California, 422
+2014,Colorado,California, 414
+2016,Colorado,California, 576
+2017,Colorado,California, 267
+2013,Colorado,Colorado, 324
+2014,Colorado,Colorado, 470
+2016,Colorado,Colorado, 214
+2017,Colorado,Colorado, 153
+2014,Colorado,Connecticut, 5
+2017,Colorado,Connecticut, 7
+2013,Colorado,Connecticut, 9
+2016,Colorado,Connecticut, 11
+2013,Colorado,Florida, 35
+2014,Colorado,Florida, 25
+2015,Colorado,Florida, 55
+2016,Colorado,Florida, 129
+2017,Colorado,Florida, 119
+2013,Colorado,Georgia, 25
+2014,Colorado,Georgia, 51
+2015,Colorado,Georgia, 29
+2016,Colorado,Georgia, 54
+2017,Colorado,Georgia, 70
+2013,Colorado,Hawaii, 8
+2014,Colorado,Hawaii, 9
+2015,Colorado,Hawaii, 7
+2016,Colorado,Hawaii, 15
+2017,Colorado,Hawaii, 6
+2013,Colorado,Idaho, 59
+2014,Colorado,Idaho, 76
+2015,Colorado,Idaho, 48
+2016,Colorado,Idaho, 60
+2017,Colorado,Idaho, 40
+2013,Colorado,Illinois, 272
+2014,Colorado,Illinois, 310
+2016,Colorado,Illinois, 284
+2017,Colorado,Illinois, 200
+2013,Colorado,Indiana, 26
+2014,Colorado,Indiana, 35
+2015,Colorado,Indiana, 28
+2016,Colorado,Indiana, 35
+2017,Colorado,Indiana, 15
+2013,Colorado,Iowa, 64
+2014,Colorado,Iowa, 78
+2015,Colorado,Iowa, 38
+2016,Colorado,Iowa, 56
+2017,Colorado,Iowa, 37
+2013,Colorado,Kansas, 36
+2014,Colorado,Kansas, 62
+2015,Colorado,Kansas, 41
+2016,Colorado,Kansas, 48
+2017,Colorado,Kansas, 39
+2013,Colorado,Kentucky, 17
+2014,Colorado,Kentucky, 16
+2016,Colorado,Kentucky, 22
+2017,Colorado,Kentucky, 8
+2013,Colorado,Louisiana, 20
+2014,Colorado,Louisiana, 22
+2016,Colorado,Louisiana, 28
+2017,Colorado,Louisiana, 20
+2013,Colorado,Maryland, 28
+2014,Colorado,Maryland, 39
+2016,Colorado,Maryland, 64
+2017,Colorado,Maryland, 43
+2014,Colorado,Massachusetts, 59
+2017,Colorado,Massachusetts, 47
+2013,Colorado,Massachusetts, 29
+2016,Colorado,Massachusetts, 47
+2013,Colorado,Michigan, 27
+2014,Colorado,Michigan, 29
+2016,Colorado,Michigan, 48
+2017,Colorado,Michigan, 35
+2013,Colorado,Minnesota, 49
+2014,Colorado,Minnesota, 39
+2016,Colorado,Minnesota, 83
+2017,Colorado,Minnesota, 45
+2013,Colorado,Missouri, 109
+2014,Colorado,Missouri, 78
+2016,Colorado,Missouri, 118
+2017,Colorado,Missouri, 57
+2013,Colorado,Montana, 105
+2014,Colorado,Montana, 134
+2015,Colorado,Montana, 78
+2016,Colorado,Montana, 83
+2017,Colorado,Montana, 42
+2013,Colorado,Nebraska, 70
+2014,Colorado,Nebraska, 89
+2016,Colorado,Nebraska, 69
+2017,Colorado,Nebraska, 43
+2013,Colorado,Nevada, 65
+2014,Colorado,Nevada, 75
+2015,Colorado,Nevada, 93
+2016,Colorado,Nevada, 158
+2017,Colorado,Nevada, 66
+2013,Colorado,New Hampshire, 9
+2013,Colorado,New Jersey, 71
+2014,Colorado,New Jersey, 91
+2016,Colorado,New Jersey, 82
+2017,Colorado,New Jersey, 77
+2013,Colorado,New Mexico, 47
+2014,Colorado,New Mexico, 52
+2016,Colorado,New Mexico, 33
+2017,Colorado,New Mexico, 4
+2013,Colorado,New York, 43
+2014,Colorado,New York, 69
+2016,Colorado,New York, 75
+2017,Colorado,New York, 51
+2014,Colorado,North Carolina, 36
+2017,Colorado,North Carolina, 36
+2013,Colorado,North Carolina, 50
+2016,Colorado,North Carolina, 97
+2014,Colorado,North Dakota, 298
+2017,Colorado,North Dakota, 76
+2013,Colorado,North Dakota, 244
+2016,Colorado,North Dakota, 150
+2013,Colorado,Ohio, 33
+2014,Colorado,Ohio, 42
+2015,Colorado,Ohio, 29
+2016,Colorado,Ohio, 38
+2017,Colorado,Ohio, 14
+2013,Colorado,Oklahoma, 83
+2014,Colorado,Oklahoma, 84
+2016,Colorado,Oklahoma, 82
+2017,Colorado,Oklahoma, 46
+2013,Colorado,Oregon, 67
+2014,Colorado,Oregon, 80
+2015,Colorado,Oregon, 52
+2016,Colorado,Oregon, 95
+2017,Colorado,Oregon, 50
+2014,Colorado,Pennsylvania, 79
+2017,Colorado,Pennsylvania, 62
+2013,Colorado,Pennsylvania, 54
+2016,Colorado,Pennsylvania, 78
+2013,Colorado,Rhode Island, 7
+2014,Colorado,South Dakota, 146
+2017,Colorado,South Dakota, 61
+2013,Colorado,South Dakota, 88
+2016,Colorado,South Dakota, 70
+2013,Colorado,Tennessee, 63
+2014,Colorado,Tennessee, 64
+2016,Colorado,Tennessee, 62
+2017,Colorado,Tennessee, 28
+2013,Colorado,Texas, 483
+2014,Colorado,Texas, 482
+2015,Colorado,Texas, 490
+2016,Colorado,Texas, 512
+2017,Colorado,Texas, 422
+2013,Colorado,Utah, 146
+2014,Colorado,Utah, 114
+2015,Colorado,Utah, 117
+2016,Colorado,Utah, 165
+2017,Colorado,Utah, 105
+2013,Colorado,Virginia, 41
+2014,Colorado,Virginia, 50
+2016,Colorado,Virginia, 96
+2017,Colorado,Virginia, 24
+2013,Colorado,Washington, 65
+2014,Colorado,Washington, 85
+2016,Colorado,Washington, 102
+2017,Colorado,Washington, 60
+2013,Colorado,Wisconsin, 47
+2014,Colorado,Wisconsin, 70
+2016,Colorado,Wisconsin, 53
+2017,Colorado,Wisconsin, 23
+2013,Colorado,Wyoming, 200
+2014,Colorado,Wyoming, 200
+2015,Colorado,Wyoming, 103
+2016,Colorado,Wyoming, 92
+2017,Colorado,Wyoming, 47
+2014,Connecticut,California, 10
+2017,Connecticut,California, 10
+2014,Connecticut,Colorado, 5
+2017,Connecticut,Colorado, 7
+2014,Connecticut,Florida, 99
+2017,Connecticut,Florida, 164
+2014,Connecticut,Georgia, 101
+2017,Connecticut,Georgia, 87
+2014,Connecticut,Illinois, 191
+2017,Connecticut,Illinois, 110
+2014,Connecticut,Kentucky, 2
+2014,Connecticut,Maryland, 79
+2017,Connecticut,Maryland, 102
+2014,Connecticut,Michigan, 22
+2017,Connecticut,Michigan, 21
+2014,Connecticut,Minnesota, 7
+2017,Connecticut,Minnesota, 8
+2017,Connecticut,Nevada, 4
+2014,Connecticut,New Jersey, 69
+2017,Connecticut,New Jersey, 36
+2014,Connecticut,North Carolina, 44
+2017,Connecticut,North Carolina, 48
+2014,Connecticut,Ohio, 21
+2017,Connecticut,Ohio, 13
+2014,Connecticut,Pennsylvania, 15
+2017,Connecticut,Pennsylvania, 19
+2014,Connecticut,Texas, 37
+2017,Connecticut,Texas, 29
+2014,Connecticut,Virginia, 57
+2017,Connecticut,Virginia, 25
+2013,Connecticut,Colorado, 9
+2016,Connecticut,Colorado, 9
+2013,Connecticut,Florida, 49
+2016,Connecticut,Florida, 48
+2013,Connecticut,Georgia, 26
+2016,Connecticut,Georgia, 22
+2013,Connecticut,Illinois, 217
+2016,Connecticut,Illinois, 135
+2013,Connecticut,Kentucky, 27
+2013,Connecticut,Maryland, 41
+2016,Connecticut,Maryland, 75
+2013,Connecticut,Michigan, 46
+2016,Connecticut,Michigan, 26
+2013,Connecticut,Minnesota, 19
+2016,Connecticut,Minnesota, 10
+2016,Connecticut,Nevada, 3
+2013,Connecticut,New Jersey, 60
+2016,Connecticut,New Jersey, 35
+2013,Connecticut,North Carolina, 52
+2016,Connecticut,North Carolina, 39
+2013,Connecticut,Ohio, 2
+2016,Connecticut,Ohio, 3
+2013,Connecticut,Pennsylvania, 6
+2016,Connecticut,Pennsylvania, 6
+2013,Connecticut,Texas, 44
+2016,Connecticut,Texas, 27
+2013,Connecticut,Virginia, 37
+2016,Connecticut,Virginia, 24
+2013,Delaware,Florida, 2
+2014,Delaware,Florida, 3
+2015,Delaware,Florida, 6
+2014,Delaware,Michigan, 3
+2014,Florida,Alabama, 11
+2015,Florida,Alabama, 10
+2016,Florida,Alabama, 14
+2017,Florida,Alabama, 16
+2013,Florida,Arizona, 5
+2014,Florida,Arizona, 6
+2015,Florida,Arizona, 4
+2016,Florida,Arizona, 14
+2017,Florida,Arizona, 12
+2013,Florida,California, 31
+2014,Florida,California, 37
+2016,Florida,California, 66
+2017,Florida,California, 95
+2013,Florida,Colorado, 35
+2014,Florida,Colorado, 36
+2016,Florida,Colorado, 75
+2017,Florida,Colorado, 64
+2014,Florida,Connecticut, 99
+2017,Florida,Connecticut, 126
+2013,Florida,Connecticut, 49
+2016,Florida,Connecticut, 52
+2013,Florida,Delaware, 2
+2014,Florida,Delaware, 4
+2013,Florida,Florida, 10
+2014,Florida,Florida, 5
+2015,Florida,Florida, 24
+2016,Florida,Florida, 44
+2017,Florida,Florida, 146
+2013,Florida,Georgia, 224
+2014,Florida,Georgia, 290
+2015,Florida,Georgia, 244
+2016,Florida,Georgia, 280
+2017,Florida,Georgia, 369
+2013,Florida,Illinois, 189
+2014,Florida,Illinois, 282
+2016,Florida,Illinois, 245
+2017,Florida,Illinois, 237
+2013,Florida,Indiana, 42
+2014,Florida,Indiana, 47
+2015,Florida,Indiana, 39
+2016,Florida,Indiana, 50
+2017,Florida,Indiana, 45
+2013,Florida,Kentucky, 17
+2014,Florida,Kentucky, 18
+2016,Florida,Kentucky, 20
+2017,Florida,Kentucky, 27
+2013,Florida,Louisiana, 18
+2014,Florida,Louisiana, 23
+2016,Florida,Louisiana, 24
+2017,Florida,Louisiana, 36
+2013,Florida,Maryland, 109
+2014,Florida,Maryland, 136
+2016,Florida,Maryland, 177
+2017,Florida,Maryland, 187
+2014,Florida,Massachusetts, 263
+2017,Florida,Massachusetts, 344
+2013,Florida,Massachusetts, 150
+2016,Florida,Massachusetts, 174
+2013,Florida,Michigan, 30
+2014,Florida,Michigan, 30
+2016,Florida,Michigan, 42
+2017,Florida,Michigan, 58
+2013,Florida,Minnesota, 10
+2014,Florida,Minnesota, 10
+2016,Florida,Minnesota, 19
+2017,Florida,Minnesota, 21
+2014,Florida,Mississippi, 5
+2013,Florida,Missouri, 36
+2014,Florida,Missouri, 37
+2016,Florida,Missouri, 49
+2017,Florida,Missouri, 63
+2014,Florida,Nebraska, 3
+2016,Florida,Nebraska, 4
+2017,Florida,Nebraska, 3
+2014,Florida,Nevada, 5
+2015,Florida,Nevada, 5
+2016,Florida,Nevada, 14
+2017,Florida,Nevada, 13
+2014,Florida,New Hampshire, 20
+2017,Florida,New Hampshire, 35
+2013,Florida,New Hampshire, 12
+2016,Florida,New Hampshire, 13
+2013,Florida,New Jersey, 243
+2014,Florida,New Jersey, 304
+2016,Florida,New Jersey, 328
+2017,Florida,New Jersey, 424
+2013,Florida,New York, 293
+2014,Florida,New York, 509
+2016,Florida,New York, 434
+2017,Florida,New York, 626
+2014,Florida,North Carolina, 204
+2017,Florida,North Carolina, 229
+2013,Florida,North Carolina, 109
+2016,Florida,North Carolina, 146
+2013,Florida,Ohio, 23
+2014,Florida,Ohio, 27
+2015,Florida,Ohio, 25
+2016,Florida,Ohio, 35
+2017,Florida,Ohio, 51
+2017,Florida,Oregon, 7
+2014,Florida,Pennsylvania, 308
+2017,Florida,Pennsylvania, 347
+2013,Florida,Pennsylvania, 126
+2016,Florida,Pennsylvania, 171
+2014,Florida,Rhode Island, 86
+2017,Florida,Rhode Island, 117
+2013,Florida,Rhode Island, 40
+2016,Florida,Rhode Island, 59
+2013,Florida,Tennessee, 23
+2014,Florida,Tennessee, 25
+2016,Florida,Tennessee, 41
+2017,Florida,Tennessee, 35
+2013,Florida,Texas, 475
+2014,Florida,Texas, 464
+2015,Florida,Texas, 499
+2016,Florida,Texas, 508
+2017,Florida,Texas, 614
+2013,Florida,Utah, 2
+2014,Florida,Utah, 2
+2015,Florida,Utah, 2
+2016,Florida,Utah, 7
+2017,Florida,Utah, 15
+2013,Florida,Virginia, 125
+2014,Florida,Virginia, 157
+2016,Florida,Virginia, 208
+2017,Florida,Virginia, 203
+2013,Florida,Washington, 5
+2014,Florida,Washington, 4
+2016,Florida,Washington, 7
+2017,Florida,Washington, 10
+2013,Florida,Wisconsin, 12
+2014,Florida,Wisconsin, 13
+2016,Florida,Wisconsin, 27
+2017,Florida,Wisconsin, 20
+2013,Georgia,Alabama, 154
+2014,Georgia,Alabama, 262
+2015,Georgia,Alabama, 106
+2016,Georgia,Alabama, 100
+2017,Georgia,Alabama, 195
+2013,Georgia,Arizona, 21
+2014,Georgia,Arizona, 59
+2015,Georgia,Arizona, 17
+2016,Georgia,Arizona, 23
+2017,Georgia,Arizona, 41
+2013,Georgia,Arkansas, 75
+2014,Georgia,Arkansas, 102
+2016,Georgia,Arkansas, 37
+2017,Georgia,Arkansas, 83
+2013,Georgia,California, 17
+2014,Georgia,California, 94
+2016,Georgia,California, 34
+2017,Georgia,California, 136
+2013,Georgia,Colorado, 25
+2014,Georgia,Colorado, 71
+2016,Georgia,Colorado, 72
+2017,Georgia,Colorado, 83
+2014,Georgia,Connecticut, 101
+2017,Georgia,Connecticut, 87
+2013,Georgia,Connecticut, 26
+2016,Georgia,Connecticut, 24
+2013,Georgia,Florida, 224
+2014,Georgia,Florida, 782
+2015,Georgia,Florida, 252
+2016,Georgia,Florida, 389
+2017,Georgia,Florida, 1165
+2013,Georgia,Georgia, 111
+2014,Georgia,Georgia, 202
+2015,Georgia,Georgia, 52
+2016,Georgia,Georgia, 90
+2017,Georgia,Georgia, 129
+2014,Georgia,Hawaii, 2
+2015,Georgia,Hawaii, 2
+2013,Georgia,Illinois, 464
+2014,Georgia,Illinois, 553
+2016,Georgia,Illinois, 321
+2017,Georgia,Illinois, 393
+2013,Georgia,Indiana, 72
+2014,Georgia,Indiana, 145
+2015,Georgia,Indiana, 68
+2016,Georgia,Indiana, 55
+2017,Georgia,Indiana, 105
+2013,Georgia,Iowa, 26
+2014,Georgia,Iowa, 45
+2015,Georgia,Iowa, 18
+2016,Georgia,Iowa, 19
+2017,Georgia,Iowa, 31
+2013,Georgia,Kansas, 91
+2014,Georgia,Kansas, 69
+2015,Georgia,Kansas, 50
+2016,Georgia,Kansas, 50
+2017,Georgia,Kansas, 61
+2013,Georgia,Kentucky, 56
+2014,Georgia,Kentucky, 107
+2016,Georgia,Kentucky, 43
+2017,Georgia,Kentucky, 98
+2013,Georgia,Louisiana, 150
+2014,Georgia,Louisiana, 288
+2016,Georgia,Louisiana, 74
+2017,Georgia,Louisiana, 202
+2013,Georgia,Maine, 5
+2014,Georgia,Maine, 11
+2015,Georgia,Maine, 8
+2016,Georgia,Maine, 6
+2017,Georgia,Maine, 12
+2013,Georgia,Maryland, 73
+2014,Georgia,Maryland, 145
+2016,Georgia,Maryland, 109
+2017,Georgia,Maryland, 157
+2014,Georgia,Massachusetts, 141
+2017,Georgia,Massachusetts, 199
+2013,Georgia,Massachusetts, 69
+2016,Georgia,Massachusetts, 59
+2013,Georgia,Michigan, 26
+2014,Georgia,Michigan, 79
+2016,Georgia,Michigan, 47
+2017,Georgia,Michigan, 114
+2014,Georgia,Minnesota, 55
+2016,Georgia,Minnesota, 17
+2017,Georgia,Minnesota, 51
+2014,Georgia,Mississippi, 157
+2017,Georgia,Mississippi, 105
+2013,Georgia,Mississippi, 73
+2016,Georgia,Mississippi, 44
+2013,Georgia,Missouri, 77
+2014,Georgia,Missouri, 131
+2016,Georgia,Missouri, 47
+2017,Georgia,Missouri, 129
+2013,Georgia,Nebraska, 19
+2014,Georgia,Nebraska, 32
+2016,Georgia,Nebraska, 19
+2017,Georgia,Nebraska, 39
+2013,Georgia,Nevada, 3
+2014,Georgia,Nevada, 37
+2015,Georgia,Nevada, 14
+2016,Georgia,Nevada, 19
+2017,Georgia,Nevada, 51
+2014,Georgia,New Hampshire, 7
+2017,Georgia,New Hampshire, 11
+2013,Georgia,New Hampshire, 3
+2016,Georgia,New Hampshire, 5
+2013,Georgia,New Jersey, 318
+2014,Georgia,New Jersey, 446
+2016,Georgia,New Jersey, 275
+2017,Georgia,New Jersey, 318
+2014,Georgia,New Mexico, 9
+2016,Georgia,New Mexico, 2
+2017,Georgia,New Mexico, 5
+2013,Georgia,New York, 308
+2014,Georgia,New York, 467
+2016,Georgia,New York, 151
+2017,Georgia,New York, 323
+2014,Georgia,North Carolina, 489
+2017,Georgia,North Carolina, 378
+2013,Georgia,North Carolina, 247
+2016,Georgia,North Carolina, 267
+2016,Georgia,North Dakota, 2
+2013,Georgia,Ohio, 95
+2014,Georgia,Ohio, 200
+2015,Georgia,Ohio, 70
+2016,Georgia,Ohio, 78
+2017,Georgia,Ohio, 162
+2013,Georgia,Oklahoma, 57
+2014,Georgia,Oklahoma, 86
+2016,Georgia,Oklahoma, 35
+2017,Georgia,Oklahoma, 73
+2014,Georgia,Oregon, 22
+2016,Georgia,Oregon, 14
+2017,Georgia,Oregon, 23
+2014,Georgia,Pennsylvania, 342
+2017,Georgia,Pennsylvania, 340
+2013,Georgia,Pennsylvania, 177
+2016,Georgia,Pennsylvania, 152
+2014,Georgia,Rhode Island, 37
+2017,Georgia,Rhode Island, 38
+2013,Georgia,Rhode Island, 14
+2016,Georgia,Rhode Island, 15
+2014,Georgia,South Carolina, 184
+2017,Georgia,South Carolina, 191
+2013,Georgia,South Carolina, 113
+2016,Georgia,South Carolina, 112
+2014,Georgia,South Dakota, 23
+2017,Georgia,South Dakota, 20
+2013,Georgia,Tennessee, 155
+2014,Georgia,Tennessee, 183
+2016,Georgia,Tennessee, 96
+2017,Georgia,Tennessee, 220
+2013,Georgia,Texas, 455
+2014,Georgia,Texas, 636
+2015,Georgia,Texas, 411
+2016,Georgia,Texas, 305
+2017,Georgia,Texas, 621
+2013,Georgia,Utah, 8
+2014,Georgia,Utah, 21
+2015,Georgia,Utah, 9
+2016,Georgia,Utah, 11
+2017,Georgia,Utah, 26
+2013,Georgia,Vermont, 10
+2014,Georgia,Vermont, 14
+2015,Georgia,Vermont, 8
+2016,Georgia,Vermont, 10
+2017,Georgia,Vermont, 10
+2013,Georgia,Virginia, 325
+2014,Georgia,Virginia, 499
+2016,Georgia,Virginia, 273
+2017,Georgia,Virginia, 346
+2014,Georgia,Washington, 18
+2016,Georgia,Washington, 8
+2017,Georgia,Washington, 16
+2014,Georgia,West Virginia, 61
+2017,Georgia,West Virginia, 61
+2013,Georgia,West Virginia, 37
+2016,Georgia,West Virginia, 39
+2013,Georgia,Wisconsin, 53
+2014,Georgia,Wisconsin, 110
+2016,Georgia,Wisconsin, 31
+2017,Georgia,Wisconsin, 76
+2014,Georgia,Wyoming, 3
+2013,Hawaii,Arizona, 30
+2014,Hawaii,Arizona, 19
+2015,Hawaii,Arizona, 28
+2016,Hawaii,Arizona, 26
+2017,Hawaii,Arizona, 29
+2013,Hawaii,California, 85
+2014,Hawaii,California, 100
+2016,Hawaii,California, 77
+2017,Hawaii,California, 54
+2013,Hawaii,Colorado, 8
+2014,Hawaii,Colorado, 10
+2016,Hawaii,Colorado, 10
+2013,Hawaii,Georgia, 2
+2014,Hawaii,Georgia, 3
+2015,Hawaii,Georgia, 3
+2016,Hawaii,Georgia, 2
+2013,Hawaii,Hawaii, 349
+2014,Hawaii,Hawaii, 59
+2015,Hawaii,Hawaii, 51
+2016,Hawaii,Hawaii, 30
+2017,Hawaii,Hawaii, 74
+2013,Hawaii,Illinois, 6
+2014,Hawaii,Illinois, 8
+2013,Hawaii,New Jersey, 5
+2014,Hawaii,New Jersey, 10
+2016,Hawaii,New Jersey, 6
+2017,Hawaii,New Jersey, 8
+2016,Hawaii,New York, 2
+2017,Hawaii,New York, 4
+2013,Hawaii,Oregon, 2
+2017,Hawaii,Oregon, 3
+2013,Hawaii,Texas, 16
+2014,Hawaii,Texas, 18
+2015,Hawaii,Texas, 19
+2016,Hawaii,Texas, 12
+2017,Hawaii,Texas, 19
+2014,Hawaii,Utah, 6
+2015,Hawaii,Utah, 4
+2016,Hawaii,Utah, 4
+2013,Hawaii,Washington, 5
+2014,Hawaii,Washington, 5
+2016,Hawaii,Washington, 7
+2017,Hawaii,Washington, 7
+2013,Idaho,Arizona, 9
+2014,Idaho,Arizona, 6
+2015,Idaho,Arizona, 8
+2016,Idaho,Arizona, 11
+2017,Idaho,Arizona, 7
+2013,Idaho,California, 46
+2014,Idaho,California, 79
+2016,Idaho,California, 42
+2017,Idaho,California, 41
+2013,Idaho,Colorado, 59
+2014,Idaho,Colorado, 64
+2016,Idaho,Colorado, 60
+2017,Idaho,Colorado, 43
+2013,Idaho,Illinois, 3
+2014,Idaho,Illinois, 7
+2016,Idaho,Illinois, 11
+2017,Idaho,Illinois, 6
+2013,Idaho,Minnesota, 2
+2014,Idaho,Minnesota, 2
+2016,Idaho,Minnesota, 4
+2017,Idaho,Minnesota, 3
+2013,Idaho,Nevada, 2
+2014,Idaho,Nevada, 3
+2015,Idaho,Nevada, 3
+2016,Idaho,Nevada, 5
+2017,Idaho,Nevada, 2
+2013,Idaho,Oregon, 3
+2014,Idaho,Oregon, 2
+2015,Idaho,Oregon, 2
+2016,Idaho,Oregon, 2
+2017,Idaho,Oregon, 9
+2014,Idaho,Texas, 6
+2015,Idaho,Texas, 8
+2016,Idaho,Texas, 15
+2017,Idaho,Texas, 6
+2013,Idaho,Utah, 162
+2014,Idaho,Utah, 151
+2015,Idaho,Utah, 150
+2016,Idaho,Utah, 150
+2017,Idaho,Utah, 151
+2013,Idaho,Washington, 4
+2014,Idaho,Washington, 4
+2016,Idaho,Washington, 8
+2017,Idaho,Washington, 15
+2013,Illinois,Alabama, 115
+2014,Illinois,Alabama, 193
+2015,Illinois,Alabama, 113
+2016,Illinois,Alabama, 90
+2017,Illinois,Alabama, 76
+2013,Illinois,Alaska, 2
+2014,Illinois,Alaska, 7
+2015,Illinois,Alaska, 5
+2016,Illinois,Alaska, 3
+2013,Illinois,Arizona, 100
+2014,Illinois,Arizona, 140
+2015,Illinois,Arizona, 111
+2016,Illinois,Arizona, 95
+2017,Illinois,Arizona, 74
+2013,Illinois,Arkansas, 419
+2014,Illinois,Arkansas, 503
+2016,Illinois,Arkansas, 188
+2017,Illinois,Arkansas, 165
+2013,Illinois,California, 279
+2014,Illinois,California, 457
+2016,Illinois,California, 273
+2017,Illinois,California, 204
+2013,Illinois,Colorado, 272
+2014,Illinois,Colorado, 342
+2016,Illinois,Colorado, 318
+2017,Illinois,Colorado, 253
+2014,Illinois,Connecticut, 191
+2017,Illinois,Connecticut, 136
+2013,Illinois,Connecticut, 217
+2016,Illinois,Connecticut, 130
+2013,Illinois,Florida, 189
+2014,Illinois,Florida, 319
+2015,Illinois,Florida, 271
+2016,Illinois,Florida, 212
+2017,Illinois,Florida, 326
+2013,Illinois,Georgia, 464
+2014,Illinois,Georgia, 461
+2015,Illinois,Georgia, 376
+2016,Illinois,Georgia, 341
+2017,Illinois,Georgia, 389
+2013,Illinois,Hawaii, 6
+2014,Illinois,Hawaii, 9
+2015,Illinois,Hawaii, 9
+2013,Illinois,Idaho, 3
+2014,Illinois,Idaho, 4
+2015,Illinois,Idaho, 17
+2016,Illinois,Idaho, 12
+2017,Illinois,Idaho, 7
+2013,Illinois,Illinois, 362
+2014,Illinois,Illinois, 526
+2016,Illinois,Illinois, 90
+2017,Illinois,Illinois, 98
+2013,Illinois,Indiana, 443
+2014,Illinois,Indiana, 717
+2015,Illinois,Indiana, 462
+2016,Illinois,Indiana, 185
+2017,Illinois,Indiana, 193
+2013,Illinois,Iowa, 493
+2014,Illinois,Iowa, 704
+2015,Illinois,Iowa, 598
+2016,Illinois,Iowa, 240
+2017,Illinois,Iowa, 252
+2013,Illinois,Kansas, 275
+2014,Illinois,Kansas, 324
+2015,Illinois,Kansas, 239
+2016,Illinois,Kansas, 162
+2017,Illinois,Kansas, 175
+2013,Illinois,Kentucky, 645
+2014,Illinois,Kentucky, 784
+2016,Illinois,Kentucky, 351
+2017,Illinois,Kentucky, 330
+2013,Illinois,Louisiana, 50
+2014,Illinois,Louisiana, 43
+2016,Illinois,Louisiana, 37
+2017,Illinois,Louisiana, 38
+2013,Illinois,Maine, 48
+2014,Illinois,Maine, 60
+2015,Illinois,Maine, 36
+2016,Illinois,Maine, 35
+2017,Illinois,Maine, 43
+2013,Illinois,Maryland, 237
+2014,Illinois,Maryland, 253
+2016,Illinois,Maryland, 191
+2017,Illinois,Maryland, 183
+2014,Illinois,Massachusetts, 418
+2017,Illinois,Massachusetts, 332
+2013,Illinois,Massachusetts, 227
+2016,Illinois,Massachusetts, 190
+2013,Illinois,Michigan, 1057
+2014,Illinois,Michigan, 1487
+2016,Illinois,Michigan, 709
+2017,Illinois,Michigan, 762
+2013,Illinois,Minnesota, 472
+2014,Illinois,Minnesota, 553
+2016,Illinois,Minnesota, 350
+2017,Illinois,Minnesota, 371
+2014,Illinois,Mississippi, 78
+2017,Illinois,Mississippi, 51
+2013,Illinois,Mississippi, 31
+2016,Illinois,Mississippi, 26
+2013,Illinois,Missouri, 435
+2014,Illinois,Missouri, 520
+2016,Illinois,Missouri, 228
+2017,Illinois,Missouri, 191
+2013,Illinois,Montana, 7
+2014,Illinois,Montana, 9
+2015,Illinois,Montana, 6
+2016,Illinois,Montana, 11
+2017,Illinois,Montana, 9
+2013,Illinois,Nebraska, 314
+2014,Illinois,Nebraska, 415
+2016,Illinois,Nebraska, 208
+2017,Illinois,Nebraska, 185
+2013,Illinois,Nevada, 64
+2014,Illinois,Nevada, 95
+2015,Illinois,Nevada, 90
+2016,Illinois,Nevada, 90
+2017,Illinois,Nevada, 82
+2014,Illinois,New Hampshire, 82
+2017,Illinois,New Hampshire, 72
+2013,Illinois,New Hampshire, 77
+2016,Illinois,New Hampshire, 59
+2013,Illinois,New Jersey, 574
+2014,Illinois,New Jersey, 487
+2016,Illinois,New Jersey, 377
+2017,Illinois,New Jersey, 391
+2013,Illinois,New Mexico, 12
+2014,Illinois,New Mexico, 27
+2016,Illinois,New Mexico, 1
+2017,Illinois,New Mexico, 1
+2013,Illinois,New York, 1055
+2014,Illinois,New York, 1268
+2016,Illinois,New York, 558
+2017,Illinois,New York, 599
+2014,Illinois,North Carolina, 653
+2017,Illinois,North Carolina, 337
+2013,Illinois,North Carolina, 442
+2016,Illinois,North Carolina, 315
+2014,Illinois,North Dakota, 338
+2017,Illinois,North Dakota, 197
+2013,Illinois,North Dakota, 234
+2016,Illinois,North Dakota, 161
+2013,Illinois,Ohio, 628
+2014,Illinois,Ohio, 999
+2015,Illinois,Ohio, 654
+2016,Illinois,Ohio, 332
+2017,Illinois,Ohio, 278
+2013,Illinois,Oklahoma, 276
+2014,Illinois,Oklahoma, 370
+2016,Illinois,Oklahoma, 144
+2017,Illinois,Oklahoma, 122
+2013,Illinois,Oregon, 21
+2014,Illinois,Oregon, 50
+2015,Illinois,Oregon, 45
+2016,Illinois,Oregon, 34
+2017,Illinois,Oregon, 35
+2014,Illinois,Pennsylvania, 720
+2017,Illinois,Pennsylvania, 383
+2013,Illinois,Pennsylvania, 676
+2016,Illinois,Pennsylvania, 426
+2014,Illinois,Rhode Island, 61
+2017,Illinois,Rhode Island, 53
+2013,Illinois,Rhode Island, 54
+2016,Illinois,Rhode Island, 44
+2014,Illinois,South Carolina, 278
+2017,Illinois,South Carolina, 117
+2013,Illinois,South Carolina, 165
+2016,Illinois,South Carolina, 125
+2014,Illinois,South Dakota, 347
+2017,Illinois,South Dakota, 193
+2013,Illinois,South Dakota, 216
+2016,Illinois,South Dakota, 161
+2013,Illinois,Tennessee, 565
+2014,Illinois,Tennessee, 755
+2016,Illinois,Tennessee, 284
+2017,Illinois,Tennessee, 278
+2013,Illinois,Texas, 639
+2014,Illinois,Texas, 665
+2015,Illinois,Texas, 629
+2016,Illinois,Texas, 464
+2017,Illinois,Texas, 496
+2013,Illinois,Utah, 101
+2014,Illinois,Utah, 95
+2015,Illinois,Utah, 85
+2016,Illinois,Utah, 67
+2017,Illinois,Utah, 65
+2013,Illinois,Vermont, 25
+2014,Illinois,Vermont, 50
+2015,Illinois,Vermont, 25
+2016,Illinois,Vermont, 28
+2017,Illinois,Vermont, 21
+2013,Illinois,Virginia, 604
+2014,Illinois,Virginia, 739
+2016,Illinois,Virginia, 443
+2017,Illinois,Virginia, 368
+2013,Illinois,Washington, 70
+2014,Illinois,Washington, 85
+2016,Illinois,Washington, 64
+2017,Illinois,Washington, 66
+2014,Illinois,West Virginia, 156
+2017,Illinois,West Virginia, 90
+2013,Illinois,West Virginia, 82
+2016,Illinois,West Virginia, 63
+2013,Illinois,Wisconsin, 933
+2014,Illinois,Wisconsin, 1523
+2016,Illinois,Wisconsin, 553
+2017,Illinois,Wisconsin, 522
+2013,Illinois,Wyoming, 3
+2014,Illinois,Wyoming, 7
+2015,Illinois,Wyoming, 11
+2016,Illinois,Wyoming, 10
+2017,Illinois,Wyoming, 8
+2013,Indiana,Arizona, 16
+2014,Indiana,Arizona, 28
+2015,Indiana,Arizona, 14
+2016,Indiana,Arizona, 10
+2017,Indiana,Arizona, 7
+2014,Indiana,California, 15
+2016,Indiana,California, 7
+2017,Indiana,California, 9
+2013,Indiana,Colorado, 26
+2014,Indiana,Colorado, 42
+2016,Indiana,Colorado, 34
+2017,Indiana,Colorado, 18
+2013,Indiana,Florida, 42
+2014,Indiana,Florida, 69
+2015,Indiana,Florida, 31
+2016,Indiana,Florida, 32
+2017,Indiana,Florida, 49
+2013,Indiana,Georgia, 72
+2014,Indiana,Georgia, 125
+2015,Indiana,Georgia, 73
+2016,Indiana,Georgia, 76
+2017,Indiana,Georgia, 105
+2013,Indiana,Illinois, 443
+2014,Indiana,Illinois, 565
+2016,Indiana,Illinois, 405
+2017,Indiana,Illinois, 393
+2013,Indiana,Maryland, 18
+2014,Indiana,Maryland, 36
+2016,Indiana,Maryland, 25
+2017,Indiana,Maryland, 21
+2017,Indiana,Massachusetts, 32
+2016,Indiana,Massachusetts, 16
+2013,Indiana,Michigan, 98
+2014,Indiana,Michigan, 88
+2016,Indiana,Michigan, 82
+2017,Indiana,Michigan, 85
+2013,Indiana,Minnesota, 45
+2014,Indiana,Minnesota, 37
+2016,Indiana,Minnesota, 36
+2013,Indiana,Nevada, 4
+2014,Indiana,Nevada, 8
+2016,Indiana,Nevada, 9
+2017,Indiana,Nevada, 5
+2013,Indiana,New Jersey, 119
+2014,Indiana,New Jersey, 219
+2016,Indiana,New Jersey, 87
+2017,Indiana,New Jersey, 111
+2013,Indiana,New York, 61
+2014,Indiana,New York, 49
+2016,Indiana,New York, 45
+2017,Indiana,New York, 38
+2014,Indiana,North Carolina, 13
+2017,Indiana,North Carolina, 7
+2013,Indiana,North Carolina, 34
+2016,Indiana,North Carolina, 14
+2013,Indiana,Ohio, 13
+2014,Indiana,Ohio, 20
+2014,Indiana,Pennsylvania, 11
+2016,Indiana,Pennsylvania, 2
+2013,Indiana,Texas, 120
+2014,Indiana,Texas, 148
+2015,Indiana,Texas, 115
+2016,Indiana,Texas, 110
+2017,Indiana,Texas, 107
+2013,Indiana,Utah, 7
+2014,Indiana,Utah, 5
+2016,Indiana,Utah, 5
+2013,Indiana,Virginia, 36
+2014,Indiana,Virginia, 48
+2016,Indiana,Virginia, 22
+2017,Indiana,Virginia, 11
+2013,Iowa,Arizona, 12
+2014,Iowa,Arizona, 7
+2016,Iowa,Arizona, 13
+2017,Iowa,Arizona, 10
+2013,Iowa,Colorado, 64
+2014,Iowa,Colorado, 80
+2016,Iowa,Colorado, 64
+2017,Iowa,Colorado, 53
+2013,Iowa,Georgia, 26
+2014,Iowa,Georgia, 37
+2015,Iowa,Georgia, 22
+2016,Iowa,Georgia, 20
+2017,Iowa,Georgia, 30
+2013,Iowa,Illinois, 493
+2014,Iowa,Illinois, 527
+2016,Iowa,Illinois, 334
+2017,Iowa,Illinois, 311
+2013,Iowa,Michigan, 86
+2016,Iowa,Michigan, 50
+2017,Iowa,Michigan, 50
+2013,Iowa,Minnesota, 73
+2014,Iowa,Minnesota, 46
+2016,Iowa,Minnesota, 52
+2017,Iowa,Minnesota, 47
+2016,Iowa,Missouri, 3
+2017,Iowa,Missouri, 7
+2015,Iowa,Nevada, 2
+2017,Iowa,Nevada, 2
+2013,Iowa,New Jersey, 34
+2014,Iowa,New Jersey, 43
+2016,Iowa,New Jersey, 23
+2017,Iowa,New Jersey, 23
+2013,Iowa,North Carolina, 5
+2013,Iowa,Texas, 164
+2014,Iowa,Texas, 179
+2015,Iowa,Texas, 157
+2016,Iowa,Texas, 121
+2017,Iowa,Texas, 136
+2013,Kansas,California, 3
+2014,Kansas,California, 9
+2013,Kansas,Colorado, 36
+2014,Kansas,Colorado, 53
+2016,Kansas,Colorado, 32
+2017,Kansas,Colorado, 25
+2013,Kansas,Georgia, 91
+2014,Kansas,Georgia, 70
+2015,Kansas,Georgia, 48
+2016,Kansas,Georgia, 47
+2017,Kansas,Georgia, 58
+2013,Kansas,Illinois, 275
+2014,Kansas,Illinois, 305
+2016,Kansas,Illinois, 198
+2017,Kansas,Illinois, 187
+2013,Kansas,Minnesota, 31
+2014,Kansas,Minnesota, 17
+2016,Kansas,Minnesota, 18
+2016,Kansas,Missouri, 7
+2017,Kansas,Missouri, 6
+2014,Kansas,Nevada, 4
+2015,Kansas,Nevada, 3
+2013,Kansas,Texas, 171
+2014,Kansas,Texas, 191
+2015,Kansas,Texas, 159
+2016,Kansas,Texas, 113
+2017,Kansas,Texas, 121
+2015,Kentucky,Arizona, 2
+2016,Kentucky,Arizona, 5
+2017,Kentucky,Arizona, 2
+2013,Kentucky,California, 5
+2016,Kentucky,California, 5
+2017,Kentucky,California, 4
+2013,Kentucky,Colorado, 17
+2014,Kentucky,Colorado, 27
+2016,Kentucky,Colorado, 22
+2017,Kentucky,Colorado, 16
+2014,Kentucky,Connecticut, 2
+2013,Kentucky,Connecticut, 27
+2013,Kentucky,Florida, 17
+2014,Kentucky,Florida, 23
+2015,Kentucky,Florida, 16
+2016,Kentucky,Florida, 20
+2017,Kentucky,Florida, 25
+2013,Kentucky,Georgia, 56
+2014,Kentucky,Georgia, 78
+2015,Kentucky,Georgia, 62
+2016,Kentucky,Georgia, 64
+2017,Kentucky,Georgia, 78
+2013,Kentucky,Illinois, 645
+2014,Kentucky,Illinois, 642
+2016,Kentucky,Illinois, 444
+2017,Kentucky,Illinois, 429
+2013,Kentucky,Louisiana, 4
+2013,Kentucky,Maryland, 51
+2017,Kentucky,Maryland, 41
+2014,Kentucky,Massachusetts, 2
+2017,Kentucky,Massachusetts, 9
+2013,Kentucky,Massachusetts, 37
+2016,Kentucky,Massachusetts, 21
+2013,Kentucky,Michigan, 82
+2014,Kentucky,Michigan, 53
+2016,Kentucky,Michigan, 43
+2017,Kentucky,Michigan, 43
+2013,Kentucky,Minnesota, 56
+2014,Kentucky,Minnesota, 43
+2016,Kentucky,Minnesota, 28
+2017,Kentucky,Minnesota, 28
+2013,Kentucky,Missouri, 45
+2014,Kentucky,Missouri, 20
+2016,Kentucky,Missouri, 20
+2017,Kentucky,Missouri, 20
+2015,Kentucky,Nevada, 3
+2016,Kentucky,Nevada, 7
+2013,Kentucky,New Jersey, 343
+2014,Kentucky,New Jersey, 353
+2016,Kentucky,New Jersey, 249
+2017,Kentucky,New Jersey, 193
+2013,Kentucky,New York, 96
+2014,Kentucky,New York, 73
+2016,Kentucky,New York, 54
+2017,Kentucky,New York, 77
+2017,Kentucky,North Carolina, 4
+2013,Kentucky,North Carolina, 70
+2016,Kentucky,North Carolina, 37
+2013,Kentucky,Pennsylvania, 119
+2016,Kentucky,Pennsylvania, 59
+2013,Kentucky,Tennessee, 60
+2014,Kentucky,Tennessee, 32
+2016,Kentucky,Tennessee, 24
+2017,Kentucky,Tennessee, 24
+2013,Kentucky,Texas, 232
+2014,Kentucky,Texas, 238
+2015,Kentucky,Texas, 220
+2016,Kentucky,Texas, 139
+2017,Kentucky,Texas, 150
+2013,Kentucky,Utah, 2
+2014,Kentucky,Utah, 4
+2013,Kentucky,Virginia, 126
+2014,Kentucky,Virginia, 65
+2017,Kentucky,Virginia, 55
+2013,Kentucky,Washington, 2
+2016,Kentucky,Washington, 2
+2013,Kentucky,Wisconsin, 45
+2014,Kentucky,Wisconsin, 35
+2016,Kentucky,Wisconsin, 23
+2017,Kentucky,Wisconsin, 22
+2014,Louisiana,Arizona, 4
+2016,Louisiana,Arizona, 2
+2017,Louisiana,Arizona, 4
+2013,Louisiana,California, 12
+2014,Louisiana,California, 18
+2016,Louisiana,California, 12
+2017,Louisiana,California, 23
+2013,Louisiana,Colorado, 20
+2014,Louisiana,Colorado, 23
+2016,Louisiana,Colorado, 25
+2017,Louisiana,Colorado, 23
+2013,Louisiana,Florida, 18
+2014,Louisiana,Florida, 47
+2016,Louisiana,Florida, 58
+2017,Louisiana,Florida, 138
+2013,Louisiana,Georgia, 150
+2014,Louisiana,Georgia, 199
+2016,Louisiana,Georgia, 153
+2017,Louisiana,Georgia, 194
+2013,Louisiana,Illinois, 50
+2014,Louisiana,Illinois, 59
+2016,Louisiana,Illinois, 58
+2017,Louisiana,Illinois, 46
+2013,Louisiana,Kentucky, 4
+2013,Louisiana,Maryland, 3
+2014,Louisiana,Maryland, 13
+2016,Louisiana,Maryland, 14
+2017,Louisiana,Maryland, 24
+2014,Louisiana,Massachusetts, 17
+2017,Louisiana,Massachusetts, 16
+2013,Louisiana,Massachusetts, 5
+2016,Louisiana,Massachusetts, 6
+2013,Louisiana,Michigan, 3
+2014,Louisiana,Michigan, 5
+2016,Louisiana,Michigan, 8
+2017,Louisiana,Michigan, 17
+2013,Louisiana,Minnesota, 14
+2014,Louisiana,Minnesota, 14
+2016,Louisiana,Minnesota, 10
+2017,Louisiana,Minnesota, 11
+2013,Louisiana,Missouri, 5
+2014,Louisiana,Missouri, 12
+2016,Louisiana,Missouri, 2
+2017,Louisiana,Missouri, 3
+2014,Louisiana,Nevada, 9
+2016,Louisiana,Nevada, 9
+2017,Louisiana,Nevada, 21
+2013,Louisiana,New Jersey, 63
+2014,Louisiana,New Jersey, 88
+2016,Louisiana,New Jersey, 37
+2017,Louisiana,New Jersey, 38
+2013,Louisiana,New York, 80
+2014,Louisiana,New York, 93
+2016,Louisiana,New York, 52
+2017,Louisiana,New York, 77
+2014,Louisiana,North Carolina, 39
+2017,Louisiana,North Carolina, 24
+2013,Louisiana,North Carolina, 8
+2016,Louisiana,North Carolina, 17
+2013,Louisiana,Ohio, 2
+2014,Louisiana,Ohio, 3
+2017,Louisiana,Ohio, 10
+2014,Louisiana,Pennsylvania, 19
+2017,Louisiana,Pennsylvania, 28
+2013,Louisiana,Pennsylvania, 10
+2016,Louisiana,Pennsylvania, 8
+2017,Louisiana,Rhode Island, 2
+2013,Louisiana,Tennessee, 16
+2014,Louisiana,Tennessee, 14
+2016,Louisiana,Tennessee, 7
+2017,Louisiana,Tennessee, 4
+2013,Louisiana,Texas, 547
+2014,Louisiana,Texas, 616
+2016,Louisiana,Texas, 555
+2017,Louisiana,Texas, 673
+2013,Louisiana,Utah, 3
+2014,Louisiana,Utah, 5
+2017,Louisiana,Utah, 3
+2013,Louisiana,Virginia, 18
+2014,Louisiana,Virginia, 24
+2016,Louisiana,Virginia, 22
+2017,Louisiana,Virginia, 26
+2017,Louisiana,Washington, 2
+2014,Louisiana,Wisconsin, 6
+2013,Maine,Georgia, 5
+2014,Maine,Georgia, 8
+2015,Maine,Georgia, 7
+2016,Maine,Georgia, 6
+2017,Maine,Georgia, 11
+2013,Maine,Illinois, 48
+2014,Maine,Illinois, 46
+2016,Maine,Illinois, 37
+2017,Maine,Illinois, 32
+2013,Maine,Maryland, 17
+2014,Maine,Maryland, 21
+2016,Maine,Maryland, 27
+2017,Maine,Maryland, 35
+2013,Maine,Michigan, 61
+2014,Maine,Michigan, 38
+2016,Maine,Michigan, 36
+2017,Maine,Michigan, 35
+2013,Maine,New Jersey, 74
+2014,Maine,New Jersey, 98
+2016,Maine,New Jersey, 129
+2017,Maine,New Jersey, 107
+2013,Maine,New York, 43
+2014,Maine,New York, 87
+2016,Maine,New York, 65
+2017,Maine,New York, 89
+2014,Maine,North Carolina, 11
+2017,Maine,North Carolina, 19
+2013,Maine,North Carolina, 9
+2016,Maine,North Carolina, 14
+2013,Maine,Ohio, 6
+2014,Maine,Pennsylvania, 4
+2013,Maine,Virginia, 22
+2014,Maine,Virginia, 31
+2013,Maryland,Alabama, 8
+2014,Maryland,Alabama, 13
+2015,Maryland,Alabama, 15
+2016,Maryland,Alabama, 5
+2017,Maryland,Alabama, 7
+2013,Maryland,Arizona, 8
+2014,Maryland,Arizona, 22
+2015,Maryland,Arizona, 19
+2016,Maryland,Arizona, 32
+2017,Maryland,Arizona, 19
+2014,Maryland,Arkansas, 4
+2013,Maryland,California, 9
+2014,Maryland,California, 22
+2016,Maryland,California, 44
+2017,Maryland,California, 67
+2013,Maryland,Colorado, 28
+2014,Maryland,Colorado, 35
+2016,Maryland,Colorado, 61
+2017,Maryland,Colorado, 40
+2014,Maryland,Connecticut, 79
+2017,Maryland,Connecticut, 94
+2013,Maryland,Connecticut, 41
+2016,Maryland,Connecticut, 68
+2013,Maryland,Florida, 109
+2014,Maryland,Florida, 212
+2015,Maryland,Florida, 202
+2016,Maryland,Florida, 363
+2017,Maryland,Florida, 448
+2013,Maryland,Georgia, 73
+2014,Maryland,Georgia, 156
+2015,Maryland,Georgia, 104
+2016,Maryland,Georgia, 112
+2017,Maryland,Georgia, 149
+2013,Maryland,Illinois, 237
+2014,Maryland,Illinois, 325
+2016,Maryland,Illinois, 186
+2017,Maryland,Illinois, 170
+2013,Maryland,Indiana, 18
+2014,Maryland,Indiana, 31
+2015,Maryland,Indiana, 32
+2016,Maryland,Indiana, 30
+2017,Maryland,Indiana, 24
+2013,Maryland,Kentucky, 51
+2014,Maryland,Kentucky, 40
+2016,Maryland,Kentucky, 43
+2017,Maryland,Kentucky, 48
+2013,Maryland,Louisiana, 3
+2014,Maryland,Louisiana, 16
+2016,Maryland,Louisiana, 18
+2017,Maryland,Louisiana, 26
+2013,Maryland,Maine, 17
+2014,Maryland,Maine, 20
+2015,Maryland,Maine, 33
+2016,Maryland,Maine, 24
+2017,Maryland,Maine, 37
+2014,Maryland,Massachusetts, 205
+2017,Maryland,Massachusetts, 259
+2013,Maryland,Massachusetts, 152
+2016,Maryland,Massachusetts, 174
+2013,Maryland,Michigan, 63
+2014,Maryland,Michigan, 72
+2016,Maryland,Michigan, 91
+2017,Maryland,Michigan, 64
+2013,Maryland,Minnesota, 20
+2014,Maryland,Minnesota, 14
+2016,Maryland,Minnesota, 19
+2017,Maryland,Minnesota, 25
+2013,Maryland,Missouri, 41
+2014,Maryland,Missouri, 44
+2016,Maryland,Missouri, 50
+2017,Maryland,Missouri, 38
+2013,Maryland,Nevada, 4
+2014,Maryland,Nevada, 11
+2015,Maryland,Nevada, 15
+2016,Maryland,Nevada, 28
+2017,Maryland,Nevada, 25
+2014,Maryland,New Hampshire, 70
+2017,Maryland,New Hampshire, 78
+2013,Maryland,New Hampshire, 32
+2016,Maryland,New Hampshire, 62
+2013,Maryland,New Jersey, 53
+2014,Maryland,New Jersey, 73
+2016,Maryland,New Jersey, 38
+2017,Maryland,New Jersey, 59
+2014,Maryland,New Mexico, 2
+2016,Maryland,New Mexico, 7
+2017,Maryland,New Mexico, 2
+2013,Maryland,New York, 221
+2014,Maryland,New York, 231
+2016,Maryland,New York, 215
+2017,Maryland,New York, 191
+2014,Maryland,North Carolina, 159
+2017,Maryland,North Carolina, 132
+2013,Maryland,North Carolina, 87
+2016,Maryland,North Carolina, 110
+2013,Maryland,Ohio, 65
+2014,Maryland,Ohio, 93
+2015,Maryland,Ohio, 75
+2016,Maryland,Ohio, 71
+2017,Maryland,Ohio, 51
+2014,Maryland,Oklahoma, 3
+2016,Maryland,Oklahoma, 10
+2017,Maryland,Oklahoma, 3
+2015,Maryland,Oregon, 2
+2016,Maryland,Oregon, 3
+2017,Maryland,Oregon, 2
+2014,Maryland,Pennsylvania, 44
+2017,Maryland,Pennsylvania, 24
+2013,Maryland,Pennsylvania, 19
+2016,Maryland,Pennsylvania, 25
+2014,Maryland,Rhode Island, 88
+2017,Maryland,Rhode Island, 104
+2013,Maryland,Rhode Island, 61
+2016,Maryland,Rhode Island, 76
+2014,Maryland,South Carolina, 46
+2017,Maryland,South Carolina, 43
+2013,Maryland,South Carolina, 7
+2016,Maryland,South Carolina, 45
+2013,Maryland,Tennessee, 20
+2014,Maryland,Tennessee, 52
+2016,Maryland,Tennessee, 69
+2017,Maryland,Tennessee, 42
+2013,Maryland,Texas, 100
+2014,Maryland,Texas, 134
+2015,Maryland,Texas, 150
+2016,Maryland,Texas, 122
+2017,Maryland,Texas, 147
+2013,Maryland,Utah, 10
+2014,Maryland,Utah, 10
+2015,Maryland,Utah, 9
+2016,Maryland,Utah, 16
+2017,Maryland,Utah, 12
+2016,Maryland,Washington, 19
+2017,Maryland,Washington, 17
+2013,Maryland,Wisconsin, 13
+2014,Maryland,Wisconsin, 23
+2016,Maryland,Wisconsin, 16
+2017,Maryland,Wisconsin, 17
+2014,Massachusetts,Arizona, 34
+2017,Massachusetts,Arizona, 37
+2014,Massachusetts,California, 104
+2017,Massachusetts,California, 119
+2014,Massachusetts,Colorado, 59
+2017,Massachusetts,Colorado, 57
+2014,Massachusetts,Florida, 263
+2017,Massachusetts,Florida, 509
+2014,Massachusetts,Georgia, 141
+2017,Massachusetts,Georgia, 197
+2014,Massachusetts,Illinois, 418
+2017,Massachusetts,Illinois, 316
+2017,Massachusetts,Indiana, 32
+2014,Massachusetts,Kentucky, 2
+2017,Massachusetts,Kentucky, 8
+2014,Massachusetts,Louisiana, 17
+2017,Massachusetts,Louisiana, 21
+2014,Massachusetts,Maryland, 205
+2017,Massachusetts,Maryland, 265
+2017,Massachusetts,Massachusetts, 4
+2014,Massachusetts,Michigan, 27
+2017,Massachusetts,Michigan, 59
+2014,Massachusetts,Minnesota, 14
+2017,Massachusetts,Minnesota, 27
+2014,Massachusetts,Missouri, 21
+2017,Massachusetts,Missouri, 28
+2014,Massachusetts,Nevada, 17
+2017,Massachusetts,Nevada, 37
+2014,Massachusetts,New Jersey, 374
+2017,Massachusetts,New Jersey, 294
+2014,Massachusetts,New York, 623
+2017,Massachusetts,New York, 584
+2014,Massachusetts,North Carolina, 184
+2017,Massachusetts,North Carolina, 172
+2014,Massachusetts,Ohio, 42
+2017,Massachusetts,Ohio, 82
+2014,Massachusetts,Oregon, 7
+2017,Massachusetts,Oregon, 8
+2014,Massachusetts,Pennsylvania, 373
+2017,Massachusetts,Pennsylvania, 292
+2014,Massachusetts,South Carolina, 19
+2017,Massachusetts,South Carolina, 34
+2014,Massachusetts,Tennessee, 4
+2017,Massachusetts,Tennessee, 33
+2014,Massachusetts,Texas, 182
+2017,Massachusetts,Texas, 217
+2014,Massachusetts,Utah, 3
+2017,Massachusetts,Utah, 13
+2014,Massachusetts,Virginia, 571
+2017,Massachusetts,Virginia, 583
+2014,Massachusetts,Washington, 26
+2017,Massachusetts,Washington, 34
+2014,Massachusetts,Wisconsin, 20
+2017,Massachusetts,Wisconsin, 22
+2013,Massachusetts,Arizona, 31
+2016,Massachusetts,Arizona, 20
+2013,Massachusetts,California, 80
+2016,Massachusetts,California, 56
+2013,Massachusetts,Colorado, 29
+2016,Massachusetts,Colorado, 47
+2013,Massachusetts,Florida, 150
+2016,Massachusetts,Florida, 181
+2013,Massachusetts,Georgia, 69
+2016,Massachusetts,Georgia, 63
+2013,Massachusetts,Illinois, 227
+2016,Massachusetts,Illinois, 184
+2016,Massachusetts,Indiana, 16
+2013,Massachusetts,Kentucky, 37
+2016,Massachusetts,Kentucky, 19
+2013,Massachusetts,Louisiana, 5
+2016,Massachusetts,Louisiana, 6
+2013,Massachusetts,Maryland, 152
+2016,Massachusetts,Maryland, 169
+2016,Massachusetts,Massachusetts, 1
+2013,Massachusetts,Michigan, 31
+2016,Massachusetts,Michigan, 32
+2013,Massachusetts,Minnesota, 17
+2016,Massachusetts,Minnesota, 14
+2013,Massachusetts,Missouri, 12
+2016,Massachusetts,Missouri, 14
+2013,Massachusetts,Nevada, 15
+2016,Massachusetts,Nevada, 27
+2013,Massachusetts,New Jersey, 165
+2016,Massachusetts,New Jersey, 170
+2013,Massachusetts,New York, 554
+2016,Massachusetts,New York, 520
+2013,Massachusetts,North Carolina, 145
+2016,Massachusetts,North Carolina, 112
+2013,Massachusetts,Ohio, 33
+2016,Massachusetts,Ohio, 35
+2013,Massachusetts,Oregon, 4
+2016,Massachusetts,Oregon, 4
+2013,Massachusetts,Pennsylvania, 259
+2016,Massachusetts,Pennsylvania, 211
+2013,Massachusetts,South Carolina, 3
+2016,Massachusetts,South Carolina, 19
+2013,Massachusetts,Tennessee, 14
+2016,Massachusetts,Tennessee, 10
+2013,Massachusetts,Texas, 195
+2016,Massachusetts,Texas, 124
+2013,Massachusetts,Utah, 6
+2016,Massachusetts,Utah, 5
+2013,Massachusetts,Virginia, 359
+2016,Massachusetts,Virginia, 419
+2013,Massachusetts,Washington, 10
+2016,Massachusetts,Washington, 6
+2013,Massachusetts,Wisconsin, 17
+2016,Massachusetts,Wisconsin, 12
+2013,Michigan,Alabama, 64
+2014,Michigan,Alabama, 43
+2015,Michigan,Alabama, 35
+2016,Michigan,Alabama, 35
+2017,Michigan,Alabama, 33
+2013,Michigan,Arizona, 12
+2014,Michigan,Arizona, 16
+2015,Michigan,Arizona, 15
+2016,Michigan,Arizona, 13
+2017,Michigan,Arizona, 5
+2013,Michigan,Arkansas, 23
+2014,Michigan,Arkansas, 29
+2016,Michigan,Arkansas, 14
+2017,Michigan,Arkansas, 12
+2013,Michigan,California, 8
+2014,Michigan,California, 5
+2016,Michigan,California, 9
+2017,Michigan,California, 33
+2013,Michigan,Colorado, 27
+2014,Michigan,Colorado, 27
+2016,Michigan,Colorado, 45
+2017,Michigan,Colorado, 29
+2014,Michigan,Connecticut, 22
+2017,Michigan,Connecticut, 24
+2013,Michigan,Connecticut, 46
+2016,Michigan,Connecticut, 27
+2014,Michigan,Delaware, 3
+2013,Michigan,Florida, 30
+2014,Michigan,Florida, 39
+2015,Michigan,Florida, 43
+2016,Michigan,Florida, 93
+2017,Michigan,Florida, 202
+2013,Michigan,Georgia, 26
+2014,Michigan,Georgia, 42
+2015,Michigan,Georgia, 32
+2016,Michigan,Georgia, 43
+2017,Michigan,Georgia, 77
+2013,Michigan,Illinois, 1057
+2014,Michigan,Illinois, 1086
+2016,Michigan,Illinois, 773
+2017,Michigan,Illinois, 763
+2013,Michigan,Indiana, 98
+2014,Michigan,Indiana, 117
+2015,Michigan,Indiana, 57
+2016,Michigan,Indiana, 52
+2017,Michigan,Indiana, 31
+2013,Michigan,Iowa, 86
+2014,Michigan,Iowa, 52
+2015,Michigan,Iowa, 49
+2016,Michigan,Iowa, 40
+2017,Michigan,Iowa, 42
+2013,Michigan,Kentucky, 82
+2014,Michigan,Kentucky, 59
+2016,Michigan,Kentucky, 47
+2017,Michigan,Kentucky, 51
+2014,Michigan,Louisiana, 3
+2016,Michigan,Louisiana, 6
+2017,Michigan,Louisiana, 10
+2013,Michigan,Maine, 61
+2014,Michigan,Maine, 50
+2015,Michigan,Maine, 39
+2016,Michigan,Maine, 33
+2017,Michigan,Maine, 33
+2013,Michigan,Maryland, 63
+2014,Michigan,Maryland, 78
+2016,Michigan,Maryland, 70
+2017,Michigan,Maryland, 72
+2014,Michigan,Massachusetts, 27
+2017,Michigan,Massachusetts, 57
+2013,Michigan,Massachusetts, 31
+2016,Michigan,Massachusetts, 36
+2013,Michigan,Michigan, 254
+2014,Michigan,Michigan, 92
+2016,Michigan,Michigan, 101
+2017,Michigan,Michigan, 131
+2013,Michigan,Minnesota, 66
+2014,Michigan,Minnesota, 62
+2016,Michigan,Minnesota, 63
+2017,Michigan,Minnesota, 64
+2013,Michigan,Missouri, 56
+2014,Michigan,Missouri, 40
+2016,Michigan,Missouri, 38
+2017,Michigan,Missouri, 42
+2013,Michigan,Nebraska, 40
+2014,Michigan,Nebraska, 29
+2016,Michigan,Nebraska, 30
+2017,Michigan,Nebraska, 28
+2014,Michigan,Nevada, 6
+2015,Michigan,Nevada, 9
+2016,Michigan,Nevada, 20
+2017,Michigan,Nevada, 32
+2014,Michigan,New Hampshire, 30
+2017,Michigan,New Hampshire, 23
+2013,Michigan,New Hampshire, 41
+2016,Michigan,New Hampshire, 25
+2013,Michigan,New Jersey, 354
+2014,Michigan,New Jersey, 397
+2016,Michigan,New Jersey, 223
+2017,Michigan,New Jersey, 215
+2013,Michigan,New York, 443
+2014,Michigan,New York, 299
+2016,Michigan,New York, 170
+2017,Michigan,New York, 215
+2014,Michigan,North Carolina, 108
+2017,Michigan,North Carolina, 56
+2013,Michigan,North Carolina, 89
+2016,Michigan,North Carolina, 73
+2013,Michigan,Ohio, 50
+2014,Michigan,Ohio, 28
+2015,Michigan,Ohio, 24
+2016,Michigan,Ohio, 29
+2017,Michigan,Ohio, 33
+2013,Michigan,Oklahoma, 46
+2014,Michigan,Oklahoma, 55
+2016,Michigan,Oklahoma, 24
+2017,Michigan,Oklahoma, 27
+2016,Michigan,Oregon, 2
+2017,Michigan,Oregon, 3
+2014,Michigan,Pennsylvania, 114
+2017,Michigan,Pennsylvania, 124
+2013,Michigan,Pennsylvania, 194
+2016,Michigan,Pennsylvania, 115
+2014,Michigan,Rhode Island, 11
+2017,Michigan,Rhode Island, 14
+2013,Michigan,Rhode Island, 76
+2016,Michigan,Rhode Island, 47
+2014,Michigan,South Carolina, 10
+2017,Michigan,South Carolina, 15
+2013,Michigan,South Carolina, 11
+2016,Michigan,South Carolina, 17
+2013,Michigan,Tennessee, 42
+2014,Michigan,Tennessee, 41
+2016,Michigan,Tennessee, 39
+2017,Michigan,Tennessee, 29
+2013,Michigan,Texas, 202
+2014,Michigan,Texas, 234
+2015,Michigan,Texas, 190
+2016,Michigan,Texas, 137
+2017,Michigan,Texas, 164
+2013,Michigan,Utah, 3
+2016,Michigan,Utah, 3
+2017,Michigan,Utah, 3
+2013,Michigan,Vermont, 50
+2014,Michigan,Vermont, 31
+2015,Michigan,Vermont, 29
+2016,Michigan,Vermont, 29
+2017,Michigan,Vermont, 27
+2013,Michigan,Virginia, 143
+2014,Michigan,Virginia, 141
+2016,Michigan,Virginia, 90
+2017,Michigan,Virginia, 75
+2013,Michigan,Washington, 2
+2016,Michigan,Washington, 7
+2017,Michigan,Washington, 7
+2014,Michigan,West Virginia, 6
+2013,Michigan,West Virginia, 12
+2013,Michigan,Wisconsin, 109
+2014,Michigan,Wisconsin, 89
+2016,Michigan,Wisconsin, 37
+2017,Michigan,Wisconsin, 50
+2014,Minnesota,Alabama, 18
+2013,Minnesota,Alaska, 3
+2016,Minnesota,Alaska, 3
+2013,Minnesota,Arizona, 9
+2014,Minnesota,Arizona, 18
+2016,Minnesota,Arizona, 15
+2017,Minnesota,Arizona, 12
+2013,Minnesota,California, 9
+2014,Minnesota,California, 12
+2016,Minnesota,California, 40
+2017,Minnesota,California, 41
+2013,Minnesota,Colorado, 49
+2014,Minnesota,Colorado, 58
+2016,Minnesota,Colorado, 90
+2017,Minnesota,Colorado, 52
+2014,Minnesota,Connecticut, 7
+2017,Minnesota,Connecticut, 8
+2013,Minnesota,Connecticut, 19
+2016,Minnesota,Connecticut, 13
+2013,Minnesota,Florida, 10
+2014,Minnesota,Florida, 6
+2016,Minnesota,Florida, 36
+2017,Minnesota,Florida, 52
+2013,Minnesota,Georgia, 55
+2014,Minnesota,Georgia, 106
+2016,Minnesota,Georgia, 62
+2017,Minnesota,Georgia, 83
+2013,Minnesota,Idaho, 2
+2016,Minnesota,Idaho, 3
+2017,Minnesota,Idaho, 2
+2013,Minnesota,Illinois, 472
+2014,Minnesota,Illinois, 489
+2016,Minnesota,Illinois, 389
+2017,Minnesota,Illinois, 346
+2013,Minnesota,Indiana, 45
+2014,Minnesota,Indiana, 26
+2016,Minnesota,Indiana, 22
+2013,Minnesota,Iowa, 73
+2014,Minnesota,Iowa, 30
+2016,Minnesota,Iowa, 37
+2017,Minnesota,Iowa, 31
+2013,Minnesota,Kansas, 31
+2014,Minnesota,Kansas, 22
+2016,Minnesota,Kansas, 21
+2013,Minnesota,Kentucky, 56
+2014,Minnesota,Kentucky, 35
+2016,Minnesota,Kentucky, 33
+2017,Minnesota,Kentucky, 43
+2013,Minnesota,Louisiana, 14
+2014,Minnesota,Louisiana, 10
+2016,Minnesota,Louisiana, 6
+2017,Minnesota,Louisiana, 6
+2013,Minnesota,Maryland, 20
+2014,Minnesota,Maryland, 16
+2016,Minnesota,Maryland, 24
+2017,Minnesota,Maryland, 23
+2014,Minnesota,Massachusetts, 14
+2017,Minnesota,Massachusetts, 28
+2013,Minnesota,Massachusetts, 17
+2016,Minnesota,Massachusetts, 14
+2013,Minnesota,Michigan, 66
+2014,Minnesota,Michigan, 33
+2016,Minnesota,Michigan, 36
+2017,Minnesota,Michigan, 30
+2013,Minnesota,Minnesota, 161
+2014,Minnesota,Minnesota, 75
+2016,Minnesota,Minnesota, 53
+2017,Minnesota,Minnesota, 60
+2013,Minnesota,Missouri, 47
+2014,Minnesota,Missouri, 47
+2016,Minnesota,Missouri, 44
+2017,Minnesota,Missouri, 36
+2013,Minnesota,Montana, 10
+2014,Minnesota,Montana, 5
+2016,Minnesota,Montana, 17
+2017,Minnesota,Montana, 7
+2013,Minnesota,Nebraska, 63
+2014,Minnesota,Nebraska, 40
+2016,Minnesota,Nebraska, 41
+2017,Minnesota,Nebraska, 32
+2013,Minnesota,Nevada, 3
+2016,Minnesota,Nevada, 21
+2017,Minnesota,Nevada, 37
+2013,Minnesota,New Jersey, 234
+2014,Minnesota,New Jersey, 261
+2016,Minnesota,New Jersey, 126
+2017,Minnesota,New Jersey, 127
+2013,Minnesota,New York, 170
+2014,Minnesota,New York, 117
+2016,Minnesota,New York, 68
+2017,Minnesota,New York, 84
+2014,Minnesota,North Carolina, 53
+2017,Minnesota,North Carolina, 28
+2013,Minnesota,North Carolina, 18
+2016,Minnesota,North Carolina, 33
+2014,Minnesota,North Dakota, 80
+2017,Minnesota,North Dakota, 38
+2013,Minnesota,North Dakota, 182
+2016,Minnesota,North Dakota, 98
+2013,Minnesota,Ohio, 74
+2014,Minnesota,Ohio, 76
+2016,Minnesota,Ohio, 46
+2017,Minnesota,Ohio, 45
+2013,Minnesota,Oklahoma, 27
+2014,Minnesota,Oklahoma, 21
+2016,Minnesota,Oklahoma, 25
+2017,Minnesota,Oklahoma, 20
+2016,Minnesota,Oregon, 8
+2017,Minnesota,Oregon, 6
+2014,Minnesota,Pennsylvania, 71
+2017,Minnesota,Pennsylvania, 61
+2013,Minnesota,Pennsylvania, 50
+2016,Minnesota,Pennsylvania, 51
+2014,Minnesota,South Dakota, 108
+2017,Minnesota,South Dakota, 51
+2013,Minnesota,South Dakota, 130
+2016,Minnesota,South Dakota, 69
+2013,Minnesota,Tennessee, 62
+2014,Minnesota,Tennessee, 50
+2016,Minnesota,Tennessee, 45
+2017,Minnesota,Tennessee, 36
+2013,Minnesota,Texas, 176
+2014,Minnesota,Texas, 199
+2016,Minnesota,Texas, 117
+2017,Minnesota,Texas, 152
+2013,Minnesota,Utah, 6
+2014,Minnesota,Utah, 5
+2016,Minnesota,Utah, 9
+2017,Minnesota,Utah, 7
+2013,Minnesota,Virginia, 50
+2014,Minnesota,Virginia, 80
+2016,Minnesota,Virginia, 60
+2017,Minnesota,Virginia, 30
+2013,Minnesota,Washington, 12
+2014,Minnesota,Washington, 7
+2016,Minnesota,Washington, 14
+2017,Minnesota,Washington, 14
+2013,Minnesota,Wisconsin, 164
+2014,Minnesota,Wisconsin, 117
+2016,Minnesota,Wisconsin, 70
+2017,Minnesota,Wisconsin, 61
+2014,Minnesota,Wyoming, 4
+2014,Mississippi,Florida, 5
+2014,Mississippi,Georgia, 157
+2017,Mississippi,Georgia, 144
+2014,Mississippi,Illinois, 78
+2017,Mississippi,Illinois, 41
+2014,Mississippi,Texas, 379
+2017,Mississippi,Texas, 262
+2013,Mississippi,Georgia, 73
+2016,Mississippi,Georgia, 61
+2013,Mississippi,Illinois, 31
+2016,Mississippi,Illinois, 23
+2013,Mississippi,North Carolina, 2
+2013,Mississippi,Texas, 217
+2016,Mississippi,Texas, 159
+2013,Missouri,Alabama, 2
+2014,Missouri,Alabama, 2
+2013,Missouri,Arizona, 35
+2014,Missouri,Arizona, 42
+2015,Missouri,Arizona, 37
+2016,Missouri,Arizona, 39
+2017,Missouri,Arizona, 37
+2013,Missouri,Arkansas, 3
+2016,Missouri,Arkansas, 6
+2017,Missouri,Arkansas, 3
+2013,Missouri,California, 36
+2014,Missouri,California, 44
+2016,Missouri,California, 45
+2017,Missouri,California, 43
+2013,Missouri,Colorado, 109
+2014,Missouri,Colorado, 97
+2016,Missouri,Colorado, 113
+2017,Missouri,Colorado, 93
+2013,Missouri,Florida, 36
+2014,Missouri,Florida, 48
+2015,Missouri,Florida, 34
+2016,Missouri,Florida, 56
+2017,Missouri,Florida, 95
+2013,Missouri,Georgia, 77
+2014,Missouri,Georgia, 116
+2015,Missouri,Georgia, 74
+2016,Missouri,Georgia, 74
+2017,Missouri,Georgia, 109
+2013,Missouri,Illinois, 435
+2014,Missouri,Illinois, 501
+2016,Missouri,Illinois, 418
+2017,Missouri,Illinois, 385
+2016,Missouri,Iowa, 3
+2017,Missouri,Iowa, 9
+2016,Missouri,Kansas, 7
+2013,Missouri,Kentucky, 45
+2014,Missouri,Kentucky, 36
+2016,Missouri,Kentucky, 29
+2013,Missouri,Louisiana, 5
+2014,Missouri,Louisiana, 12
+2016,Missouri,Louisiana, 10
+2017,Missouri,Louisiana, 6
+2013,Missouri,Maryland, 41
+2014,Missouri,Maryland, 48
+2016,Missouri,Maryland, 41
+2017,Missouri,Maryland, 36
+2014,Missouri,Massachusetts, 21
+2017,Missouri,Massachusetts, 32
+2013,Missouri,Massachusetts, 12
+2016,Missouri,Massachusetts, 12
+2013,Missouri,Michigan, 56
+2014,Missouri,Michigan, 46
+2016,Missouri,Michigan, 43
+2017,Missouri,Michigan, 39
+2013,Missouri,Minnesota, 47
+2014,Missouri,Minnesota, 47
+2016,Missouri,Minnesota, 40
+2017,Missouri,Minnesota, 38
+2013,Missouri,Missouri, 13
+2014,Missouri,Missouri, 12
+2016,Missouri,Missouri, 4
+2017,Missouri,Missouri, 13
+2013,Missouri,Nebraska, 6
+2014,Missouri,Nebraska, 10
+2016,Missouri,Nebraska, 7
+2017,Missouri,Nebraska, 7
+2013,Missouri,Nevada, 15
+2014,Missouri,Nevada, 18
+2015,Missouri,Nevada, 16
+2016,Missouri,Nevada, 19
+2017,Missouri,Nevada, 14
+2013,Missouri,New Jersey, 348
+2014,Missouri,New Jersey, 395
+2016,Missouri,New Jersey, 286
+2017,Missouri,New Jersey, 272
+2013,Missouri,New York, 77
+2014,Missouri,New York, 155
+2016,Missouri,New York, 47
+2017,Missouri,New York, 95
+2014,Missouri,North Carolina, 42
+2017,Missouri,North Carolina, 37
+2013,Missouri,North Carolina, 60
+2016,Missouri,North Carolina, 52
+2013,Missouri,Ohio, 23
+2014,Missouri,Ohio, 26
+2015,Missouri,Ohio, 27
+2016,Missouri,Ohio, 28
+2017,Missouri,Ohio, 24
+2013,Missouri,Oklahoma, 21
+2014,Missouri,Oklahoma, 13
+2016,Missouri,Oklahoma, 13
+2017,Missouri,Oklahoma, 13
+2015,Missouri,Oregon, 2
+2016,Missouri,Oregon, 5
+2017,Missouri,Oregon, 5
+2014,Missouri,Pennsylvania, 24
+2017,Missouri,Pennsylvania, 23
+2013,Missouri,Pennsylvania, 16
+2016,Missouri,Pennsylvania, 14
+2013,Missouri,Tennessee, 26
+2014,Missouri,Tennessee, 21
+2016,Missouri,Tennessee, 17
+2017,Missouri,Tennessee, 13
+2013,Missouri,Texas, 432
+2014,Missouri,Texas, 411
+2015,Missouri,Texas, 409
+2016,Missouri,Texas, 379
+2017,Missouri,Texas, 406
+2013,Missouri,Utah, 15
+2014,Missouri,Utah, 17
+2015,Missouri,Utah, 14
+2016,Missouri,Utah, 13
+2017,Missouri,Utah, 13
+2013,Missouri,Virginia, 94
+2014,Missouri,Virginia, 134
+2016,Missouri,Virginia, 60
+2017,Missouri,Virginia, 64
+2013,Missouri,Washington, 5
+2016,Missouri,Washington, 4
+2017,Missouri,Washington, 9
+2013,Missouri,Wisconsin, 11
+2014,Missouri,Wisconsin, 13
+2016,Missouri,Wisconsin, 9
+2017,Missouri,Wisconsin, 9
+2013,Montana,California, 4
+2014,Montana,California, 12
+2016,Montana,California, 5
+2017,Montana,California, 11
+2013,Montana,Colorado, 105
+2014,Montana,Colorado, 113
+2016,Montana,Colorado, 98
+2017,Montana,Colorado, 98
+2014,Montana,Illinois, 7
+2016,Montana,Illinois, 8
+2017,Montana,Illinois, 8
+2014,Montana,Minnesota, 10
+2016,Montana,Minnesota, 12
+2017,Montana,Minnesota, 9
+2013,Montana,New Jersey, 2
+2016,Montana,New Jersey, 4
+2015,Montana,Oregon, 2
+2016,Montana,Oregon, 2
+2017,Montana,Oregon, 2
+2013,Montana,Utah, 63
+2014,Montana,Utah, 56
+2015,Montana,Utah, 59
+2016,Montana,Utah, 54
+2017,Montana,Utah, 52
+2017,Montana,Washington, 9
+2013,Nebraska,Arizona, 14
+2014,Nebraska,Arizona, 11
+2015,Nebraska,Arizona, 8
+2016,Nebraska,Arizona, 12
+2017,Nebraska,Arizona, 8
+2014,Nebraska,California, 2
+2016,Nebraska,California, 5
+2017,Nebraska,California, 4
+2013,Nebraska,Colorado, 70
+2014,Nebraska,Colorado, 73
+2016,Nebraska,Colorado, 76
+2017,Nebraska,Colorado, 52
+2015,Nebraska,Florida, 3
+2016,Nebraska,Florida, 3
+2017,Nebraska,Florida, 2
+2013,Nebraska,Georgia, 19
+2014,Nebraska,Georgia, 28
+2015,Nebraska,Georgia, 9
+2016,Nebraska,Georgia, 15
+2017,Nebraska,Georgia, 30
+2013,Nebraska,Illinois, 314
+2014,Nebraska,Illinois, 396
+2016,Nebraska,Illinois, 226
+2017,Nebraska,Illinois, 217
+2013,Nebraska,Michigan, 40
+2014,Nebraska,Michigan, 26
+2016,Nebraska,Michigan, 20
+2017,Nebraska,Michigan, 19
+2013,Nebraska,Minnesota, 63
+2014,Nebraska,Minnesota, 58
+2016,Nebraska,Minnesota, 45
+2017,Nebraska,Minnesota, 44
+2013,Nebraska,Missouri, 6
+2014,Nebraska,Missouri, 8
+2016,Nebraska,Missouri, 9
+2017,Nebraska,Missouri, 5
+2013,Nebraska,Nevada, 4
+2014,Nebraska,Nevada, 3
+2016,Nebraska,Nevada, 6
+2017,Nebraska,Nevada, 7
+2013,Nebraska,New Jersey, 65
+2014,Nebraska,New Jersey, 80
+2016,Nebraska,New Jersey, 57
+2017,Nebraska,New Jersey, 42
+2013,Nebraska,North Carolina, 19
+2017,Nebraska,Oregon, 4
+2013,Nebraska,Texas, 119
+2014,Nebraska,Texas, 142
+2015,Nebraska,Texas, 109
+2016,Nebraska,Texas, 83
+2017,Nebraska,Texas, 108
+2013,Nebraska,Utah, 9
+2014,Nebraska,Utah, 7
+2015,Nebraska,Utah, 6
+2017,Nebraska,Virginia, 7
+2013,Nebraska,Washington, 2
+2014,Nebraska,Washington, 3
+2016,Nebraska,Washington, 4
+2017,Nebraska,Washington, 5
+2014,Nevada,Alabama, 5
+2016,Nevada,Alabama, 5
+2017,Nevada,Alabama, 10
+2013,Nevada,Arizona, 160
+2014,Nevada,Arizona, 169
+2015,Nevada,Arizona, 147
+2016,Nevada,Arizona, 168
+2017,Nevada,Arizona, 137
+2013,Nevada,California, 488
+2014,Nevada,California, 587
+2016,Nevada,California, 532
+2017,Nevada,California, 517
+2013,Nevada,Colorado, 65
+2014,Nevada,Colorado, 61
+2016,Nevada,Colorado, 128
+2017,Nevada,Colorado, 75
+2017,Nevada,Connecticut, 4
+2016,Nevada,Connecticut, 3
+2013,Nevada,Florida, 5
+2014,Nevada,Florida, 11
+2015,Nevada,Florida, 14
+2016,Nevada,Florida, 52
+2017,Nevada,Florida, 87
+2013,Nevada,Georgia, 3
+2014,Nevada,Georgia, 43
+2015,Nevada,Georgia, 14
+2016,Nevada,Georgia, 22
+2017,Nevada,Georgia, 46
+2013,Nevada,Idaho, 2
+2014,Nevada,Idaho, 2
+2016,Nevada,Idaho, 2
+2013,Nevada,Illinois, 64
+2014,Nevada,Illinois, 147
+2016,Nevada,Illinois, 105
+2017,Nevada,Illinois, 92
+2013,Nevada,Indiana, 4
+2014,Nevada,Indiana, 7
+2016,Nevada,Indiana, 9
+2017,Nevada,Indiana, 3
+2014,Nevada,Iowa, 2
+2015,Nevada,Iowa, 3
+2016,Nevada,Iowa, 3
+2017,Nevada,Iowa, 3
+2014,Nevada,Kansas, 4
+2015,Nevada,Kansas, 4
+2016,Nevada,Kansas, 5
+2017,Nevada,Kansas, 4
+2014,Nevada,Kentucky, 3
+2016,Nevada,Kentucky, 6
+2017,Nevada,Kentucky, 4
+2014,Nevada,Louisiana, 9
+2016,Nevada,Louisiana, 12
+2017,Nevada,Louisiana, 26
+2013,Nevada,Maryland, 4
+2014,Nevada,Maryland, 12
+2016,Nevada,Maryland, 31
+2017,Nevada,Maryland, 37
+2014,Nevada,Massachusetts, 17
+2017,Nevada,Massachusetts, 42
+2013,Nevada,Massachusetts, 15
+2016,Nevada,Massachusetts, 16
+2014,Nevada,Michigan, 6
+2016,Nevada,Michigan, 17
+2017,Nevada,Michigan, 37
+2013,Nevada,Minnesota, 3
+2014,Nevada,Minnesota, 2
+2016,Nevada,Minnesota, 14
+2017,Nevada,Minnesota, 33
+2013,Nevada,Missouri, 15
+2014,Nevada,Missouri, 16
+2016,Nevada,Missouri, 20
+2017,Nevada,Missouri, 33
+2013,Nevada,Nebraska, 4
+2014,Nevada,Nebraska, 4
+2016,Nevada,Nebraska, 7
+2017,Nevada,Nebraska, 7
+2013,Nevada,Nevada, 16
+2014,Nevada,Nevada, 22
+2015,Nevada,Nevada, 19
+2016,Nevada,Nevada, 43
+2017,Nevada,Nevada, 25
+2013,Nevada,New Jersey, 29
+2014,Nevada,New Jersey, 41
+2016,Nevada,New Jersey, 39
+2017,Nevada,New Jersey, 33
+2013,Nevada,New Mexico, 3
+2014,Nevada,New Mexico, 9
+2016,Nevada,New Mexico, 7
+2017,Nevada,New Mexico, 5
+2013,Nevada,New York, 49
+2014,Nevada,New York, 90
+2016,Nevada,New York, 65
+2017,Nevada,New York, 84
+2014,Nevada,North Carolina, 27
+2017,Nevada,North Carolina, 30
+2013,Nevada,North Carolina, 14
+2016,Nevada,North Carolina, 26
+2013,Nevada,Ohio, 3
+2014,Nevada,Ohio, 3
+2015,Nevada,Ohio, 6
+2016,Nevada,Ohio, 15
+2017,Nevada,Ohio, 12
+2013,Nevada,Oklahoma, 10
+2014,Nevada,Oklahoma, 5
+2016,Nevada,Oklahoma, 12
+2017,Nevada,Oklahoma, 6
+2013,Nevada,Oregon, 7
+2014,Nevada,Oregon, 8
+2015,Nevada,Oregon, 10
+2016,Nevada,Oregon, 22
+2017,Nevada,Oregon, 29
+2014,Nevada,Pennsylvania, 42
+2017,Nevada,Pennsylvania, 51
+2013,Nevada,Pennsylvania, 30
+2016,Nevada,Pennsylvania, 50
+2014,Nevada,Tennessee, 7
+2016,Nevada,Tennessee, 12
+2017,Nevada,Tennessee, 4
+2013,Nevada,Texas, 197
+2014,Nevada,Texas, 178
+2015,Nevada,Texas, 244
+2016,Nevada,Texas, 240
+2017,Nevada,Texas, 299
+2013,Nevada,Utah, 64
+2014,Nevada,Utah, 55
+2015,Nevada,Utah, 49
+2016,Nevada,Utah, 58
+2017,Nevada,Utah, 56
+2013,Nevada,Virginia, 12
+2014,Nevada,Virginia, 17
+2016,Nevada,Virginia, 20
+2017,Nevada,Virginia, 10
+2013,Nevada,Washington, 10
+2014,Nevada,Washington, 20
+2016,Nevada,Washington, 40
+2017,Nevada,Washington, 44
+2013,Nevada,Wisconsin, 3
+2014,Nevada,Wisconsin, 10
+2016,Nevada,Wisconsin, 13
+2017,Nevada,Wisconsin, 9
+2014,New Hampshire,Florida, 20
+2017,New Hampshire,Florida, 34
+2014,New Hampshire,Georgia, 7
+2017,New Hampshire,Georgia, 10
+2014,New Hampshire,Illinois, 82
+2017,New Hampshire,Illinois, 52
+2014,New Hampshire,Maryland, 70
+2017,New Hampshire,Maryland, 79
+2014,New Hampshire,Michigan, 30
+2017,New Hampshire,Michigan, 23
+2014,New Hampshire,New Jersey, 61
+2017,New Hampshire,New Jersey, 42
+2014,New Hampshire,Ohio, 22
+2014,New Hampshire,Pennsylvania, 2
+2013,New Hampshire,Colorado, 9
+2013,New Hampshire,Florida, 12
+2016,New Hampshire,Florida, 10
+2013,New Hampshire,Georgia, 3
+2016,New Hampshire,Georgia, 4
+2013,New Hampshire,Illinois, 77
+2016,New Hampshire,Illinois, 63
+2013,New Hampshire,Maryland, 32
+2016,New Hampshire,Maryland, 65
+2013,New Hampshire,Michigan, 41
+2016,New Hampshire,Michigan, 27
+2013,New Hampshire,New Jersey, 84
+2016,New Hampshire,New Jersey, 70
+2013,New Hampshire,North Carolina, 23
+2013,New Hampshire,Ohio, 10
+2013,New Hampshire,Pennsylvania, 6
+2013,New Jersey,Arizona, 59
+2014,New Jersey,Arizona, 64
+2016,New Jersey,Arizona, 54
+2017,New Jersey,Arizona, 50
+2013,New Jersey,California, 123
+2014,New Jersey,California, 195
+2016,New Jersey,California, 180
+2017,New Jersey,California, 168
+2013,New Jersey,Colorado, 71
+2014,New Jersey,Colorado, 87
+2016,New Jersey,Colorado, 101
+2017,New Jersey,Colorado, 71
+2014,New Jersey,Connecticut, 69
+2017,New Jersey,Connecticut, 41
+2013,New Jersey,Connecticut, 60
+2016,New Jersey,Connecticut, 34
+2013,New Jersey,Florida, 243
+2014,New Jersey,Florida, 520
+2016,New Jersey,Florida, 453
+2017,New Jersey,Florida, 743
+2013,New Jersey,Georgia, 318
+2014,New Jersey,Georgia, 459
+2016,New Jersey,Georgia, 252
+2017,New Jersey,Georgia, 268
+2013,New Jersey,Hawaii, 5
+2014,New Jersey,Hawaii, 4
+2016,New Jersey,Hawaii, 5
+2017,New Jersey,Hawaii, 6
+2013,New Jersey,Illinois, 574
+2014,New Jersey,Illinois, 533
+2016,New Jersey,Illinois, 422
+2017,New Jersey,Illinois, 437
+2013,New Jersey,Indiana, 119
+2014,New Jersey,Indiana, 178
+2016,New Jersey,Indiana, 115
+2017,New Jersey,Indiana, 158
+2013,New Jersey,Iowa, 34
+2014,New Jersey,Iowa, 63
+2016,New Jersey,Iowa, 34
+2017,New Jersey,Iowa, 27
+2013,New Jersey,Kentucky, 343
+2014,New Jersey,Kentucky, 345
+2016,New Jersey,Kentucky, 259
+2017,New Jersey,Kentucky, 185
+2013,New Jersey,Louisiana, 63
+2014,New Jersey,Louisiana, 89
+2016,New Jersey,Louisiana, 38
+2017,New Jersey,Louisiana, 42
+2013,New Jersey,Maine, 74
+2014,New Jersey,Maine, 95
+2016,New Jersey,Maine, 123
+2017,New Jersey,Maine, 113
+2013,New Jersey,Maryland, 53
+2014,New Jersey,Maryland, 76
+2016,New Jersey,Maryland, 48
+2017,New Jersey,Maryland, 72
+2014,New Jersey,Massachusetts, 374
+2017,New Jersey,Massachusetts, 317
+2013,New Jersey,Massachusetts, 165
+2016,New Jersey,Massachusetts, 176
+2013,New Jersey,Michigan, 354
+2014,New Jersey,Michigan, 401
+2016,New Jersey,Michigan, 253
+2017,New Jersey,Michigan, 220
+2013,New Jersey,Minnesota, 234
+2014,New Jersey,Minnesota, 243
+2016,New Jersey,Minnesota, 125
+2017,New Jersey,Minnesota, 133
+2013,New Jersey,Missouri, 348
+2014,New Jersey,Missouri, 420
+2016,New Jersey,Missouri, 223
+2017,New Jersey,Missouri, 210
+2013,New Jersey,Montana, 2
+2016,New Jersey,Montana, 2
+2013,New Jersey,Nebraska, 65
+2014,New Jersey,Nebraska, 89
+2016,New Jersey,Nebraska, 70
+2017,New Jersey,Nebraska, 60
+2013,New Jersey,Nevada, 29
+2014,New Jersey,Nevada, 30
+2016,New Jersey,Nevada, 34
+2017,New Jersey,Nevada, 25
+2014,New Jersey,New Hampshire, 61
+2017,New Jersey,New Hampshire, 41
+2013,New Jersey,New Hampshire, 84
+2016,New Jersey,New Hampshire, 68
+2013,New Jersey,New York, 135
+2014,New Jersey,New York, 182
+2016,New Jersey,New York, 231
+2017,New Jersey,New York, 206
+2014,New Jersey,North Carolina, 623
+2017,New Jersey,North Carolina, 374
+2013,New Jersey,North Carolina, 412
+2016,New Jersey,North Carolina, 285
+2013,New Jersey,Ohio, 172
+2014,New Jersey,Ohio, 218
+2016,New Jersey,Ohio, 190
+2017,New Jersey,Ohio, 148
+2013,New Jersey,Oklahoma, 54
+2014,New Jersey,Oklahoma, 101
+2013,New Jersey,Oregon, 8
+2014,New Jersey,Oregon, 8
+2016,New Jersey,Oregon, 8
+2017,New Jersey,Oregon, 12
+2014,New Jersey,Pennsylvania, 36
+2017,New Jersey,Pennsylvania, 7
+2013,New Jersey,Pennsylvania, 28
+2016,New Jersey,Pennsylvania, 32
+2014,New Jersey,Rhode Island, 47
+2017,New Jersey,Rhode Island, 44
+2013,New Jersey,Rhode Island, 37
+2016,New Jersey,Rhode Island, 48
+2014,New Jersey,South Carolina, 270
+2017,New Jersey,South Carolina, 172
+2013,New Jersey,South Carolina, 214
+2016,New Jersey,South Carolina, 211
+2013,New Jersey,Tennessee, 269
+2014,New Jersey,Tennessee, 339
+2016,New Jersey,Tennessee, 218
+2017,New Jersey,Tennessee, 184
+2013,New Jersey,Texas, 302
+2014,New Jersey,Texas, 320
+2016,New Jersey,Texas, 220
+2017,New Jersey,Texas, 273
+2013,New Jersey,Utah, 4
+2014,New Jersey,Utah, 3
+2016,New Jersey,Utah, 4
+2017,New Jersey,Utah, 7
+2013,New Jersey,Vermont, 97
+2014,New Jersey,Vermont, 82
+2016,New Jersey,Vermont, 114
+2017,New Jersey,Vermont, 93
+2013,New Jersey,Virginia, 405
+2014,New Jersey,Virginia, 531
+2016,New Jersey,Virginia, 414
+2017,New Jersey,Virginia, 370
+2013,New Jersey,Washington, 12
+2014,New Jersey,Washington, 23
+2016,New Jersey,Washington, 18
+2017,New Jersey,Washington, 18
+2013,New Jersey,Wisconsin, 64
+2014,New Jersey,Wisconsin, 113
+2016,New Jersey,Wisconsin, 115
+2017,New Jersey,Wisconsin, 122
+2013,New Jersey,Wyoming, 6
+2014,New Jersey,Wyoming, 8
+2016,New Jersey,Wyoming, 4
+2017,New Jersey,Wyoming, 5
+2013,New York,Arizona, 19
+2014,New York,Arizona, 56
+2015,New York,Arizona, 49
+2016,New York,Arizona, 37
+2017,New York,Arizona, 41
+2013,New York,California, 234
+2014,New York,California, 408
+2016,New York,California, 259
+2017,New York,California, 344
+2013,New York,Colorado, 43
+2014,New York,Colorado, 58
+2016,New York,Colorado, 54
+2017,New York,Colorado, 57
+2013,New York,Florida, 293
+2014,New York,Florida, 576
+2015,New York,Florida, 534
+2016,New York,Florida, 439
+2017,New York,Florida, 769
+2013,New York,Georgia, 308
+2014,New York,Georgia, 358
+2015,New York,Georgia, 331
+2016,New York,Georgia, 335
+2017,New York,Georgia, 381
+2016,New York,Hawaii, 2
+2017,New York,Hawaii, 4
+2013,New York,Illinois, 1055
+2014,New York,Illinois, 1062
+2016,New York,Illinois, 884
+2017,New York,Illinois, 899
+2013,New York,Indiana, 61
+2014,New York,Indiana, 60
+2015,New York,Indiana, 48
+2013,New York,Kentucky, 96
+2014,New York,Kentucky, 67
+2013,New York,Louisiana, 80
+2014,New York,Louisiana, 78
+2016,New York,Louisiana, 47
+2017,New York,Louisiana, 75
+2013,New York,Maine, 43
+2014,New York,Maine, 79
+2015,New York,Maine, 61
+2016,New York,Maine, 50
+2017,New York,Maine, 86
+2013,New York,Maryland, 221
+2014,New York,Maryland, 203
+2016,New York,Maryland, 173
+2017,New York,Maryland, 153
+2014,New York,Massachusetts, 623
+2017,New York,Massachusetts, 627
+2013,New York,Massachusetts, 554
+2016,New York,Massachusetts, 521
+2013,New York,Michigan, 443
+2014,New York,Michigan, 366
+2016,New York,Michigan, 367
+2017,New York,Michigan, 367
+2013,New York,Minnesota, 170
+2016,New York,Minnesota, 132
+2017,New York,Minnesota, 133
+2013,New York,Missouri, 77
+2013,New York,Nevada, 49
+2014,New York,Nevada, 83
+2015,New York,Nevada, 78
+2016,New York,Nevada, 70
+2017,New York,Nevada, 92
+2013,New York,New Jersey, 135
+2014,New York,New Jersey, 134
+2016,New York,New Jersey, 187
+2017,New York,New Jersey, 167
+2014,New York,New Mexico, 15
+2016,New York,New Mexico, 4
+2017,New York,New Mexico, 4
+2013,New York,New York, 199
+2014,New York,New York, 320
+2016,New York,New York, 182
+2017,New York,New York, 283
+2014,New York,North Carolina, 556
+2017,New York,North Carolina, 415
+2013,New York,North Carolina, 430
+2016,New York,North Carolina, 363
+2013,New York,Ohio, 258
+2014,New York,Ohio, 241
+2015,New York,Ohio, 243
+2013,New York,Oregon, 4
+2014,New York,Oregon, 12
+2015,New York,Oregon, 5
+2016,New York,Oregon, 9
+2017,New York,Oregon, 11
+2014,New York,Pennsylvania, 54
+2013,New York,Pennsylvania, 206
+2014,New York,South Carolina, 96
+2017,New York,South Carolina, 108
+2013,New York,South Carolina, 68
+2016,New York,South Carolina, 78
+2013,New York,Tennessee, 209
+2014,New York,Tennessee, 194
+2013,New York,Texas, 220
+2014,New York,Texas, 225
+2015,New York,Texas, 220
+2016,New York,Texas, 208
+2017,New York,Texas, 222
+2013,New York,Utah, 15
+2014,New York,Utah, 26
+2015,New York,Utah, 20
+2016,New York,Utah, 21
+2017,New York,Utah, 22
+2013,New York,Vermont, 45
+2014,New York,Vermont, 84
+2015,New York,Vermont, 53
+2016,New York,Vermont, 52
+2017,New York,Vermont, 81
+2013,New York,Virginia, 867
+2014,New York,Virginia, 762
+2016,New York,Virginia, 493
+2017,New York,Virginia, 501
+2013,New York,Washington, 26
+2014,New York,Washington, 36
+2016,New York,Washington, 39
+2017,New York,Washington, 48
+2013,New York,Wisconsin, 59
+2014,North Carolina,Arizona, 48
+2017,North Carolina,Arizona, 35
+2014,North Carolina,California, 62
+2017,North Carolina,California, 54
+2014,North Carolina,Colorado, 36
+2017,North Carolina,Colorado, 32
+2014,North Carolina,Connecticut, 44
+2017,North Carolina,Connecticut, 46
+2014,North Carolina,Florida, 204
+2017,North Carolina,Florida, 330
+2014,North Carolina,Georgia, 489
+2017,North Carolina,Georgia, 462
+2014,North Carolina,Illinois, 653
+2017,North Carolina,Illinois, 439
+2014,North Carolina,Indiana, 13
+2017,North Carolina,Indiana, 13
+2017,North Carolina,Kentucky, 4
+2014,North Carolina,Louisiana, 39
+2017,North Carolina,Louisiana, 35
+2014,North Carolina,Maine, 11
+2017,North Carolina,Maine, 16
+2014,North Carolina,Maryland, 159
+2017,North Carolina,Maryland, 134
+2014,North Carolina,Massachusetts, 184
+2017,North Carolina,Massachusetts, 174
+2014,North Carolina,Michigan, 108
+2017,North Carolina,Michigan, 76
+2014,North Carolina,Minnesota, 53
+2017,North Carolina,Minnesota, 40
+2014,North Carolina,Missouri, 42
+2017,North Carolina,Missouri, 31
+2014,North Carolina,Nevada, 27
+2017,North Carolina,Nevada, 28
+2014,North Carolina,New Jersey, 623
+2017,North Carolina,New Jersey, 455
+2014,North Carolina,New York, 556
+2017,North Carolina,New York, 487
+2014,North Carolina,North Carolina, 46
+2017,North Carolina,North Carolina, 22
+2014,North Carolina,Ohio, 63
+2017,North Carolina,Ohio, 42
+2014,North Carolina,Oregon, 4
+2017,North Carolina,Oregon, 4
+2014,North Carolina,Pennsylvania, 176
+2017,North Carolina,Pennsylvania, 146
+2014,North Carolina,Rhode Island, 41
+2017,North Carolina,Rhode Island, 56
+2014,North Carolina,South Carolina, 12
+2017,North Carolina,South Carolina, 13
+2014,North Carolina,Tennessee, 60
+2017,North Carolina,Tennessee, 50
+2014,North Carolina,Texas, 363
+2017,North Carolina,Texas, 282
+2014,North Carolina,Utah, 7
+2017,North Carolina,Utah, 7
+2014,North Carolina,Virginia, 281
+2017,North Carolina,Virginia, 210
+2014,North Carolina,Washington, 12
+2017,North Carolina,Washington, 12
+2013,North Carolina,Alabama, 43
+2013,North Carolina,Arizona, 23
+2016,North Carolina,Arizona, 35
+2013,North Carolina,Arkansas, 25
+2013,North Carolina,California, 27
+2016,North Carolina,California, 49
+2013,North Carolina,Colorado, 50
+2016,North Carolina,Colorado, 70
+2013,North Carolina,Connecticut, 52
+2016,North Carolina,Connecticut, 41
+2013,North Carolina,Florida, 109
+2016,North Carolina,Florida, 220
+2013,North Carolina,Georgia, 247
+2016,North Carolina,Georgia, 217
+2013,North Carolina,Illinois, 442
+2016,North Carolina,Illinois, 344
+2013,North Carolina,Indiana, 34
+2016,North Carolina,Indiana, 31
+2013,North Carolina,Iowa, 5
+2013,North Carolina,Kentucky, 70
+2016,North Carolina,Kentucky, 43
+2013,North Carolina,Louisiana, 8
+2016,North Carolina,Louisiana, 19
+2013,North Carolina,Maine, 9
+2016,North Carolina,Maine, 8
+2013,North Carolina,Maryland, 87
+2016,North Carolina,Maryland, 108
+2013,North Carolina,Massachusetts, 145
+2016,North Carolina,Massachusetts, 149
+2013,North Carolina,Michigan, 89
+2016,North Carolina,Michigan, 85
+2013,North Carolina,Minnesota, 18
+2016,North Carolina,Minnesota, 35
+2013,North Carolina,Mississippi, 2
+2013,North Carolina,Missouri, 60
+2016,North Carolina,Missouri, 43
+2013,North Carolina,Nebraska, 19
+2013,North Carolina,Nevada, 14
+2016,North Carolina,Nevada, 21
+2013,North Carolina,New Hampshire, 23
+2013,North Carolina,New Jersey, 412
+2016,North Carolina,New Jersey, 348
+2013,North Carolina,New York, 430
+2016,North Carolina,New York, 394
+2013,North Carolina,North Carolina, 112
+2016,North Carolina,North Carolina, 40
+2013,North Carolina,Ohio, 58
+2016,North Carolina,Ohio, 39
+2016,North Carolina,Oregon, 5
+2013,North Carolina,Pennsylvania, 122
+2016,North Carolina,Pennsylvania, 101
+2013,North Carolina,Rhode Island, 30
+2016,North Carolina,Rhode Island, 30
+2013,North Carolina,South Carolina, 133
+2016,North Carolina,South Carolina, 52
+2013,North Carolina,Tennessee, 67
+2016,North Carolina,Tennessee, 44
+2013,North Carolina,Texas, 289
+2016,North Carolina,Texas, 248
+2013,North Carolina,Utah, 6
+2016,North Carolina,Utah, 9
+2013,North Carolina,Virginia, 296
+2016,North Carolina,Virginia, 207
+2016,North Carolina,Washington, 9
+2013,North Carolina,Wisconsin, 3
+2014,North Dakota,Colorado, 298
+2017,North Dakota,Colorado, 259
+2014,North Dakota,Illinois, 338
+2017,North Dakota,Illinois, 170
+2014,North Dakota,Minnesota, 80
+2017,North Dakota,Minnesota, 72
+2014,North Dakota,North Dakota, 1
+2014,North Dakota,Texas, 14
+2014,North Dakota,Utah, 2
+2013,North Dakota,Colorado, 244
+2016,North Dakota,Colorado, 213
+2016,North Dakota,Georgia, 2
+2013,North Dakota,Illinois, 234
+2016,North Dakota,Illinois, 161
+2013,North Dakota,Minnesota, 182
+2016,North Dakota,Minnesota, 152
+2016,North Dakota,North Dakota, 1
+2013,North Dakota,Texas, 32
+2013,North Dakota,Utah, 9
+2013,Ohio,Arizona, 5
+2015,Ohio,Arizona, 7
+2016,Ohio,Arizona, 9
+2013,Ohio,California, 11
+2014,Ohio,California, 17
+2016,Ohio,California, 10
+2017,Ohio,California, 9
+2013,Ohio,Colorado, 33
+2014,Ohio,Colorado, 49
+2016,Ohio,Colorado, 38
+2017,Ohio,Colorado, 25
+2014,Ohio,Connecticut, 21
+2017,Ohio,Connecticut, 10
+2016,Ohio,Connecticut, 2
+2013,Ohio,Florida, 23
+2014,Ohio,Florida, 71
+2015,Ohio,Florida, 37
+2016,Ohio,Florida, 51
+2017,Ohio,Florida, 59
+2013,Ohio,Georgia, 95
+2014,Ohio,Georgia, 134
+2015,Ohio,Georgia, 77
+2016,Ohio,Georgia, 77
+2017,Ohio,Georgia, 112
+2013,Ohio,Illinois, 628
+2014,Ohio,Illinois, 763
+2016,Ohio,Illinois, 519
+2017,Ohio,Illinois, 475
+2013,Ohio,Indiana, 13
+2014,Ohio,Indiana, 26
+2014,Ohio,Louisiana, 2
+2017,Ohio,Louisiana, 6
+2013,Ohio,Maine, 6
+2013,Ohio,Maryland, 65
+2014,Ohio,Maryland, 85
+2016,Ohio,Maryland, 73
+2017,Ohio,Maryland, 67
+2014,Ohio,Massachusetts, 42
+2017,Ohio,Massachusetts, 90
+2013,Ohio,Massachusetts, 33
+2016,Ohio,Massachusetts, 46
+2013,Ohio,Michigan, 50
+2014,Ohio,Michigan, 58
+2016,Ohio,Michigan, 42
+2017,Ohio,Michigan, 45
+2013,Ohio,Minnesota, 74
+2014,Ohio,Minnesota, 70
+2016,Ohio,Minnesota, 55
+2017,Ohio,Minnesota, 55
+2013,Ohio,Missouri, 23
+2014,Ohio,Missouri, 25
+2017,Ohio,Missouri, 3
+2014,Ohio,Nevada, 3
+2015,Ohio,Nevada, 9
+2016,Ohio,Nevada, 9
+2017,Ohio,Nevada, 11
+2014,Ohio,New Hampshire, 22
+2013,Ohio,New Hampshire, 10
+2013,Ohio,New Jersey, 172
+2014,Ohio,New Jersey, 186
+2016,Ohio,New Jersey, 182
+2017,Ohio,New Jersey, 160
+2013,Ohio,New York, 258
+2014,Ohio,New York, 358
+2016,Ohio,New York, 189
+2017,Ohio,New York, 233
+2014,Ohio,North Carolina, 63
+2017,Ohio,North Carolina, 36
+2013,Ohio,North Carolina, 58
+2016,Ohio,North Carolina, 41
+2013,Ohio,Ohio, 7
+2014,Ohio,Ohio, 12
+2013,Ohio,Oklahoma, 11
+2014,Ohio,Oklahoma, 14
+2014,Ohio,Pennsylvania, 13
+2017,Ohio,Pennsylvania, 11
+2013,Ohio,Pennsylvania, 9
+2014,Ohio,Rhode Island, 9
+2013,Ohio,Rhode Island, 2
+2014,Ohio,South Carolina, 8
+2017,Ohio,South Carolina, 6
+2013,Ohio,Tennessee, 22
+2014,Ohio,Tennessee, 34
+2016,Ohio,Tennessee, 18
+2013,Ohio,Texas, 183
+2014,Ohio,Texas, 205
+2015,Ohio,Texas, 160
+2016,Ohio,Texas, 141
+2017,Ohio,Texas, 158
+2013,Ohio,Vermont, 16
+2014,Ohio,Vermont, 14
+2013,Ohio,Virginia, 36
+2014,Ohio,Virginia, 67
+2016,Ohio,Virginia, 55
+2017,Ohio,Virginia, 36
+2013,Ohio,Washington, 2
+2014,Ohio,Washington, 2
+2013,Ohio,Wisconsin, 36
+2014,Ohio,Wisconsin, 51
+2016,Ohio,Wisconsin, 15
+2017,Ohio,Wisconsin, 14
+2013,Oklahoma,Arizona, 7
+2014,Oklahoma,Arizona, 5
+2015,Oklahoma,Arizona, 9
+2016,Oklahoma,Arizona, 8
+2017,Oklahoma,Arizona, 7
+2013,Oklahoma,California, 67
+2014,Oklahoma,California, 58
+2016,Oklahoma,California, 36
+2017,Oklahoma,California, 34
+2013,Oklahoma,Colorado, 83
+2014,Oklahoma,Colorado, 78
+2016,Oklahoma,Colorado, 86
+2017,Oklahoma,Colorado, 73
+2013,Oklahoma,Georgia, 57
+2014,Oklahoma,Georgia, 67
+2015,Oklahoma,Georgia, 48
+2016,Oklahoma,Georgia, 36
+2017,Oklahoma,Georgia, 54
+2013,Oklahoma,Illinois, 276
+2014,Oklahoma,Illinois, 335
+2016,Oklahoma,Illinois, 197
+2017,Oklahoma,Illinois, 183
+2013,Oklahoma,Maryland, 3
+2014,Oklahoma,Maryland, 5
+2016,Oklahoma,Maryland, 9
+2017,Oklahoma,Maryland, 4
+2013,Oklahoma,Michigan, 46
+2014,Oklahoma,Michigan, 51
+2016,Oklahoma,Michigan, 33
+2017,Oklahoma,Michigan, 31
+2013,Oklahoma,Minnesota, 27
+2014,Oklahoma,Minnesota, 15
+2016,Oklahoma,Minnesota, 15
+2017,Oklahoma,Minnesota, 12
+2013,Oklahoma,Missouri, 21
+2016,Oklahoma,Missouri, 17
+2017,Oklahoma,Missouri, 14
+2013,Oklahoma,Nevada, 10
+2015,Oklahoma,Nevada, 12
+2016,Oklahoma,Nevada, 12
+2017,Oklahoma,Nevada, 8
+2013,Oklahoma,New Jersey, 54
+2014,Oklahoma,New Jersey, 63
+2013,Oklahoma,Ohio, 11
+2014,Oklahoma,Ohio, 16
+2013,Oklahoma,Texas, 372
+2014,Oklahoma,Texas, 371
+2015,Oklahoma,Texas, 371
+2016,Oklahoma,Texas, 294
+2017,Oklahoma,Texas, 304
+2013,Oklahoma,Utah, 20
+2014,Oklahoma,Utah, 15
+2015,Oklahoma,Utah, 13
+2016,Oklahoma,Utah, 9
+2017,Oklahoma,Utah, 9
+2016,Oklahoma,Washington, 7
+2017,Oklahoma,Washington, 4
+2014,Oregon,Alaska, 2
+2015,Oregon,Alaska, 3
+2016,Oregon,Alaska, 2
+2017,Oregon,Alaska, 5
+2013,Oregon,Arizona, 24
+2014,Oregon,Arizona, 37
+2015,Oregon,Arizona, 18
+2016,Oregon,Arizona, 34
+2017,Oregon,Arizona, 30
+2013,Oregon,California, 132
+2014,Oregon,California, 157
+2016,Oregon,California, 144
+2017,Oregon,California, 233
+2013,Oregon,Colorado, 67
+2014,Oregon,Colorado, 67
+2016,Oregon,Colorado, 98
+2017,Oregon,Colorado, 69
+2017,Oregon,Florida, 7
+2014,Oregon,Georgia, 22
+2016,Oregon,Georgia, 12
+2017,Oregon,Georgia, 19
+2013,Oregon,Hawaii, 2
+2016,Oregon,Hawaii, 2
+2017,Oregon,Hawaii, 7
+2013,Oregon,Idaho, 3
+2014,Oregon,Idaho, 3
+2015,Oregon,Idaho, 3
+2017,Oregon,Idaho, 10
+2013,Oregon,Illinois, 21
+2014,Oregon,Illinois, 56
+2016,Oregon,Illinois, 49
+2017,Oregon,Illinois, 44
+2017,Oregon,Maryland, 2
+2014,Oregon,Massachusetts, 7
+2017,Oregon,Massachusetts, 12
+2013,Oregon,Massachusetts, 4
+2016,Oregon,Massachusetts, 4
+2016,Oregon,Michigan, 2
+2017,Oregon,Michigan, 3
+2013,Oregon,Minnesota, 8
+2016,Oregon,Minnesota, 14
+2017,Oregon,Minnesota, 10
+2014,Oregon,Missouri, 2
+2016,Oregon,Missouri, 5
+2017,Oregon,Missouri, 12
+2015,Oregon,Montana, 2
+2016,Oregon,Montana, 2
+2017,Oregon,Nebraska, 4
+2013,Oregon,Nevada, 7
+2014,Oregon,Nevada, 10
+2015,Oregon,Nevada, 14
+2016,Oregon,Nevada, 27
+2017,Oregon,Nevada, 33
+2013,Oregon,New Jersey, 8
+2014,Oregon,New Jersey, 12
+2016,Oregon,New Jersey, 8
+2017,Oregon,New Jersey, 9
+2013,Oregon,New Mexico, 1
+2014,Oregon,New Mexico, 1
+2016,Oregon,New Mexico, 2
+2013,Oregon,New York, 4
+2014,Oregon,New York, 11
+2016,Oregon,New York, 11
+2017,Oregon,New York, 13
+2014,Oregon,North Carolina, 4
+2017,Oregon,North Carolina, 6
+2013,Oregon,North Carolina, 5
+2016,Oregon,North Carolina, 9
+2013,Oregon,Oregon, 40
+2014,Oregon,Oregon, 40
+2017,Oregon,Oregon, 1
+2014,Oregon,Pennsylvania, 5
+2017,Oregon,Pennsylvania, 7
+2013,Oregon,Pennsylvania, 4
+2013,Oregon,Texas, 57
+2014,Oregon,Texas, 50
+2015,Oregon,Texas, 61
+2016,Oregon,Texas, 46
+2017,Oregon,Texas, 68
+2013,Oregon,Utah, 38
+2014,Oregon,Utah, 33
+2015,Oregon,Utah, 33
+2016,Oregon,Utah, 33
+2017,Oregon,Utah, 35
+2013,Oregon,Virginia, 8
+2014,Oregon,Virginia, 9
+2016,Oregon,Virginia, 8
+2017,Oregon,Virginia, 6
+2013,Oregon,Washington, 118
+2014,Oregon,Washington, 109
+2016,Oregon,Washington, 70
+2017,Oregon,Washington, 137
+2017,Oregon,Wisconsin, 2
+2014,Pennsylvania,Arizona, 75
+2017,Pennsylvania,Arizona, 65
+2014,Pennsylvania,California, 92
+2017,Pennsylvania,California, 86
+2014,Pennsylvania,Colorado, 79
+2017,Pennsylvania,Colorado, 74
+2014,Pennsylvania,Connecticut, 15
+2017,Pennsylvania,Connecticut, 18
+2014,Pennsylvania,Florida, 308
+2017,Pennsylvania,Florida, 422
+2014,Pennsylvania,Georgia, 342
+2017,Pennsylvania,Georgia, 342
+2014,Pennsylvania,Illinois, 720
+2017,Pennsylvania,Illinois, 594
+2014,Pennsylvania,Indiana, 11
+2014,Pennsylvania,Louisiana, 19
+2017,Pennsylvania,Louisiana, 20
+2014,Pennsylvania,Maine, 4
+2014,Pennsylvania,Maryland, 44
+2014,Pennsylvania,Massachusetts, 373
+2017,Pennsylvania,Massachusetts, 319
+2014,Pennsylvania,Michigan, 114
+2017,Pennsylvania,Michigan, 109
+2014,Pennsylvania,Minnesota, 71
+2017,Pennsylvania,Minnesota, 73
+2014,Pennsylvania,Missouri, 24
+2017,Pennsylvania,Missouri, 19
+2014,Pennsylvania,Nevada, 42
+2017,Pennsylvania,Nevada, 59
+2014,Pennsylvania,New Hampshire, 2
+2014,Pennsylvania,New Jersey, 36
+2014,Pennsylvania,New York, 54
+2017,Pennsylvania,New York, 22
+2014,Pennsylvania,North Carolina, 176
+2017,Pennsylvania,North Carolina, 152
+2014,Pennsylvania,Ohio, 13
+2017,Pennsylvania,Ohio, 13
+2014,Pennsylvania,Oregon, 5
+2017,Pennsylvania,Oregon, 7
+2014,Pennsylvania,Pennsylvania, 13
+2017,Pennsylvania,Pennsylvania, 10
+2014,Pennsylvania,Rhode Island, 15
+2017,Pennsylvania,Rhode Island, 40
+2014,Pennsylvania,Tennessee, 27
+2017,Pennsylvania,Tennessee, 20
+2014,Pennsylvania,Texas, 292
+2017,Pennsylvania,Texas, 225
+2014,Pennsylvania,Utah, 33
+2017,Pennsylvania,Utah, 20
+2014,Pennsylvania,Vermont, 9
+2014,Pennsylvania,Virginia, 15
+2017,Pennsylvania,Virginia, 15
+2014,Pennsylvania,Washington, 28
+2017,Pennsylvania,Washington, 29
+2013,Pennsylvania,Arizona, 31
+2016,Pennsylvania,Arizona, 36
+2013,Pennsylvania,California, 100
+2016,Pennsylvania,California, 68
+2013,Pennsylvania,Colorado, 54
+2016,Pennsylvania,Colorado, 69
+2013,Pennsylvania,Connecticut, 6
+2016,Pennsylvania,Connecticut, 7
+2013,Pennsylvania,Florida, 126
+2016,Pennsylvania,Florida, 273
+2013,Pennsylvania,Georgia, 177
+2016,Pennsylvania,Georgia, 157
+2013,Pennsylvania,Illinois, 676
+2016,Pennsylvania,Illinois, 533
+2016,Pennsylvania,Indiana, 2
+2013,Pennsylvania,Kentucky, 119
+2016,Pennsylvania,Kentucky, 64
+2013,Pennsylvania,Louisiana, 10
+2016,Pennsylvania,Louisiana, 12
+2013,Pennsylvania,Maryland, 19
+2013,Pennsylvania,Massachusetts, 259
+2016,Pennsylvania,Massachusetts, 198
+2013,Pennsylvania,Michigan, 194
+2016,Pennsylvania,Michigan, 169
+2013,Pennsylvania,Minnesota, 50
+2016,Pennsylvania,Minnesota, 48
+2013,Pennsylvania,Missouri, 16
+2016,Pennsylvania,Missouri, 17
+2013,Pennsylvania,Nevada, 30
+2016,Pennsylvania,Nevada, 36
+2013,Pennsylvania,New Hampshire, 6
+2013,Pennsylvania,New Jersey, 28
+2013,Pennsylvania,New York, 206
+2016,Pennsylvania,New York, 151
+2013,Pennsylvania,North Carolina, 122
+2016,Pennsylvania,North Carolina, 128
+2013,Pennsylvania,Ohio, 9
+2016,Pennsylvania,Ohio, 4
+2013,Pennsylvania,Oregon, 4
+2013,Pennsylvania,Pennsylvania, 10
+2016,Pennsylvania,Pennsylvania, 9
+2013,Pennsylvania,Rhode Island, 4
+2016,Pennsylvania,Rhode Island, 9
+2016,Pennsylvania,South Carolina, 9
+2013,Pennsylvania,Tennessee, 23
+2016,Pennsylvania,Tennessee, 13
+2013,Pennsylvania,Texas, 245
+2016,Pennsylvania,Texas, 203
+2013,Pennsylvania,Utah, 10
+2016,Pennsylvania,Utah, 8
+2013,Pennsylvania,Vermont, 3
+2013,Pennsylvania,Virginia, 7
+2016,Pennsylvania,Virginia, 8
+2013,Pennsylvania,Washington, 19
+2016,Pennsylvania,Washington, 19
+2014,Rhode Island,Florida, 86
+2017,Rhode Island,Florida, 144
+2014,Rhode Island,Georgia, 37
+2017,Rhode Island,Georgia, 39
+2014,Rhode Island,Illinois, 61
+2017,Rhode Island,Illinois, 51
+2017,Rhode Island,Louisiana, 2
+2014,Rhode Island,Maryland, 88
+2017,Rhode Island,Maryland, 108
+2014,Rhode Island,Michigan, 11
+2017,Rhode Island,Michigan, 14
+2014,Rhode Island,New Jersey, 47
+2017,Rhode Island,New Jersey, 44
+2014,Rhode Island,North Carolina, 41
+2017,Rhode Island,North Carolina, 56
+2014,Rhode Island,Ohio, 9
+2014,Rhode Island,Pennsylvania, 15
+2017,Rhode Island,Pennsylvania, 33
+2014,Rhode Island,Virginia, 32
+2017,Rhode Island,Virginia, 16
+2013,Rhode Island,Colorado, 7
+2013,Rhode Island,Florida, 40
+2016,Rhode Island,Florida, 67
+2013,Rhode Island,Georgia, 14
+2016,Rhode Island,Georgia, 13
+2013,Rhode Island,Illinois, 54
+2016,Rhode Island,Illinois, 55
+2013,Rhode Island,Maryland, 61
+2016,Rhode Island,Maryland, 81
+2013,Rhode Island,Michigan, 76
+2016,Rhode Island,Michigan, 38
+2013,Rhode Island,New Jersey, 37
+2016,Rhode Island,New Jersey, 68
+2013,Rhode Island,North Carolina, 30
+2016,Rhode Island,North Carolina, 26
+2013,Rhode Island,Ohio, 2
+2013,Rhode Island,Pennsylvania, 4
+2016,Rhode Island,Pennsylvania, 8
+2013,Rhode Island,Virginia, 33
+2014,South Carolina,Georgia, 184
+2017,South Carolina,Georgia, 188
+2014,South Carolina,Illinois, 278
+2017,South Carolina,Illinois, 213
+2014,South Carolina,Maryland, 46
+2017,South Carolina,Maryland, 45
+2014,South Carolina,Massachusetts, 19
+2017,South Carolina,Massachusetts, 20
+2017,South Carolina,Michigan, 10
+2014,South Carolina,New Jersey, 270
+2017,South Carolina,New Jersey, 225
+2014,South Carolina,New York, 96
+2017,South Carolina,New York, 62
+2014,South Carolina,North Carolina, 12
+2017,South Carolina,North Carolina, 12
+2014,South Carolina,Ohio, 8
+2014,South Carolina,Tennessee, 9
+2017,South Carolina,Tennessee, 5
+2014,South Carolina,Texas, 122
+2017,South Carolina,Texas, 106
+2014,South Carolina,Virginia, 65
+2017,South Carolina,Virginia, 25
+2017,South Carolina,Washington, 5
+2013,South Carolina,Georgia, 113
+2016,South Carolina,Georgia, 130
+2013,South Carolina,Illinois, 165
+2016,South Carolina,Illinois, 160
+2013,South Carolina,Maryland, 7
+2016,South Carolina,Maryland, 32
+2013,South Carolina,Massachusetts, 3
+2016,South Carolina,Massachusetts, 11
+2013,South Carolina,Michigan, 11
+2013,South Carolina,New Jersey, 214
+2016,South Carolina,New Jersey, 200
+2013,South Carolina,New York, 68
+2016,South Carolina,New York, 60
+2013,South Carolina,North Carolina, 133
+2016,South Carolina,North Carolina, 97
+2016,South Carolina,Pennsylvania, 9
+2016,South Carolina,Tennessee, 8
+2013,South Carolina,Texas, 93
+2016,South Carolina,Texas, 87
+2013,South Carolina,Virginia, 67
+2016,South Carolina,Virginia, 49
+2016,South Carolina,Washington, 7
+2014,South Dakota,Colorado, 146
+2017,South Dakota,Colorado, 100
+2014,South Dakota,Georgia, 23
+2017,South Dakota,Georgia, 14
+2014,South Dakota,Illinois, 347
+2017,South Dakota,Illinois, 205
+2014,South Dakota,Minnesota, 108
+2017,South Dakota,Minnesota, 83
+2014,South Dakota,Texas, 109
+2013,South Dakota,Colorado, 88
+2016,South Dakota,Colorado, 86
+2013,South Dakota,Illinois, 216
+2016,South Dakota,Illinois, 158
+2013,South Dakota,Minnesota, 130
+2016,South Dakota,Minnesota, 97
+2013,South Dakota,Texas, 76
+2014,Tennessee,Arizona, 7
+2016,Tennessee,Arizona, 9
+2017,Tennessee,Arizona, 4
+2013,Tennessee,California, 6
+2014,Tennessee,California, 6
+2016,Tennessee,California, 28
+2017,Tennessee,California, 10
+2013,Tennessee,Colorado, 63
+2014,Tennessee,Colorado, 69
+2016,Tennessee,Colorado, 68
+2017,Tennessee,Colorado, 50
+2013,Tennessee,Florida, 23
+2014,Tennessee,Florida, 57
+2016,Tennessee,Florida, 81
+2017,Tennessee,Florida, 85
+2013,Tennessee,Georgia, 155
+2014,Tennessee,Georgia, 180
+2016,Tennessee,Georgia, 166
+2017,Tennessee,Georgia, 190
+2013,Tennessee,Illinois, 565
+2014,Tennessee,Illinois, 721
+2016,Tennessee,Illinois, 434
+2017,Tennessee,Illinois, 433
+2013,Tennessee,Kentucky, 60
+2014,Tennessee,Kentucky, 47
+2016,Tennessee,Kentucky, 40
+2017,Tennessee,Kentucky, 39
+2013,Tennessee,Louisiana, 16
+2014,Tennessee,Louisiana, 25
+2016,Tennessee,Louisiana, 19
+2017,Tennessee,Louisiana, 19
+2013,Tennessee,Maryland, 20
+2014,Tennessee,Maryland, 41
+2016,Tennessee,Maryland, 66
+2017,Tennessee,Maryland, 40
+2014,Tennessee,Massachusetts, 4
+2017,Tennessee,Massachusetts, 31
+2013,Tennessee,Massachusetts, 14
+2016,Tennessee,Massachusetts, 19
+2013,Tennessee,Michigan, 42
+2014,Tennessee,Michigan, 41
+2016,Tennessee,Michigan, 47
+2017,Tennessee,Michigan, 38
+2013,Tennessee,Minnesota, 62
+2014,Tennessee,Minnesota, 48
+2016,Tennessee,Minnesota, 32
+2017,Tennessee,Minnesota, 30
+2013,Tennessee,Missouri, 26
+2014,Tennessee,Missouri, 24
+2016,Tennessee,Missouri, 23
+2017,Tennessee,Missouri, 21
+2014,Tennessee,Nevada, 7
+2016,Tennessee,Nevada, 12
+2017,Tennessee,Nevada, 8
+2013,Tennessee,New Jersey, 269
+2014,Tennessee,New Jersey, 318
+2016,Tennessee,New Jersey, 227
+2017,Tennessee,New Jersey, 201
+2013,Tennessee,New York, 209
+2014,Tennessee,New York, 248
+2016,Tennessee,New York, 54
+2017,Tennessee,New York, 71
+2014,Tennessee,North Carolina, 60
+2017,Tennessee,North Carolina, 36
+2013,Tennessee,North Carolina, 67
+2016,Tennessee,North Carolina, 74
+2013,Tennessee,Ohio, 22
+2014,Tennessee,Ohio, 32
+2016,Tennessee,Ohio, 18
+2017,Tennessee,Ohio, 9
+2014,Tennessee,Pennsylvania, 27
+2017,Tennessee,Pennsylvania, 23
+2013,Tennessee,Pennsylvania, 23
+2016,Tennessee,Pennsylvania, 34
+2014,Tennessee,South Carolina, 9
+2017,Tennessee,South Carolina, 6
+2016,Tennessee,South Carolina, 8
+2013,Tennessee,Tennessee, 15
+2014,Tennessee,Tennessee, 1
+2013,Tennessee,Texas, 297
+2014,Tennessee,Texas, 339
+2016,Tennessee,Texas, 304
+2017,Tennessee,Texas, 316
+2013,Tennessee,Utah, 7
+2014,Tennessee,Utah, 7
+2017,Tennessee,Utah, 6
+2013,Tennessee,Virginia, 188
+2014,Tennessee,Virginia, 207
+2016,Tennessee,Virginia, 101
+2017,Tennessee,Virginia, 101
+2016,Tennessee,Washington, 10
+2017,Tennessee,Washington, 9
+2013,Texas,Alabama, 148
+2014,Texas,Alabama, 206
+2015,Texas,Alabama, 140
+2016,Texas,Alabama, 64
+2017,Texas,Alabama, 58
+2016,Texas,Alaska, 3
+2013,Texas,Arizona, 263
+2014,Texas,Arizona, 215
+2015,Texas,Arizona, 244
+2016,Texas,Arizona, 193
+2017,Texas,Arizona, 175
+2013,Texas,Arkansas, 383
+2014,Texas,Arkansas, 401
+2016,Texas,Arkansas, 161
+2017,Texas,Arkansas, 136
+2013,Texas,California, 656
+2014,Texas,California, 489
+2016,Texas,California, 362
+2017,Texas,California, 349
+2013,Texas,Colorado, 483
+2014,Texas,Colorado, 455
+2016,Texas,Colorado, 397
+2017,Texas,Colorado, 366
+2014,Texas,Connecticut, 37
+2017,Texas,Connecticut, 30
+2013,Texas,Connecticut, 44
+2016,Texas,Connecticut, 26
+2013,Texas,Florida, 475
+2014,Texas,Florida, 405
+2015,Texas,Florida, 477
+2016,Texas,Florida, 295
+2017,Texas,Florida, 375
+2013,Texas,Georgia, 455
+2014,Texas,Georgia, 414
+2015,Texas,Georgia, 374
+2016,Texas,Georgia, 303
+2017,Texas,Georgia, 352
+2013,Texas,Hawaii, 16
+2014,Texas,Hawaii, 12
+2015,Texas,Hawaii, 19
+2016,Texas,Hawaii, 14
+2017,Texas,Hawaii, 17
+2016,Texas,Idaho, 6
+2013,Texas,Illinois, 639
+2014,Texas,Illinois, 684
+2016,Texas,Illinois, 496
+2017,Texas,Illinois, 413
+2013,Texas,Indiana, 120
+2014,Texas,Indiana, 126
+2015,Texas,Indiana, 116
+2016,Texas,Indiana, 78
+2017,Texas,Indiana, 68
+2013,Texas,Iowa, 164
+2014,Texas,Iowa, 139
+2015,Texas,Iowa, 138
+2016,Texas,Iowa, 64
+2017,Texas,Iowa, 71
+2013,Texas,Kansas, 171
+2014,Texas,Kansas, 154
+2015,Texas,Kansas, 171
+2016,Texas,Kansas, 91
+2017,Texas,Kansas, 96
+2013,Texas,Kentucky, 232
+2014,Texas,Kentucky, 235
+2017,Texas,Kentucky, 106
+2013,Texas,Louisiana, 547
+2014,Texas,Louisiana, 649
+2016,Texas,Louisiana, 298
+2017,Texas,Louisiana, 205
+2013,Texas,Maryland, 100
+2014,Texas,Maryland, 106
+2016,Texas,Maryland, 78
+2017,Texas,Maryland, 67
+2014,Texas,Massachusetts, 182
+2017,Texas,Massachusetts, 157
+2013,Texas,Massachusetts, 195
+2016,Texas,Massachusetts, 127
+2013,Texas,Michigan, 202
+2014,Texas,Michigan, 196
+2016,Texas,Michigan, 122
+2017,Texas,Michigan, 120
+2013,Texas,Minnesota, 176
+2014,Texas,Minnesota, 165
+2016,Texas,Minnesota, 136
+2017,Texas,Minnesota, 135
+2014,Texas,Mississippi, 379
+2017,Texas,Mississippi, 211
+2013,Texas,Mississippi, 217
+2016,Texas,Mississippi, 135
+2013,Texas,Missouri, 432
+2014,Texas,Missouri, 349
+2016,Texas,Missouri, 228
+2017,Texas,Missouri, 179
+2013,Texas,Nebraska, 119
+2014,Texas,Nebraska, 111
+2016,Texas,Nebraska, 78
+2017,Texas,Nebraska, 82
+2013,Texas,Nevada, 197
+2014,Texas,Nevada, 136
+2015,Texas,Nevada, 177
+2016,Texas,Nevada, 153
+2017,Texas,Nevada, 143
+2013,Texas,New Jersey, 302
+2014,Texas,New Jersey, 285
+2016,Texas,New Jersey, 233
+2017,Texas,New Jersey, 230
+2013,Texas,New Mexico, 109
+2014,Texas,New Mexico, 120
+2016,Texas,New Mexico, 40
+2017,Texas,New Mexico, 32
+2013,Texas,New York, 220
+2014,Texas,New York, 180
+2016,Texas,New York, 126
+2017,Texas,New York, 139
+2014,Texas,North Carolina, 363
+2017,Texas,North Carolina, 237
+2013,Texas,North Carolina, 289
+2016,Texas,North Carolina, 218
+2014,Texas,North Dakota, 14
+2013,Texas,North Dakota, 32
+2013,Texas,Ohio, 183
+2014,Texas,Ohio, 162
+2015,Texas,Ohio, 163
+2016,Texas,Ohio, 108
+2017,Texas,Ohio, 97
+2013,Texas,Oklahoma, 372
+2014,Texas,Oklahoma, 368
+2016,Texas,Oklahoma, 199
+2017,Texas,Oklahoma, 197
+2013,Texas,Oregon, 57
+2014,Texas,Oregon, 45
+2015,Texas,Oregon, 57
+2016,Texas,Oregon, 39
+2017,Texas,Oregon, 48
+2014,Texas,Pennsylvania, 292
+2017,Texas,Pennsylvania, 187
+2013,Texas,Pennsylvania, 245
+2016,Texas,Pennsylvania, 185
+2014,Texas,South Carolina, 122
+2017,Texas,South Carolina, 52
+2013,Texas,South Carolina, 93
+2016,Texas,South Carolina, 40
+2014,Texas,South Dakota, 109
+2013,Texas,South Dakota, 76
+2013,Texas,Tennessee, 297
+2014,Texas,Tennessee, 255
+2016,Texas,Tennessee, 186
+2017,Texas,Tennessee, 130
+2013,Texas,Texas, 1703
+2014,Texas,Texas, 1790
+2015,Texas,Texas, 1616
+2016,Texas,Texas, 363
+2017,Texas,Texas, 280
+2013,Texas,Utah, 126
+2014,Texas,Utah, 95
+2015,Texas,Utah, 113
+2016,Texas,Utah, 83
+2017,Texas,Utah, 82
+2013,Texas,Virginia, 338
+2014,Texas,Virginia, 312
+2016,Texas,Virginia, 247
+2017,Texas,Virginia, 193
+2013,Texas,Washington, 84
+2014,Texas,Washington, 61
+2016,Texas,Washington, 72
+2017,Texas,Washington, 77
+2014,Texas,West Virginia, 70
+2013,Texas,West Virginia, 24
+2013,Texas,Wisconsin, 144
+2014,Texas,Wisconsin, 146
+2016,Texas,Wisconsin, 73
+2017,Texas,Wisconsin, 72
+2014,Texas,Wyoming, 4
+2015,Texas,Wyoming, 5
+2016,Texas,Wyoming, 2
+2017,Texas,Wyoming, 3
+2013,Utah,Arizona, 94
+2014,Utah,Arizona, 53
+2015,Utah,Arizona, 56
+2016,Utah,Arizona, 52
+2017,Utah,Arizona, 54
+2013,Utah,California, 198
+2014,Utah,California, 152
+2016,Utah,California, 108
+2017,Utah,California, 141
+2013,Utah,Colorado, 146
+2014,Utah,Colorado, 122
+2016,Utah,Colorado, 137
+2017,Utah,Colorado, 99
+2013,Utah,Florida, 2
+2015,Utah,Florida, 3
+2016,Utah,Florida, 15
+2017,Utah,Florida, 15
+2013,Utah,Georgia, 8
+2014,Utah,Georgia, 24
+2015,Utah,Georgia, 8
+2016,Utah,Georgia, 8
+2017,Utah,Georgia, 24
+2014,Utah,Hawaii, 6
+2015,Utah,Hawaii, 4
+2016,Utah,Hawaii, 4
+2013,Utah,Idaho, 162
+2014,Utah,Idaho, 73
+2015,Utah,Idaho, 32
+2016,Utah,Idaho, 44
+2017,Utah,Idaho, 46
+2013,Utah,Illinois, 101
+2014,Utah,Illinois, 114
+2016,Utah,Illinois, 79
+2017,Utah,Illinois, 75
+2013,Utah,Indiana, 7
+2014,Utah,Indiana, 7
+2016,Utah,Indiana, 6
+2013,Utah,Kentucky, 2
+2014,Utah,Kentucky, 4
+2013,Utah,Louisiana, 3
+2014,Utah,Louisiana, 4
+2017,Utah,Louisiana, 2
+2013,Utah,Maryland, 10
+2014,Utah,Maryland, 6
+2016,Utah,Maryland, 13
+2017,Utah,Maryland, 9
+2014,Utah,Massachusetts, 3
+2017,Utah,Massachusetts, 10
+2013,Utah,Massachusetts, 6
+2013,Utah,Michigan, 3
+2016,Utah,Michigan, 4
+2017,Utah,Michigan, 4
+2013,Utah,Minnesota, 6
+2014,Utah,Minnesota, 4
+2016,Utah,Minnesota, 5
+2017,Utah,Minnesota, 9
+2013,Utah,Missouri, 15
+2014,Utah,Missouri, 9
+2016,Utah,Missouri, 7
+2017,Utah,Missouri, 7
+2013,Utah,Montana, 63
+2014,Utah,Montana, 51
+2015,Utah,Montana, 42
+2016,Utah,Montana, 21
+2017,Utah,Montana, 35
+2013,Utah,Nebraska, 9
+2014,Utah,Nebraska, 7
+2013,Utah,Nevada, 64
+2014,Utah,Nevada, 32
+2015,Utah,Nevada, 37
+2016,Utah,Nevada, 40
+2017,Utah,Nevada, 36
+2013,Utah,New Jersey, 4
+2014,Utah,New Jersey, 3
+2016,Utah,New Jersey, 4
+2017,Utah,New Jersey, 7
+2013,Utah,New Mexico, 6
+2014,Utah,New Mexico, 1
+2017,Utah,New Mexico, 2
+2013,Utah,New York, 15
+2014,Utah,New York, 25
+2016,Utah,New York, 24
+2017,Utah,New York, 20
+2014,Utah,North Carolina, 7
+2017,Utah,North Carolina, 5
+2013,Utah,North Carolina, 6
+2016,Utah,North Carolina, 9
+2014,Utah,North Dakota, 2
+2013,Utah,North Dakota, 9
+2013,Utah,Oklahoma, 20
+2014,Utah,Oklahoma, 14
+2016,Utah,Oklahoma, 13
+2017,Utah,Oklahoma, 13
+2013,Utah,Oregon, 38
+2014,Utah,Oregon, 41
+2015,Utah,Oregon, 17
+2016,Utah,Oregon, 14
+2017,Utah,Oregon, 25
+2014,Utah,Pennsylvania, 33
+2017,Utah,Pennsylvania, 25
+2013,Utah,Pennsylvania, 10
+2016,Utah,Pennsylvania, 11
+2013,Utah,Tennessee, 7
+2014,Utah,Tennessee, 5
+2017,Utah,Tennessee, 4
+2013,Utah,Texas, 126
+2014,Utah,Texas, 105
+2015,Utah,Texas, 117
+2016,Utah,Texas, 96
+2017,Utah,Texas, 107
+2013,Utah,Utah, 12
+2014,Utah,Utah, 15
+2015,Utah,Utah, 8
+2016,Utah,Utah, 2
+2017,Utah,Utah, 1
+2013,Utah,Virginia, 12
+2014,Utah,Virginia, 6
+2016,Utah,Virginia, 9
+2017,Utah,Virginia, 4
+2013,Utah,Washington, 47
+2014,Utah,Washington, 17
+2016,Utah,Washington, 21
+2017,Utah,Washington, 34
+2014,Utah,Wisconsin, 3
+2013,Utah,Wyoming, 47
+2014,Utah,Wyoming, 29
+2015,Utah,Wyoming, 23
+2016,Utah,Wyoming, 32
+2017,Utah,Wyoming, 28
+2013,Vermont,Georgia, 10
+2014,Vermont,Georgia, 13
+2015,Vermont,Georgia, 8
+2016,Vermont,Georgia, 8
+2017,Vermont,Georgia, 8
+2013,Vermont,Illinois, 25
+2014,Vermont,Illinois, 45
+2016,Vermont,Illinois, 41
+2017,Vermont,Illinois, 23
+2013,Vermont,Michigan, 50
+2014,Vermont,Michigan, 31
+2016,Vermont,Michigan, 26
+2017,Vermont,Michigan, 25
+2013,Vermont,New Jersey, 97
+2014,Vermont,New Jersey, 83
+2016,Vermont,New Jersey, 130
+2017,Vermont,New Jersey, 93
+2013,Vermont,New York, 45
+2014,Vermont,New York, 101
+2016,Vermont,New York, 43
+2017,Vermont,New York, 68
+2013,Vermont,Ohio, 16
+2014,Vermont,Ohio, 13
+2014,Vermont,Pennsylvania, 9
+2013,Vermont,Pennsylvania, 3
+2013,Vermont,Virginia, 30
+2014,Vermont,Virginia, 26
+2016,Vermont,Virginia, 2
+2013,Virginia,Arizona, 17
+2014,Virginia,Arizona, 22
+2015,Virginia,Arizona, 17
+2016,Virginia,Arizona, 17
+2017,Virginia,Arizona, 17
+2013,Virginia,California, 49
+2014,Virginia,California, 50
+2016,Virginia,California, 56
+2017,Virginia,California, 44
+2013,Virginia,Colorado, 41
+2014,Virginia,Colorado, 47
+2016,Virginia,Colorado, 57
+2017,Virginia,Colorado, 40
+2014,Virginia,Connecticut, 57
+2017,Virginia,Connecticut, 65
+2013,Virginia,Connecticut, 37
+2016,Virginia,Connecticut, 51
+2013,Virginia,Florida, 125
+2014,Virginia,Florida, 213
+2015,Virginia,Florida, 219
+2016,Virginia,Florida, 303
+2017,Virginia,Florida, 384
+2013,Virginia,Georgia, 325
+2014,Virginia,Georgia, 379
+2015,Virginia,Georgia, 343
+2016,Virginia,Georgia, 318
+2017,Virginia,Georgia, 320
+2013,Virginia,Illinois, 604
+2014,Virginia,Illinois, 696
+2016,Virginia,Illinois, 647
+2017,Virginia,Illinois, 563
+2014,Virginia,Indiana, 36
+2015,Virginia,Indiana, 54
+2016,Virginia,Indiana, 46
+2017,Virginia,Indiana, 38
+2013,Virginia,Kentucky, 126
+2014,Virginia,Kentucky, 75
+2017,Virginia,Kentucky, 73
+2016,Virginia,Louisiana, 18
+2017,Virginia,Louisiana, 18
+2015,Virginia,Maine, 22
+2014,Virginia,Massachusetts, 571
+2017,Virginia,Massachusetts, 602
+2013,Virginia,Massachusetts, 359
+2016,Virginia,Massachusetts, 425
+2013,Virginia,Michigan, 143
+2014,Virginia,Michigan, 141
+2016,Virginia,Michigan, 138
+2017,Virginia,Michigan, 127
+2013,Virginia,Minnesota, 50
+2014,Virginia,Minnesota, 52
+2016,Virginia,Minnesota, 54
+2017,Virginia,Minnesota, 42
+2013,Virginia,Missouri, 94
+2014,Virginia,Missouri, 143
+2016,Virginia,Missouri, 75
+2017,Virginia,Missouri, 67
+2016,Virginia,Nebraska, 7
+2017,Virginia,Nebraska, 10
+2013,Virginia,Nevada, 12
+2014,Virginia,Nevada, 13
+2015,Virginia,Nevada, 13
+2016,Virginia,Nevada, 11
+2017,Virginia,Nevada, 10
+2013,Virginia,New Jersey, 405
+2014,Virginia,New Jersey, 460
+2016,Virginia,New Jersey, 405
+2017,Virginia,New Jersey, 403
+2013,Virginia,New York, 867
+2014,Virginia,New York, 909
+2016,Virginia,New York, 713
+2017,Virginia,New York, 516
+2014,Virginia,North Carolina, 281
+2017,Virginia,North Carolina, 140
+2013,Virginia,North Carolina, 296
+2016,Virginia,North Carolina, 206
+2013,Virginia,Ohio, 36
+2014,Virginia,Ohio, 61
+2015,Virginia,Ohio, 68
+2016,Virginia,Ohio, 82
+2017,Virginia,Ohio, 63
+2014,Virginia,Oregon, 8
+2016,Virginia,Oregon, 9
+2017,Virginia,Oregon, 6
+2014,Virginia,Pennsylvania, 15
+2017,Virginia,Pennsylvania, 13
+2013,Virginia,Pennsylvania, 7
+2016,Virginia,Pennsylvania, 10
+2014,Virginia,Rhode Island, 32
+2017,Virginia,Rhode Island, 44
+2013,Virginia,Rhode Island, 33
+2014,Virginia,South Carolina, 65
+2017,Virginia,South Carolina, 81
+2016,Virginia,South Carolina, 67
+2013,Virginia,Tennessee, 188
+2014,Virginia,Tennessee, 170
+2016,Virginia,Tennessee, 111
+2017,Virginia,Tennessee, 119
+2013,Virginia,Texas, 338
+2014,Virginia,Texas, 379
+2015,Virginia,Texas, 423
+2016,Virginia,Texas, 337
+2017,Virginia,Texas, 322
+2013,Virginia,Utah, 12
+2014,Virginia,Utah, 12
+2015,Virginia,Utah, 12
+2016,Virginia,Utah, 14
+2017,Virginia,Utah, 10
+2016,Virginia,Vermont, 30
+2013,Virginia,Washington, 10
+2014,Virginia,Washington, 15
+2016,Virginia,Washington, 15
+2017,Virginia,Washington, 11
+2013,Virginia,Wisconsin, 49
+2014,Virginia,Wisconsin, 61
+2016,Virginia,Wisconsin, 41
+2017,Virginia,Wisconsin, 32
+2013,Washington,Alaska, 72
+2014,Washington,Alaska, 56
+2016,Washington,Alaska, 48
+2017,Washington,Alaska, 73
+2013,Washington,Arizona, 25
+2014,Washington,Arizona, 21
+2016,Washington,Arizona, 35
+2017,Washington,Arizona, 26
+2013,Washington,California, 138
+2014,Washington,California, 153
+2016,Washington,California, 173
+2017,Washington,California, 262
+2013,Washington,Colorado, 65
+2014,Washington,Colorado, 83
+2016,Washington,Colorado, 85
+2017,Washington,Colorado, 62
+2013,Washington,Florida, 5
+2014,Washington,Florida, 3
+2016,Washington,Florida, 7
+2017,Washington,Florida, 30
+2013,Washington,Georgia, 18
+2014,Washington,Georgia, 31
+2016,Washington,Georgia, 23
+2017,Washington,Georgia, 30
+2013,Washington,Hawaii, 5
+2014,Washington,Hawaii, 4
+2016,Washington,Hawaii, 4
+2017,Washington,Hawaii, 7
+2016,Washington,Idaho, 4
+2017,Washington,Idaho, 17
+2013,Washington,Illinois, 70
+2014,Washington,Illinois, 97
+2016,Washington,Illinois, 60
+2017,Washington,Illinois, 53
+2016,Washington,Kentucky, 2
+2017,Washington,Louisiana, 2
+2016,Washington,Maryland, 19
+2017,Washington,Maryland, 23
+2014,Washington,Massachusetts, 26
+2017,Washington,Massachusetts, 31
+2013,Washington,Massachusetts, 10
+2016,Washington,Massachusetts, 7
+2013,Washington,Michigan, 2
+2016,Washington,Michigan, 6
+2017,Washington,Michigan, 7
+2013,Washington,Minnesota, 12
+2016,Washington,Minnesota, 16
+2017,Washington,Minnesota, 16
+2013,Washington,Missouri, 5
+2016,Washington,Missouri, 9
+2017,Washington,Missouri, 10
+2016,Washington,Montana, 9
+2017,Washington,Montana, 11
+2013,Washington,Nebraska, 2
+2014,Washington,Nebraska, 2
+2016,Washington,Nebraska, 4
+2017,Washington,Nebraska, 2
+2013,Washington,Nevada, 10
+2014,Washington,Nevada, 22
+2016,Washington,Nevada, 38
+2017,Washington,Nevada, 42
+2013,Washington,New Jersey, 12
+2014,Washington,New Jersey, 29
+2016,Washington,New Jersey, 21
+2017,Washington,New Jersey, 21
+2016,Washington,New Mexico, 1
+2013,Washington,New York, 26
+2014,Washington,New York, 35
+2016,Washington,New York, 38
+2017,Washington,New York, 48
+2014,Washington,North Carolina, 12
+2017,Washington,North Carolina, 15
+2013,Washington,North Carolina, 9
+2016,Washington,North Carolina, 14
+2017,Washington,Ohio, 2
+2016,Washington,Oklahoma, 7
+2013,Washington,Oregon, 118
+2014,Washington,Oregon, 107
+2016,Washington,Oregon, 63
+2017,Washington,Oregon, 111
+2014,Washington,Pennsylvania, 28
+2017,Washington,Pennsylvania, 27
+2013,Washington,Pennsylvania, 19
+2016,Washington,Pennsylvania, 19
+2017,Washington,South Carolina, 5
+2016,Washington,South Carolina, 7
+2016,Washington,Tennessee, 10
+2017,Washington,Tennessee, 6
+2013,Washington,Texas, 84
+2014,Washington,Texas, 67
+2016,Washington,Texas, 80
+2017,Washington,Texas, 149
+2013,Washington,Utah, 47
+2014,Washington,Utah, 43
+2016,Washington,Utah, 39
+2017,Washington,Utah, 50
+2013,Washington,Virginia, 10
+2014,Washington,Virginia, 15
+2016,Washington,Virginia, 18
+2017,Washington,Virginia, 8
+2013,Washington,Washington, 6
+2014,Washington,Washington, 13
+2016,Washington,Washington, 14
+2017,Washington,Washington, 74
+2014,Washington,Wisconsin, 5
+2016,Washington,Wisconsin, 3
+2017,Washington,Wisconsin, 4
+2014,West Virginia,Georgia, 61
+2017,West Virginia,Georgia, 56
+2014,West Virginia,Illinois, 156
+2017,West Virginia,Illinois, 86
+2014,West Virginia,Michigan, 6
+2014,West Virginia,Texas, 70
+2017,West Virginia,Texas, 37
+2013,West Virginia,Georgia, 37
+2016,West Virginia,Georgia, 41
+2013,West Virginia,Illinois, 82
+2016,West Virginia,Illinois, 63
+2013,West Virginia,Michigan, 12
+2013,West Virginia,Texas, 24
+2016,West Virginia,Texas, 18
+2013,Wisconsin,Arizona, 6
+2014,Wisconsin,Arizona, 8
+2016,Wisconsin,Arizona, 13
+2017,Wisconsin,Arizona, 4
+2014,Wisconsin,California, 4
+2016,Wisconsin,California, 5
+2017,Wisconsin,California, 2
+2013,Wisconsin,Colorado, 47
+2014,Wisconsin,Colorado, 57
+2016,Wisconsin,Colorado, 52
+2017,Wisconsin,Colorado, 39
+2013,Wisconsin,Florida, 12
+2014,Wisconsin,Florida, 21
+2016,Wisconsin,Florida, 27
+2017,Wisconsin,Florida, 26
+2013,Wisconsin,Georgia, 53
+2014,Wisconsin,Georgia, 97
+2016,Wisconsin,Georgia, 47
+2017,Wisconsin,Georgia, 70
+2013,Wisconsin,Illinois, 933
+2014,Wisconsin,Illinois, 1149
+2016,Wisconsin,Illinois, 829
+2017,Wisconsin,Illinois, 794
+2013,Wisconsin,Kentucky, 45
+2014,Wisconsin,Kentucky, 35
+2017,Wisconsin,Kentucky, 26
+2014,Wisconsin,Louisiana, 6
+2013,Wisconsin,Maryland, 13
+2014,Wisconsin,Maryland, 26
+2016,Wisconsin,Maryland, 25
+2017,Wisconsin,Maryland, 17
+2014,Wisconsin,Massachusetts, 20
+2017,Wisconsin,Massachusetts, 21
+2013,Wisconsin,Massachusetts, 17
+2016,Wisconsin,Massachusetts, 12
+2013,Wisconsin,Michigan, 109
+2014,Wisconsin,Michigan, 107
+2016,Wisconsin,Michigan, 90
+2017,Wisconsin,Michigan, 90
+2013,Wisconsin,Minnesota, 164
+2014,Wisconsin,Minnesota, 168
+2016,Wisconsin,Minnesota, 149
+2017,Wisconsin,Minnesota, 145
+2013,Wisconsin,Missouri, 11
+2014,Wisconsin,Missouri, 10
+2016,Wisconsin,Missouri, 7
+2017,Wisconsin,Missouri, 6
+2013,Wisconsin,Nevada, 3
+2014,Wisconsin,Nevada, 8
+2016,Wisconsin,Nevada, 13
+2017,Wisconsin,Nevada, 5
+2013,Wisconsin,New Jersey, 64
+2014,Wisconsin,New Jersey, 111
+2016,Wisconsin,New Jersey, 84
+2017,Wisconsin,New Jersey, 87
+2013,Wisconsin,New York, 59
+2014,Wisconsin,New York, 71
+2016,Wisconsin,New York, 40
+2017,Wisconsin,New York, 62
+2013,Wisconsin,North Carolina, 3
+2013,Wisconsin,Ohio, 36
+2014,Wisconsin,Ohio, 73
+2016,Wisconsin,Ohio, 31
+2017,Wisconsin,Ohio, 36
+2017,Wisconsin,Oregon, 2
+2013,Wisconsin,Texas, 144
+2014,Wisconsin,Texas, 152
+2016,Wisconsin,Texas, 108
+2017,Wisconsin,Texas, 118
+2017,Wisconsin,Utah, 3
+2013,Wisconsin,Virginia, 49
+2014,Wisconsin,Virginia, 61
+2016,Wisconsin,Virginia, 35
+2017,Wisconsin,Virginia, 31
+2014,Wisconsin,Washington, 5
+2016,Wisconsin,Washington, 7
+2017,Wisconsin,Washington, 5
+2013,Wyoming,California, 4
+2014,Wyoming,California, 12
+2016,Wyoming,California, 4
+2017,Wyoming,California, 26
+2013,Wyoming,Colorado, 200
+2014,Wyoming,Colorado, 220
+2016,Wyoming,Colorado, 202
+2017,Wyoming,Colorado, 194
+2014,Wyoming,Georgia, 3
+2013,Wyoming,Illinois, 3
+2014,Wyoming,Illinois, 11
+2016,Wyoming,Illinois, 8
+2017,Wyoming,Illinois, 8
+2014,Wyoming,Minnesota, 4
+2017,Wyoming,Minnesota, 3
+2013,Wyoming,New Jersey, 6
+2014,Wyoming,New Jersey, 9
+2016,Wyoming,New Jersey, 4
+2017,Wyoming,New Jersey, 7
+2013,Wyoming,Texas, 4
+2014,Wyoming,Texas, 7
+2015,Wyoming,Texas, 10
+2016,Wyoming,Texas, 6
+2017,Wyoming,Texas, 6
+2013,Wyoming,Utah, 47
+2014,Wyoming,Utah, 46
+2015,Wyoming,Utah, 38
+2016,Wyoming,Utah, 47
+2017,Wyoming,Utah, 44

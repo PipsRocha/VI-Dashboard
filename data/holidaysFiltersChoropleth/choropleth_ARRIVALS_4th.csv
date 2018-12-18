@@ -1,0 +1,52 @@
+DEST_STATE_NM,TOTAL_FLIGHTS
+Alabama       ,300
+Alaska        ,500
+Arizona       ,1626
+Arkansas      ,272
+California    ,7245
+Colorado      ,2196
+Connecticut   ,257
+Delaware      ,3.0
+Florida       ,4760.0
+Georgia       ,2664.0
+Hawaii        ,972.0
+Idaho         ,260.0
+Illinois      ,3490
+Indiana       ,566.0
+Iowa          ,261.0
+Kansas        ,150.0
+Kentucky      ,519.0
+Louisiana     ,695
+Maine         ,126.0
+Maryland      ,999
+Massachusetts ,1370
+Michigan      ,1541
+Minnesota     ,1311
+Mississippi    ,113
+Missouri      ,1246
+Montana       ,360.0
+Nebraska      ,302
+Nevada        ,1545.0
+New Hampshire ,91
+New Jersey    ,1102
+New Mexico    ,309
+New York      ,2698
+North Carolina,1880
+North Dakota  ,223
+Ohio          ,943.0
+Oklahoma      ,417
+Oregon        ,711.0
+Pennsylvania  ,1369
+Rhode Island  ,163
+South Carolina,421
+South Dakota  ,180
+Tennessee     ,940
+Texas         ,5172
+Utah          ,960.0
+Vermont       ,62.0
+Virginia      ,1769
+Washing       ,305.0
+Washington    ,1228.0
+West Virginia ,33
+Wisconsin     ,798
+Wyoming       ,174.0

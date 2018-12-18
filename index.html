@@ -7,9 +7,8 @@
     <link rel="stylesheet" href="css/index.css" type='text/css'>
 
     <script src="lib/jquery.min.js"></script>
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
     <link rel="stylesheet" href="css/jquery-ui.css">
-    <script src="ĺib/jquery-1.10.2.js"></script>
+    <!--script src="ĺib/jquery1.10.2.js"></script-->
     <script src="lib/jquery-ui.js"></script>
 
     <script>
@@ -113,34 +112,29 @@
         $("#1").click(function(){
           $("#h3").hide();
           $("#h2").hide();
-          $("#h4").hide();
           $("#Holiday").css({"visibility": "visible"});
           $("#h1").show();
+          updateGraphFiltersHoliday(true,false,false);
         });
+
       $("#2").click(function(){
           $("#h3").hide();
           $("#h1").hide();
-          $("#h4").hide();
           $("#h2").show();
+          updateGraphFiltersHoliday(false,true,false);
         });
       $("#3").click(function(){
           $("#h2").hide();
           $("#h1").hide();
-          $("#h4").hide();
           $("#h3").show();
-        });
-       $("#4").click(function(){
-          $("#h2").hide();
-          $("#h1").hide();
-          $("#h3").hide();
-          $("#h4").show();
+          updateGraphFiltersHoliday(false,false,true);
         });
         $("button").click(function(){
           $("#h2").hide();
           $("#h1").hide();
           $("#h3").hide();
-          $("#h4").hide();
            $("#Holiday").css({"visibility": "hidden"});
+          updateGraphFiltersHoliday(false,false,false);
         });
 
 });
@@ -205,7 +199,6 @@
     <!-- DEPENDENCIES -->
     <script src="lib/d3v4.js"></script>
     <script src="lib/d3.js"></script>
-    <script src="lib/linq/linq.js"></script>
     <!-- <script src="lib/moment.js"></script> -->
     <script src="lib/underscore.js"></script>
     <script src="lib/underscore.aggregate.min.js"></script>

@@ -10,6 +10,11 @@ var departures=false;
 var cancellations=false;
 var delays=false;
 
+var four=true;
+var christmas=false;
+var thanksgiving=false;
+
+
 
 var chordData= new Array();
 var usaData= new Array();
@@ -21,6 +26,7 @@ var month_to =12;
 var summ_data = "data/ARRIVALS_GROUPBY.CSV";
 
 var usaMap ="data/arrivals_usaMap.csv"; 
+var chord_data = 'data/chord_diagram_data.csv';
 
 ///////////////////// UPDATE FUNCTIONS /////////////////////////////
 var updateGraphsSlider = function(date1,date2) {
@@ -47,26 +53,153 @@ var updateGraphFilters = function(arrivals,departures,cancellations,delays){
   if (arrivals) {
     summ_data = "data/ARRIVALS_GROUPBY.CSV";
     usaMap = "data/arrivals_usaMap.csv";
+    chord_data = 'data/chord_diagram_data.csv';
     gen_summ();
     gen_vis();
+    gen_chord();
   } else if (departures) {
     summ_data = "data/departures_GROUPBY.CSV";
     usaMap = "data/departures_usaMap.csv";
+    chord_data = 'data/chord_diagram_data.csv';
     gen_vis();
     gen_summ();
+    gen_chord();
   } else if (cancellations) {
     summ_data = "data/lines_cancellations.csv";
     usaMap = "data/choropleth_cancellations.csv";
+    chord_data = "data/chord_cancelled_FLIGHTS.csv" 
     gen_vis();
     gen_summ();
+    gen_chord();
   } else if (delays) {
     summ_data = "data/lines_delays.csv";
     usaMap = "data/choropleth_delays.csv";
+    chord_data ="data/chord_delayed_FLIGHTS.csv" 
     gen_vis();
     gen_summ();
+    gen_chord();
   } 
 
-  gen_chord();
+  
+}
+var updateGraphFiltersHoliday = function(four,christmas,thanksgiving)
+{  
+  four=four;
+  christmas=christmas;
+  thanksgiving=thanksgiving;
+
+  if(four)
+  {
+    if(arrivals){
+      usaMap="data/holidaysFiltersChoropleth/choropleth_ARRIVALS_4th.csv"
+      //summ_data=""
+      chord_data = 'data/chord_diagram_data.csv';
+       gen_vis();
+       gen_chord();
+    //gen_summ();
+    }  
+    else if(departures){
+      usaMap="data/holidaysFiltersChoropleth/choropleth_DEPARTURES_4th.csv"
+      //summ_data=""
+      chord_data = 'data/chord_diagram_data.csv';
+       gen_vis();
+       gen_chord();
+    //gen_summ();
+  }
+    else if(delays){
+      usaMap="data/holidaysFiltersChoropleth/choropleth_DELAYS_4th.csv"
+      //summ_data=""
+      //chord_data = 
+       gen_vis();
+    //gen_summ();
+    //gen_chord();
+  }
+    else if(cancellations){
+      usaMap="data/holidaysFiltersChoropleth/choropleth_CANCELLATIONS_4th.csv"
+      //summ_data=""
+      //chord_data = 
+       gen_vis();
+    //gen_summ();
+    //gen_chord();
+  } 
+
+  }
+  else if(christmas)
+  {
+    if(arrivals){
+      usaMap="data/holidaysFiltersChoropleth/choropleth_ARRIVALS_christmas.csv"
+      //summ_data=""
+      chord_data = 'data/chord_diagram_data.csv';
+       gen_vis();
+       gen_chord();
+    //gen_summ();
+  }
+    else if(departures){
+      usaMap="data/holidaysFiltersChoropleth/choropleth_DEPARTURES_christmas.csv"
+      //summ_data=""
+      chord_data = 'data/chord_diagram_data.csv';
+       gen_vis();
+       gen_chord();
+    //gen_summ();
+  }
+    else if(delays){
+      usaMap="data/holidaysFiltersChoropleth/choropleth_DELAYS_christmas.csv"
+      //summ_data=""
+      //chord_data = 
+       gen_vis();
+    //gen_summ();
+    //gen_chord();
+  }
+    else if(cancellations){
+      usaMap="data/holidaysFiltersChoropleth/choropleth_CANCELLATIONS_christmas.csv"
+      //summ_data=""
+      //add chord map
+      //chord_data = 
+       gen_vis();
+    //gen_summ();
+    //gen_chord();
+  }
+  }
+  else if(thanksgiving)
+  {
+    if(arrivals){
+      usaMap="data/holidaysFiltersChoropleth/choropleth_ARRIVALS_thanksgiving.csv"
+      //summ_data=""
+      chord_data = 'data/chord_diagram_data.csv';
+       gen_vis();
+       gen_chord();
+    //gen_summ();
+  }
+    else if(departures){
+      usaMap="data/holidaysFiltersChoropleth/choropleth_DEPARTURES_thanksgiving.csv"
+      //summ_data=""
+      chord_data = 'data/chord_diagram_data.csv';
+       gen_vis();
+       gen_chord();
+    //gen_summ();
+  }
+    else if(delays){
+      usaMap="data/holidaysFiltersChoropleth/choropleth_DELAYS_thanksgiving.csv"
+      //summ_data=""
+      //chord_data = 
+       gen_vis();
+    //gen_summ();
+    //gen_chord();
+  }
+    else if(cancellations){
+      usaMap="data/holidaysFiltersChoropleth/choropleth_CANCELLATIONS_thanksgiving.csv"
+      //summ_data=""
+      //chord_data = 
+       gen_vis();
+    //gen_summ();
+    //gen_chord();
+  }
+
+  }
+  else
+    updateGraphFilters(arrivals,departures,cancellations,delays);
+
+
 }
 
 gen_vis();
@@ -467,7 +600,7 @@ function gen_chord(year_from=2013, year_to=2017) {
 //****************************************
     
 
-        d3.csv('data/chord_diagram_data.csv', function (error, data) {
+        d3.csv(chord_data, function (error, data) {
 
         chordData = data;
         for(var i in chordData){
@@ -568,7 +701,7 @@ function gen_chord(year_from=2013, year_to=2017) {
               + d.tname + " flies to " + d.sname))
           }
           function groupTip (d) {
-            var p = d3.format(".1%"), q = d3.format(".s")
+            var p = d3.format(".1%"), q = d3.format(".1")
             return "State Info:<br/>"
                 + d.gname + " : " + q(d.gvalue) + "<br/>"
                 + p(d.gvalue/d.mtotal) + " of Matrix Total (" + q(d.mtotal) + ")"
