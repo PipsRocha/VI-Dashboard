@@ -431,8 +431,6 @@ function gen_vis() {
           .attr("transform", "translate(5,5)");
 
 
-        console.log(dataset);
-        console.log(d3.max(d3.values(dataset)));
         var y = d3.scale.linear()
           .range([5, w-20])
           .domain([0, d3.max(d3.values(dataset))]);
@@ -734,7 +732,7 @@ function gen_chord(year_from=2013, year_to=2017) {
                 })
                 .on("mouseout", function (d) { d3.select("#tooltip").style("visibility", "hidden") });
           function chordTip (d) {
-            var p = d3.format(".2%"), q = d3.format(",.2r")
+            var p = d3.format(".2%"), q = d3.format(",.2")
             return "Route Info:<br/>"
               + p(d.svalue/d.stotal) + " (" + q(d.svalue) + ") of "
               + d.sname + " flies to " + d.tname
@@ -743,9 +741,9 @@ function gen_chord(year_from=2013, year_to=2017) {
               + d.tname + " flies to " + d.sname))
           }
           function groupTip (d) {
-            var p = d3.format(".1%"), q = d3.format(".1")
+            var p = d3.format(".1%"), q = d3.format(",.1")
             return "State Info:<br/>"
-                + d.gname + " : " + q(d.gvalue) + "<br/>"
+                + d.gname + " : " + String(q(d.gvalue)).substring(0, String(q(d.gvalue)).indexOf(".")) + "<br/>"
                 + p(d.gvalue/d.mtotal) + " of Matrix Total (" + q(d.mtotal) + ")"
           }
           function mouseover(d, i) {
@@ -949,7 +947,7 @@ d3.csv(summ_data, function(error, data) {
         .entries(data)
         .slice(0,count);
 
-
+        console.log(dataNest);
         // Scale the range of the data
     x.domain([2013, 2017]);
     y.domain([1, 700000]); 
