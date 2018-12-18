@@ -901,7 +901,8 @@ d3.csv(summ_data, function(error, data) {
             }
             
             d3.select(this).select('text')
-              .text(dataNest[i].values[idx].TOTAL_FLIGHTS);
+              .text(function(d){ if((dataNest[i].values[idx].TOTAL_FLIGHTS) === "1") return "0";
+                else return dataNest[i].values[idx].TOTAL_FLIGHTS;});
 
             return "translate(" + mouse[0] + "," + pos.y +")";
           });
