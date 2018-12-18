@@ -269,7 +269,17 @@ function gen_vis() {
           .attr("transform", "translate(25,0)rotate(90)")
           .style("fill", "white)")
           .call(yAxis);
+
+    if(arrivals || delays || cancellations || departures) {
+      for (var i = 0; i < statesGlobal.length; i++) {
+              d3.select('#'+statesGlobal[i]).style("stroke","orange").style("stroke-width","3px");
+        console.log(statesGlobal[i]);
+        console.log(d3.select('#' + statesGlobal[i]));
+      }
     }
+
+    }
+
 }
 
 
