@@ -18,7 +18,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2013,1,Louisiana,3392,0
 2013,1,Maine,486,0
 2013,1,Maryland,7819,0
-2013,1,Massachussets,8165,0
+2013,1,Massachusetts,8165,0
 2013,1,Michigan,12816,0
 2013,1,Minnesota,11229,0
 2013,1,Mississippi,814,0
@@ -27,6 +27,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2013,1,Nebraska,1688,0
 2013,1,Nevada,10975,0
 2013,1,New Hampshire,793,0
+2013,1,New Mexico,1500
 2013,1,New Jersey,9893,0
 2013,1,New York,11059,0
 2013,1,North Carolina,11433,0
@@ -66,7 +67,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2013,2,Louisiana,3315,0
 2013,2,Maine,447,0
 2013,2,Maryland,7301,0
-2013,2,Massachussets,7712,0
+2013,2,Massachusetts,7712,0
 2013,2,Michigan,11592,0
 2013,2,Minnesota,10242,0
 2013,2,Mississippi,745,0
@@ -76,6 +77,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2013,2,Nevada,10031,0
 2013,2,New Hampshire,781,0
 2013,2,New Jersey,9107,0
+2013,2,New Mexico,1000
 2013,2,New York,10217,0
 2013,2,North Carolina,10581,0
 2013,2,North Dakota,504,0
@@ -114,7 +116,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2013,3,Louisiana,3806,0
 2013,3,Maine,525,0
 2013,3,Maryland,8685,0
-2013,3,Massachussets,9189,0
+2013,3,Massachusetts,9189,0
 2013,3,Michigan,14008,0
 2013,3,Minnesota,12617,0
 2013,3,Mississippi,882,0
@@ -125,6 +127,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2013,3,New Hampshire,873,0
 2013,3,New Jersey,10420,0
 2013,3,New York,11815,0
+2013,3,New Mexico,900
 2013,3,North Carolina,12036,0
 2013,3,North Dakota,621,0
 2013,3,Ohio,4028,0
@@ -162,7 +165,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2013,4,Louisiana,3808,0
 2013,4,Maine,557,0
 2013,4,Maryland,8656,0
-2013,4,Massachussets,9317,0
+2013,4,Massachusetts,9317,0
 2013,4,Michigan,13964,0
 2013,4,Minnesota,12145,0
 2013,4,Mississippi,823,0
@@ -172,6 +175,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2013,4,Nevada,11699,0
 2013,4,New Hampshire,920,0
 2013,4,New Jersey,10531,0
+2013,4,New Mexico,602
 2013,4,New York,11275,0
 2013,4,North Carolina,12037,0
 2013,4,North Dakota,540,0
@@ -210,7 +214,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2013,5,Louisiana,3983,0
 2013,5,Maine,646,0
 2013,5,Maryland,8913,0
-2013,5,Massachussets,9583,0
+2013,5,Massachusetts,9583,0
 2013,5,Michigan,14262,0
 2013,5,Minnesota,12280,0
 2013,5,Mississippi,829,0
@@ -220,6 +224,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2013,5,Nevada,12263,0
 2013,5,New Hampshire,836,0
 2013,5,New Jersey,10592,0
+2013,5,New Mexico,1576
 2013,5,New York,11497,0
 2013,5,North Carolina,12708,0
 2013,5,North Dakota,545,0
@@ -258,7 +263,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2013,6,Louisiana,3754,0
 2013,6,Maine,658,0
 2013,6,Maryland,8890,0
-2013,6,Massachussets,9745,0
+2013,6,Massachusetts,9745,0
 2013,6,Michigan,14680,0
 2013,6,Minnesota,13064,0
 2013,6,Mississippi,824,0
@@ -268,6 +273,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2013,6,Nevada,11899,0
 2013,6,New Hampshire,944,0
 2013,6,New Jersey,10175,0
+2013,6,New Mexico,1500
 2013,6,New York,11631,0
 2013,6,North Carolina,12484,0
 2013,6,North Dakota,569,0
@@ -307,7 +313,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2013,7,Louisiana,3721,0
 2013,7,Maine,761,0
 2013,7,Maryland,9134,0
-2013,7,Massachussets,10288,0
+2013,7,Massachusetts,10288,0
 2013,7,Michigan,15246,0
 2013,7,Minnesota,13756,0
 2013,7,Mississippi,841,0
@@ -317,6 +323,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2013,7,Nevada,12114,0
 2013,7,New Hampshire,936,0
 2013,7,New Jersey,10475,0
+2013,7,New Mexico,1234
 2013,7,New York,12304,0
 2013,7,North Carolina,13370,0
 2013,7,North Dakota,600,0
@@ -356,7 +363,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2013,8,Louisiana,3487,0
 2013,8,Maine,710,0
 2013,8,Maryland,8861,0
-2013,8,Massachussets,10396,0
+2013,8,Massachusetts,10396,0
 2013,8,Michigan,15261,0
 2013,8,Minnesota,13673,0
 2013,8,Mississippi,813,0
@@ -366,6 +373,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2013,8,Nevada,12033,0
 2013,8,New Hampshire,901,0
 2013,8,New Jersey,10359,0
+2013,8,New Mexico,1345
 2013,8,New York,12123,0
 2013,8,North Carolina,13200,0
 2013,8,North Dakota,573,0
@@ -405,7 +413,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2013,9,Louisiana,3315,0
 2013,9,Maine,625,0
 2013,9,Maryland,7981,0
-2013,9,Massachussets,9293,0
+2013,9,Massachusetts,9293,0
 2013,9,Michigan,13242,0
 2013,9,Minnesota,11974,0
 2013,9,Mississippi,728,0
@@ -415,6 +423,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2013,9,Nevada,11426,0
 2013,9,New Hampshire,800,0
 2013,9,New Jersey,9550,0
+2013,9,New Mexico,1700
 2013,9,New York,10900,0
 2013,9,North Carolina,12234,0
 2013,9,North Dakota,564,0
@@ -454,7 +463,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2013,10,Louisiana,3694,0
 2013,10,Maine,661,0
 2013,10,Maryland,8459,0
-2013,10,Massachussets,9703,0
+2013,10,Massachusetts,9703,0
 2013,10,Michigan,13945,0
 2013,10,Minnesota,12696,0
 2013,10,Mississippi,766,0
@@ -464,6 +473,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2013,10,Nevada,12143,0
 2013,10,New Hampshire,878,0
 2013,10,New Jersey,10104,0
+2013,10,New Mexico,1450
 2013,10,New York,11298,0
 2013,10,North Carolina,13321,0
 2013,10,North Dakota,593,0
@@ -503,7 +513,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2013,11,Louisiana,3610,0
 2013,11,Maine,417,0
 2013,11,Maryland,7729,0
-2013,11,Massachussets,9080,0
+2013,11,Massachusetts,9080,0
 2013,11,Michigan,12605,0
 2013,11,Minnesota,11586,0
 2013,11,Mississippi,723,0
@@ -513,6 +523,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2013,11,Nevada,11079,0
 2013,11,New Hampshire,650,0
 2013,11,New Jersey,9707,0
+2013,11,New Mexico,1233
 2013,11,New York,10479,0
 2013,11,North Carolina,12490,0
 2013,11,North Dakota,549,0
@@ -552,7 +563,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2013,12,Louisiana,3459,0
 2013,12,Maine,469,0
 2013,12,Maryland,7903,0
-2013,12,Massachussets,8902,0
+2013,12,Massachusetts,8902,0
 2013,12,Michigan,11929,0
 2013,12,Minnesota,11553,0
 2013,12,Mississippi,726,0
@@ -562,6 +573,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2013,12,Nevada,11111,0
 2013,12,New Hampshire,654,0
 2013,12,New Jersey,9922,0
+2013,12,New Mexico,1780
 2013,12,New York,10922,0
 2013,12,North Carolina,12851,0
 2013,12,North Dakota,576,0
@@ -601,7 +613,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2014,1,Louisiana,3397,0
 2014,1,Maine,336,0
 2014,1,Maryland,7177,0
-2014,1,Massachussets,8274,0
+2014,1,Massachusetts,8274,0
 2014,1,Michigan,7542,0
 2014,1,Minnesota,8085,0
 2014,1,Mississippi,733,0
@@ -611,6 +623,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2014,1,Nevada,11050,0
 2014,1,New Hampshire,554,0
 2014,1,New Jersey,9267,0
+2014,1,New Mexico,1600
 2014,1,New York,9226,0
 2014,1,North Carolina,9768,0
 2014,1,North Dakota,431,0
@@ -650,7 +663,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2014,2,Louisiana,3159,0
 2014,2,Maine,356,0
 2014,2,Maryland,6570,0
-2014,2,Massachussets,7751,0
+2014,2,Massachusetts,7751,0
 2014,2,Michigan,6881,0
 2014,2,Minnesota,7318,0
 2014,2,Mississippi,661,0
@@ -660,6 +673,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2014,2,Nevada,10097,0
 2014,2,New Hampshire,493,0
 2014,2,New Jersey,8541,0
+2014,2,New Mexico,1000
 2014,2,New York,8625,0
 2014,2,North Carolina,8843,0
 2014,2,North Dakota,387,0
@@ -699,7 +713,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2014,3,Louisiana,3721,0
 2014,3,Maine,384,0
 2014,3,Maryland,7811,0
-2014,3,Massachussets,9323,0
+2014,3,Massachusetts,9323,0
 2014,3,Michigan,8998,0
 2014,3,Minnesota,8628,0
 2014,3,Mississippi,730,0
@@ -709,6 +723,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2014,3,Nevada,11960,0
 2014,3,New Hampshire,491,0
 2014,3,New Jersey,9848,0
+2014,3,New Mexico,1002
 2014,3,New York,10086,0
 2014,3,North Carolina,9791,0
 2014,3,North Dakota,401,0
@@ -748,7 +763,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2014,4,Louisiana,3540,0
 2014,4,Maine,428,0
 2014,4,Maryland,7800,0
-2014,4,Massachussets,9373,0
+2014,4,Massachusetts,9373,0
 2014,4,Michigan,8627,0
 2014,4,Minnesota,8599,0
 2014,4,Mississippi,707,0
@@ -758,6 +773,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2014,4,Nevada,11679,0
 2014,4,New Hampshire,532,0
 2014,4,New Jersey,9074,0
+2014,4,New Mexico,1100
 2014,4,New York,9830,0
 2014,4,North Carolina,9481,0
 2014,4,North Dakota,491,0
@@ -797,7 +813,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2014,5,Louisiana,3662,0
 2014,5,Maine,491,0
 2014,5,Maryland,8084,0
-2014,5,Massachussets,9533,0
+2014,5,Massachusetts,9533,0
 2014,5,Michigan,9277,0
 2014,5,Minnesota,8840,0
 2014,5,Mississippi,746,0
@@ -807,6 +823,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2014,5,Nevada,12105,0
 2014,5,New Hampshire,546,0
 2014,5,New Jersey,9037,0
+2014,5,New Mexico,1102
 2014,5,New York,10159,0
 2014,5,North Carolina,9618,0
 2014,5,North Dakota,457,0
@@ -846,7 +863,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2014,6,Louisiana,3383,0
 2014,6,Maine,617,0
 2014,6,Maryland,7996,0
-2014,6,Massachussets,9658,0
+2014,6,Massachusetts,9658,0
 2014,6,Michigan,9158,0
 2014,6,Minnesota,9898,0
 2014,6,Mississippi,684,0
@@ -856,6 +873,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2014,6,Nevada,11805,0
 2014,6,New Hampshire,601,0
 2014,6,New Jersey,9696,0
+2014,6,New Mexico,1204
 2014,6,New York,10174,0
 2014,6,North Carolina,8925,0
 2014,6,North Dakota,483,0
@@ -895,7 +913,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2014,7,Louisiana,3417,0
 2014,7,Maine,559,0
 2014,7,Maryland,8175,0
-2014,7,Massachussets,10097,0
+2014,7,Massachusetts,10097,0
 2014,7,Michigan,9697,0
 2014,7,Minnesota,10130,0
 2014,7,Mississippi,674,0
@@ -905,6 +923,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2014,7,Nevada,12063,0
 2014,7,New Hampshire,635,0
 2014,7,New Jersey,9904,0
+2014,7,New Mexico,1245
 2014,7,New York,10650,0
 2014,7,North Carolina,9210,0
 2014,7,North Dakota,426,0
@@ -944,7 +963,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2014,8,Louisiana,3218,0
 2014,8,Maine,504,0
 2014,8,Maryland,7867,0
-2014,8,Massachussets,9935,0
+2014,8,Massachusetts,9935,0
 2014,8,Michigan,9553,0
 2014,8,Minnesota,10059,0
 2014,8,Mississippi,650,0
@@ -954,6 +973,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2014,8,Nevada,11851,0
 2014,8,New Hampshire,604,0
 2014,8,New Jersey,9589,0
+2014,8,New Mexico,1653
 2014,8,New York,10629,0
 2014,8,North Carolina,9022,0
 2014,8,North Dakota,417,0
@@ -993,7 +1013,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2014,9,Louisiana,2971,0
 2014,9,Maine,401,0
 2014,9,Maryland,7284,0
-2014,9,Massachussets,9106,0
+2014,9,Massachusetts,9106,0
 2014,9,Michigan,8937,0
 2014,9,Minnesota,8849,0
 2014,9,Mississippi,613,0
@@ -1003,6 +1023,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2014,9,Nevada,11231,0
 2014,9,New Hampshire,653,0
 2014,9,New Jersey,8656,0
+2014,9,New Mexico,1096
 2014,9,New York,9861,0
 2014,9,North Carolina,9143,0
 2014,9,North Dakota,423,0
@@ -1042,7 +1063,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2014,10,Louisiana,3341,0
 2014,10,Maine,443,0
 2014,10,Maryland,7605,0
-2014,10,Massachussets,9676,0
+2014,10,Massachusetts,9676,0
 2014,10,Michigan,9641,0
 2014,10,Minnesota,9099,0
 2014,10,Mississippi,656,0
@@ -1052,6 +1073,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2014,10,Nevada,11779,0
 2014,10,New Hampshire,602,0
 2014,10,New Jersey,8657,0
+2014,10,New Mexico,1074
 2014,10,New York,10203,0
 2014,10,North Carolina,9755,0
 2014,10,North Dakota,450,0
@@ -1091,7 +1113,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2014,11,Louisiana,3374,0
 2014,11,Maine,359,0
 2014,11,Maryland,7101,0
-2014,11,Massachussets,9023,0
+2014,11,Massachusetts,9023,0
 2014,11,Michigan,8980,0
 2014,11,Minnesota,8292,0
 2014,11,Mississippi,610,0
@@ -1101,6 +1123,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2014,11,Nevada,10693,0
 2014,11,New Hampshire,519,0
 2014,11,New Jersey,8932,0
+2014,11,New Mexico,1300
 2014,11,New York,9491,0
 2014,11,North Carolina,9156,0
 2014,11,North Dakota,393,0
@@ -1140,7 +1163,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2014,12,Louisiana,3307,0
 2014,12,Maine,286,0
 2014,12,Maryland,7381,0
-2014,12,Massachussets,8887,0
+2014,12,Massachusetts,8887,0
 2014,12,Michigan,8689,0
 2014,12,Minnesota,8421,0
 2014,12,Mississippi,628,0
@@ -1150,6 +1173,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2014,12,Nevada,10742,0
 2014,12,New Hampshire,524,0
 2014,12,New Jersey,9155,0
+2014,12,New Mexico,1890
 2014,12,New York,10009,0
 2014,12,North Carolina,9531,0
 2014,12,North Dakota,450,0
@@ -1189,7 +1213,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2015,1,Louisiana,3342,0
 2015,1,Maine,226,0
 2015,1,Maryland,6921,0
-2015,1,Massachussets,8837,0
+2015,1,Massachusetts,8837,0
 2015,1,Michigan,9473,0
 2015,1,Minnesota,8903,0
 2015,1,Mississippi,634,0
@@ -1200,6 +1224,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2015,1,New Hampshire,469,0
 2015,1,New Jersey,8697,0
 2015,1,New York,9750,0
+2015,1,New Mexico,1560
 2015,1,North Carolina,9350,0
 2015,1,North Dakota,481,0
 2015,1,Ohio,2996,0
@@ -1238,7 +1263,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2015,2,Louisiana,3248,0
 2015,2,Maine,252,0
 2015,2,Maryland,6236,0
-2015,2,Massachussets,8380,0
+2015,2,Massachusetts,8380,0
 2015,2,Michigan,8783,0
 2015,2,Minnesota,8217,0
 2015,2,Mississippi,566,0
@@ -1248,6 +1273,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2015,2,Nevada,10570,0
 2015,2,New Hampshire,410,0
 2015,2,New Jersey,8070,0
+2015,2,New Mexico,1035
 2015,2,New York,8970,0
 2015,2,North Carolina,8290,0
 2015,2,North Dakota,417,0
@@ -1287,7 +1313,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2015,3,Louisiana,3915,0
 2015,3,Maine,326,0
 2015,3,Maryland,7762,0
-2015,3,Massachussets,9971,0
+2015,3,Massachusetts,9971,0
 2015,3,Michigan,10317,0
 2015,3,Minnesota,9946,0
 2015,3,Mississippi,650,0
@@ -1297,6 +1323,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2015,3,Nevada,12397,0
 2015,3,New Hampshire,623,0
 2015,3,New Jersey,9564,0
+2015,3,New Mexico,1409
 2015,3,New York,10414,0
 2015,3,North Carolina,9384,0
 2015,3,North Dakota,510,0
@@ -1336,7 +1363,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2015,4,Louisiana,3752,0
 2015,4,Maine,379,0
 2015,4,Maryland,7885,0
-2015,4,Massachussets,10000,0
+2015,4,Massachusetts,10000,0
 2015,4,Michigan,10016,0
 2015,4,Minnesota,10018,0
 2015,4,Mississippi,626,0
@@ -1346,6 +1373,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2015,4,Nevada,12103,0
 2015,4,New Hampshire,642,0
 2015,4,New Jersey,9367,0
+2015,4,New Mexico,1207
 2015,4,New York,10190,0
 2015,4,North Carolina,8882,0
 2015,4,North Dakota,492,0
@@ -1384,7 +1412,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2015,5,Louisiana,3727,0
 2015,5,Maine,428,0
 2015,5,Maryland,8175,0
-2015,5,Massachussets,10241,0
+2015,5,Massachusetts,10241,0
 2015,5,Michigan,10474,0
 2015,5,Minnesota,10485,0
 2015,5,Mississippi,665,0
@@ -1394,6 +1422,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2015,5,Nevada,12744,0
 2015,5,New Hampshire,617,0
 2015,5,New Jersey,9263,0
+2015,5,New Mexico,1117
 2015,5,New York,10555,0
 2015,5,North Carolina,9227,0
 2015,5,North Dakota,517,0
@@ -1432,7 +1461,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2015,6,Louisiana,3504,0
 2015,6,Maine,553,0
 2015,6,Maryland,8422,0
-2015,6,Massachussets,10544,0
+2015,6,Massachusetts,10544,0
 2015,6,Michigan,9823,0
 2015,6,Minnesota,11365,0
 2015,6,Mississippi,696,0
@@ -1442,6 +1471,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2015,6,Nevada,12362,0
 2015,6,New Hampshire,603,0
 2015,6,New Jersey,9611,0
+2015,6,New Mexico,1340
 2015,6,New York,10478,0
 2015,6,North Carolina,9022,0
 2015,6,North Dakota,559,0
@@ -1480,7 +1510,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2015,7,Louisiana,3575,0
 2015,7,Maine,629,0
 2015,7,Maryland,8745,0
-2015,7,Massachussets,10837,0
+2015,7,Massachusetts,10837,0
 2015,7,Michigan,10503,0
 2015,7,Minnesota,11814,0
 2015,7,Mississippi,699,0
@@ -1490,6 +1520,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2015,7,Nevada,12687,0
 2015,7,New Hampshire,593,0
 2015,7,New Jersey,9871,0
+2015,7,New Mexico,1098
 2015,7,New York,10921,0
 2015,7,North Carolina,9370,0
 2015,7,North Dakota,626,0
@@ -1528,7 +1559,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2015,8,Louisiana,3419,0
 2015,8,Maine,616,0
 2015,8,Maryland,8338,0
-2015,8,Massachussets,10727,0
+2015,8,Massachusetts,10727,0
 2015,8,Michigan,10237,0
 2015,8,Minnesota,11622,0
 2015,8,Mississippi,691,0
@@ -1538,6 +1569,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2015,8,Nevada,12698,0
 2015,8,New Hampshire,618,0
 2015,8,New Jersey,9612,0
+2015,8,New Mexico,893
 2015,8,New York,10802,0
 2015,8,North Carolina,9262,0
 2015,8,North Dakota,613,0
@@ -1576,7 +1608,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2015,9,Louisiana,3290,0
 2015,9,Maine,470,0
 2015,9,Maryland,7719,0
-2015,9,Massachussets,9726,0
+2015,9,Massachusetts,9726,0
 2015,9,Michigan,9392,0
 2015,9,Minnesota,10138,0
 2015,9,Mississippi,625,0
@@ -1586,6 +1618,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2015,9,Nevada,12029,0
 2015,9,New Hampshire,608,0
 2015,9,New Jersey,8718,0
+2015,9,New Mexico,678
 2015,9,New York,9553,0
 2015,9,North Carolina,9086,0
 2015,9,North Dakota,441,0
@@ -1624,7 +1657,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2015,10,Louisiana,3663,0
 2015,10,Maine,477,0
 2015,10,Maryland,8022,0
-2015,10,Massachussets,10164,0
+2015,10,Massachusetts,10164,0
 2015,10,Michigan,9925,0
 2015,10,Minnesota,10584,0
 2015,10,Mississippi,654,0
@@ -1634,6 +1667,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2015,10,Nevada,12688,0
 2015,10,New Hampshire,577,0
 2015,10,New Jersey,9622,0
+2015,10,New Mexico,1423
 2015,10,New York,9896,0
 2015,10,North Carolina,9572,0
 2015,10,North Dakota,527,0
@@ -1672,7 +1706,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2015,11,Louisiana,3543,0
 2015,11,Maine,379,0
 2015,11,Maryland,7886,0
-2015,11,Massachussets,9464,0
+2015,11,Massachusetts,9464,0
 2015,11,Michigan,9835,0
 2015,11,Minnesota,9826,0
 2015,11,Mississippi,632,0
@@ -1682,6 +1716,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2015,11,Nevada,11905,0
 2015,11,New Hampshire,562,0
 2015,11,New Jersey,9293,0
+2015,11,New Mexico,1210
 2015,11,New York,9248,0
 2015,11,North Carolina,9192,0
 2015,11,North Dakota,499,0
@@ -1720,7 +1755,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2015,12,Louisiana,3489,0
 2015,12,Maine,423,0
 2015,12,Maryland,7990,0
-2015,12,Massachussets,9120,0
+2015,12,Massachusetts,9120,0
 2015,12,Michigan,9647,0
 2015,12,Minnesota,9783,0
 2015,12,Mississippi,613,0
@@ -1730,6 +1765,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2015,12,Nevada,12082,0
 2015,12,New Hampshire,547,0
 2015,12,New Jersey,9706,0
+2015,12,New Mexico,1980
 2015,12,New York,9754,0
 2015,12,North Carolina,9259,0
 2015,12,North Dakota,538,0
@@ -1768,7 +1804,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2016,1,Louisiana,3507,0
 2016,1,Maine,377,0
 2016,1,Maryland,7181,0
-2016,1,Massachussets,9088,0
+2016,1,Massachusetts,9088,0
 2016,1,Michigan,9489,0
 2016,1,Minnesota,9581,0
 2016,1,Mississippi,429,0
@@ -1778,6 +1814,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2016,1,Nevada,12246,0
 2016,1,New Hampshire,443,0
 2016,1,New Jersey,8526,0
+2016,1,New Mexico,1732
 2016,1,New York,9334,0
 2016,1,North Carolina,9213,0
 2016,1,North Dakota,374,0
@@ -1816,7 +1853,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2016,2,Louisiana,3465,0
 2016,2,Maine,368,0
 2016,2,Maryland,6685,0
-2016,2,Massachussets,8796,0
+2016,2,Massachusetts,8796,0
 2016,2,Michigan,9201,0
 2016,2,Minnesota,9305,0
 2016,2,Mississippi,411,0
@@ -1826,6 +1863,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2016,2,Nevada,11422,0
 2016,2,New Hampshire,456,0
 2016,2,New Jersey,8522,0
+2016,2,New Mexico,987
 2016,2,New York,8956,0
 2016,2,North Carolina,8725,0
 2016,2,North Dakota,324,0
@@ -1864,7 +1902,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2016,3,Louisiana,3774,0
 2016,3,Maine,397,0
 2016,3,Maryland,7839,0
-2016,3,Massachussets,9927,0
+2016,3,Massachusetts,9927,0
 2016,3,Michigan,10505,0
 2016,3,Minnesota,10845,0
 2016,3,Mississippi,437,0
@@ -1874,6 +1912,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2016,3,Nevada,12731,0
 2016,3,New Hampshire,469,0
 2016,3,New Jersey,9706,0
+2016,3,New Mexico,1009
 2016,3,New York,10166,0
 2016,3,North Carolina,9346,0
 2016,3,North Dakota,322,0
@@ -1912,7 +1951,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2016,4,Louisiana,3681,0
 2016,4,Maine,485,0
 2016,4,Maryland,7871,0
-2016,4,Massachussets,9893,0
+2016,4,Massachusetts,9893,0
 2016,4,Michigan,10447,0
 2016,4,Minnesota,10652,0
 2016,4,Mississippi,414,0
@@ -1922,6 +1961,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2016,4,Nevada,12520,0
 2016,4,New Hampshire,575,0
 2016,4,New Jersey,9733,0
+2016,4,New Mexico,1432
 2016,4,New York,9721,0
 2016,4,North Carolina,9033,0
 2016,4,North Dakota,281,0
@@ -1960,7 +2000,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2016,5,Louisiana,3942,0
 2016,5,Maine,488,0
 2016,5,Maryland,8347,0
-2016,5,Massachussets,10653,0
+2016,5,Massachusetts,10653,0
 2016,5,Michigan,11138,0
 2016,5,Minnesota,11005,0
 2016,5,Mississippi,437,0
@@ -1970,6 +2010,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2016,5,Nevada,12944,0
 2016,5,New Hampshire,669,0
 2016,5,New Jersey,9499,0
+2016,5,New Mexico,918
 2016,5,New York,9952,0
 2016,5,North Carolina,9524,0
 2016,5,North Dakota,373,0
@@ -2008,7 +2049,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2016,6,Louisiana,3602,0
 2016,6,Maine,536,0
 2016,6,Maryland,8583,0
-2016,6,Massachussets,10866,0
+2016,6,Massachusetts,10866,0
 2016,6,Michigan,10802,0
 2016,6,Minnesota,11466,0
 2016,6,Mississippi,444,0
@@ -2018,6 +2059,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2016,6,Nevada,12796,0
 2016,6,New Hampshire,633,0
 2016,6,New Jersey,9705,0
+2016,6,New Mexico,967
 2016,6,New York,9960,0
 2016,6,North Carolina,9203,0
 2016,6,North Dakota,411,0
@@ -2056,7 +2098,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2016,7,Louisiana,3588,0
 2016,7,Maine,679,0
 2016,7,Maryland,8851,0
-2016,7,Massachussets,11145,0
+2016,7,Massachusetts,11145,0
 2016,7,Michigan,10371,0
 2016,7,Minnesota,12254,0
 2016,7,Mississippi,470,0
@@ -2066,6 +2108,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2016,7,Nevada,13057,0
 2016,7,New Hampshire,566,0
 2016,7,New Jersey,10183,0
+2016,7,New Mexico,1040
 2016,7,New York,10385,0
 2016,7,North Carolina,9381,0
 2016,7,North Dakota,350,0
@@ -2104,7 +2147,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2016,8,Louisiana,3541,0
 2016,8,Maine,713,0
 2016,8,Maryland,8345,0
-2016,8,Massachussets,11218,0
+2016,8,Massachusetts,11218,0
 2016,8,Michigan,10680,0
 2016,8,Minnesota,12165,0
 2016,8,Mississippi,479,0
@@ -2114,6 +2157,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2016,8,Nevada,13036,0
 2016,8,New Hampshire,570,0
 2016,8,New Jersey,10458,0
+2016,8,New Mexico,1065
 2016,8,New York,10273,0
 2016,8,North Carolina,9551,0
 2016,8,North Dakota,361,0
@@ -2152,7 +2196,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2016,9,Louisiana,3358,0
 2016,9,Maine,721,0
 2016,9,Maryland,7833,0
-2016,9,Massachussets,10084,0
+2016,9,Massachusetts,10084,0
 2016,9,Michigan,10211,0
 2016,9,Minnesota,10600,0
 2016,9,Mississippi,377,0
@@ -2162,6 +2206,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2016,9,Nevada,12575,0
 2016,9,New Hampshire,600,0
 2016,9,New Jersey,9730,0
+2016,9,New Mexico,945
 2016,9,New York,9214,0
 2016,9,North Carolina,9183,0
 2016,9,North Dakota,325,0
@@ -2200,7 +2245,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2016,10,Louisiana,3750,0
 2016,10,Maine,689,0
 2016,10,Maryland,8226,0
-2016,10,Massachussets,10473,0
+2016,10,Massachusetts,10473,0
 2016,10,Michigan,11223,0
 2016,10,Minnesota,11165,0
 2016,10,Mississippi,454,0
@@ -2210,6 +2255,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2016,10,Nevada,13156,0
 2016,10,New Hampshire,630,0
 2016,10,New Jersey,10016,0
+2016,10,New Mexico,971
 2016,10,New York,9282,0
 2016,10,North Carolina,9469,0
 2016,10,North Dakota,313,0
@@ -2248,7 +2294,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2016,11,Louisiana,3713,0
 2016,11,Maine,445,0
 2016,11,Maryland,8132,0
-2016,11,Massachussets,9748,0
+2016,11,Massachusetts,9748,0
 2016,11,Michigan,10196,0
 2016,11,Minnesota,10235,0
 2016,11,Mississippi,431,0
@@ -2258,6 +2304,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2016,11,Nevada,12118,0
 2016,11,New Hampshire,565,0
 2016,11,New Jersey,9745,0
+2016,11,New Mexico,879
 2016,11,New York,9034,0
 2016,11,North Carolina,9068,0
 2016,11,North Dakota,261,0
@@ -2296,7 +2343,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2016,12,Louisiana,3588,0
 2016,12,Maine,471,0
 2016,12,Maryland,8325,0
-2016,12,Massachussets,9369,0
+2016,12,Massachusetts,9369,0
 2016,12,Michigan,9696,0
 2016,12,Minnesota,9961,0
 2016,12,Mississippi,418,0
@@ -2306,6 +2353,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2016,12,Nevada,12085,0
 2016,12,New Hampshire,536,0
 2016,12,New Jersey,9960,0
+2016,12,New Mexico,1880
 2016,12,New York,9495,0
 2016,12,North Carolina,8980,0
 2016,12,North Dakota,281,0
@@ -2344,7 +2392,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2017,1,Louisiana,3526,0
 2017,1,Maine,393,0
 2017,1,Maryland,7648,0
-2017,1,Massachussets,9456,0
+2017,1,Massachusetts,9456,0
 2017,1,Michigan,9683,0
 2017,1,Minnesota,9618,0
 2017,1,Mississippi,356,0
@@ -2354,6 +2402,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2017,1,Nevada,12487,0
 2017,1,New Hampshire,504,0
 2017,1,New Jersey,9279,0
+2017,1,New Mexico,1789
 2017,1,New York,9109,0
 2017,1,North Carolina,9025,0
 2017,1,North Dakota,203,0
@@ -2392,7 +2441,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2017,2,Louisiana,3312,0
 2017,2,Maine,342,0
 2017,2,Maryland,6763,0
-2017,2,Massachussets,8803,0
+2017,2,Massachusetts,8803,0
 2017,2,Michigan,9183,0
 2017,2,Minnesota,8950,0
 2017,2,Mississippi,304,0
@@ -2402,6 +2451,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2017,2,Nevada,11063,0
 2017,2,New Hampshire,448,0
 2017,2,New Jersey,8323,0
+2017,2,New Mexico,1653
 2017,2,New York,8430,0
 2017,2,North Carolina,8369,0
 2017,2,North Dakota,199,0
@@ -2440,7 +2490,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2017,3,Louisiana,3997,0
 2017,3,Maine,458,0
 2017,3,Maryland,8368,0
-2017,3,Massachussets,10596,0
+2017,3,Massachusetts,10596,0
 2017,3,Michigan,10901,0
 2017,3,Minnesota,11214,0
 2017,3,Mississippi,386,0
@@ -2450,6 +2500,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2017,3,Nevada,12857,0
 2017,3,New Hampshire,466,0
 2017,3,New Jersey,9908,0
+2017,3,New Mexico,1543
 2017,3,New York,9809,0
 2017,3,North Carolina,9739,0
 2017,3,North Dakota,300,0
@@ -2488,7 +2539,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2017,4,Louisiana,3985,0
 2017,4,Maine,577,0
 2017,4,Maryland,8205,0
-2017,4,Massachussets,10537,0
+2017,4,Massachusetts,10537,0
 2017,4,Michigan,10394,0
 2017,4,Minnesota,11235,0
 2017,4,Mississippi,378,0
@@ -2498,6 +2549,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2017,4,Nevada,12570,0
 2017,4,New Hampshire,474,0
 2017,4,New Jersey,9780,0
+2017,4,New Mexico,1079
 2017,4,New York,9442,0
 2017,4,North Carolina,9452,0
 2017,4,North Dakota,185,0
@@ -2536,7 +2588,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2017,5,Louisiana,4220,0
 2017,5,Maine,558,0
 2017,5,Maryland,8821,0
-2017,5,Massachussets,11051,0
+2017,5,Massachusetts,11051,0
 2017,5,Michigan,11178,0
 2017,5,Minnesota,11619,0
 2017,5,Mississippi,406,0
@@ -2546,6 +2598,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2017,5,Nevada,13121,0
 2017,5,New Hampshire,545,0
 2017,5,New Jersey,10010,0
+2017,5,New Mexico,1023
 2017,5,New York,9705,0
 2017,5,North Carolina,9945,0
 2017,5,North Dakota,280,0
@@ -2584,7 +2637,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2017,6,Louisiana,3987,0
 2017,6,Maine,583,0
 2017,6,Maryland,9097,0
-2017,6,Massachussets,11006,0
+2017,6,Massachusetts,11006,0
 2017,6,Michigan,10871,0
 2017,6,Minnesota,11879,0
 2017,6,Mississippi,387,0
@@ -2594,6 +2647,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2017,6,Nevada,12933,0
 2017,6,New Hampshire,488,0
 2017,6,New Jersey,9849,0
+2017,6,New Mexico,1238
 2017,6,New York,9808,0
 2017,6,North Carolina,9453,0
 2017,6,North Dakota,233,0
@@ -2632,7 +2686,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2017,7,Louisiana,3953,0
 2017,7,Maine,676,0
 2017,7,Maryland,9260,0
-2017,7,Massachussets,11125,0
+2017,7,Massachusetts,11125,0
 2017,7,Michigan,10942,0
 2017,7,Minnesota,12624,0
 2017,7,Mississippi,414,0
@@ -2642,6 +2696,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2017,7,Nevada,13225,0
 2017,7,New Hampshire,539,0
 2017,7,New Jersey,9992,0
+2017,7,New Mexico,1076
 2017,7,New York,10090,0
 2017,7,North Carolina,9727,0
 2017,7,North Dakota,201,0
@@ -2680,7 +2735,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2017,8,Louisiana,3907,0
 2017,8,Maine,697,0
 2017,8,Maryland,9057,0
-2017,8,Massachussets,11327,0
+2017,8,Massachusetts,11327,0
 2017,8,Michigan,11443,0
 2017,8,Minnesota,12808,0
 2017,8,Mississippi,411,0
@@ -2690,6 +2745,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2017,8,Nevada,13367,0
 2017,8,New Hampshire,554,0
 2017,8,New Jersey,10629,0
+2017,8,New Mexico,1478
 2017,8,New York,10106,0
 2017,8,North Carolina,9881,0
 2017,8,North Dakota,268,0
@@ -2728,7 +2784,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2017,9,Louisiana,3680,0
 2017,9,Maine,548,0
 2017,9,Maryland,8233,0
-2017,9,Massachussets,10365,0
+2017,9,Massachusetts,10365,0
 2017,9,Michigan,10565,0
 2017,9,Minnesota,11204,0
 2017,9,Mississippi,372,0
@@ -2738,6 +2794,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2017,9,Nevada,12686,0
 2017,9,New Hampshire,574,0
 2017,9,New Jersey,9211,0
+2017,9,New Mexico,1372
 2017,9,New York,8869,0
 2017,9,North Carolina,9395,0
 2017,9,North Dakota,282,0
@@ -2776,7 +2833,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2017,10,Louisiana,4076,0
 2017,10,Maine,451,0
 2017,10,Maryland,8562,0
-2017,10,Massachussets,10988,0
+2017,10,Massachusetts,10988,0
 2017,10,Michigan,11223,0
 2017,10,Minnesota,12066,0
 2017,10,Mississippi,403,0
@@ -2786,6 +2843,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2017,10,Nevada,13242,0
 2017,10,New Hampshire,595,0
 2017,10,New Jersey,9881,0
+2017,10,New Mexico,1463
 2017,10,New York,9048,0
 2017,10,North Carolina,9804,0
 2017,10,North Dakota,313,0
@@ -2824,7 +2882,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2017,11,Louisiana,4103,0
 2017,11,Maine,334,0
 2017,11,Maryland,8478,0
-2017,11,Massachussets,10204,0
+2017,11,Massachusetts,10204,0
 2017,11,Michigan,10506,0
 2017,11,Minnesota,10774,0
 2017,11,Mississippi,366,0
@@ -2834,6 +2892,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2017,11,Nevada,11984,0
 2017,11,New Hampshire,530,0
 2017,11,New Jersey,9444,0
+2017,11,New Mexico,1565
 2017,11,New York,8667,0
 2017,11,North Carolina,9161,0
 2017,11,North Dakota,297,0
@@ -2872,7 +2931,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2017,12,Louisiana,4130,0
 2017,12,Maine,389,0
 2017,12,Maryland,8523,0
-2017,12,Massachussets,9998,0
+2017,12,Massachusetts,9998,0
 2017,12,Michigan,9720,0
 2017,12,Minnesota,10600,0
 2017,12,Mississippi,335,0
@@ -2882,6 +2941,7 @@ YEAR,MONTH,STATE,TOTAL_FLIGHTS
 2017,12,Nevada,12185,0
 2017,12,New Hampshire,463,0
 2017,12,New Jersey,9662,0
+2017,12,New Mexico,1980
 2017,12,New York,9140,0
 2017,12,North Carolina,9144,0
 2017,12,North Dakota,301,0
