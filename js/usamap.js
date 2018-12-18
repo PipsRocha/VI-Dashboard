@@ -19,8 +19,8 @@ var range2="#4775d1";
 var range3="#4169E1";
 var range4="#2e5cb8";
 
-var highColor='#4169E1';
-var lowColor="#DCDCDC";
+var lowColor='#4169E1';
+var highColor="#DCDCDC";
 
 
 
@@ -62,6 +62,14 @@ var updateGraphFilters = function(arrivals,departures,cancellations,delays){
     summ_data = "data/ARRIVALS_GROUPBY.CSV";
     usaMap = "data/arrivals_usaMap.csv";
     chord_data = 'data/chord_diagram_data.csv';
+    range1="#DCDCDC";
+    range2="#4775d1";
+    range3="#4169E1";
+    range4="#2e5cb8";
+
+    lowColor='#4169E1';
+    highColor="#DCDCDC";
+
     gen_summ();
     gen_vis();
     gen_chord();
@@ -69,6 +77,13 @@ var updateGraphFilters = function(arrivals,departures,cancellations,delays){
     summ_data = "data/departures_GROUPBY.CSV";
     usaMap = "data/departures_usaMap.csv";
     chord_data = 'data/chord_diagram_data.csv';
+    highColor="#9fdf9f";
+    lowColor="#004d1a";
+
+    range1="#70db70";
+    range2="#009933";
+    range3="#396046";
+    range4="#9fdf9f";
 
     gen_vis();
     gen_summ();
@@ -77,6 +92,13 @@ var updateGraphFilters = function(arrivals,departures,cancellations,delays){
     summ_data = "data/lines_cancellations.csv";
     usaMap = "data/choropleth_cancellations.csv";
     chord_data = "data/chord_cancelled_FLIGHTS.csv" 
+    highColor="#FF6666";
+    lowColor="#990000";
+
+    range1="#ff3333";
+    range2="#b34d4d";
+    range3="#c63939";
+    range4="#ffcccc";
     gen_vis();
     gen_summ();
     gen_chord();
@@ -84,6 +106,13 @@ var updateGraphFilters = function(arrivals,departures,cancellations,delays){
     summ_data = "data/lines_delays.csv";
     usaMap = "data/choropleth_delays.csv";
     chord_data ="data/chord_delayed_FLIGHTS.csv" 
+    highColor="#ffeb99";
+    lowColor="#e69900";
+
+    range1="#e69900";
+    range2="#ffd480";
+    range3="#f5f5f0";
+    range4="#ffc34d";
     gen_vis();
     gen_summ();
     gen_chord();
@@ -401,9 +430,12 @@ function gen_vis() {
           .style("fill", "url(#gradient)")
           .attr("transform", "translate(5,5)");
 
+
+        console.log(dataset);
+        console.log(d3.max(d3.values(dataset)));
         var y = d3.scale.linear()
           .range([5, w-20])
-          .domain([0, 2200000]);
+          .domain([0, d3.max(d3.values(dataset))]);
 
         var yAxis = d3.svg.axis().scale(y).ticks(6);
 
