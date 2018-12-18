@@ -634,8 +634,6 @@ if (count <= 1) {
               newItem.airline = item.AIRLINE;
               return newItem;
         })
-
-          console.log(data_airlines);
       
         for (var i = 0; i < data_airlines.length; i++) {
           if (data_airlines[i].state == estado) {
@@ -647,14 +645,52 @@ if (count <= 1) {
     })
 
 		/// TOP DELAY
-		document.getElementById("#top_delay").innerHTML = "";
+    d3.csv('data/delays_sum.csv', function ( response ) {
+
+          var data_delays = response.map(function( item ) {
+              var newItem = {};
+              newItem.state = item.dest_state_nm_1;
+              newItem.delays = item.DELAYED;
+              return newItem;
+        })
+      
+        for (var i = 0; i < data_delays.length; i++) {
+          if (data_delays[i].state == estado) {
+            var delays_now = data_delays[i].delays;
+          }
+        }
+
+      document.getElementById("#top_delay").innerHTML = delays_now;
+    })
 
 		/// TOP CANCELLATION
-		document.getElementById("#top_cancellation").innerHTML = "";
+    d3.csv('data/cancellations_sum.csv', function ( response ) {
+
+          var data_cancel = response.map(function( item ) {
+              var newItem = {};
+              newItem.state = item.dest_state_nm_1;
+              newItem.delays = item.CANCELLED;
+              return newItem;
+        })
+
+        for (var i = 0; i < data_cancel.length; i++) {
+          if (data_cancel[i].state == estado) {
+            var delays_now = data_cancel[i].delays;
+          }
+        }
+
+      document.getElementById("#top_cancellation").innerHTML = delays_now;
+    })
 	}
 
     if (count == 0) {
-    	document.getElementById("flight_sum").style.visibility='hidden';
+      document.getElementById("#state_seleccionado").innerHTML = "No Selected State";
+      document.getElementById("#total_flights").innerHTML = "Number of Flights";
+      document.getElementById("#top_route").innerHTML = "Top Route";
+      document.getElementById("#top_airline").innerHTML = "Top Airline";
+      document.getElementById("#top_delay").innerHTML = "Top Delay Reason";
+      document.getElementById("#top_cancellation").innerHTML = "Top Cancellation Reason";
+
     }
 
     return;
