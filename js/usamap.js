@@ -703,7 +703,7 @@ if (count <= 1) {
 
     if (count == 0) {
       document.getElementById("#state_seleccionado").innerHTML = "No Selected State";
-      document.getElementById("#total_flights").innerHTML = "Number of Flights";
+      document.getElementById("#total_flights").innerHTML = "Total Number of Flights";
       document.getElementById("#top_route").innerHTML = "Top Route";
       document.getElementById("#top_airline").innerHTML = "Top Airline";
       document.getElementById("#top_delay").innerHTML = "Top Delay Reason";
