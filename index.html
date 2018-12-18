@@ -43,16 +43,52 @@
   <body>
 
     <div class="header">
-      <img src="data/plane.png" class="img" alt="plane" height="50" width="75">
-      <a  class="logo">U.S. DOMESTIC FLIGHTS</a>
-      
-      <div class="header-right" id="change">
-        <a class="active" href="#Arrivals" id="arrivals">Arrivals</a>
-        <a href="#Departures" id="departures">Departures</a>
-        <a href="#Cancellations" id="cancelattions">Cancellations</a>
-        <a href="#Delays" id="delays">Delays</a>
-      </div>
+      <table>
+        <tr>
+          <td colspan="1"> <img src="data/plane.png" class="img" alt="plane" height="50" width="75"> </td>
+          <td colspan="2"> <a  class="logo">U.S. DOMESTIC FLIGHTS</a> </td>
+          <td colspan="5"> 
+            <div class="header-right" id="change">
+          <a class="active" href="#Arrivals" id="arrivals">Arrivals</a>
+          <a href="#Departures" id="departures">Departures</a>
+          <a href="#Cancellations" id="cancelattions">Cancellations</a>
+          <a href="#Delays" id="delays">Delays</a>
+            </div>
+          </td>
+          <td colspan="3"> 
+            <div id="slider-container">
+            <div id="slider" ></div>
+            <div id="date_range" >
+             <p>
+                <label for="amount">Date range:</label>
+                <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold; font-size:12px; background-color: #f1f1f1;">
+            </p>
+          </div>
+        </div>
+          </td >
+          <td colspan="1"> 
+            <div class="dropdown">
+                <button class="dropbtn">Holidays</button>
+                
+                <div class="dropdown-content">
+                  <a href="#4" id="1">4th of July</a>
+                  <a href="#Thanksgiving" id="2">Thanksgiving</a>
+                  <a href="#Christmas" id="3">Christmas&NYE</a>
+                  <!-- <a href="#NewYearsEve" id="4">New Year's Eve</a> -->
+                </div>
+              </div>
+              <div id="Holiday">
+                <p id="h1">Holiday: 4th of July</p>
+                <p id="h2">Holiday: Thanksgiving</p>
+                <p id="h3">Holiday: Christmas & NYE</p>
+                <!-- <p id="h4">Holiday: New Year's Eve</p> -->
+              </div>
+            </div>
+          </td>
+        </tr>
 
+      </table>
+      
       <script>
           $("a").click(function(){
             if ($("a").hasClass("active")){
@@ -80,32 +116,9 @@
           });
           
       </script>
-      <div id="slider-container">
-        <div id="slider" style="width:350px"></div>
-        <div id="date_range" style="width:100px">
-        <p>
-          <label for="amount">Date range:</label>
-          <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold; font-size:12px; background-color: #f1f1f1;">
-        </p>
-        </div>
-    <div class="dropdown">
-        <button class="dropbtn">Holidays</button>
-        
-        <div class="dropdown-content">
-          <a href="#4" id="1">4th of July</a>
-          <a href="#Thanksgiving" id="2">Thanksgiving</a>
-          <a href="#Christmas" id="3">Christmas&NYE</a>
-          <!-- <a href="#NewYearsEve" id="4">New Year's Eve</a> -->
-        </div>
-      </div>
-      <div id="Holiday">
-        <p id="h1">Holiday: 4th of July</p>
-        <p id="h2">Holiday: Thanksgiving</p>
-        <p id="h3">Holiday: Christmas & NYE</p>
-        <!-- <p id="h4">Holiday: New Year's Eve</p> -->
-      </div>
-    </div>
-    </div>
+
+    
+      
     
     <script>
       $(document).ready(function(){
