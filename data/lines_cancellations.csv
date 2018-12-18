@@ -1,0 +1,244 @@
+YEAR,STATE,TOTAL_FLIGHTS
+2013,Alabama       ,203
+2013,Alaska        ,141
+2013,Arizona       ,1006
+2013,Arkansas      ,348
+2013,California    ,2441
+2013,Colorado      ,2694
+2013,Connecticut   ,364
+2013,Delaware      ,2
+2013,Florida       ,611
+2013,Georgia       ,2916
+2013,Hawaii        ,448
+2013,Idaho         ,90
+2013,Illinois      ,9155
+2013,Indiana       ,434
+2013,Iowa          ,384
+2013,Kansas        ,291
+2013,Kentucky      ,965
+2013,Louisiana     ,328
+2013,Maine         ,162
+2013,Maryland      ,954
+2013,Massachusetts ,1640
+2013,Michigan      ,2279
+2013,Minnesota     ,1620
+2013,Mississippi   ,153
+2013,Missouri      ,765
+2013,Montana       ,34
+2013,Nebraska      ,394
+2013,Nevada        ,777
+2013,New Hampshire ,183
+2013,New Jersey    ,3350
+2013,New York      ,2384
+2013,North Carolina,1701
+2013,North Dakota  ,239
+2013,Ohio          ,759
+2013,Oklahoma      ,433
+2013,Oregon        ,322
+2013,Pennsylvania  ,1083
+2013,Rhode Island  ,212
+2013,South Carolina,339
+2013,South Dakota  ,205
+2013,Tennessee     ,870
+2013,Texas         ,7150
+2013,Utah          ,869
+2013,Vermont       ,169
+2013,Virginia      ,1711
+2013,Washington    ,423
+2013,West Virginia ,108
+2013,Wisconsin     ,546
+2013,Wyoming       ,29
+2014,Alabama       ,336
+2014,Alaska        ,111
+2014,Arizona       ,1136
+2014,Arkansas      ,453
+2014,California    ,2493
+2014,Colorado      ,3140
+2014,Connecticut   ,467
+2014,Delaware      ,4
+2014,Florida       ,1249
+2014,Georgia       ,5977
+2014,Hawaii        ,179
+2014,Idaho         ,119
+2014,Illinois      ,13454
+2014,Indiana       ,786
+2014,Iowa          ,384
+2014,Kansas        ,332
+2014,Kentucky      ,670
+2014,Louisiana     ,595
+2014,Maine         ,223
+2014,Maryland      ,1588
+2014,Massachusetts ,2316
+2014,Michigan      ,1866
+2014,Minnesota     ,1356
+2014,Mississippi   ,280
+2014,Missouri      ,1014
+2014,Montana       ,47
+2014,Nebraska      ,498
+2014,Nevada        ,1115
+2014,New Hampshire ,193
+2014,New Jersey    ,4814
+2014,New York      ,2931
+2014,North Carolina,1925
+2014,North Dakota  ,251
+2014,Ohio          ,1282
+2014,Oklahoma      ,468
+2014,Oregon        ,404
+2014,Pennsylvania  ,1393
+2014,Rhode Island  ,256
+2014,South Carolina,451
+2014,South Dakota  ,307
+2014,Tennessee     ,1266
+2014,Texas         ,6830
+2014,Utah          ,573
+2014,Vermont       ,212
+2014,Virginia      ,2269
+2014,Washington    ,502
+2014,West Virginia ,185
+2014,Wisconsin     ,952
+2014,Wyoming       ,75
+2015,Alabama       ,184
+2015,Alaska        ,130
+2015,Arizona       ,919
+2015,Arkansas      ,277
+2015,California    ,2239
+2015,Colorado      ,2156
+2015,Connecticut   ,368
+2015,Delaware      ,5
+2015,Florida       ,1145
+2015,Georgia       ,2588
+2015,Hawaii        ,188
+2015,Idaho         ,104
+2015,Illinois      ,8598
+2015,Indiana       ,449
+2015,Iowa          ,260
+2015,Kansas        ,201
+2015,Kentucky      ,519
+2015,Louisiana     ,421
+2015,Maine         ,140
+2015,Maryland      ,1553
+2015,Massachusetts ,2703
+2015,Michigan      ,1293
+2015,Minnesota     ,824
+2015,Mississippi   ,177
+2015,Missouri      ,661
+2015,Montana       ,40
+2015,Nebraska      ,270
+2015,Nevada        ,964
+2015,New Hampshire ,154
+2015,New Jersey    ,3204
+2015,New York      ,2278
+2015,North Carolina,1102
+2015,North Dakota  ,114
+2015,Ohio          ,753
+2015,Oklahoma      ,311
+2015,Oregon        ,218
+2015,Pennsylvania  ,1093
+2015,Rhode Island  ,273
+2015,South Carolina,236
+2015,South Dakota  ,156
+2015,Tennessee     ,1087
+2015,Texas         ,6667
+2015,Utah          ,405
+2015,Vermont       ,92
+2015,Virginia      ,2076
+2015,Washington    ,469
+2015,West Virginia ,59
+2015,Wisconsin     ,585
+2015,Wyoming       ,54
+2016,Alabama       ,149
+2016,Alaska        ,99
+2016,Arizona       ,980
+2016,Arkansas      ,82
+2016,California    ,1899
+2016,Colorado      ,3172
+2016,Connecticut   ,201
+2016,Florida       ,1543
+2016,Georgia       ,2246
+2016,Hawaii        ,113
+2016,Idaho         ,103
+2016,Illinois      ,3960
+2016,Indiana       ,275
+2016,Iowa          ,96
+2016,Kansas        ,96
+2016,Kentucky      ,187
+2016,Louisiana     ,352
+2016,Maine         ,195
+2016,Maryland      ,1646
+2016,Massachusetts ,1503
+2016,Michigan      ,937
+2016,Minnesota     ,882
+2016,Mississippi   ,64
+2016,Missouri      ,552
+2016,Montana       ,31
+2016,Nebraska      ,218
+2016,Nevada        ,1299
+2016,New Hampshire ,123
+2016,New Jersey    ,2925
+2016,New York      ,1536
+2016,North Carolina,1249
+2016,North Dakota  ,84
+2016,Ohio          ,485
+2016,Oklahoma      ,165
+2016,Oregon        ,343
+2016,Pennsylvania  ,836
+2016,Rhode Island  ,217
+2016,South Carolina,305
+2016,South Dakota  ,86
+2016,Tennessee     ,582
+2016,Texas         ,2289
+2016,Utah          ,396
+2016,Vermont       ,151
+2016,Virginia      ,1735
+2016,Washington    ,502
+2016,West Virginia ,55
+2016,Wisconsin     ,365
+2016,Wyoming       ,36
+2017,Alabama       ,207
+2017,Alaska        ,144
+2017,Arizona       ,870
+2017,Arkansas      ,75
+2017,California    ,2107
+2017,Colorado      ,1478
+2017,Connecticut   ,416
+2017,Florida       ,2606
+2017,Georgia       ,5419
+2017,Hawaii        ,144
+2017,Idaho         ,78
+2017,Illinois      ,3719
+2017,Indiana       ,281
+2017,Iowa          ,84
+2017,Kansas        ,91
+2017,Kentucky      ,168
+2017,Louisiana     ,675
+2017,Maine         ,210
+2017,Maryland      ,1730
+2017,Massachusetts ,2665
+2017,Michigan      ,1196
+2017,Minnesota     ,767
+2017,Mississippi   ,111
+2017,Missouri      ,628
+2017,Montana       ,35
+2017,Nebraska      ,209
+2017,Nevada        ,1367
+2017,New Hampshire ,127
+2017,New Jersey    ,2982
+2017,New York      ,2439
+2017,North Carolina,1270
+2017,North Dakota  ,26
+2017,Ohio          ,532
+2017,Oklahoma      ,143
+2017,Oregon        ,534
+2017,Pennsylvania  ,1197
+2017,Rhode Island  ,340
+2017,South Carolina,251
+2017,South Dakota  ,45
+2017,Tennessee     ,511
+2017,Texas         ,1868
+2017,Utah          ,448
+2017,Vermont       ,119
+2017,Virginia      ,1488
+2017,Washington    ,833
+2017,West Virginia ,50
+2017,Wisconsin     ,353
+2017,Wyoming       ,52

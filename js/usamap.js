@@ -55,15 +55,15 @@ var updateGraphFilters = function(arrivals,departures,cancellations,delays){
     gen_vis();
     gen_summ();
   } else if (cancellations) {
-    //summ_data = "data/departures_GROUPBY.CSV";
+    summ_data = "data/lines_cancellations.csv";
     usaMap = "data/choropleth_cancellations.csv";
     gen_vis();
-    //gen_summ();
+    gen_summ();
   } else if (delays) {
-    //summ_data = "data/departures_GROUPBY.CSV";
+    summ_data = "data/lines_delays.csv";
     usaMap = "data/choropleth_delays.csv";
     gen_vis();
-    //gen_summ();
+    gen_summ();
   } 
 
   gen_chord();

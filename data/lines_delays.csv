@@ -1,0 +1,244 @@
+YEAR,STATE,TOTAL_FLIGHTS
+2013,Alabama       ,3224
+2013,Alaska        ,2151
+2013,Arizona       ,30505
+2013,Arkansas      ,3257
+2013,California    ,41320
+2013,Colorado      ,58149
+2013,Connecticut   ,4134
+2013,Delaware      ,76
+2013,Florida       ,21776
+2013,Georgia       ,72840
+2013,Hawaii        ,6331
+2013,Idaho         ,1686
+2013,Illinois      ,84437
+2013,Indiana       ,5556
+2013,Iowa          ,3231
+2013,Kansas        ,2295
+2013,Kentucky      ,7406
+2013,Louisiana     ,7417
+2013,Maine         ,1483
+2013,Maryland      ,24748
+2013,Massachusetts ,23694
+2013,Michigan      ,31217
+2013,Minnesota     ,25933
+2013,Mississippi   ,1800
+2013,Missouri      ,11889
+2013,Montana       ,494
+2013,Nebraska      ,3967
+2013,Nevada        ,28481
+2013,New Hampshire ,1871
+2013,New Jersey    ,30847
+2013,New York      ,30643
+2013,North Carolina,32101
+2013,North Dakota  ,1416
+2013,Ohio          ,8961
+2013,Oklahoma      ,4413
+2013,Oregon        ,7203
+2013,Pennsylvania  ,18553
+2013,Rhode Island  ,2686
+2013,South Carolina,3292
+2013,South Dakota  ,1531
+2013,Tennessee     ,12559
+2013,Texas         ,67046
+2013,Utah          ,15636
+2013,Vermont       ,1252
+2013,Virginia      ,14177
+2013,Washington    ,16232
+2013,West Virginia ,785
+2013,Wisconsin     ,7294
+2013,Wyoming       ,546
+2014,Alabama       ,2977
+2014,Alaska        ,2074
+2014,Arizona       ,33293
+2014,Arkansas      ,3662
+2014,California    ,45778
+2014,Colorado      ,59799
+2014,Connecticut   ,4031
+2014,Delaware      ,221
+2014,Florida       ,23924
+2014,Georgia       ,66898
+2014,Hawaii        ,3880
+2014,Idaho         ,2024
+2014,Illinois      ,85294
+2014,Indiana       ,5916
+2014,Iowa          ,2600
+2014,Kansas        ,2033
+2014,Kentucky      ,4411
+2014,Louisiana     ,7892
+2014,Maine         ,1012
+2014,Maryland      ,23826
+2014,Massachusetts ,21797
+2014,Michigan      ,19685
+2014,Minnesota     ,19631
+2014,Mississippi   ,1905
+2014,Missouri      ,12438
+2014,Montana       ,612
+2014,Nebraska      ,3659
+2014,Nevada        ,30469
+2014,New Hampshire ,1095
+2014,New Jersey    ,27438
+2014,New York      ,26376
+2014,North Carolina,22943
+2014,North Dakota  ,1261
+2014,Ohio          ,7804
+2014,Oklahoma      ,4370
+2014,Oregon        ,7925
+2014,Pennsylvania  ,17097
+2014,Rhode Island  ,2026
+2014,South Carolina,2740
+2014,South Dakota  ,1689
+2014,Tennessee     ,12949
+2014,Texas         ,69953
+2014,Utah          ,14247
+2014,Vermont       ,883
+2014,Virginia      ,13555
+2014,Washington    ,17618
+2014,West Virginia ,739
+2014,Wisconsin     ,7440
+2014,Wyoming       ,728
+2015,Alabama       ,2266
+2015,Alaska        ,2130
+2015,Arizona       ,29191
+2015,Arkansas      ,2058
+2015,California    ,42767
+2015,Colorado      ,45591
+2015,Connecticut   ,3035
+2015,Delaware      ,37
+2015,Florida       ,23422
+2015,Georgia       ,59408
+2015,Hawaii        ,4908
+2015,Idaho         ,2068
+2015,Illinois      ,70313
+2015,Indiana       ,4327
+2015,Iowa          ,1659
+2015,Kansas        ,1605
+2015,Kentucky      ,4031
+2015,Louisiana     ,6867
+2015,Maine         ,857
+2015,Maryland      ,20295
+2015,Massachusetts ,22602
+2015,Michigan      ,20118
+2015,Minnesota     ,19235
+2015,Mississippi   ,1284
+2015,Missouri      ,9095
+2015,Montana       ,513
+2015,Nebraska      ,2911
+2015,Nevada        ,29202
+2015,New Hampshire ,957
+2015,New Jersey    ,22523
+2015,New York      ,24207
+2015,North Carolina,22021
+2015,North Dakota  ,1084
+2015,Ohio          ,6156
+2015,Oklahoma      ,2946
+2015,Oregon        ,6771
+2015,Pennsylvania  ,15024
+2015,Rhode Island  ,1823
+2015,South Carolina,2089
+2015,South Dakota  ,1191
+2015,Tennessee     ,8970
+2015,Texas         ,53238
+2015,Utah          ,13804
+2015,Vermont       ,663
+2015,Virginia      ,13951
+2015,Washington    ,19881
+2015,West Virginia ,568
+2015,Wisconsin     ,5249
+2015,Wyoming       ,583
+2016,Alabama       ,1720
+2016,Alaska        ,1597
+2016,Arizona       ,27437
+2016,Arkansas      ,1043
+2016,California    ,47328
+2016,Colorado      ,40013
+2016,Connecticut   ,2865
+2016,Florida       ,22385
+2016,Georgia       ,55936
+2016,Hawaii        ,4028
+2016,Idaho         ,2101
+2016,Illinois      ,52820
+2016,Indiana       ,3997
+2016,Iowa          ,1129
+2016,Kansas        ,982
+2016,Kentucky      ,2391
+2016,Louisiana     ,6706
+2016,Maine         ,1104
+2016,Maryland      ,15741
+2016,Massachusetts ,21619
+2016,Michigan      ,19415
+2016,Minnesota     ,20918
+2016,Mississippi   ,640
+2016,Missouri      ,9690
+2016,Montana       ,528
+2016,Nebraska      ,2386
+2016,Nevada        ,29308
+2016,New Hampshire ,753
+2016,New Jersey    ,24028
+2016,New York      ,23599
+2016,North Carolina,19592
+2016,North Dakota  ,584
+2016,Ohio          ,5420
+2016,Oklahoma      ,2039
+2016,Oregon        ,7982
+2016,Pennsylvania  ,13800
+2016,Rhode Island  ,1628
+2016,South Carolina,2239
+2016,South Dakota  ,648
+2016,Tennessee     ,8703
+2016,Texas         ,40922
+2016,Utah          ,14412
+2016,Vermont       ,761
+2016,Virginia      ,13396
+2016,Washington    ,20210
+2016,West Virginia ,489
+2016,Wisconsin     ,4696
+2016,Wyoming       ,709
+2017,Alabama       ,1671
+2017,Alaska        ,1898
+2017,Arizona       ,25401
+2017,Arkansas      ,1169
+2017,California    ,47554
+2017,Colorado      ,41376
+2017,Connecticut   ,3265
+2017,Florida       ,25011
+2017,Georgia       ,60005
+2017,Hawaii        ,5064
+2017,Idaho         ,2335
+2017,Illinois      ,54301
+2017,Indiana       ,4129
+2017,Iowa          ,1093
+2017,Kansas        ,1088
+2017,Kentucky      ,3095
+2017,Louisiana     ,8506
+2017,Maine         ,1226
+2017,Maryland      ,17851
+2017,Massachusetts ,26840
+2017,Michigan      ,20533
+2017,Minnesota     ,18574
+2017,Mississippi   ,590
+2017,Missouri      ,10119
+2017,Montana       ,681
+2017,Nebraska      ,2617
+2017,Nevada        ,30522
+2017,New Hampshire ,845
+2017,New Jersey    ,28993
+2017,New York      ,25753
+2017,North Carolina,21385
+2017,North Dakota  ,432
+2017,Ohio          ,5836
+2017,Oklahoma      ,2017
+2017,Oregon        ,9966
+2017,Pennsylvania  ,14967
+2017,Rhode Island  ,2224
+2017,South Carolina,2309
+2017,South Dakota  ,702
+2017,Tennessee     ,9953
+2017,Texas         ,37370
+2017,Utah          ,14740
+2017,Vermont       ,772
+2017,Virginia      ,12614
+2017,Washington    ,24148
+2017,West Virginia ,359
+2017,Wisconsin     ,4538
+2017,Wyoming       ,656
