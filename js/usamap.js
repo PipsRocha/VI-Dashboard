@@ -620,7 +620,25 @@ if (count <= 1) {
 		})
 
 		/// TOP AIRLINE
-		document.getElementById("#top_airline").innerHTML = "";
+		d3.csv('data/airlines_sum.csv', function ( response ) {
+
+          var data_airlines = response.map(function( item ) {
+              var newItem = {};
+              newItem.state = item.dest_state_nm_1;
+              newItem.airline = item.AIRLINE;
+              return newItem;
+        })
+
+          console.log(data_airlines);
+      
+        for (var i = 0; i < data_airlines.length; i++) {
+          if (data_airlines[i].state == estado) {
+            var airline_now = data_airlines[i].airline;
+          }
+        }
+
+      document.getElementById("#top_airline").innerHTML = airline_now;
+    })
 
 		/// TOP DELAY
 		document.getElementById("#top_delay").innerHTML = "";

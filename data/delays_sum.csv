@@ -1,0 +1,51 @@
+dest_state_nm_1,DELAYED
+Alabama,LateAircraft
+Alaska,NationalAirSystem
+Arizona,LateAircraft
+Arkansas,LateAircraft
+California,LateAircraft
+Colorado,LateAircraft
+Connecticut,Carrier
+Delaware,National Air System
+Florida,Carrier
+Georgia,National Air System
+Hawaii,Carrier
+Idaho,Late Aircraft
+Illinois,Late Aircraft
+Indiana,Carrier
+Iowa,Late Aircraft
+Kansas,Late Aircraft
+Kentucky,Late Aircraft
+Louisiana,Late Aircraft
+Maine,Late Aircraft
+Maryland,Late Aircraft
+Massachusetts,Late Aircraft
+Michigan,Late Aircraft
+Minnesota,Late Aircraft
+Mississippi,Carrier
+Missouri,Late Aircraft
+Montana,Carrier
+Nebraska,Late Aircraft
+Nevada,Late Aircraft
+NewHampshire,Late Aircraft
+NewJersey,National Air System
+NewMexico,Late Aircraft
+NewYork,National Air System
+NorthCarolina,Late Aircraft
+NorthDakota,Late Aircraft
+Ohio,Late Aircraft
+Oklahoma,Late Aircraft
+Oregon,Late Aircraft
+Pennsylvania,National Air System
+RhodeIsland,Late Aircraft
+SouthCarolina,Carrier
+SouthDakota,Late Aircraft
+Tennessee,Late Aircraft
+Texas,Late Aircraft
+Utah,Late Aircraft
+Vermont,Carrier
+Virginia,Late Aircraft
+Washington,Late Aircraft
+WestVirginia,Late Aircraft
+Wisconsin,Late Aircraft
+Wyoming,Carrier
