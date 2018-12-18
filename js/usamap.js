@@ -153,7 +153,7 @@ function gen_vis() {
                 flights[i].MONTH  = parseInt(flights[i].MONTH);
         }
       }
-      var data = flights.filter(element => (element['YEAR'] >=year_from && element['YEAR'] <= year_to && element['MONTH'] >=month_from && element['MONTH'] <= month_to));
+      var data = flights.filter(element => (element['YEAR'] >=year_from && element['MONTH'] <= month_from) && (element['YEAR'] >=year_to && element['MONTH'] <= month_to));
 
       data = alasql('SELECT STATE,SUM(TOTAL_FLIGHTS) as TOTAL_FLIGHTS FROM ? GROUP BY STATE',[data]);
 
@@ -260,7 +260,7 @@ function gen_vis() {
 
         var y = d3.scale.linear()
           .range([5, w-20])
-          .domain([0, 2000000]);
+          .domain([0, 2200000]);
 
         var yAxis = d3.svg.axis().scale(y).ticks(6);
 
