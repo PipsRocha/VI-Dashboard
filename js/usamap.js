@@ -273,8 +273,6 @@ function gen_vis() {
     if(arrivals || delays || cancellations || departures) {
       for (var i = 0; i < statesGlobal.length; i++) {
               d3.select('#'+statesGlobal[i]).style("stroke","orange").style("stroke-width","3px");
-        console.log(statesGlobal[i]);
-        console.log(d3.select('#' + statesGlobal[i]));
       }
     }
 
@@ -796,7 +794,7 @@ d3.csv(summ_data, function(error, data) {
             .attr("id", d.key.replace(/\s+/g, '')) // assign ID
             .attr("d", priceline(d.values))
             .attr("fill", "none");
-            console.log(priceline(d.values))
+            
         // Add the Legend
         svg.append("text")
             .attr("x", legendSpace/2+i*legendSpace)  // space legend
@@ -883,7 +881,6 @@ d3.csv(summ_data, function(error, data) {
 
             var xDate = parseInt(x.invert(mouse[0])),
                 idx = xDate-2013;
-            console.log(xDate)
 
             var beginning = 0,
                 end = lines[i].getTotalLength(),
@@ -903,6 +900,7 @@ d3.csv(summ_data, function(error, data) {
             d3.select(this).select('text')
               .text(function(d){ if((dataNest[i].values[idx].TOTAL_FLIGHTS) === "1") return "0";
                 else return dataNest[i].values[idx].TOTAL_FLIGHTS;});
+              console.log(dataNest);
 
             return "translate(" + mouse[0] + "," + pos.y +")";
           });

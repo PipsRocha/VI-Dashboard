@@ -153,6 +153,7 @@ YEAR,STATE,TOTAL_FLIGHTS
 2016,California    ,47328
 2016,Colorado      ,40013
 2016,Connecticut   ,2865
+2016,Delaware      ,1
 2016,Florida       ,22385
 2016,Georgia       ,55936
 2016,Hawaii        ,4028
@@ -201,6 +202,7 @@ YEAR,STATE,TOTAL_FLIGHTS
 2017,California    ,47554
 2017,Colorado      ,41376
 2017,Connecticut   ,3265
+2017,Delaware      ,1
 2017,Florida       ,25011
 2017,Georgia       ,60005
 2017,Hawaii        ,5064
