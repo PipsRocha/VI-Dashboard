@@ -559,7 +559,7 @@ function gen_chord(year_from=2013, year_to=2017) {
                 })
                 .on("mouseout", function (d) { d3.select("#tooltip").style("visibility", "hidden") });
           function chordTip (d) {
-            var p = d3.format(".2%"), q = d3.format(",.3r")
+            var p = d3.format(".2%"), q = d3.format(",.2r")
             return "Route Info:<br/>"
               + p(d.svalue/d.stotal) + " (" + q(d.svalue) + ") of "
               + d.sname + " flies to " + d.tname
