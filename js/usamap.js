@@ -14,12 +14,20 @@ var four=true;
 var christmas=false;
 var thanksgiving=false;
 
+var range1="#DCDCDC";
+var range2="#4775d1";
+var range3="#4169E1";
+var range4="#2e5cb8";
+
+var highColor='#4169E1';
+var lowColor="#DCDCDC";
+
 
 
 var chordData= new Array();
 var usaData= new Array();
-var year_from = "2013"
-var year_to = "2017"
+var year_from = "2013";
+var year_to = "2017";
 var month_from =1;
 var month_to =12;
 
@@ -61,6 +69,7 @@ var updateGraphFilters = function(arrivals,departures,cancellations,delays){
     summ_data = "data/departures_GROUPBY.CSV";
     usaMap = "data/departures_usaMap.csv";
     chord_data = 'data/chord_diagram_data.csv';
+
     gen_vis();
     gen_summ();
     gen_chord();
@@ -82,6 +91,8 @@ var updateGraphFilters = function(arrivals,departures,cancellations,delays){
 
   
 }
+
+//// FUTURE WORK ///////////////
 var updateGraphFiltersHoliday = function(four,christmas,thanksgiving)
 {  
   four=four;
@@ -217,8 +228,7 @@ function gen_vis() {
   var width = 530;
   var height = 365;
 
-    var lowColor = '#4169E1' //#228B22
-    var highColor = '#DCDCDC'//#87CEFA #32CD32
+
 
     var tip = d3.tip()
         .attr('class', 'd3-tip')
@@ -428,8 +438,8 @@ function gen_map() {
       var width_1 = 600 - margin.right - margin.left,
           height_1 = 200 - margin.top - margin.bottom;
 
-      var lowColor = "#24478f";
-      var highColor = '#DCDCDC';
+      var lowColorMAP = "#24478f";
+      var highColorMAP = '#DCDCDC';
 
       d3.csv('data/process_count1.csv', function ( response ) {
 
@@ -469,7 +479,7 @@ function gen_map() {
 
         var colorScale = d3.scale.threshold()
             .domain([10000, 50000, 100000, 250000, 500000])
-            .range([highColor, "#99b3e6", "#4775d1","#2e5cb8",  "#4169E1", lowColor]);
+            .range([highColorMAP, "#99b3e6", "#4775d1","#2e5cb8",  "#4169E1", lowColorMAP]);
 
         var svg = d3.select('.heatmap')
             .append("svg")
@@ -635,7 +645,7 @@ function gen_chord(year_from=2013, year_to=2017) {
         var w = 500, h = 500, r1 = h / 2, r0 = r1 - 100;
         var fill = d3.scale.ordinal()
             .domain(d3.range(4))
-           .range(["#DCDCDC", "#4775d1", "#4169E1", "#2e5cb8"]);
+           .range([range1, range2, range3, range4]);
         var chord = d3.layout.chord()
             .padding(.02)
             .sortSubgroups(d3.descending)

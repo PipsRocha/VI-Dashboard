@@ -8,87 +8,52 @@
 
     <script src="lib/jquery.min.js"></script>
     <link rel="stylesheet" href="css/jquery-ui.css">
-    <!--script src="ĺib/jquery1.10.2.js"></script-->
+    <script src="lib/jquery102.js"></script>
     <script src="lib/jquery-ui.js"></script>
 
     <script>
         $(function() {
-    $( "#slider" ).slider({
-      range: true,
-      min: new Date('2013.01.01').getTime() / 1000,
-      max: new Date('2017.12.31').getTime() / 1000,
-      values: [ new Date('2013.01.01').getTime() / 1000, new Date('2017.12.31').getTime() / 1000 ],
-      slide: function( event, ui ) {
-        var aux1 = new Date(ui.values[ 0 ] *1000).toDateString();
-        var mes1 = aux1.substring(4, 7);
-        var year1 = aux1.substring(11,15);
-        var date1 = mes1+ " "+year1;
-        var aux2 = new Date(ui.values[ 1 ] *1000).toDateString() ;
-        var mes2 = aux2.substring(4, 7);
-        var year2 = aux2.substring(11,15);
-        var date2 = mes2+ " "+year2;
-        updateGraphsSlider(date1,date2);
-        $( "#amount" ).val( date1  + " - " + date2);
+        $( "#slider" ).slider({
+          range: true,
+          min: new Date('2013.01.01').getTime() / 1000,
+          max: new Date('2017.12.31').getTime() / 1000,
+          values: [ new Date('2013.01.01').getTime() / 1000, new Date('2017.12.31').getTime() / 1000 ],
+          slide: function( event, ui ) {
+            var aux1 = new Date(ui.values[ 0 ] *1000).toDateString();
+            var mes1 = aux1.substring(4, 7);
+            var year1 = aux1.substring(11,15);
+            var date1 = mes1+ " "+year1;
+            var aux2 = new Date(ui.values[ 1 ] *1000).toDateString() ;
+            var mes2 = aux2.substring(4, 7);
+            var year2 = aux2.substring(11,15);
+            var date2 = mes2+ " "+year2;
+            updateGraphsSlider(date1,date2);
+            $( "#amount" ).val( date1  + " - " + date2);
 
-      }
-    });
+          }
+        });
 
-    $( "#amount" ).val("Jan 2013" + " - " +  "Dec 2017");
-  })
+        $( "#amount" ).val("Jan 2013" + " - " +  "Dec 2017");
+      })
     </script>
 
- 
+  </head>
+  
   </head>
   
   <body>
 
     <div class="header">
-      <table>
-        <tr>
-          <td colspan="1"> <img src="data/plane.png" class="img" alt="plane" height="50" width="75"> </td>
-          <td colspan="2"> <a  class="logo">U.S. DOMESTIC FLIGHTS</a> </td>
-          <td colspan="5"> 
-            <div class="header-right" id="change">
-          <a class="active" href="#Arrivals" id="arrivals">Arrivals</a>
-          <a href="#Departures" id="departures">Departures</a>
-          <a href="#Cancellations" id="cancelattions">Cancellations</a>
-          <a href="#Delays" id="delays">Delays</a>
-            </div>
-          </td>
-          <td colspan="3"> 
-            <div id="slider-container">
-            <div id="slider" ></div>
-            <div id="date_range" >
-             <p>
-                <label for="amount">Date range:</label>
-                <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold; font-size:12px; background-color: #f1f1f1;">
-            </p>
-          </div>
-        </div>
-          </td >
-          <td colspan="1"> 
-            <div class="dropdown">
-                <button class="dropbtn">Holidays</button>
-                
-                <div class="dropdown-content">
-                  <a href="#4" id="1">4th of July</a>
-                  <a href="#Thanksgiving" id="2">Thanksgiving</a>
-                  <a href="#Christmas" id="3">Christmas&NYE</a>
-                  <!-- <a href="#NewYearsEve" id="4">New Year's Eve</a> -->
-                </div>
-              </div>
-              <div id="Holiday">
-                <p id="h1">Holiday: 4th of July</p>
-                <p id="h2">Holiday: Thanksgiving</p>
-                <p id="h3">Holiday: Christmas & NYE</p>
-                <!-- <p id="h4">Holiday: New Year's Eve</p> -->
-              </div>
-            </div>
-          </td>
-        </tr>
-
-      </table>
+      <img src="data/plane.png" class="img" alt="plane" height="50" width="75">
+      <a  class="logo">U.S. DOMESTIC FLIGHTS</a>
       
+      <div class="header-right" id="change">
+        <a class="active" href="#Arrivals" id="arrivals">Arrivals</a>
+        <a href="#Departures" id="departures">Departures</a>
+        <a href="#Cancellations" id="cancelattions">Cancellations</a>
+        <a href="#Delays" id="delays">Delays</a>
+      </div>
+
       <script>
           $("a").click(function(){
             if ($("a").hasClass("active")){
@@ -116,42 +81,71 @@
           });
           
       </script>
-
-    
-      
+      <div id="slider-container">
+        <div id="slider" style="width:350px"></div>
+        <div id="date_range" style="width:100px">
+        <p>
+          <label for="amount">Date range:</label>
+          <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold; font-size:12px; background-color: #f1f1f1;">
+        </p>
+        </div>
+    <div class="dropdown">
+        <button class="dropbtn">Holidays</button>
+        
+        <div class="dropdown-content">
+          <a href="#4" id="1">4th of July</a>
+          <a href="#Thanksgiving" id="2">Thanksgiving</a>
+          <a href="#Christmas" id="3">Christmas</a>
+          <a href="#NewYearsEve" id="4">New Year's Eve</a>
+        </div>
+      </div>
+      <div id="Holiday">
+        <p id="h1">Holiday: 4th of July</p>
+        <p id="h2">Holiday: Thanksgiving</p>
+        <p id="h3">Holiday: Christmas</p>
+        <p id="h4">Holiday: New Year's Eve</p>
+      </div>
+    </div>
+    </div>
     
     <script>
       $(document).ready(function(){
         $("#1").click(function(){
           $("#h3").hide();
           $("#h2").hide();
+          $("#h4").hide();
           $("#Holiday").css({"visibility": "visible"});
           $("#h1").show();
-          updateGraphFiltersHoliday(true,false,false);
         });
-
       $("#2").click(function(){
           $("#h3").hide();
           $("#h1").hide();
+          $("#h4").hide();
           $("#h2").show();
-          updateGraphFiltersHoliday(false,true,false);
         });
       $("#3").click(function(){
           $("#h2").hide();
           $("#h1").hide();
+          $("#h4").hide();
           $("#h3").show();
-          updateGraphFiltersHoliday(false,false,true);
+        });
+       $("#4").click(function(){
+          $("#h2").hide();
+          $("#h1").hide();
+          $("#h3").hide();
+          $("#h4").show();
         });
         $("button").click(function(){
           $("#h2").hide();
           $("#h1").hide();
           $("#h3").hide();
+          $("#h4").hide();
            $("#Holiday").css({"visibility": "hidden"});
-          updateGraphFiltersHoliday(false,false,false);
         });
 
 });
     </script>
+  </div>
 
     <div style="display: table; table-layout: fixed;">
       <div style="display: table-row; vertical-align: top;">
@@ -203,7 +197,7 @@
           <div id="tooltip"></div>
           <div id="chord_d"></div>
         </div>
-        <div class="heatmap" id ="heatmap" style="display: table-cell;""></div>
+        <div class="heatmap" id ="heatmap" style="display: table-cell;"></div>
       </div>
     </div>
 
@@ -225,5 +219,3 @@
     <script src="js/usamap.js"></script>
   
 </html>
-
-
