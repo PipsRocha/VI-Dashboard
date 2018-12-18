@@ -4,7 +4,7 @@ var count=0;
 var cheio=false;
 var indice=0;
 
-first_ite=true;
+
 var arrivals=true;
 var departures=false;
 var cancellations=false;
@@ -19,6 +19,8 @@ var month_from =1;
 var month_to =12;
 
 var summ_data = "data/ARRIVALS_GROUPBY.CSV";
+
+var usaMap ="data/arrivals_usaMap.csv"; 
 
 ///////////////////// UPDATE FUNCTIONS /////////////////////////////
 var updateGraphsSlider = function(date1,date2) {
@@ -44,11 +46,17 @@ var updateGraphFilters = function(arrivals,departures,cancellations,delays){
 
   if (arrivals) {
     summ_data = "data/ARRIVALS_GROUPBY.CSV";
+    usaMap = "data/arrivals_usaMap.csv";
+    gen_summ();
+    gen_vis();
   } else if (departures) {
     summ_data = "data/departures_GROUPBY.CSV";
-  }
+    usaMap = "data/departures_usaMap.csv";
+    gen_vis();
+    gen_summ();
+  } 
+
   gen_chord();
-  gen_vis();
 }
 
 gen_vis();
@@ -100,13 +108,12 @@ function gen_vis() {
       // we use queue because we have 2 data files to load.  
     queue()
         .defer(d3.json, "data/usa.json")
-        .defer(d3.csv, "data/arrivals_usaMap.csv")     // process
-        //.defer(d3.csv, "data/departures_usaMap.csv", joinStates)      
+        .defer(d3.csv, usaMap)     // process    
         .await(loaded);
 
     var dataset = d3.map();
 
-        d3.csv("data/arrivals_usaMap.csv", function(error, data) {
+        d3.csv(usaMap, function(error, data) {
       data.forEach(function (d){
           if(d.TOTAL_FLIGHTS != "" && d.MONTH != ""){
               d.TOTAL_FLIGHTS = parseInt(d.TOTAL_FLIGHTS)
@@ -136,9 +143,8 @@ function gen_vis() {
                 flights[i].MONTH  = parseInt(flights[i].MONTH);
         }
       }
-      console.log(flights);
       var data = flights.filter(element => (element['YEAR'] >=year_from && element['YEAR'] <= year_to && element['MONTH'] >=month_from && element['MONTH'] <= month_to));
-      console.log(data);
+
       data = alasql('SELECT STATE,SUM(TOTAL_FLIGHTS) as TOTAL_FLIGHTS FROM ? GROUP BY STATE',[data]);
 
       for (i in data)
@@ -645,7 +651,7 @@ if (count <= 1) {
 
 
 // Set the dimensions of the canvas / graph
-var margin = {top: 20, right: 20, bottom: 70, left: 60},
+var margin = {top: 20, right: 50, bottom: 70, left: 60},
     width = 500 - margin.left - margin.right,
     height = 300 - margin.top - margin.bottom;
 
@@ -666,7 +672,8 @@ var priceline = d3.svg.line()
     .x(function(d) { return x(d.YEAR); })
     .y(function(d) { return y(d.TOTAL_FLIGHTS); })
     .interpolate("linear");
-    
+
+
 // Adds the svg canvas
 var svg = d3.select("#summ")
     .append("svg")
@@ -695,11 +702,10 @@ d3.csv(summ_data, function(error, data) {
         .entries(data)
         .slice(0,count);
 
-      console.log(dataNest);
 
         // Scale the range of the data
     x.domain([2013, 2017]);
-    y.domain([100, 700000]); 
+    y.domain([1, 700000]); 
 
     var color = d3.scale.category10();   // set the colour scale
 
@@ -716,7 +722,7 @@ d3.csv(summ_data, function(error, data) {
             .attr("id", d.key.replace(/\s+/g, '')) // assign ID
             .attr("d", priceline(d.values))
             .attr("fill", "none");
-            
+            console.log(priceline(d.values))
         // Add the Legend
         svg.append("text")
             .attr("x", legendSpace/2+i*legendSpace)  // space legend
@@ -802,8 +808,8 @@ d3.csv(summ_data, function(error, data) {
           .attr("transform", function(d, i) {
 
             var xDate = parseInt(x.invert(mouse[0])),
-
                 idx = xDate-2013;
+            console.log(xDate)
 
             var beginning = 0,
                 end = lines[i].getTotalLength(),
